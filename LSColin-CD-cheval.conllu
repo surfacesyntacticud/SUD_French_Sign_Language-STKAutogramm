@@ -1,0 +1,92 @@
+# sent_id = LSColin-CD-cheval__1
+# text = [plaine] [herbe-qui-ondule]
+# text_fr = Dans la plaine, l'herbe ondule,
+1	[plaine]	[plaine]	NOUN	_	_	0	root	_	TransfertType=Situation
+2	[herbe-qui-ondule]	[herbe-qui-ondule]	NOUN	_	_	1	mod	_	_
+
+# sent_id = LSColin-CD-cheval__2
+# text = [deux-pattes] [deux-oreilles] [prb:cheval] [queue] [crinière] [prb:cheval] [CHEVAL]
+# text_fr = un animal se tient là, avec deux oreilles, une queue, une crinière : c'est un cheval.
+1	[deux-pattes]	[deux-pattes]	NOUN	_	_	0	root	_	Prb-real=posture|Subj=prb-cheval
+2	[deux-oreilles]	[deux-oreilles]	NOUN	_	_	1	conj:coord	_	Prb-real=posture|Subj=prb-cheval
+3	[prb:cheval]	[prb:cheval]	PRON	_	_	4	dislocated	_	Prb-real=posture+deux-pattes|Subj=prb-cheval
+4	[queue]	[queue]	NOUN	_	_	2	conj:coord	_	Prb-real=posture+Md-prm-patte|Subj=prb-cheval
+5	[crinière]	[crinière]	NOUN	_	_	4	conj:coord	_	Prb-real=posture+Md-prm-patte|Subj=prb-cheval
+6	[prb:cheval]	[prb:cheval]	PRON	_	_	7	dislocated	_	Prb-real=posture+deux-pattes|Subj=prb-cheval
+7	[CHEVAL]	[CHEVAL]	NOUN	_	_	1	conj:appos	_	Prb-real=posture|Subj=prb-cheval
+
+# sent_id = LSColin-CD-cheval__3
+# text = [gambader] [s’arrêter-brusquement] [piquet]5X [barrière-entre-piquets] [piquet] [OISEAU] [être-sur] [regarder] [regarder] [pnt]
+# text_fr = Il galope, puis soudain s'arrête, intrigué : des piquets qui soutiennent une barrière. Un oiseau est perché sur la barrière, le cheval le regarde et loin devant lui
+1	[gambader]	_	VERB	_	_	0	root	_	Prb-real=posture+deux-pattes|Subj=prb-cheval
+2	[s’arrêter-brusquement]	_	VERB	_	_	1	conj:chaining	_	Exp=intrigué|Prb-real=posture+deux-pattes|Subj=prb-cheval
+3	[piquet]5X	_	NOUN	_	_	2	conj:chaining	_	Prb-real=posture|Subj=prb-cheval
+4	[barrière-entre-piquets]	_	NOUN	_	_	3	mod	_	Md-held=prm-premier-piquet|Prb-real=posture|Subj=prb-cheval
+5	[piquet]	_	NOUN	_	_	7	tgt	_	Loc=R1M
+6	[OISEAU]	_	NOUN	_	_	7	theme	_	Gaze-held=R1M|MD-held=prm-piquet
+7	[être-sur]	_	VERB	_	_	3	conj:chaining	_	Gaze-held=R1M|Tgt=MD-prm-piquet|Theme=Md-prm-oiseau
+8	[regarder]	[regarder]	VERB	_	_	7	conj:chaining	_	Prb-real=posture+deux-pattes|Subj=prb-cheval|Tgt=R1M
+9	[regarder]	[regarder]	VERB	_	_	8	conj:chaining	_	Prb-real=posture+deux-pattes|Subj=prb-cheval|Tgt=R1E
+10	[pnt]	_	PRON	_	_	9	tgt	_	Gaze-held=R1E|Tgt=R1E
+
+# sent_id = LSColin-CD-cheval__4
+# text = [VACHE] [RUMINER/MACHER?] [prb:vache]
+# text_fr = une vache rumine.
+1	[VACHE]	_	NOUN	_	_	2	subj	_	Prb-real=posture|Subj=prb-vache|Trs=Left
+2	[RUMINER/MACHER?]	_	VERB	_	_	0	root	_	Prb-real=posture+rumination|Subj=prb-vache
+3	[prb:vache]	_	PRON	_	_	2	subj	_	Prb-real=posture+rumination|Subj=prb-vache
+
+# sent_id = LSColin-CD-cheval__5
+# text = [estimer] [VOULOIR] [pnt] [sauter-barrière]
+# text_fr = Le cheval observe la barrière : "Moi, je veux sauter par dessus..."
+1	[estimer]	_	VERB	_	_	0	root	_	Prb-real=deux-pattes+posture-fière|Subj=prb-cheval
+2	[VOULOIR]	_	VERB	_	_	1	conj:chaining	_	Prb-real=posture-fière|Subj=prb-cheval
+3	[pnt]	_	PRON	_	_	2	subj	_	Tgt=1
+4	[sauter-barrière]	_	VERB	_	_	2	comp:obj	_	Prb-real=posture-fière|Subj=MD-prm-cheval+prb-cheval|Tgt=L1M
+
+# sent_id = LSColin-CD-cheval__6
+# text = [se-tenir-en-arrêt] [galoper] [sauter] [heurter-barrière]
+# text_fr = Il galope, saute Il heurte la barrière
+1	[se-tenir-en-arrêt]	_	VERB	_	_	0	root	_	Prb-real=deux-pattes+determination|Subj=prb-cheval
+2	[galoper]	_	VERB	_	_	1	conj:chaining	_	Prb-real=deux-pattes+determination|Subj=prb-cheval
+3	[sauter]	_	VERB	_	_	2	conj:chaining	_	Subj=prb-cheval|TransfertType=Situation+Personne
+4	[heurter-barrière]	_	VERB	_	_	0	root	_	Subj=MD-prm-cheval|Thème=Md-prm-barrière|TransfertType=Situation
+
+# sent_id = LSColin-CD-cheval__7
+# text = [tomber] [AVOIR-MAL] [gésir-sol]
+# text_fr = [Il] tombe. Il a mal, à la jambe.
+1	[tomber]	_	VERB	_	_	0	root	_	Prb-real=deux-pattes+exp|Subj=prb-cheval
+2	[AVOIR-MAL]	_	VERB	_	_	1	conj:chaining	_	Prb-real=deux-pattes+exp|Subj=prb-cheval
+3	[gésir-sol]	_	VERB	_	_	2	conj:chaining	_	Prb-real=deux-pattes+exp|Subj=prb-cheval
+
+# sent_id = LSColin-CD-cheval__8
+# text = [OISEAU] [s’envoler] [VOLER]
+# text_fr = L'oiseau, voyant la chute, s'envole
+1	[OISEAU]	_	NOUN	_	_	2	subj	_	_
+2	[s’envoler]	_	VERB	_	_	0	root	_	Prb-real=deux-ailes|Subj=prb-oiseau
+3	[VOLER]	_	VERB	_	_	2	conj:reform	_	Subj=prm-oiseau|Tgt=R2M
+
+# sent_id = LSColin-CD-cheval__9
+# text = [prendre-valise] [apporter] [pnt] [PHARMACIE] [apporter] [ouvrir]
+# text_fr = [Il va] chercher une valisette de pharmacie, la dépose et l'ouvre.
+1	[prendre-valise]	_	VERB	_	_	0	root	_	Loc=R2M|Subj=prb|Theme=MD-prm-tenir-valise
+2	[apporter]	_	VERB	_	_	1	conj:chaining	_	Src=R2M|Subj=prb|Tgt=N1M|Theme=prm-tenir-valise
+3	[pnt]	_	PRON	_	_	2	theme	_	MD-held=prm-tenir-valise|Tgt=N1M
+4	[PHARMACIE]	_	NOUN	_	_	3	mod	_	MD-held=prm-tenir-valise
+5	[apporter]	_	VERB	_	_	2	conj:reform	_	Src=N1M|Subj=prb|Tgt=L1M|Theme=prm-tenir-valise
+6	[ouvrir]	_	VERB	_	_	5	conj:chaining	_	Loc=L1M|Subj=prb|Theme=prm-valise
+
+# sent_id = LSColin-CD-cheval__10
+# text = [VACHE] [s’approcher] [attraper-qqch] [bander-patte]
+# text_fr = La vache s'approche de la boite et prend quelque chose. La vache soigne le cheval
+1	[VACHE]	_	NOUN	_	_	2	subj	_	Prb-real=mimique|Subj=prb-vache|Trs=Right
+2	[s’approcher]	_	VERB	_	_	0	root	_	Prb-real=mimique+deux-pattes|Subj=prb-vache|Tgt=R1M-valise
+3	[attraper-qqch]	_	VERB	_	_	2	conj:chaining	_	Loc=R1M|Prb-real=mimique+deux-pattes|Subj=prb-vache
+4	[bander-patte]	_	VERB	_	_	3	conj:chaining	_	Prb-real=mimique|Subj=prb-vache|Theme=Md-prm-patte-cheval
+
+# sent_id = LSColin-CD-cheval__11
+# text = [bander-patte] [rester-sans-bouger]
+# text_fr = [Le cheval se fait soigner par la vache] et il se laisse faire. (Pose finale : le cheval avec patte en l'air et l'autre couchée.)
+1	[bander-patte]	_	VERB	_	Voice=Pass	0	root	_	Agent=MD-prm-vache-patte|Prb-real=mimique+Md-prm-patte|Subj=prb-cheval|Trs=Left
+2	[rester-sans-bouger]	_	VERB	_	_	1	conj:chaining	_	Prb-real=mimique+Md-prm-patte|Subj=prb-cheval
+
