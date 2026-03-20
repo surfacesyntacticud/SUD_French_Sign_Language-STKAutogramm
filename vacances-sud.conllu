@@ -191,49 +191,49 @@
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Nager dans la rivière, qu’est-ce que c’était agréable, l’eau était froide mais on profitait du calme, de la nature…”.
 # text = [pnt] [NAGER] [AGREABLE] [EAU] [FROID] [CALME] [NATURE] [pt-surface] [mains-jointes]
-1	[pnt]	_	VERB	_	_	_	_	_	AlignBegin=108687|AlignEnd=109322
-2	[NAGER]	_	VERB	_	_	_	_	_	AlignBegin=109352|AlignEnd=111017
-3	[AGREABLE]	_	ADJ	_	_	_	_	_	AlignBegin=111017|AlignEnd=111722
-4	[EAU]	_	NOUN	_	_	_	_	_	AlignBegin=111722|AlignEnd=111857
-5	[FROID]	_	ADJ	_	_	_	_	_	AlignBegin=111857|AlignEnd=113357
-6	[CALME]	_	ADJ	_	_	_	_	_	AlignBegin=113357|AlignEnd=114574
-7	[NATURE]	_	NOUN	_	_	_	_	_	AlignBegin=114578|AlignEnd=115078
-8	[pt-surface]	_	PRON	_	_	_	_	_	AlignBegin=115083|AlignEnd=116074
-9	[mains-jointes]	_	PRON	_	_	_	_	_	AlignBegin=116074|AlignEnd=116726
+1	[pnt]	_	PRON	_	_	2	mod	_	AlignBegin=108687|AlignEnd=109322|Tgt=PSSN
+2	[NAGER]	_	VERB	_	_	0	root	_	AlignBegin=109352|AlignEnd=111017
+3	[AGREABLE]	_	ADJ	_	_	2	mod	_	AlignBegin=111017|AlignEnd=111722
+4	[EAU]	_	NOUN	_	_	0	root	_	AlignBegin=111722|AlignEnd=111857
+5	[FROID]	_	ADJ	_	_	4	mod	_	AlignBegin=111857|AlignEnd=113357
+6	[CALME]	_	ADJ	_	_	7	mod	_	AlignBegin=113357|AlignEnd=114574
+7	[NATURE]	_	NOUN	_	_	0	root	_	AlignBegin=114578|AlignEnd=115078
+8	[pt-surface]	_	PRON	_	_	7	conj:reform	_	AlignBegin=115083|AlignEnd=116074|Tgt=PSSLr
+9	[mains-jointes]	_	PUNCT	_	_	7	punct	_	AlignBegin=116074|AlignEnd=116726
 
 # sent_id = vacances-sud_16
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Nous écoutions papa, intéressés.
 # text = [REGARDER] [écouter-en-regardant] [INTERESSANT] [pt]
-1	[REGARDER]	_	VERB	_	_	_	_	_	AlignBegin=116743|AlignEnd=117130
-2	[écouter-en-regardant]	_	VERB	_	_	_	_	_	AlignBegin=117139|AlignEnd=117970
-3	[INTERESSANT]	_	VERB	_	_	_	_	_	AlignBegin=117974|AlignEnd=118648
-4	[pt]	_	PRON	_	_	_	_	_	AlignBegin=118648|AlignEnd=119326
+1	[REGARDER]	_	VERB	_	_	0	root	_	AlignBegin=116743|AlignEnd=117130|Tgt=PSS3
+2	[écouter-en-regardant]	_	VERB	_	_	1	conj:illustrate	_	AlignBegin=117139|AlignEnd=117970
+3	[INTERESSANT]	_	VERB	_	_	2	parataxis	_	AlignBegin=117974|AlignEnd=118648
+4	[pt]	_	PRON	_	_	_	_	_	AlignBegin=118648|AlignEnd=119326|Tgt=sujet ou papa?
 
 # sent_id = vacances-sud_17
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = À mon tour, j’ai dit “Moi ce n’est ni le premier, ni le deuxième mais le troisième endroit que j’ai adoré. Le bord de mer mais pas la plage,
-# text = [LEVER-LA-MAIN] [pt] [NON] [itinéraire] [itinéraire] [TROISIEME] [pt] [ADORER2] [pt] [QUOI] [MER] [MAIS] [PLAGE] [DIFFERENT]
-1	[LEVER-LA-MAIN]	_	VERB	_	_	_	_	_	AlignBegin=119352|AlignEnd=119626
-2	[pt]	_	PRON	_	_	_	_	_	AlignBegin=119630|AlignEnd=120600
-3	[NON]	_	ADV	_	_	_	_	_	AlignBegin=120604|AlignEnd=121200
-4	[itinéraire]	_	PRON	_	_	_	_	_	AlignBegin=121200|AlignEnd=122265|Md=[pt]
-5	[itinéraire]	_	PRON	_	_	_	_	_	AlignBegin=122274|AlignEnd=122826|Md=[pt]
-6	[TROISIEME]	_	NUM	_	_	_	_	_	AlignBegin=122826|AlignEnd=123287|Md=[pt]
-7	[pt]	_	PRON	_	_	_	_	_	AlignBegin=123296|AlignEnd=123904
-8	[ADORER2]	_	VERB	_	_	_	_	_	AlignBegin=123913|AlignEnd=124939
-9	[pt]	_	PRON	_	_	_	_	_	AlignBegin=124939|AlignEnd=125296
-10	[QUOI]	_	PRON	_	_	_	_	_	AlignBegin=125300|AlignEnd=125913
-11	[MER]	_	NOUN	_	_	_	_	_	AlignBegin=125913|AlignEnd=127078|Md=[MER]
-12	[MAIS]	_	CCONJ	_	_	_	_	_	AlignBegin=127091|AlignEnd=127635|Md=[MER]
+# text = [LEVER-LA-MAIN] [pnt] [NON??] [itinéraire] [itinéraire] [TROISIEME/TROIS] [pnt] [ADORER2] [pnt] [QUOI] [MER] [MAIS] [PLAGE] [DIFFERENT]
+1	[LEVER-LA-MAIN]	_	VERB	_	_	0	root	_	AlignBegin=119352|AlignEnd=119626|Trs=Left
+2	[pnt]	_	PRON	_	_	1	subj	_	AlignBegin=119630|AlignEnd=120600|Tgt=PSS1
+3	[NON??]	_	ADV	_	_	_	_	_	AlignBegin=120604|AlignEnd=121200
+4	[itinéraire]	_	PRON	_	_	_	_	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Md=[pt]|Src=L1M|Tgt=N1M
+5	[itinéraire]	_	PRON	_	_	6	conj:illustrate	_	AlignBegin=122274|AlignEnd=122826|Md-held=pnt-L1M|Src=N1M|Tgt=R1M
+6	[TROISIEME/TROIS]	_	NUM	_	NumType=Ord	7	mod	_	AlignBegin=122826|AlignEnd=123287|Md=[pt]
+7	[pnt]	_	PRON	_	_	8	comp:obj	_	AlignBegin=123296|AlignEnd=123904|Tgt=R1M
+8	[ADORER2]	_	VERB	_	_	1	comp:obj	_	AlignBegin=123913|AlignEnd=124939
+9	[pnt]	_	PRON	_	_	8	comp:obj	_	AlignBegin=124939|AlignEnd=125296|Exp=Interrogatif|Md-held=Yes
+10	[QUOI]	_	PRON	_	_	_	_	_	AlignBegin=125300|AlignEnd=125913|Exp=Interrogatif|Md-held=Yes
+11	[MER]	_	NOUN	_	_	_	_	_	AlignBegin=125913|AlignEnd=127078
+12	[MAIS]	_	CCONJ	_	_	_	_	_	AlignBegin=127091|AlignEnd=127635|Md-held=mer
 13	[PLAGE]	_	NOUN	_	_	_	_	_	AlignBegin=127657|AlignEnd=128383|Md=[MER]
-14	[DIFFERENT]	_	ADJ	_	_	_	_	_	AlignBegin=128396|AlignEnd=128987
+14	[DIFFERENT]	_	ADJ	_	_	13	mod	_	AlignBegin=128396|AlignEnd=128987
 
 # sent_id = vacances-sud_18
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = les calanques avec les rochers tout autour.
 # text = [CALANQUE] [ROCHER] [rochers-ts]
-1	[CALANQUE]	_	NOUN	_	_	_	_	_	AlignBegin=129013|AlignEnd=130809
+1	[CALANQUE]	_	NOUN	_	_	_	_	_	AlignBegin=129013|AlignEnd=130809|TransfertType=Situation
 2	[ROCHER]	_	NOUN	_	_	_	_	_	AlignBegin=130817|AlignEnd=131152
 3	[rochers-ts]	_	PRON	_	_	_	_	_	AlignBegin=131170|AlignEnd=132813
 
