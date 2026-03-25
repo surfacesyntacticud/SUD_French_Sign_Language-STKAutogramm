@@ -79,7 +79,7 @@
 # sent_id = LSColin-CD-cheval__10
 # text = [VACHE] [s’approcher] [attraper-qqch] [bander-patte]
 # text_fr = La vache s'approche de la boite et prend quelque chose. La vache soigne le cheval
-1	[VACHE]	_	NOUN	_	_	2	subj	_	Prb-real=mimique|Subj=prb-vache|Trs=Right
+1	[VACHE]	_	NOUN	_	_	2	subj	_	Prb-real=mimique|Subj=prb-vache|TransfertType=Personne|Trs=Right
 2	[s’approcher]	_	VERB	_	_	0	root	_	Prb-real=mimique+deux-pattes|Subj=prb-vache|Tgt=R1M-valise
 3	[attraper-qqch]	_	VERB	_	_	2	conj:chaining	_	Loc=R1M|Prb-real=mimique+deux-pattes|Subj=prb-vache
 4	[bander-patte]	_	VERB	_	_	3	conj:chaining	_	Prb-real=mimique|Subj=prb-vache|Theme=Md-prm-patte-cheval
