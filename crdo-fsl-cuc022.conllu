@@ -1,0 +1,2261 @@
+# sent_id = crdo-fsl-cuc022__1
+# text = [plaine] [herbe-qui-ondule]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Dans la plaine, l'herbe ondule,
+# text_en = In the plains, the grass is waving,
+1	[plaine]	_	NOUN	_	_	0	root	_	AlignBegin=7323|AlignEnd=8833|Gloss=plains|TransfertType=Situation
+2	[herbe-qui-ondule]	_	NOUN	_	_	1	mod	_	AlignBegin=8835|AlignEnd=12190|Gloss=[grass-waving]
+
+# sent_id = crdo-fsl-cuc022__2
+# text = [deux-pattes] [deux-oreilles] [prb:cheval] [queue] [crinière] [prb:cheval] [CHEVAL]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = un animal se tient là, avec deux oreilles, une queue, une crinière : c'est un cheval.
+# text_en = an animal is standing here, with two ears, a tail, a mane: it's a horse.
+1	[deux-pattes]	_	NOUN	_	_	0	root	_	AlignBegin=12190|AlignEnd=13435|Gloss=[two-legs]|Prb-real=posture|Subj=prb:cheval
+2	[deux-oreilles]	_	NOUN	_	_	1	conj:coord	_	AlignBegin=13435|AlignEnd=14885|Gloss=[two-ears]|Prb-real=posture|Subj=prb:cheval
+3	[prb:cheval]	_	PRON	_	_	4	dislocated	_	AlignBegin=14885|AlignEnd=15875|Gloss=[prb:horse]|Prb-real=posture+deux-pattes|Subj=prb:cheval
+4	[queue]	_	NOUN	_	_	2	conj:coord	_	AlignBegin=15875|AlignEnd=17195|Gloss=[tail]|Prb-real=posture+Md-prm-patte|Subj=prb:cheval
+5	[crinière]	_	NOUN	_	_	4	conj:coord	_	AlignBegin=17195|AlignEnd=18355|Gloss=[mane]|Prb-real=posture+Md-prm-patte|Subj=prb:cheval
+6	[prb:cheval]	_	PRON	_	_	7	dislocated	_	AlignBegin=18355|AlignEnd=20035|Gloss=[prb:horse]|Prb-real=posture+deux-pattes|Subj=prb:cheval
+7	[CHEVAL]	_	NOUN	_	_	1	conj:appos	_	AlignBegin=20035|AlignEnd=21235|Gloss=[HORSE]|Prb-real=posture|Subj=prb:cheval
+
+# sent_id = crdo-fsl-cuc022__3
+# text = [gambader] [s'arrêter-brusquement] [piquet] [barrière-entre-piquets] [piquet] [OISEAU] [être-sur] [regarder] [regarder] [pnt]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il galope, puis soudain s'arrête, intrigué : des piquets qui soutiennent une barrière. Un oiseau est perché sur la barrière, le cheval le regarde et loin devant lui
+# text_en = It is galloping, then suddently stops, intrigued: stakes holding up a fence, the horse observes it and far away
+1	[gambader]	_	VERB	_	_	0	root	_	AlignBegin=21235|AlignEnd=24715|Gloss=[gambol]|Prb-real=posture+deux-pattes|Subj=prb:cheval
+2	[s'arrêter-brusquement]	_	VERB	_	_	1	conj:chaining	_	AlignBegin=24715|AlignEnd=26275|Gloss=[stop-suddently]|Prb-real=posture+deux-pattes|Subj=prb:cheval
+3	[piquet]	_	NOUN	_	ExtPos=VERB	2	conj:chaining	_	AlignBegin=26275|AlignEnd=28075|Gloss=[stake]|Prb-real=posture|Rep=5|Subj=prb:cheval
+4	[barrière-entre-piquets]	_	NOUN	_	_	3	mod	_	AlignBegin=28075|AlignEnd=30595|Gloss=[fence-between-stakes]|NDHHeld=prm:premier-piquet|Prb-real=posture|Subj=prb
+5	[piquet]	_	NOUN	_	_	7	tgt	_	AlignBegin=30595|AlignEnd=31675|Gloss=[stake]|Loc=PSS3r
+6	[OISEAU]	_	NOUN	_	_	7	theme	_	AlignBegin=31675|AlignEnd=32355|DHHeld=prm|Gaze-held=PSS3r|Gloss=[BIRD]
+7	[être-sur]	_	VERB	_	_	3	conj:chaining	_	AlignBegin=32355|AlignEnd=33755|Gaze-held=PSS3r|Gloss=[be-on]|Tgt=MD-prm:piquet|Theme=Md-prm:oiseau
+8	[regarder]	[regarder]	VERB	_	_	7	conj:chaining	_	AlignBegin=33755|AlignEnd=34700|Gloss=[look]|Prb-real=posture+deux-pattes|Subj=prb-cheval|Tgt=PSS3r
+9	[regarder]	[regarder]	VERB	_	_	8	conj:chaining	_	AlignBegin=34700|AlignEnd=35315|Gloss=[look]|Prb-real=posture+deux-pattes|Subj=prb:cheval|Tgt=PSS3re
+10	PNT	_	PRON	_	_	9	tgt	_	AlignBegin=35315|AlignEnd=36465|Gaze-held=PSS3re|Gloss=PNT|Tgt=PSS3re|wordform=[pnt]
+
+# sent_id = crdo-fsl-cuc022__4
+# text = [VACHE] [MÂCHER] [prb:vache]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = une vache rumine.
+# text_en = a cow is grazing.
+1	[VACHE]	_	NOUN	_	_	2	subj	_	AlignBegin=36465|AlignEnd=37715|Gloss=[COW]|Prb-real=posture|Subj=prb:vache|TransfertType=Personne|Trs=Left
+2	[MÂCHER]	_	VERB	_	_	0	root	_	AlignBegin=37715|AlignEnd=38875|Gloss=[CHEW]|Prb-real=posture+rumination|Subj=prb:vache
+3	[prb:vache]	_	PRON	_	_	2	conj:illustrate	_	AlignBegin=38875|AlignEnd=40755|Gloss=[prb:cow]|Prb-real=posture+rumination|Subj=prb:vache
+
+# sent_id = crdo-fsl-cuc022__5
+# text = [estimer] [VOULOIR] [pnt] [sauter]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le cheval observe la barrière : "Moi, je veux sauter par dessus..."
+# text_en = The horse observes the fence: "I want to jump over it..."
+1	[estimer]	_	VERB	_	_	0	root	_	AlignBegin=40755|AlignEnd=43595|Gloss=[evaluate]|Prb-real=deux-pattes+posture-fière|Subj=prb:cheval
+2	[VOULOIR]	[VOULOIR]	VERB	_	_	1	conj:chaining	_	AlignBegin=43595|AlignEnd=43809|Gloss=[WANT]|Prb-real=posture-fière|Subj=prb:cheval
+3	PNT	[pnt]	PRON	_	_	2	subj	_	AlignBegin=43809|AlignEnd=44035|Gloss=PNT|Tgt=Prs1|wordform=[pnt]
+4	[sauter]	_	VERB	_	_	2	comp:obj	_	AlignBegin=44035|AlignEnd=45235|Gloss=[jump]|Prb-real=posture-fière|Subj=MD-prm:cheval+prb:cheval|Tgt=PSS3l
+
+# sent_id = crdo-fsl-cuc022__6
+# text = [se-tenir-en-arrêt] [galoper] [sauter-barrière] [heurter-barrière]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il galope, saute [et] heurte la barrière
+# text_en = It gallops, jumps and hits the fence
+1	[se-tenir-en-arrêt]	_	VERB	_	_	0	root	_	AlignBegin=45235|AlignEnd=45635|Gloss=[stand]|Prb-real=deux-pattes+determination|Subj=prb:cheval
+2	[galoper]	_	VERB	_	_	1	conj:chaining	_	AlignBegin=45635|AlignEnd=47195|Gloss=[gallop]|Prb-real=deux-pattes+determination|Subj=prb:cheval
+3	[sauter-barrière]	_	VERB	_	_	2	conj:chaining	_	AlignBegin=47195|AlignEnd=47715|Gloss=[jump-fence]|Subj=prb:cheval|TransfertType=Situation+Personne
+4	[heurter-barrière]	_	VERB	_	_	3	conj:chaining	_	AlignBegin=47715|AlignEnd=48675|Gloss=[hit-fence]|Subj=MD-prm:cheval|Theme=Md-prm:barrière|TransfertType=Situation
+
+# sent_id = crdo-fsl-cuc022__7
+# text = [tomber] [AVOIR-MAL] [gésir-sol]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = [Il] tombe. Il a mal, à la jambe.
+# text_en = It falls. Its legs is hurt.
+1	[tomber]	_	VERB	_	_	0	root	_	AlignBegin=48675|AlignEnd=49795|Gloss=[fall]|Prb-real=deux-pattes+exp|Subj=prb:cheval
+2	[AVOIR-MAL]	_	VERB	_	_	1	conj:chaining	_	AlignBegin=49795|AlignEnd=50515|Gloss=[BE-HURT]|Prb-real=deux-pattes+exp|Subj=prb:cheval
+3	[gésir-sol]	_	VERB	_	_	2	conj:chaining	_	AlignBegin=50515|AlignEnd=51995|Gloss=[lay-on-ground]|Prb-real=deux-pattes+exp|Subj=prb:cheval
+
+# sent_id = crdo-fsl-cuc022__8
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il heurte la barrière et tombe. Il a mal, à la jambe. L'oiseau, voyant la chute, s'envole chercher
+# text = [OISEAU] [s'envoler] [VOLER]
+1	[OISEAU]	_	NOUN	_	_	2	subj	_	AlignBegin=51995|AlignEnd=52755|Gloss=[BIRD]
+2	[s'envoler]	_	VERB	_	_	0	root	_	AlignBegin=52755|AlignEnd=53555|Gloss=[fly-away]|Prb-real=deux-ailes|Subj=prb:oiseau
+3	[VOLER]	_	VERB	_	_	2	conj:reform	_	AlignBegin=53555|AlignEnd=54155|Gloss=[FLY]|Subj=prm:oiseau|Tgt=PSSXr
+
+# sent_id = crdo-fsl-cuc022__9
+# text = [prendre-valise] [apporter] [pnt] [PHARMACIE] [apporter] [ouvrir]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = [Il va] chercher une valisette de pharmacie, la dépose et l'ouvre.
+# text_en = It goes to grab the medecine chest, it drops it off and opens it.
+1	[prendre-valise]	_	VERB	_	_	0	root	_	AlignBegin=54155|AlignEnd=54595|Gloss=[take-chest]|Loc=PSSXr|Subj=prb|Theme=MD-prm:tenir-valise
+2	[apporter]	_	VERB	_	_	1	conj:chaining	_	AlignBegin=54595|AlignEnd=55875|Gloss=[bring]|Src=PSSXr|Subj=prb|Tgt=PSSN|Theme=prm:tenir-valise
+3	PNT	_	PRON	_	_	2	comp:obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=prm:tenir-valise|Gloss=PNT|Tgt=PSSN|wordform=[pnt]
+4	[PHARMACIE]	_	NOUN	_	_	3	mod	_	AlignBegin=56115|AlignEnd=56795|DHHeld=prm:tenir-valise|Gloss=[PHARMACY]
+5	[apporter]	_	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Src=PSSN|Subj=prb|Tgt=PSS3l|Theme=prm:tenir-valise
+6	[ouvrir]	_	VERB	_	_	5	conj:chaining	_	AlignBegin=57435|AlignEnd=59355|Gloss=[open]|Loc=PSS3l|Subj=prb|Theme=prm:valise
+
+# sent_id = crdo-fsl-cuc022__10
+# text = [VACHE] [s'approcher] [attraper-qqch] [bander-patte]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La vache s'approche de la boite et prend quelque chose. La vache soigne le cheval
+# text_en = The cow comes to the chest and takes something. The cow is treating the horse
+1	[VACHE]	_	NOUN	_	_	2	subj	_	AlignBegin=59355|AlignEnd=60635|Gloss=[COW]|Prb-real=mimique|Subj=prb:vache|TransfertType=Personne|Trs=Right
+2	[s'approcher]	_	VERB	_	_	0	root	_	AlignBegin=60635|AlignEnd=61595|Gloss=[get-closer]|Prb-real=mimique+deux-pattes|Subj=prb:vache|Tgt=PSS3r:valise
+3	[attraper-qqch]	_	VERB	_	_	2	conj:chaining	_	AlignBegin=61595|AlignEnd=62275|Gloss=[grab-smth]|Loc=PSS3r:valise|Prb-real=mimique+deux-pattes|Subj=prb:vache
+4	[bander-patte]	_	VERB	_	_	3	conj:chaining	_	AlignBegin=62275|AlignEnd=63195|Gloss=[bandage-leg]|Prb-real=mimique|Subj=prb:vache|Theme=Md-prm:patte-cheval
+
+# sent_id = crdo-fsl-cuc022__11
+# text = [bander-patte] [rester-sans-bouger]
+# source_file = ./CUC022_low.mp4
+# traduction_fr = [Le cheval se fait soigner par la vache] et il se laisse faire.
+# text_en = The horse is being treated by the cow and it lets it happen.
+1	[bander-patte]	_	VERB	_	Voice=Pass	0	root	_	Agent=MD-prm:vache-patte|AlignBegin=63195|AlignEnd=65355|Gloss=[bandage-leg]|Prb-real=mimique+Md-prm:patte|Subj=prb:cheval|Trs=Left
+2	[rester-sans-bouger]	_	VERB	_	_	1	conj:chaining	_	AlignBegin=65355|AlignEnd=66955|Gloss=[remain-still]|Prb-real=mimique+Md-prm:patte|Subj=prb:cheval
+
+# sent_id = crdo-fsl-cuc022__11_split2
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il heurte la barrière et tombe. Il a mal, à la jambe. L'oiseau, voyant la chute, s'envole chercher une valisette de pharmacie, la dépose et l'ouvre. La vache s'approche de la boite et prend quelque chose. La vache soigne le cheval et il se laisse faire. Pose finale : le cheval avec patte en l'air et l'autre couchée.
+# text = ARBRE
+1	ARBRE	_	_	_	_	_	_	_	AlignBegin=76840|AlignEnd=78830
+
+# sent_id = crdo-fsl-cuc022_7
+# source_file = ./CUC022_low.mp4
+# traduction_fr = cC'est un arbre avec une branche, sur la branche il y a un nid et un oiseau qui se pose dessus.
+# text = branche LA nid OISEAU se poser sur le nid piallier dans le nid LA
+1	branche	_	_	_	_	_	_	_	AlignBegin=78830|AlignEnd=80550
+2	LA	_	_	_	_	_	_	_	AlignBegin=80550|AlignEnd=80950
+3	nid	_	_	_	_	_	_	_	AlignBegin=80950|AlignEnd=82750
+4	OISEAU	_	_	_	_	_	_	_	AlignBegin=82750|AlignEnd=83510
+5	se poser sur le nid	_	_	_	_	_	_	_	AlignBegin=83510|AlignEnd=85154
+6	piallier dans le nid	_	_	_	_	_	_	_	AlignBegin=85154|AlignEnd=87510
+7	LA	_	_	_	_	_	_	_	AlignBegin=87510|AlignEnd=87950
+
+# sent_id = crdo-fsl-cuc022_8
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Pas très loin de l'arbre, un chat s'approche en se léchant les babines et en salivant, il s'avance vers l'arbre.
+# text = CHAT s'avancer (esquissé ) regarder l'arbre se lecher les babines saliver s'avancer vers l'arbre oiseau sur la branche ( esquissé ) partir
+1	CHAT	_	_	_	_	_	_	_	AlignBegin=87960|AlignEnd=88670
+2	s'avancer (esquissé )	_	_	_	_	_	_	_	AlignBegin=88670|AlignEnd=89270
+3	regarder l'arbre	_	_	_	_	_	_	_	AlignBegin=89270|AlignEnd=90440
+4	se lecher les babines	_	_	_	_	_	_	_	AlignBegin=90440|AlignEnd=91390
+5	saliver	_	_	_	_	_	_	_	AlignBegin=91400|AlignEnd=91880
+6	s'avancer vers l'arbre	_	_	_	_	_	_	_	AlignBegin=91880|AlignEnd=93400
+7	oiseau sur la branche ( esquissé )	_	_	_	_	_	_	_	AlignBegin=93400|AlignEnd=94270
+8	partir	_	_	_	_	_	_	_	AlignBegin=94270|AlignEnd=95270
+
+# sent_id = crdo-fsl-cuc022_9
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau part, le chat grimpe à l'arbre, mais le chien regarde la scène et bondit vers l'arbre en grognant pour attraper la queue du chat.
+# text = grimper à l'arbre CHIEN regarder l'arbre bondir vers l'arbre tirer la queue du chat chat accrocher à l'arbre (esquissé) partir
+1	grimper à l'arbre	_	_	_	_	_	_	_	AlignBegin=95270|AlignEnd=97600
+2	CHIEN	_	_	_	_	_	_	_	AlignBegin=97600|AlignEnd=98830
+3	regarder l'arbre	_	_	_	_	_	_	_	AlignBegin=98830|AlignEnd=99070
+4	bondir vers l'arbre	_	_	_	_	_	_	_	AlignBegin=99070|AlignEnd=100150
+5	tirer la queue du chat	_	_	_	_	_	_	_	AlignBegin=100150|AlignEnd=100790
+6	chat accrocher à l'arbre (esquissé)	_	_	_	_	_	_	_	AlignBegin=100790|AlignEnd=101190
+7	partir	_	_	_	_	_	_	_	AlignBegin=101190|AlignEnd=101590
+
+# sent_id = crdo-fsl-cuc022_10
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat part, le chien le poursuit.
+# text = partir branche
+1	partir	_	_	_	_	_	_	_	AlignBegin=101590|AlignEnd=102670
+2	branche	_	_	_	_	_	_	_	AlignBegin=102670|AlignEnd=103670
+
+# sent_id = crdo-fsl-cuc022_11
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau revient se poser sur le nid, il a un vers dans son bec, et nourrit ses petits.
+# text = nid oiseau LA venir se poser dans l'arbre objet long et fin VER DE TERRE se tenir sur le nid
+1	nid	_	_	_	_	_	_	_	AlignBegin=103670|AlignEnd=105190
+2	oiseau	_	_	_	_	_	_	_	AlignBegin=105190|AlignEnd=105710
+3	LA	_	_	_	_	_	_	_	AlignBegin=105710|AlignEnd=106080
+4	venir se poser dans l'arbre	_	_	_	_	_	_	_	AlignBegin=106080|AlignEnd=107590
+5	objet long et fin	_	_	_	_	_	_	_	AlignBegin=107590|AlignEnd=108230
+6	VER DE TERRE	_	_	_	_	_	_	_	AlignBegin=108230|AlignEnd=108830
+7	se tenir sur le nid	_	_	_	_	_	_	_	AlignBegin=108830|AlignEnd=109630
+
+# sent_id = crdo-fsl-cuc022_12
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Les oisillons se font nourrir par l'oiseau, ils mangent des verres de terre.
+# text = DONNER piailler se faire nourir MANGER oiseau sur l'arbre
+1	DONNER	_	_	_	_	_	_	_	AlignBegin=109630|AlignEnd=110310
+2	piailler	_	_	_	_	_	_	_	AlignBegin=110310|AlignEnd=111310
+3	se faire nourir	_	_	_	_	_	_	_	AlignBegin=111310|AlignEnd=111870
+4	MANGER	_	_	_	_	_	_	_	AlignBegin=111870|AlignEnd=112430
+5	oiseau sur l'arbre	_	_	_	_	_	_	_	AlignBegin=112430|AlignEnd=113310
+
+# sent_id = crdo-fsl-cuc022_13
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est la recette du gâteau à l'ananas.
+# text = RECETTE GATEAU ANANAS position neutre
+1	RECETTE	_	_	_	_	_	_	_	AlignBegin=193754|AlignEnd=195114
+2	GATEAU	_	_	_	_	_	_	_	AlignBegin=195114|AlignEnd=196394
+3	ANANAS	_	_	_	_	_	_	_	AlignBegin=196394|AlignEnd=197684
+4	position neutre	_	_	_	_	_	_	_	AlignBegin=197684|AlignEnd=199764
+
+# sent_id = crdo-fsl-cuc022_14
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Prendre un saladier.
+# text = grande forme ronde (saladier) position neutre
+1	grande forme ronde (saladier)	_	_	_	_	_	_	_	AlignBegin=199764|AlignEnd=201434
+2	position neutre	_	_	_	_	_	_	_	AlignBegin=201434|AlignEnd=201954
+
+# sent_id = crdo-fsl-cuc022_15
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Prendre quatre œufs et les casser dans le saladier.
+# text = QUATRE OEUF prendre les oeufs et les jeter dans le saladier (x4) position neutre
+1	QUATRE	_	_	_	_	_	_	_	AlignBegin=201954|AlignEnd=202554
+2	OEUF	_	_	_	_	_	_	_	AlignBegin=202554|AlignEnd=203234
+3	prendre les oeufs et les jeter dans le saladier (x4)	_	_	_	_	_	_	_	AlignBegin=203234|AlignEnd=207194
+4	position neutre	_	_	_	_	_	_	_	AlignBegin=207194|AlignEnd=208714
+
+# sent_id = crdo-fsl-cuc022_16
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Prendre deux verres de farine et les verser.
+# text = DEUX VERRE FARINE verser la farine dans le verre verser le verre dans le saladier (x2) postion neutre
+1	DEUX	_	_	_	_	_	_	_	AlignBegin=208714|AlignEnd=209754
+2	VERRE	_	_	_	_	_	_	_	AlignBegin=209754|AlignEnd=210714
+3	FARINE	_	_	_	_	_	_	_	AlignBegin=210714|AlignEnd=211794
+4	verser la farine dans le verre	_	_	_	_	_	_	_	AlignBegin=211794|AlignEnd=213474
+5	verser le verre dans le saladier (x2)	_	_	_	_	_	_	_	AlignBegin=213474|AlignEnd=214994
+6	postion neutre	_	_	_	_	_	_	_	AlignBegin=214994|AlignEnd=217394
+
+# sent_id = crdo-fsl-cuc022_17
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Préparer une cuillère à soupe d'huile: verser l'huile dans la cuillère puis la cuillère dans le saladier.
+# text = UN SOUPE CUILLERE SOUPE ça HUILE verser l'huile dans la cuillère verser la cuilère dans le saladier
+1	UN	_	_	_	_	_	_	_	AlignBegin=217394|AlignEnd=217684
+2	SOUPE	_	_	_	_	_	_	_	AlignBegin=217684|AlignEnd=218314
+3	CUILLERE	_	_	_	_	_	_	_	AlignBegin=218314|AlignEnd=218834
+4	SOUPE	_	_	_	_	_	_	_	AlignBegin=218834|AlignEnd=219714
+5	ça	_	_	_	_	_	_	_	AlignBegin=219714|AlignEnd=220634
+6	HUILE	_	_	_	_	_	_	_	AlignBegin=220634|AlignEnd=221434
+7	verser l'huile dans la cuillère	_	_	_	_	_	_	_	AlignBegin=221434|AlignEnd=222634
+8	verser la cuilère dans le saladier	_	_	_	_	_	_	_	AlignBegin=222634|AlignEnd=223874
+
+# sent_id = crdo-fsl-cuc022_18
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Une cuillère, ça suffit.
+# text = UN ça suffit position neutre
+1	UN	_	_	_	_	_	_	_	AlignBegin=223874|AlignEnd=224274
+2	ça suffit	_	_	_	_	_	_	_	AlignBegin=224274|AlignEnd=224754
+3	position neutre	_	_	_	_	_	_	_	AlignBegin=224754|AlignEnd=226194
+
+# sent_id = crdo-fsl-cuc022_19
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Prendre la levure, déchirer le sachet et le verser dans le saladier.
+# text = forme petit carré gonfler déchirer verser poser le sachet position neutre
+1	forme petit carré	_	_	_	_	_	_	_	AlignBegin=226194|AlignEnd=228434
+2	gonfler	_	_	_	_	_	_	_	AlignBegin=228434|AlignEnd=229634
+3	déchirer	_	_	_	_	_	_	_	AlignBegin=229634|AlignEnd=230474
+4	verser	_	_	_	_	_	_	_	AlignBegin=230474|AlignEnd=231434
+5	poser le sachet	_	_	_	_	_	_	_	AlignBegin=231434|AlignEnd=232044
+6	position neutre	_	_	_	_	_	_	_	AlignBegin=232044|AlignEnd=234154
+
+# sent_id = crdo-fsl-cuc022_20
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Mélanger le tout, le mélange devient pâteux.
+# text = mélanger MELANGER (esquissé) DEVENIR pâteux
+1	mélanger	_	_	_	_	_	_	_	AlignBegin=234154|AlignEnd=236754
+2	MELANGER (esquissé)	_	_	_	_	_	_	_	AlignBegin=236754|AlignEnd=237204
+3	DEVENIR	_	_	_	_	_	_	_	AlignBegin=237204|AlignEnd=237834
+4	pâteux	_	_	_	_	_	_	_	AlignBegin=237834|AlignEnd=238714
+
+# sent_id = crdo-fsl-cuc022_21
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ah! J'ai oublié! Il faut ajouter du lait.
+# text = OUBLIER QUOI LAIT
+1	OUBLIER	_	_	_	_	_	_	_	AlignBegin=238714|AlignEnd=239234
+2	QUOI	_	_	_	_	_	_	_	AlignBegin=239234|AlignEnd=239634
+3	LAIT	_	_	_	_	_	_	_	AlignBegin=239634|AlignEnd=241674
+
+# sent_id = crdo-fsl-cuc022_22
+# source_file = ./CUC022_low.mp4
+# traduction_fr = En prendre quatre verres et les verser.
+# text = QUATRE VERRE (x3) verser dans le saladier (x3)
+1	QUATRE	_	_	_	_	_	_	_	AlignBegin=241674|AlignEnd=242194
+2	VERRE (x3)	_	_	_	_	_	_	_	AlignBegin=242194|AlignEnd=243074
+3	verser dans le saladier (x3)	_	_	_	_	_	_	_	AlignBegin=243074|AlignEnd=244634
+
+# sent_id = crdo-fsl-cuc022_23
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Mélanger, cela devient plus pâteux. C'est bon.
+# text = pâteux/liquide C'EST TOUT mettre le saladier à part
+1	pâteux/liquide	_	_	_	_	_	_	_	AlignBegin=244634|AlignEnd=247074
+2	C'EST TOUT	_	_	_	_	_	_	_	AlignBegin=247074|AlignEnd=247754
+3	mettre le saladier à part	_	_	_	_	_	_	_	AlignBegin=247754|AlignEnd=249430
+
+# sent_id = crdo-fsl-cuc022_24
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Laisser reposer dix minutes.
+# text = 10 MINUTES LAISSER DE COTE
+1	10	_	_	_	_	_	_	_	AlignBegin=249430|AlignEnd=249750
+2	MINUTES	_	_	_	_	_	_	_	AlignBegin=249750|AlignEnd=250110
+3	LAISSER DE COTE	_	_	_	_	_	_	_	AlignBegin=250110|AlignEnd=250590
+
+# sent_id = crdo-fsl-cuc022_25
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Penser à préchauffer le four à 250°.
+# text = PENSER AVANT PRET CHAUFFER 250 DEGRES
+1	PENSER	_	_	_	_	_	_	_	AlignBegin=250590|AlignEnd=251230
+2	AVANT	_	_	_	_	_	_	_	AlignBegin=251230|AlignEnd=251790
+3	PRET	_	_	_	_	_	_	_	AlignBegin=251790|AlignEnd=252430
+4	CHAUFFER	_	_	_	_	_	_	_	AlignBegin=252430|AlignEnd=253390
+5	250	_	_	_	_	_	_	_	AlignBegin=253390|AlignEnd=254350
+6	DEGRES	_	_	_	_	_	_	_	AlignBegin=254350|AlignEnd=255430
+
+# sent_id = crdo-fsl-cuc022_26
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Laisser chauffer le four.
+# text = CHAUFFER FOUR LAISSER DE COTE position neutre
+1	CHAUFFER	_	_	_	_	_	_	_	AlignBegin=255430|AlignEnd=256310
+2	FOUR	_	_	_	_	_	_	_	AlignBegin=256310|AlignEnd=257350
+3	LAISSER DE COTE	_	_	_	_	_	_	_	AlignBegin=257350|AlignEnd=257950
+4	position neutre	_	_	_	_	_	_	_	AlignBegin=257950|AlignEnd=259350
+
+# sent_id = crdo-fsl-cuc022_27
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Bon…
+# text = BON
+1	BON	_	_	_	_	_	_	_	AlignBegin=259350|AlignEnd=260470
+
+# sent_id = crdo-fsl-cuc022_28
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Préparer le moule en fer.
+# text = PREPARER forme plate (moule) FER contours arrondis (plat)
+1	PREPARER	_	_	_	_	_	_	_	AlignBegin=260470|AlignEnd=261270
+2	forme plate (moule)	_	_	_	_	_	_	_	AlignBegin=261270|AlignEnd=261870
+3	FER	_	_	_	_	_	_	_	AlignBegin=261870|AlignEnd=262310
+4	contours arrondis (plat)	_	_	_	_	_	_	_	AlignBegin=262310|AlignEnd=264390
+
+# sent_id = crdo-fsl-cuc022_29
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Bien beurrer le moule. C'est bon.
+# text = BEURRE beurrer le moule FINI ( esquissé)
+1	BEURRE	_	_	_	_	_	_	_	AlignBegin=264390|AlignEnd=265670
+2	beurrer le moule	_	_	_	_	_	_	_	AlignBegin=265670|AlignEnd=267910
+3	FINI ( esquissé)	_	_	_	_	_	_	_	AlignBegin=267910|AlignEnd=268710
+
+# sent_id = crdo-fsl-cuc022_30
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Poser le moule.
+# text = poser le moule là (à gauche)
+1	poser le moule	_	_	_	_	_	_	_	AlignBegin=268710|AlignEnd=269790
+2	là (à gauche)	_	_	_	_	_	_	_	AlignBegin=269790|AlignEnd=270150
+
+# sent_id = crdo-fsl-cuc022_31
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Verser la pâte dans le moule, la pâte s'étale dans le moule. C'est bon.
+# text = SALADIER verser la pâte dans le moule pâte qui s'étale dans le moule FINI
+1	SALADIER	_	_	_	_	_	_	_	AlignBegin=270150|AlignEnd=270830
+2	verser la pâte dans le moule	_	_	_	_	_	_	_	AlignBegin=270830|AlignEnd=272070
+3	pâte qui s'étale dans le moule	_	_	_	_	_	_	_	AlignBegin=272070|AlignEnd=273230
+4	FINI	_	_	_	_	_	_	_	AlignBegin=273230|AlignEnd=273950
+
+# sent_id = crdo-fsl-cuc022_32
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le plat est comme ça.
+# text = plat
+1	plat	_	_	_	_	_	_	_	AlignBegin=273950|AlignEnd=275110
+
+# sent_id = crdo-fsl-cuc022_33
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ouvrir une boîte de conserve.
+# text = ouvrir boîte de conserve forme cylindrique (boîte de conserve) ANANAS forme cylindrique (boîte de conserve)
+1	ouvrir boîte de conserve	_	_	_	_	_	_	_	AlignBegin=275110|AlignEnd=276200
+2	forme cylindrique (boîte de conserve)	_	_	_	_	_	_	_	AlignBegin=276200|AlignEnd=276750
+3	ANANAS	_	_	_	_	_	_	_	AlignBegin=276750|AlignEnd=277710
+4	forme cylindrique (boîte de conserve)	_	_	_	_	_	_	_	AlignBegin=277710|AlignEnd=278470
+
+# sent_id = crdo-fsl-cuc022_34
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Dedans, il y a des tranches d'ananas. Les disposer uniformément dans le plat, en cercle : cing tranches autour et surtout la dernière  au milieu!
+# text = là (dans le boîte) rond ( d'ananas) là (dans la boîte) mettre les tranches dans le moule (x2) ronds disposés sur le plat, en cercle (x6) regarder plat
+1	là (dans le boîte)	_	_	_	_	_	_	_	AlignBegin=278470|AlignEnd=278830
+2	rond ( d'ananas)	_	_	_	_	_	_	_	AlignBegin=278830|AlignEnd=280230
+3	là (dans la boîte)	_	_	_	_	_	_	_	AlignBegin=280230|AlignEnd=281150
+4	mettre les tranches dans le moule (x2)	_	_	_	_	_	_	_	AlignBegin=281150|AlignEnd=282310
+5	ronds disposés sur le plat, en cercle (x6)	_	_	_	_	_	_	_	AlignBegin=282310|AlignEnd=285040
+6	regarder plat	_	_	_	_	_	_	_	AlignBegin=285040|AlignEnd=285800
+
+# sent_id = crdo-fsl-cuc022_35
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ça doit être joli et décoratif.
+# text = JOLI DECORATION position neutre
+1	JOLI	_	_	_	_	_	_	_	AlignBegin=285800|AlignEnd=286190
+2	DECORATION	_	_	_	_	_	_	_	AlignBegin=286190|AlignEnd=286710
+3	position neutre	_	_	_	_	_	_	_	AlignBegin=286710|AlignEnd=287870
+
+# sent_id = crdo-fsl-cuc022_36
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Baisser le thermosat du four de 250° à 180° .
+# text = là (four, à gauche) 250 DIMINUER 180 baisser le thermostat
+1	là (four, à gauche)	_	_	_	_	_	_	_	AlignBegin=287870|AlignEnd=288750
+2	250	_	_	_	_	_	_	_	AlignBegin=288750|AlignEnd=289550
+3	DIMINUER	_	_	_	_	_	_	_	AlignBegin=289550|AlignEnd=290510
+4	180	_	_	_	_	_	_	_	AlignBegin=290510|AlignEnd=291790
+5	baisser le thermostat	_	_	_	_	_	_	_	AlignBegin=291790|AlignEnd=292550
+
+# sent_id = crdo-fsl-cuc022_37
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Enfourner le gâteau, et laisser cuire environ 45 minutes.
+# text = enfourner le gâteau CHAUFFER TEMPS DUREE 45 MINUTES ENVIRON CHAUFFER ( esquissé)
+1	enfourner le gâteau	_	_	_	_	_	_	_	AlignBegin=292550|AlignEnd=294030
+2	CHAUFFER	_	_	_	_	_	_	_	AlignBegin=294030|AlignEnd=295030
+3	TEMPS	_	_	_	_	_	_	_	AlignBegin=295030|AlignEnd=295590
+4	DUREE	_	_	_	_	_	_	_	AlignBegin=295590|AlignEnd=296270
+5	45	_	_	_	_	_	_	_	AlignBegin=296270|AlignEnd=296870
+6	MINUTES	_	_	_	_	_	_	_	AlignBegin=296870|AlignEnd=297470
+7	ENVIRON	_	_	_	_	_	_	_	AlignBegin=297470|AlignEnd=298430
+8	CHAUFFER ( esquissé)	_	_	_	_	_	_	_	AlignBegin=298430|AlignEnd=298910
+
+# sent_id = crdo-fsl-cuc022_38
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le gâteau gonfle, lorsque c'est cuit, vous voyez, ne pas éteindre et sortir le gâteau tout de suite, mais,
+# text = gonfler progressivement FINI ALORS éteindre le four sortir le gâteau NON VOIR
+1	gonfler progressivement	_	_	_	_	_	_	_	AlignBegin=298910|AlignEnd=300350
+2	FINI	_	_	_	_	_	_	_	AlignBegin=300350|AlignEnd=301510
+3	ALORS	_	_	_	_	_	_	_	AlignBegin=301510|AlignEnd=302030
+4	éteindre le four	_	_	_	_	_	_	_	AlignBegin=302030|AlignEnd=302590
+5	sortir le gâteau	_	_	_	_	_	_	_	AlignBegin=302590|AlignEnd=303070
+6	NON	_	_	_	_	_	_	_	AlignBegin=303070|AlignEnd=304390
+7	VOIR	_	_	_	_	_	_	_	AlignBegin=304390|AlignEnd=304910
+
+# sent_id = crdo-fsl-cuc022_39
+# source_file = ./CUC022_low.mp4
+# traduction_fr = il faut baisser le thermosat à feu doux
+# text = baisser le thermostat VOIR (esq) FLOU/BUEE
+1	baisser le thermostat	_	_	_	_	_	_	_	AlignBegin=304910|AlignEnd=305550
+2	VOIR (esq)	_	_	_	_	_	_	_	AlignBegin=305550|AlignEnd=305830
+3	FLOU/BUEE	_	_	_	_	_	_	_	AlignBegin=305830|AlignEnd=306950
+
+# sent_id = crdo-fsl-cuc022_40
+# source_file = ./CUC022_low.mp4
+# traduction_fr = le gâteau devient doré, prend une couleur marron.
+# text = BEAU DEVENIR se démouler facilement ? MARRON
+1	BEAU	_	_	_	_	_	_	_	AlignBegin=306950|AlignEnd=307670
+2	DEVENIR	_	_	_	_	_	_	_	AlignBegin=307670|AlignEnd=308390
+3	se démouler facilement ?	_	_	_	_	_	_	_	AlignBegin=308390|AlignEnd=309550
+4	MARRON	_	_	_	_	_	_	_	AlignBegin=309550|AlignEnd=310350
+
+# sent_id = crdo-fsl-cuc022_41
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Baisser encore le thermostat et laisser le gâteau dans le four 5 minutes.
+# text = baisser le thermostat laisser 5 MINUTES FINI
+1	baisser le thermostat	_	_	_	_	_	_	_	AlignBegin=310350|AlignEnd=311030
+2	laisser	_	_	_	_	_	_	_	AlignBegin=311030|AlignEnd=311550
+3	5	_	_	_	_	_	_	_	AlignBegin=311550|AlignEnd=311830
+4	MINUTES	_	_	_	_	_	_	_	AlignBegin=311830|AlignEnd=313270
+5	FINI	_	_	_	_	_	_	_	AlignBegin=313270|AlignEnd=314190
+
+# sent_id = crdo-fsl-cuc022_42
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Eteindre complètement le four, sortir le gâteau et le poser.
+# text = éteindre le four sortir le gâteau
+1	éteindre le four	_	_	_	_	_	_	_	AlignBegin=314190|AlignEnd=314870
+2	sortir le gâteau	_	_	_	_	_	_	_	AlignBegin=314870|AlignEnd=315910
+
+# sent_id = crdo-fsl-cuc022_43
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le laisser 1/2 heure.
+# text = LAISSER 1/2 HEURE
+1	LAISSER	_	_	_	_	_	_	_	AlignBegin=315910|AlignEnd=316270
+2	1/2 HEURE	_	_	_	_	_	_	_	AlignBegin=316270|AlignEnd=317310
+
+# sent_id = crdo-fsl-cuc022_44
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ensuite, on peut manger le gâteau à l'ananas!...
+# text = après (esq) MANGER ANANAS (esq) GATEAU ANANAS Position neutre
+1	après (esq)	_	_	_	_	_	_	_	AlignBegin=317310|AlignEnd=317670
+2	MANGER	_	_	_	_	_	_	_	AlignBegin=317670|AlignEnd=318710
+3	ANANAS (esq)	_	_	_	_	_	_	_	AlignBegin=318710|AlignEnd=319190
+4	GATEAU	_	_	_	_	_	_	_	AlignBegin=319190|AlignEnd=319550
+5	ANANAS	_	_	_	_	_	_	_	AlignBegin=319550|AlignEnd=320390
+6	Position neutre	_	_	_	_	_	_	_	AlignBegin=633128|AlignEnd=633848
+
+# sent_id = crdo-fsl-cuc022_45
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Dans une vaste étendue, il y a des champs partout, des fleurs sur le sol, et un enclos avec un cheval à l'intérieur.
+# text = étendue CHAMPS FLEURS barrière LÀ (UN) CHEVAL
+1	étendue	_	_	_	_	_	_	_	AlignBegin=633848|AlignEnd=635158
+2	CHAMPS	_	_	_	_	_	_	_	AlignBegin=635158|AlignEnd=636768
+3	FLEURS	_	_	_	_	_	_	_	AlignBegin=636768|AlignEnd=637968
+4	barrière	_	_	_	_	_	_	_	AlignBegin=637968|AlignEnd=639168
+5	LÀ	_	_	_	_	_	_	_	AlignBegin=639168|AlignEnd=639608
+6	(UN)	_	_	_	_	_	_	_	AlignBegin=639608|AlignEnd=639848
+7	CHEVAL	_	_	_	_	_	_	_	AlignBegin=639848|AlignEnd=640728
+
+# sent_id = crdo-fsl-cuc022_46
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le cheval gambade, galope et caracole, heureux. Soudain, il s'arrête devant la barrière, il y a un oiseau dessus qui considère la scène ...
+# text = aller au pas aller au trot ruer caracoler s'arrêter/regarder barrière OISEAU oiseau sur barrière LÀ (de l'autre côté de barrière)
+1	aller au pas	_	_	_	_	_	_	_	AlignBegin=640728|AlignEnd=643088
+2	aller au trot	_	_	_	_	_	_	_	AlignBegin=643088|AlignEnd=644128
+3	ruer	_	_	_	_	_	_	_	AlignBegin=644128|AlignEnd=646968
+4	caracoler	_	_	_	_	_	_	_	AlignBegin=646968|AlignEnd=648358
+5	s'arrêter/regarder	_	_	_	_	_	_	_	AlignBegin=648358|AlignEnd=648808
+6	barrière	_	_	_	_	_	_	_	AlignBegin=648808|AlignEnd=649528
+7	OISEAU	_	_	_	_	_	_	_	AlignBegin=649528|AlignEnd=650128
+8	oiseau sur barrière	_	_	_	_	_	_	_	AlignBegin=650128|AlignEnd=651293
+9	LÀ (de l'autre côté de barrière)	_	_	_	_	_	_	_	AlignBegin=651293|AlignEnd=651928
+
+# sent_id = crdo-fsl-cuc022_47
+# source_file = ./CUC022_low.mp4
+# traduction_fr = De l'autre côté, se trouve une vache qui rumine. Le cheval observe la barrière, recule et s'éloigne.
+# text = cornes de VACHE ruminer regarder barrière avancer observer barrière reculer barrière qui s'éloigne reculer
+1	cornes de VACHE	_	_	_	_	_	_	_	AlignBegin=651928|AlignEnd=652328
+2	ruminer	_	_	_	_	_	_	_	AlignBegin=652328|AlignEnd=653643
+3	regarder barrière	_	_	_	_	_	_	_	AlignBegin=653643|AlignEnd=654688
+4	avancer	_	_	_	_	_	_	_	AlignBegin=654688|AlignEnd=655328
+5	observer barrière	_	_	_	_	_	_	_	AlignBegin=655328|AlignEnd=656768
+6	reculer	_	_	_	_	_	_	_	AlignBegin=656768|AlignEnd=657678
+7	barrière qui s'éloigne	_	_	_	_	_	_	_	AlignBegin=657678|AlignEnd=658528
+8	reculer	_	_	_	_	_	_	_	AlignBegin=658528|AlignEnd=659688
+
+# sent_id = crdo-fsl-cuc022_48
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il s'arrête. Sur la barrière, l'oiseau se retourne pour le regarder, et la vache le regarde en ruminant.
+# text = s'arrêter barrière OISEAU regarder le cheval se retourner et observer la scène
+1	s'arrêter	_	_	_	_	_	_	_	AlignBegin=659688|AlignEnd=660368
+2	barrière	_	_	_	_	_	_	_	AlignBegin=660368|AlignEnd=660768
+3	OISEAU	_	_	_	_	_	_	_	AlignBegin=660768|AlignEnd=661288
+4	regarder le cheval	_	_	_	_	_	_	_	AlignBegin=661288|AlignEnd=661808
+5	se retourner et observer la scène	_	_	_	_	_	_	_	AlignBegin=661808|AlignEnd=662928
+
+# sent_id = crdo-fsl-cuc022_49
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La barrière est loin, le cheval galope, se rapproche de la barrière,galope toujours,et se rapproche de la barrière.
+# text = LÀ cornes de la VACHE ruminer (esquisse) regarder barrière être à l'arrêt galoper barrière se rapproche
+1	LÀ	_	_	_	_	_	_	_	AlignBegin=662928|AlignEnd=663328
+2	cornes de la VACHE	_	_	_	_	_	_	_	AlignBegin=663328|AlignEnd=663648
+3	ruminer (esquisse)	_	_	_	_	_	_	_	AlignBegin=663648|AlignEnd=664088
+4	regarder	_	_	_	_	_	_	_	AlignBegin=664088|AlignEnd=665243
+5	barrière	_	_	_	_	_	_	_	AlignBegin=665243|AlignEnd=665818
+6	être à l'arrêt	_	_	_	_	_	_	_	AlignBegin=665818|AlignEnd=666498
+7	galoper	_	_	_	_	_	_	_	AlignBegin=666498|AlignEnd=667368
+8	barrière se rapproche	_	_	_	_	_	_	_	AlignBegin=667368|AlignEnd=668053
+
+# sent_id = crdo-fsl-cuc022_50
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La barrière est très proche, il prend appui et saute par dessus, mais le sabot heurte la barre et tombe.
+# text = galoper de plus en plus vite barrière se rapproche galoper barrière se rapproche s'élancer barrière passe dessous heurter barrière tomber souffrir
+1	galoper de plus en plus vite	_	_	_	_	_	_	_	AlignBegin=668053|AlignEnd=669288
+2	barrière se rapproche	_	_	_	_	_	_	_	AlignBegin=669288|AlignEnd=669808
+3	galoper	_	_	_	_	_	_	_	AlignBegin=669808|AlignEnd=670488
+4	barrière se rapproche	_	_	_	_	_	_	_	AlignBegin=670488|AlignEnd=670893
+5	s'élancer	_	_	_	_	_	_	_	AlignBegin=670893|AlignEnd=671888
+6	barrière passe dessous	_	_	_	_	_	_	_	AlignBegin=671888|AlignEnd=672608
+7	heurter barrière	_	_	_	_	_	_	_	AlignBegin=672608|AlignEnd=673478
+8	tomber	_	_	_	_	_	_	_	AlignBegin=673478|AlignEnd=674608
+9	souffrir	_	_	_	_	_	_	_	AlignBegin=674608|AlignEnd=676053
+
+# sent_id = crdo-fsl-cuc022_51
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau : "ah la la!"
+# text = OISEAU sur barrière
+1	OISEAU sur barrière	_	_	_	_	_	_	_	AlignBegin=676053|AlignEnd=677723
+
+# sent_id = crdo-fsl-cuc022_52
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La vache: "ah la la !", elle s'approche du cheval et lui demande : "où as - tu mal?"."C'est là!", et il pointe sa jambe gauche. Il se relève et boite.
+# text = cornes de la VACHE s'approcher OÙ MAL LÀ se relever boiter
+1	cornes de la VACHE	_	_	_	_	_	_	_	AlignBegin=677723|AlignEnd=678923
+2	s'approcher	_	_	_	_	_	_	_	AlignBegin=678923|AlignEnd=680088
+3	OÙ	_	_	_	_	_	_	_	AlignBegin=680088|AlignEnd=680458
+4	MAL	_	_	_	_	_	_	_	AlignBegin=680458|AlignEnd=680773
+5	LÀ	_	_	_	_	_	_	_	AlignBegin=680773|AlignEnd=681818
+6	se relever	_	_	_	_	_	_	_	AlignBegin=681818|AlignEnd=682323
+7	boiter	_	_	_	_	_	_	_	AlignBegin=682323|AlignEnd=683248
+
+# sent_id = crdo-fsl-cuc022_53
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau, posé sur la barrière, s'envole et va chercher une boîte de secours. Il saisit la grande poignée de la boîte et reprend son envol.
+# text = OISEAU sur barrière voler ALLER CHERCHER boîte grande poignée CROIX saisir avec les pattes voler
+1	OISEAU sur barrière	_	_	_	_	_	_	_	AlignBegin=683248|AlignEnd=684048
+2	voler	_	_	_	_	_	_	_	AlignBegin=684048|AlignEnd=685048
+3	ALLER CHERCHER	_	_	_	_	_	_	_	AlignBegin=685048|AlignEnd=685608
+4	boîte	_	_	_	_	_	_	_	AlignBegin=685608|AlignEnd=686048
+5	grande poignée	_	_	_	_	_	_	_	AlignBegin=686048|AlignEnd=686768
+6	CROIX	_	_	_	_	_	_	_	AlignBegin=686768|AlignEnd=687288
+7	saisir avec les pattes	_	_	_	_	_	_	_	AlignBegin=687288|AlignEnd=687648
+8	voler	_	_	_	_	_	_	_	AlignBegin=687648|AlignEnd=688008
+
+# sent_id = crdo-fsl-cuc022_54
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il pose la boîte, et la vache l'ouvre avec ses cornes, prend une bande et l'enroule autour de la patte. "C'est fini, c'est bon?"
+# text = déposer cornes de la VACHE ouvrir (avec la corne) ouvrir boîte prendre quelque chose bander la patte FINI BON oreille de CHEVAL (esquisse)
+1	déposer	_	_	_	_	_	_	_	AlignBegin=688008|AlignEnd=688803
+2	cornes de la VACHE	_	_	_	_	_	_	_	AlignBegin=688803|AlignEnd=689128
+3	ouvrir (avec la corne)	_	_	_	_	_	_	_	AlignBegin=689128|AlignEnd=689573
+4	ouvrir boîte	_	_	_	_	_	_	_	AlignBegin=689573|AlignEnd=690328
+5	prendre quelque chose	_	_	_	_	_	_	_	AlignBegin=690328|AlignEnd=691208
+6	bander la patte	_	_	_	_	_	_	_	AlignBegin=691208|AlignEnd=692608
+7	FINI	_	_	_	_	_	_	_	AlignBegin=692608|AlignEnd=693048
+8	BON	_	_	_	_	_	_	_	AlignBegin=693048|AlignEnd=693528
+9	oreille de CHEVAL (esquisse)	_	_	_	_	_	_	_	AlignBegin=693528|AlignEnd=693763
+
+# sent_id = crdo-fsl-cuc022_55
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le cheval, debout, est heureux et la remercie: "oui, oui". Voilà.
+# text = "oui, oui" MERCI VOILÀ (esquisse) Position neutre Position neutre
+1	"oui, oui"	_	_	_	_	_	_	_	AlignBegin=693763|AlignEnd=694368
+2	MERCI	_	_	_	_	_	_	_	AlignBegin=694368|AlignEnd=694853
+3	VOILÀ (esquisse)	_	_	_	_	_	_	_	AlignBegin=694853|AlignEnd=696133
+4	Position neutre	_	_	_	_	_	_	_	AlignBegin=696133|AlignEnd=697808
+5	Position neutre	_	_	_	_	_	_	_	AlignBegin=714578|AlignEnd=716058
+
+# sent_id = crdo-fsl-cuc022_56
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Un arbre, avec une étendue à ses pieds, une branche qui part de l'arbre et là, sur la branche, il y a un nid.
+# text = ARBRE sol (étendue plate) branche qui part de l'arbre LÀ NID bec d'OISEAU
+1	ARBRE	_	_	_	_	_	_	_	AlignBegin=716058|AlignEnd=716893
+2	sol (étendue plate)	_	_	_	_	_	_	_	AlignBegin=716893|AlignEnd=717533
+3	branche qui part de l'arbre	_	_	_	_	_	_	_	AlignBegin=717533|AlignEnd=718658
+4	LÀ	_	_	_	_	_	_	_	AlignBegin=718658|AlignEnd=719178
+5	NID	_	_	_	_	_	_	_	AlignBegin=719178|AlignEnd=719818
+6	bec d'OISEAU	_	_	_	_	_	_	_	AlignBegin=719818|AlignEnd=720138
+
+# sent_id = crdo-fsl-cuc022_57
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La mère oiseau regarde ses oisillons qui piaillent puis s'envole.
+# text = se pencher pour regarder oisillons qui piaillent regarder les oisillons s'envoler oiseau qui part
+1	se pencher pour regarder	_	_	_	_	_	_	_	AlignBegin=720138|AlignEnd=720663
+2	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=720663|AlignEnd=721778
+3	regarder les oisillons	_	_	_	_	_	_	_	AlignBegin=721778|AlignEnd=722178
+4	s'envoler	_	_	_	_	_	_	_	AlignBegin=722178|AlignEnd=723058
+5	oiseau qui part	_	_	_	_	_	_	_	AlignBegin=723058|AlignEnd=724258
+
+# sent_id = crdo-fsl-cuc022_58
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La mère oiseau regarde ses oisillons qui piaillent puis s'envole.
+# text = CHAT s'approcher de l'arbre marcher s'arrêter
+1	CHAT	_	_	_	_	_	_	_	AlignBegin=724258|AlignEnd=724658
+2	s'approcher de l'arbre	_	_	_	_	_	_	_	AlignBegin=724658|AlignEnd=726018
+3	marcher	_	_	_	_	_	_	_	AlignBegin=726018|AlignEnd=726778
+4	s'arrêter	_	_	_	_	_	_	_	AlignBegin=726778|AlignEnd=727138
+
+# sent_id = crdo-fsl-cuc022_59
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ses oreilles se dressent, il lève la tête et voit les oisillons qui piaillent au dessus de lui.
+# text = oreilles dressées lever la tête LÀ (là-haut) oisillons qui piaillent bord du nid
+1	oreilles dressées	_	_	_	_	_	_	_	AlignBegin=727138|AlignEnd=727533
+2	lever la tête	_	_	_	_	_	_	_	AlignBegin=727533|AlignEnd=728298
+3	LÀ (là-haut)	_	_	_	_	_	_	_	AlignBegin=728298|AlignEnd=728418
+4	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=728418|AlignEnd=729058
+5	bord du nid	_	_	_	_	_	_	_	AlignBegin=729058|AlignEnd=729578
+
+# sent_id = crdo-fsl-cuc022_60
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il recule un peu, regarde le nid, salive en voyant les oisillons. Il observe le nid, puis s'approche de l'arbre et grimpe.
+# text = reculer regarder le nid SALIVER Position neutre (esquisse) regarder le nid s'approcher de l'arbre grimper (esquisse) grimper grimper (trajectoire du chat sur l'arbre)
+1	reculer	_	_	_	_	_	_	_	AlignBegin=729578|AlignEnd=730578
+2	regarder le nid	_	_	_	_	_	_	_	AlignBegin=730578|AlignEnd=731258
+3	SALIVER	_	_	_	_	_	_	_	AlignBegin=731258|AlignEnd=732698
+4	Position neutre (esquisse)	_	_	_	_	_	_	_	AlignBegin=732698|AlignEnd=732858
+5	regarder le nid	_	_	_	_	_	_	_	AlignBegin=732858|AlignEnd=733543
+6	s'approcher de l'arbre	_	_	_	_	_	_	_	AlignBegin=733543|AlignEnd=733933
+7	grimper (esquisse)	_	_	_	_	_	_	_	AlignBegin=733933|AlignEnd=734258
+8	grimper	_	_	_	_	_	_	_	AlignBegin=734258|AlignEnd=735098
+9	grimper (trajectoire du chat sur l'arbre)	_	_	_	_	_	_	_	AlignBegin=735098|AlignEnd=735858
+
+# sent_id = crdo-fsl-cuc022_61
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Un chien, pas très loin de là, s'approche de l'arbre et regarde  : "Que fait-il là, à grimper?"
+# text = CHIEN s'approcher de l'arbre REGARDER L'ARBRE QUOI FAIRE LÀ
+1	CHIEN	_	_	_	_	_	_	_	AlignBegin=735858|AlignEnd=736338
+2	s'approcher de l'arbre	_	_	_	_	_	_	_	AlignBegin=736338|AlignEnd=737298
+3	REGARDER L'ARBRE	_	_	_	_	_	_	_	AlignBegin=737298|AlignEnd=737818
+4	QUOI FAIRE	_	_	_	_	_	_	_	AlignBegin=737818|AlignEnd=738258
+5	LÀ	_	_	_	_	_	_	_	AlignBegin=738258|AlignEnd=738498
+
+# sent_id = crdo-fsl-cuc022_62
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il suit le chat du regard, puis le nid et voit les oisillons piailler et comprend tout: "ah, c'est ça!".
+# text = grimper SUIVRE DU REGARD oisillons qui piaillent "ah, c'est ça !"
+1	grimper	_	_	_	_	_	_	_	AlignBegin=738498|AlignEnd=739098
+2	SUIVRE DU REGARD	_	_	_	_	_	_	_	AlignBegin=739098|AlignEnd=740138
+3	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=740138|AlignEnd=740568
+4	"ah, c'est ça !"	_	_	_	_	_	_	_	AlignBegin=740568|AlignEnd=741288
+
+# sent_id = crdo-fsl-cuc022_63
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat grimpe et atteint la branche, il avance dessus mais sa queue pend dans le vide...
+# text = grimper (trajectoire du chat sur l'arbre) atteindre et avancer sur la branche déplacement simultané de la queue
+1	grimper (trajectoire du chat sur l'arbre)	_	_	_	_	_	_	_	AlignBegin=741288|AlignEnd=742328
+2	atteindre et avancer sur la branche	_	_	_	_	_	_	_	AlignBegin=742328|AlignEnd=742818
+3	déplacement simultané de la queue	_	_	_	_	_	_	_	AlignBegin=742818|AlignEnd=743618
+
+# sent_id = crdo-fsl-cuc022_64
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat grimpe et atteint la branche, il avance dessus mais sa queue pend dans le vide...
+# text = s'approcher de l'arbre mordre la queue tirer vers le bas chat qui dégringole
+1	s'approcher de l'arbre	_	_	_	_	_	_	_	AlignBegin=743618|AlignEnd=744298
+2	mordre la queue	_	_	_	_	_	_	_	AlignBegin=744298|AlignEnd=745263
+3	tirer vers le bas	_	_	_	_	_	_	_	AlignBegin=745263|AlignEnd=745588
+4	chat qui dégringole	_	_	_	_	_	_	_	AlignBegin=745588|AlignEnd=746733
+
+# sent_id = crdo-fsl-cuc022_65
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ils se poursuivent à toute allure.
+# text = se poursuivre OISEAU
+1	se poursuivre	_	_	_	_	_	_	_	AlignBegin=746733|AlignEnd=747893
+2	OISEAU	_	_	_	_	_	_	_	AlignBegin=747893|AlignEnd=748493
+
+# sent_id = crdo-fsl-cuc022_66
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Pendant ce temps, l'oiseau revient se poser sur le nid, avec un ver dans le bec; il donne la becquée à ses oisillons.
+# text = revenir vers l'arbre se poser nid (esquisse) OISEAU ver dans le bec ouvrir le bec donner la becquée donner la becquée
+1	revenir vers l'arbre	_	_	_	_	_	_	_	AlignBegin=748493|AlignEnd=749893
+2	se poser	_	_	_	_	_	_	_	AlignBegin=749893|AlignEnd=750418
+3	nid (esquisse)	_	_	_	_	_	_	_	AlignBegin=750418|AlignEnd=750733
+4	OISEAU	_	_	_	_	_	_	_	AlignBegin=750733|AlignEnd=750948
+5	ver dans le bec	_	_	_	_	_	_	_	AlignBegin=750948|AlignEnd=751538
+6	ouvrir le bec	_	_	_	_	_	_	_	AlignBegin=751538|AlignEnd=751808
+7	donner la becquée	_	_	_	_	_	_	_	AlignBegin=751808|AlignEnd=752138
+8	donner la becquée	_	_	_	_	_	_	_	AlignBegin=752138|AlignEnd=753418
+
+# sent_id = crdo-fsl-cuc022_67
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est tout.
+# text = FINI Position neutre Position neutre
+1	FINI	_	_	_	_	_	_	_	AlignBegin=753418|AlignEnd=754458
+2	Position neutre	_	_	_	_	_	_	_	AlignBegin=754458|AlignEnd=755938
+3	Position neutre	_	_	_	_	_	_	_	AlignBegin=1096904|AlignEnd=1098344
+
+# sent_id = crdo-fsl-cuc022_68
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Recette de cuisine.
+# text = RECETTE CUISINE Position neutre
+1	RECETTE	_	_	_	_	_	_	_	AlignBegin=1098344|AlignEnd=1098939
+2	CUISINE	_	_	_	_	_	_	_	AlignBegin=1098939|AlignEnd=1099659
+3	Position neutre	_	_	_	_	_	_	_	AlignBegin=1099659|AlignEnd=1102699
+
+# sent_id = crdo-fsl-cuc022_69
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Voilà!
+# text = VOILÀ Position neutre
+1	VOILÀ	_	_	_	_	_	_	_	AlignBegin=1102699|AlignEnd=1103459
+2	Position neutre	_	_	_	_	_	_	_	AlignBegin=1103459|AlignEnd=1104459
+
+# sent_id = crdo-fsl-cuc022_70
+# source_file = ./CUC022_low.mp4
+# traduction_fr = "Champignons à la sauce soja" c'est une recette qui vient du Viêt-Nam.
+# text = TITRE (geste indistinct) CHAMPIGNON SAUCE S.O.J.A. VENIR DE RECETTE SON? (esquisse) VIÊT NAM SON
+1	TITRE	_	_	_	_	_	_	_	AlignBegin=1104459|AlignEnd=1105139
+2	(geste indistinct)	_	_	_	_	_	_	_	AlignBegin=1105139|AlignEnd=1105899
+3	CHAMPIGNON	_	_	_	_	_	_	_	AlignBegin=1105899|AlignEnd=1106859
+4	SAUCE	_	_	_	_	_	_	_	AlignBegin=1106859|AlignEnd=1107459
+5	S.O.J.A.	_	_	_	_	_	_	_	AlignBegin=1107459|AlignEnd=1108859
+6	VENIR DE	_	_	_	_	_	_	_	AlignBegin=1108859|AlignEnd=1109259
+7	RECETTE	_	_	_	_	_	_	_	AlignBegin=1109259|AlignEnd=1109579
+8	SON? (esquisse)	_	_	_	_	_	_	_	AlignBegin=1109579|AlignEnd=1109659
+9	VIÊT	_	_	_	_	_	_	_	AlignBegin=1109659|AlignEnd=1110209
+10	NAM	_	_	_	_	_	_	_	AlignBegin=1110209|AlignEnd=1110584
+11	SON	_	_	_	_	_	_	_	AlignBegin=1110584|AlignEnd=1112109
+
+# sent_id = crdo-fsl-cuc022_71
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Bon, il faut plusieurs choses, d'abord des champignons, n'importe lesquels, comme vous voulez, vous pouvez choisir des champignons de n'importe quel type, en trompette, en forme ronde, etc…
+# text = BON ENUMERER IL FAUT CHAMPIGNON N'IMPORTE COMME VOULOIR LARGES POSSIBILITES POUVOIR CHOISIR CHAMPIGNON forme incurvée CHAMPIGNON forme trompette forme ronde ETC.
+1	BON	_	_	_	_	_	_	_	AlignBegin=1112109|AlignEnd=1112579
+2	ENUMERER	_	_	_	_	_	_	_	AlignBegin=1112579|AlignEnd=1113299
+3	IL FAUT	_	_	_	_	_	_	_	AlignBegin=1113299|AlignEnd=1113659
+4	CHAMPIGNON	_	_	_	_	_	_	_	AlignBegin=1113659|AlignEnd=1114219
+5	N'IMPORTE	_	_	_	_	_	_	_	AlignBegin=1114219|AlignEnd=1114574
+6	COMME	_	_	_	_	_	_	_	AlignBegin=1114574|AlignEnd=1114779
+7	VOULOIR	_	_	_	_	_	_	_	AlignBegin=1114779|AlignEnd=1115059
+8	LARGES POSSIBILITES	_	_	_	_	_	_	_	AlignBegin=1115059|AlignEnd=1115859
+9	POUVOIR	_	_	_	_	_	_	_	AlignBegin=1115859|AlignEnd=1116059
+10	CHOISIR	_	_	_	_	_	_	_	AlignBegin=1116059|AlignEnd=1116499
+11	CHAMPIGNON	_	_	_	_	_	_	_	AlignBegin=1116499|AlignEnd=1116779
+12	forme incurvée	_	_	_	_	_	_	_	AlignBegin=1116779|AlignEnd=1117339
+13	CHAMPIGNON	_	_	_	_	_	_	_	AlignBegin=1117339|AlignEnd=1117619
+14	forme trompette	_	_	_	_	_	_	_	AlignBegin=1117619|AlignEnd=1117974
+15	forme ronde	_	_	_	_	_	_	_	AlignBegin=1117974|AlignEnd=1118299
+16	ETC.	_	_	_	_	_	_	_	AlignBegin=1118299|AlignEnd=1118979
+
+# sent_id = crdo-fsl-cuc022_72
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Vous êtes libre.
+# text = LIBRE
+1	LIBRE	_	_	_	_	_	_	_	AlignBegin=1118979|AlignEnd=1119624
+
+# sent_id = crdo-fsl-cuc022_73
+# source_file = ./CUC022_low.mp4
+# traduction_fr = En premier, il en faut 200 grammes.
+# text = EN PREMIER (esquisse) IL FAUT DEUX CENTS GRAMME IL FAUT PREMIEREMENT
+1	EN PREMIER (esquisse)	_	_	_	_	_	_	_	AlignBegin=1119624|AlignEnd=1119979
+2	IL FAUT	_	_	_	_	_	_	_	AlignBegin=1119979|AlignEnd=1120139
+3	DEUX CENTS	_	_	_	_	_	_	_	AlignBegin=1120139|AlignEnd=1120539
+4	GRAMME	_	_	_	_	_	_	_	AlignBegin=1120539|AlignEnd=1120979
+5	IL FAUT	_	_	_	_	_	_	_	AlignBegin=1120979|AlignEnd=1121219
+6	PREMIEREMENT	_	_	_	_	_	_	_	AlignBegin=1121219|AlignEnd=1121629
+
+# sent_id = crdo-fsl-cuc022_74
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Deuxièmement, de la sauce soja , il en faut 3 cuillères à soupe.
+# text = DEUXIEMEMENT SAUCE S.O.J.A. IL FAUT (esquisse) CUILLERE TROIS SOUPE IL FAUT DEUXIEMEMENT
+1	DEUXIEMEMENT	_	_	_	_	_	_	_	AlignBegin=1121629|AlignEnd=1122534
+2	SAUCE	_	_	_	_	_	_	_	AlignBegin=1122534|AlignEnd=1123059
+3	S.O.J.A.	_	_	_	_	_	_	_	AlignBegin=1123059|AlignEnd=1124219
+4	IL FAUT (esquisse)	_	_	_	_	_	_	_	AlignBegin=1124219|AlignEnd=1124339
+5	CUILLERE	_	_	_	_	_	_	_	AlignBegin=1124339|AlignEnd=1124579
+6	TROIS	_	_	_	_	_	_	_	AlignBegin=1124579|AlignEnd=1124779
+7	SOUPE	_	_	_	_	_	_	_	AlignBegin=1124779|AlignEnd=1125179
+8	IL FAUT	_	_	_	_	_	_	_	AlignBegin=1125179|AlignEnd=1125539
+9	DEUXIEMEMENT	_	_	_	_	_	_	_	AlignBegin=1125539|AlignEnd=1125854
+
+# sent_id = crdo-fsl-cuc022_75
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Troisièmement, une cuillère de sucre (en morceau ?).
+# text = TROISIEMEMENT UNE CUILLERE SUCRE petit
+1	TROISIEMEMENT	_	_	_	_	_	_	_	AlignBegin=1125854|AlignEnd=1126259
+2	UNE	_	_	_	_	_	_	_	AlignBegin=1126259|AlignEnd=1126419
+3	CUILLERE	_	_	_	_	_	_	_	AlignBegin=1126419|AlignEnd=1126659
+4	SUCRE	_	_	_	_	_	_	_	AlignBegin=1126659|AlignEnd=1127379
+5	petit	_	_	_	_	_	_	_	AlignBegin=1127379|AlignEnd=1127859
+
+# sent_id = crdo-fsl-cuc022_76
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Quatrièmement, du poivre. Cinquièmement, du sel, des feuilles qui ressemblent à des fleurs, typique de Chine.
+# text = QUATRIEMEMENT POIVRE CINQUIEMEMENT SEL FEUILLE COMME PROCHE FLEUR TYPIQUE CHINE TYPIQUE
+1	QUATRIEMEMENT	_	_	_	_	_	_	_	AlignBegin=1127859|AlignEnd=1128499
+2	POIVRE	_	_	_	_	_	_	_	AlignBegin=1128499|AlignEnd=1129179
+3	CINQUIEMEMENT	_	_	_	_	_	_	_	AlignBegin=1129179|AlignEnd=1129419
+4	SEL	_	_	_	_	_	_	_	AlignBegin=1129419|AlignEnd=1130024
+5	FEUILLE	_	_	_	_	_	_	_	AlignBegin=1130024|AlignEnd=1130579
+6	COMME	_	_	_	_	_	_	_	AlignBegin=1130579|AlignEnd=1130819
+7	PROCHE	_	_	_	_	_	_	_	AlignBegin=1130819|AlignEnd=1131139
+8	FLEUR	_	_	_	_	_	_	_	AlignBegin=1131139|AlignEnd=1131659
+9	TYPIQUE	_	_	_	_	_	_	_	AlignBegin=1131659|AlignEnd=1132059
+10	CHINE	_	_	_	_	_	_	_	AlignBegin=1132059|AlignEnd=1132539
+11	TYPIQUE	_	_	_	_	_	_	_	AlignBegin=1132539|AlignEnd=1132899
+
+# sent_id = crdo-fsl-cuc022_77
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ces feuilles ont un nom que je ne connais vraiment pas, j'en connais l'odeur, c'est tout.
+# text = forme petite (feuille) NOM EPELER IGNORER SAVOIR ODEUR C'EST TOUT
+1	forme petite (feuille)	_	_	_	_	_	_	_	AlignBegin=1132899|AlignEnd=1133299
+2	NOM	_	_	_	_	_	_	_	AlignBegin=1133299|AlignEnd=1133539
+3	EPELER	_	_	_	_	_	_	_	AlignBegin=1133539|AlignEnd=1133899
+4	IGNORER	_	_	_	_	_	_	_	AlignBegin=1133899|AlignEnd=1134219
+5	SAVOIR	_	_	_	_	_	_	_	AlignBegin=1134219|AlignEnd=1134459
+6	ODEUR	_	_	_	_	_	_	_	AlignBegin=1134459|AlignEnd=1134819
+7	C'EST TOUT	_	_	_	_	_	_	_	AlignBegin=1134819|AlignEnd=1135459
+
+# sent_id = crdo-fsl-cuc022_78
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Tout y est, voilà ! On peut commencer.
+# text = ENUMERER VOILÀ (esquisse) COMMENCER
+1	ENUMERER	_	_	_	_	_	_	_	AlignBegin=1135459|AlignEnd=1135939
+2	VOILÀ (esquisse)	_	_	_	_	_	_	_	AlignBegin=1135939|AlignEnd=1136139
+3	COMMENCER	_	_	_	_	_	_	_	AlignBegin=1136139|AlignEnd=1136579
+
+# sent_id = crdo-fsl-cuc022_79
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Comment on fait :
+# text = COMMENT IL FAUT
+1	COMMENT	_	_	_	_	_	_	_	AlignBegin=1136579|AlignEnd=1136739
+2	IL FAUT	_	_	_	_	_	_	_	AlignBegin=1136739|AlignEnd=1136899
+
+# sent_id = crdo-fsl-cuc022_80
+# source_file = ./CUC022_low.mp4
+# traduction_fr = D'abord, il faut laver les champignons, tout laver les couper en morceaux, les mettre dans une passoire.
+# text = LAVER UN, D'ABORD CHAMPIGNON TOUT LAVER COUPER (en morceaux) METTRE forme plate (esquisse) forme ronde EGOUTTER IL FAUT? (esquisse)
+1	LAVER	_	_	_	_	_	_	_	AlignBegin=1136899|AlignEnd=1137299
+2	UN, D'ABORD	_	_	_	_	_	_	_	AlignBegin=1137299|AlignEnd=1137424
+3	CHAMPIGNON	_	_	_	_	_	_	_	AlignBegin=1137424|AlignEnd=1137939
+4	TOUT LAVER	_	_	_	_	_	_	_	AlignBegin=1137939|AlignEnd=1139019
+5	COUPER (en morceaux)	_	_	_	_	_	_	_	AlignBegin=1139019|AlignEnd=1139579
+6	METTRE	_	_	_	_	_	_	_	AlignBegin=1139579|AlignEnd=1140219
+7	forme plate (esquisse)	_	_	_	_	_	_	_	AlignBegin=1140219|AlignEnd=1140579
+8	forme ronde	_	_	_	_	_	_	_	AlignBegin=1140579|AlignEnd=1141184
+9	EGOUTTER	_	_	_	_	_	_	_	AlignBegin=1141184|AlignEnd=1141754
+10	IL FAUT? (esquisse)	_	_	_	_	_	_	_	AlignBegin=1141754|AlignEnd=1142054
+
+# sent_id = crdo-fsl-cuc022_81
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il ne faut pas qu'ils soient mouillés, les laisser sécher.
+# text = MOUILLER PAS LAISSER SECHER LAISSER Position neutre
+1	MOUILLER	_	_	_	_	_	_	_	AlignBegin=1142054|AlignEnd=1142374
+2	PAS	_	_	_	_	_	_	_	AlignBegin=1142374|AlignEnd=1142859
+3	LAISSER	_	_	_	_	_	_	_	AlignBegin=1142859|AlignEnd=1143214
+4	SECHER	_	_	_	_	_	_	_	AlignBegin=1143214|AlignEnd=1143659
+5	LAISSER	_	_	_	_	_	_	_	AlignBegin=1143659|AlignEnd=1144339
+6	Position neutre	_	_	_	_	_	_	_	AlignBegin=1144339|AlignEnd=1144859
+
+# sent_id = crdo-fsl-cuc022_82
+# source_file = ./CUC022_low.mp4
+# traduction_fr = J'avais oublié: il faut ajouter deux gousses d'ail, bien écrasées et les mettre dans la poëlle avec deux cuillerées d'huile.
+# text = A.I.L. forme allongée (gousse) OUBLIER AJOUTER DEUX gousse (x2) ECRASER METTRE POËLLE DEUX CUILLERE HUILE VERSER HUILE
+1	A.I.L.	_	_	_	_	_	_	_	AlignBegin=1144859|AlignEnd=1145659
+2	forme allongée (gousse)	_	_	_	_	_	_	_	AlignBegin=1145659|AlignEnd=1146179
+3	OUBLIER	_	_	_	_	_	_	_	AlignBegin=1146179|AlignEnd=1146459
+4	AJOUTER	_	_	_	_	_	_	_	AlignBegin=1146459|AlignEnd=1146699
+5	DEUX	_	_	_	_	_	_	_	AlignBegin=1146699|AlignEnd=1147259
+6	gousse (x2)	_	_	_	_	_	_	_	AlignBegin=1147259|AlignEnd=1147819
+7	ECRASER	_	_	_	_	_	_	_	AlignBegin=1147819|AlignEnd=1149244
+8	METTRE	_	_	_	_	_	_	_	AlignBegin=1149244|AlignEnd=1149739
+9	POËLLE	_	_	_	_	_	_	_	AlignBegin=1149739|AlignEnd=1150259
+10	DEUX	_	_	_	_	_	_	_	AlignBegin=1150259|AlignEnd=1150539
+11	CUILLERE	_	_	_	_	_	_	_	AlignBegin=1150539|AlignEnd=1150979
+12	HUILE	_	_	_	_	_	_	_	AlignBegin=1150979|AlignEnd=1151339
+13	VERSER HUILE	_	_	_	_	_	_	_	AlignBegin=1151339|AlignEnd=1152344
+
+# sent_id = crdo-fsl-cuc022_83
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Laisser frire jusqu'à ce que cela devienne marron.
+# text = LAISSER FRIRE JUSQU'À (esquisse) DEVENIR COMMENCER MARRON
+1	LAISSER	_	_	_	_	_	_	_	AlignBegin=1152344|AlignEnd=1152734
+2	FRIRE	_	_	_	_	_	_	_	AlignBegin=1152734|AlignEnd=1153299
+3	JUSQU'À (esquisse)	_	_	_	_	_	_	_	AlignBegin=1153299|AlignEnd=1153499
+4	DEVENIR	_	_	_	_	_	_	_	AlignBegin=1153499|AlignEnd=1153899
+5	COMMENCER	_	_	_	_	_	_	_	AlignBegin=1153899|AlignEnd=1154219
+6	MARRON	_	_	_	_	_	_	_	AlignBegin=1154219|AlignEnd=1155024
+
+# sent_id = crdo-fsl-cuc022_84
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Prendre les champignons et les mettre dans la poëlle et bien mélanger.
+# text = PRENDRE CHAMPIGNON (esquisse) PRENDRE METTRE (dans la poëlle)
+1	PRENDRE	_	_	_	_	_	_	_	AlignBegin=1155024|AlignEnd=1155454
+2	CHAMPIGNON (esquisse)	_	_	_	_	_	_	_	AlignBegin=1155454|AlignEnd=1155739
+3	PRENDRE	_	_	_	_	_	_	_	AlignBegin=1155739|AlignEnd=1156339
+4	METTRE (dans la poëlle)	_	_	_	_	_	_	_	AlignBegin=1156339|AlignEnd=1156739
+
+# sent_id = crdo-fsl-cuc022_85
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Puis les laisser.
+# text = MELANGER LAISSER
+1	MELANGER	_	_	_	_	_	_	_	AlignBegin=1156739|AlignEnd=1157859
+2	LAISSER	_	_	_	_	_	_	_	AlignBegin=1157859|AlignEnd=1158139
+
+# sent_id = crdo-fsl-cuc022_86
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Préparer la sauce:
+# text = PREPARER SAUCE PREPARER
+1	PREPARER	_	_	_	_	_	_	_	AlignBegin=1158139|AlignEnd=1158619
+2	SAUCE	_	_	_	_	_	_	_	AlignBegin=1158619|AlignEnd=1159379
+3	PREPARER	_	_	_	_	_	_	_	AlignBegin=1159379|AlignEnd=1160014
+
+# sent_id = crdo-fsl-cuc022_87
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Dans un petit récipient verser trois cuillères de sauce soja (un peu visqueux), le sucre,
+# text = petit récipient S.O.J.A. SAUCE visqueux? VERSER TROIS verser (x3) SUCRE
+1	petit récipient	_	_	_	_	_	_	_	AlignBegin=1160014|AlignEnd=1160264
+2	S.O.J.A.	_	_	_	_	_	_	_	AlignBegin=1160264|AlignEnd=1161934
+3	SAUCE	_	_	_	_	_	_	_	AlignBegin=1161934|AlignEnd=1162419
+4	visqueux?	_	_	_	_	_	_	_	AlignBegin=1162419|AlignEnd=1163139
+5	VERSER	_	_	_	_	_	_	_	AlignBegin=1163139|AlignEnd=1163699
+6	TROIS	_	_	_	_	_	_	_	AlignBegin=1163699|AlignEnd=1163939
+7	verser (x3)	_	_	_	_	_	_	_	AlignBegin=1163939|AlignEnd=1164819
+8	SUCRE	_	_	_	_	_	_	_	AlignBegin=1164819|AlignEnd=1165299
+
+# sent_id = crdo-fsl-cuc022_88
+# source_file = ./CUC022_low.mp4
+# traduction_fr = mettre le sel,
+# text = METTRE SEL
+1	METTRE	_	_	_	_	_	_	_	AlignBegin=1165299|AlignEnd=1165899
+2	SEL	_	_	_	_	_	_	_	AlignBegin=1165899|AlignEnd=1166179
+
+# sent_id = crdo-fsl-cuc022_89
+# source_file = ./CUC022_low.mp4
+# traduction_fr = ajouter le poivre, et mélanger. C'est tout.
+# text = METTRE POIVRE METTRE mélanger FINI (esquisse)?
+1	METTRE	_	_	_	_	_	_	_	AlignBegin=1166179|AlignEnd=1166619
+2	POIVRE	_	_	_	_	_	_	_	AlignBegin=1166619|AlignEnd=1166939
+3	METTRE	_	_	_	_	_	_	_	AlignBegin=1166939|AlignEnd=1167339
+4	mélanger	_	_	_	_	_	_	_	AlignBegin=1167339|AlignEnd=1168099
+5	FINI (esquisse)?	_	_	_	_	_	_	_	AlignBegin=1168099|AlignEnd=1168279
+
+# sent_id = crdo-fsl-cuc022_90
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Lorsque c'est à mi-cuisson, verser le bol de sauce dans la poëlle, laisser chauffer, mélanger et laisser jusqu'à ce que le liquide en surface soit un peu absorbé, il ne faut pas le laisser absorber entièrement.
+# text = PENDANT CE TEMPS (dans le plat)? verser (dans la pöelle) saucer (dans la pöelle) LAISSER CHAUFFER (esquisse)? SE MELANGER LAISSER JUSQU'À EAU en surface ABSORBER NON ABSORBER (esquisse)
+1	PENDANT CE TEMPS (dans le plat)?	_	_	_	_	_	_	_	AlignBegin=1168279|AlignEnd=1168939
+2	verser (dans la pöelle)	_	_	_	_	_	_	_	AlignBegin=1168939|AlignEnd=1169499
+3	saucer (dans la pöelle)	_	_	_	_	_	_	_	AlignBegin=1169499|AlignEnd=1170099
+4	LAISSER	_	_	_	_	_	_	_	AlignBegin=1170099|AlignEnd=1170499
+5	CHAUFFER (esquisse)?	_	_	_	_	_	_	_	AlignBegin=1170499|AlignEnd=1170744
+6	SE MELANGER	_	_	_	_	_	_	_	AlignBegin=1170744|AlignEnd=1171214
+7	LAISSER	_	_	_	_	_	_	_	AlignBegin=1171214|AlignEnd=1171894
+8	JUSQU'À	_	_	_	_	_	_	_	AlignBegin=1171894|AlignEnd=1173539
+9	EAU	_	_	_	_	_	_	_	AlignBegin=1173539|AlignEnd=1173739
+10	en surface	_	_	_	_	_	_	_	AlignBegin=1173739|AlignEnd=1174179
+11	ABSORBER	_	_	_	_	_	_	_	AlignBegin=1174179|AlignEnd=1174899
+12	NON	_	_	_	_	_	_	_	AlignBegin=1174899|AlignEnd=1175424
+13	ABSORBER (esquisse)	_	_	_	_	_	_	_	AlignBegin=1175424|AlignEnd=1175979
+
+# sent_id = crdo-fsl-cuc022_91
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Eteindre le feu et verser le contenu de la poëlle dans un saladier.
+# text = COUPER prendre la poëlle verser dans un plat forme arrondie (saladier) verser dans le saladier
+1	COUPER	_	_	_	_	_	_	_	AlignBegin=1175979|AlignEnd=1176779
+2	prendre la poëlle	_	_	_	_	_	_	_	AlignBegin=1176779|AlignEnd=1177259
+3	verser dans un plat	_	_	_	_	_	_	_	AlignBegin=1177259|AlignEnd=1177939
+4	forme arrondie (saladier)	_	_	_	_	_	_	_	AlignBegin=1177939|AlignEnd=1178499
+5	verser dans le saladier	_	_	_	_	_	_	_	AlignBegin=1178499|AlignEnd=1179219
+
+# sent_id = crdo-fsl-cuc022_92
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Mettre encore du poivre, le hacher et le répandre sur la préparation ainsi que les feuilles-fleurs.
+# text = POIVRE ENCORE HACHER répandre FEUILLE FLEUR répandre partout
+1	POIVRE	_	_	_	_	_	_	_	AlignBegin=1179219|AlignEnd=1179659
+2	ENCORE	_	_	_	_	_	_	_	AlignBegin=1179659|AlignEnd=1179899
+3	HACHER	_	_	_	_	_	_	_	AlignBegin=1179899|AlignEnd=1180499
+4	répandre	_	_	_	_	_	_	_	AlignBegin=1180499|AlignEnd=1181259
+5	FEUILLE	_	_	_	_	_	_	_	AlignBegin=1181259|AlignEnd=1181699
+6	FLEUR	_	_	_	_	_	_	_	AlignBegin=1181699|AlignEnd=1182059
+7	répandre partout	_	_	_	_	_	_	_	AlignBegin=1182059|AlignEnd=1182779
+
+# sent_id = crdo-fsl-cuc022_93
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Poser le plat sur la table. Vous pouvez commencer (à manger).
+# text = poser le plat COMMENCER
+1	poser le plat	_	_	_	_	_	_	_	AlignBegin=1182779|AlignEnd=1183419
+2	COMMENCER	_	_	_	_	_	_	_	AlignBegin=1183419|AlignEnd=1183809
+
+# sent_id = crdo-fsl-cuc022_94
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est vraiment délicieux!...
+# text = BON DELICIEUX
+1	BON	_	_	_	_	_	_	_	AlignBegin=1183809|AlignEnd=1184229
+2	DELICIEUX	_	_	_	_	_	_	_	AlignBegin=1184229|AlignEnd=1184619
+
+# sent_id = crdo-fsl-cuc022_95
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est fini!
+# text = FINI Position neutre Position neutre
+1	FINI	_	_	_	_	_	_	_	AlignBegin=1184619|AlignEnd=1185014
+2	Position neutre	_	_	_	_	_	_	_	AlignBegin=1185014|AlignEnd=1185894
+3	Position neutre	_	_	_	_	_	_	_	AlignBegin=1279808|AlignEnd=1280168
+
+# sent_id = crdo-fsl-cuc022_96
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Thème: les oiseaux
+# text = THEME OISEAU Position neutre
+1	THEME	_	_	_	_	_	_	_	AlignBegin=1280168|AlignEnd=1281268
+2	OISEAU	_	_	_	_	_	_	_	AlignBegin=1281268|AlignEnd=1282233
+3	Position neutre	_	_	_	_	_	_	_	AlignBegin=1282233|AlignEnd=1283073
+
+# sent_id = crdo-fsl-cuc022_97
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Une forêt, avec la plaine autour, le soleil qui brille.
+# text = FORÊT vaste étendue SOLEIL
+1	FORÊT	_	_	_	_	_	_	_	AlignBegin=1283073|AlignEnd=1284038
+2	vaste étendue	_	_	_	_	_	_	_	AlignBegin=1284038|AlignEnd=1286463
+3	SOLEIL	_	_	_	_	_	_	_	AlignBegin=1286463|AlignEnd=1287788
+
+# sent_id = crdo-fsl-cuc022_98
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Un arbre, avec un gros tronc, et sur le tronc, une branche avec un nid d'oiseau.
+# text = ARBRE tronc de l'arbre tronc tronc de l'arbre branche de l'arbre LÀ OISEAU nid contour du nid
+1	ARBRE	_	_	_	_	_	_	_	AlignBegin=1287788|AlignEnd=1288388
+2	tronc de l'arbre	_	_	_	_	_	_	_	AlignBegin=1288388|AlignEnd=1288908
+3	tronc	_	_	_	_	_	_	_	AlignBegin=1288908|AlignEnd=1290028
+4	tronc de l'arbre	_	_	_	_	_	_	_	AlignBegin=1290028|AlignEnd=1291233
+5	branche de l'arbre	_	_	_	_	_	_	_	AlignBegin=1291233|AlignEnd=1292388
+6	LÀ	_	_	_	_	_	_	_	AlignBegin=1292388|AlignEnd=1292828
+7	OISEAU	_	_	_	_	_	_	_	AlignBegin=1292828|AlignEnd=1293388
+8	nid	_	_	_	_	_	_	_	AlignBegin=1293388|AlignEnd=1294028
+9	contour du nid	_	_	_	_	_	_	_	AlignBegin=1294028|AlignEnd=1294548
+
+# sent_id = crdo-fsl-cuc022_99
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau a les ailes repliées, bien au chaud,
+# text = OISEAU ailes repliées CHAUD ailes repliées (esquisse) oiseau sur le nid
+1	OISEAU	_	_	_	_	_	_	_	AlignBegin=1294548|AlignEnd=1294988
+2	ailes repliées	_	_	_	_	_	_	_	AlignBegin=1294988|AlignEnd=1295788
+3	CHAUD	_	_	_	_	_	_	_	AlignBegin=1295788|AlignEnd=1296393
+4	ailes repliées (esquisse)	_	_	_	_	_	_	_	AlignBegin=1296393|AlignEnd=1296668
+5	oiseau sur le nid	_	_	_	_	_	_	_	AlignBegin=1296668|AlignEnd=1297628
+
+# sent_id = crdo-fsl-cuc022_100
+# source_file = ./CUC022_low.mp4
+# traduction_fr = et couve des petits oisillons, qui piaillent .
+# text = LÀ (dessous) OISEAU BEBE oisillons qui piaillent oisillons qui piaillent
+1	LÀ (dessous)	_	_	_	_	_	_	_	AlignBegin=1297628|AlignEnd=1298343
+2	OISEAU	_	_	_	_	_	_	_	AlignBegin=1298343|AlignEnd=1298633
+3	BEBE	_	_	_	_	_	_	_	AlignBegin=1298633|AlignEnd=1299228
+4	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=1299228|AlignEnd=1300028
+5	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=1300028|AlignEnd=1301108
+
+# sent_id = crdo-fsl-cuc022_101
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau :  "qu'est ce qui se passe là-dessous?" Les oisillons: "Nous, on veut manger des vers!!"
+# text = oiseau secoué par quelque chose en dessous QUOI LÀ (dessous) oisillons NOUS ? VOULOIR MANGER VER
+1	oiseau secoué par quelque chose en dessous	_	_	_	_	_	_	_	AlignBegin=1301108|AlignEnd=1302108
+2	QUOI	_	_	_	_	_	_	_	AlignBegin=1302108|AlignEnd=1302468
+3	LÀ (dessous)	_	_	_	_	_	_	_	AlignBegin=1302468|AlignEnd=1302868
+4	oisillons	_	_	_	_	_	_	_	AlignBegin=1302868|AlignEnd=1303508
+5	NOUS ?	_	_	_	_	_	_	_	AlignBegin=1303508|AlignEnd=1303628
+6	VOULOIR	_	_	_	_	_	_	_	AlignBegin=1303628|AlignEnd=1303988
+7	MANGER	_	_	_	_	_	_	_	AlignBegin=1303988|AlignEnd=1304548
+8	VER	_	_	_	_	_	_	_	AlignBegin=1304548|AlignEnd=1305018
+
+# sent_id = crdo-fsl-cuc022_102
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Elle les regarde et leur dit d'attendre, maintenant, elle va chercher les vers.
+# text = se pencher pour regarder acquiescer attendre MOI (esquisse) MAINTENANT LAISSER ALLER CHERCHER
+1	se pencher pour regarder	_	_	_	_	_	_	_	AlignBegin=1305018|AlignEnd=1306028
+2	acquiescer	_	_	_	_	_	_	_	AlignBegin=1306028|AlignEnd=1306828
+3	attendre	_	_	_	_	_	_	_	AlignBegin=1306828|AlignEnd=1307113
+4	MOI (esquisse)	_	_	_	_	_	_	_	AlignBegin=1307113|AlignEnd=1307268
+5	MAINTENANT	_	_	_	_	_	_	_	AlignBegin=1307268|AlignEnd=1307548
+6	LAISSER	_	_	_	_	_	_	_	AlignBegin=1307548|AlignEnd=1308028
+7	ALLER CHERCHER	_	_	_	_	_	_	_	AlignBegin=1308028|AlignEnd=1308628
+
+# sent_id = crdo-fsl-cuc022_103
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau s'envole donc, et part très loin.
+# text = OISEAU voler PARTIR
+1	OISEAU	_	_	_	_	_	_	_	AlignBegin=1308628|AlignEnd=1308908
+2	voler	_	_	_	_	_	_	_	AlignBegin=1308908|AlignEnd=1310308
+3	PARTIR	_	_	_	_	_	_	_	AlignBegin=1310308|AlignEnd=1311868
+
+# sent_id = crdo-fsl-cuc022_104
+# source_file = ./CUC022_low.mp4
+# traduction_fr = A coté de l'arbre, un chat se promène et aperçoit la mère oiseau qui part.
+# text = à côté de l'arbre CHAT marcher s'arrêter APERCEVOIR trajectoire de l'oiseau qui s'en va en volant CHAT OISEAU PARTIR
+1	à côté de l'arbre	_	_	_	_	_	_	_	AlignBegin=1311868|AlignEnd=1312908
+2	CHAT	_	_	_	_	_	_	_	AlignBegin=1312908|AlignEnd=1313628
+3	marcher	_	_	_	_	_	_	_	AlignBegin=1313628|AlignEnd=1314948
+4	s'arrêter	_	_	_	_	_	_	_	AlignBegin=1314948|AlignEnd=1315583
+5	APERCEVOIR	_	_	_	_	_	_	_	AlignBegin=1315583|AlignEnd=1315983
+6	trajectoire de l'oiseau qui s'en va en volant	_	_	_	_	_	_	_	AlignBegin=1315983|AlignEnd=1317508
+7	CHAT	_	_	_	_	_	_	_	AlignBegin=1317508|AlignEnd=1317988
+8	OISEAU	_	_	_	_	_	_	_	AlignBegin=1317988|AlignEnd=1318388
+9	PARTIR	_	_	_	_	_	_	_	AlignBegin=1318388|AlignEnd=1319108
+
+# sent_id = crdo-fsl-cuc022_105
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat se frotte les mains de contentement et, sadique, il marche vers l'arbre.
+# text = se frotter les mains SADIQUE marcher chat arrivé en bas de l'arbre
+1	se frotter les mains	_	_	_	_	_	_	_	AlignBegin=1319108|AlignEnd=1319668
+2	SADIQUE	_	_	_	_	_	_	_	AlignBegin=1319668|AlignEnd=1320428
+3	marcher	_	_	_	_	_	_	_	AlignBegin=1320428|AlignEnd=1321783
+4	chat arrivé en bas de l'arbre	_	_	_	_	_	_	_	AlignBegin=1321783|AlignEnd=1322783
+
+# sent_id = crdo-fsl-cuc022_106
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il recule pour juger l'arbre, les oisillons piaillent dans le nid, il les regarde, et regarde autour : pas un chat !
+# text = reculer s'arrêter nid oisillons qui piaillent regarder les oisillons regarder autour IL N'Y A PERSONNE
+1	reculer	_	_	_	_	_	_	_	AlignBegin=1322783|AlignEnd=1324028
+2	s'arrêter	_	_	_	_	_	_	_	AlignBegin=1324028|AlignEnd=1324628
+3	nid	_	_	_	_	_	_	_	AlignBegin=1324628|AlignEnd=1325268
+4	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=1325268|AlignEnd=1326948
+5	regarder les oisillons	_	_	_	_	_	_	_	AlignBegin=1326948|AlignEnd=1327348
+6	regarder autour	_	_	_	_	_	_	_	AlignBegin=1327348|AlignEnd=1328508
+7	IL N'Y A PERSONNE	_	_	_	_	_	_	_	AlignBegin=1328508|AlignEnd=1329478
+
+# sent_id = crdo-fsl-cuc022_107
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il se prépare et d'un bond grimpe à l'arbre,
+# text = se préparer sauter à l'arbre grimper à l'arbre
+1	se préparer	_	_	_	_	_	_	_	AlignBegin=1329478|AlignEnd=1330108
+2	sauter à l'arbre	_	_	_	_	_	_	_	AlignBegin=1330108|AlignEnd=1331063
+3	grimper à l'arbre	_	_	_	_	_	_	_	AlignBegin=1331063|AlignEnd=1332183
+
+# sent_id = crdo-fsl-cuc022_108
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il tente d'agriper le nid d'une patte et de l'autre s'accroche au tronc.
+# text = grimper à l'arbre branche de l'arbre tenter d'agripper le nid nid
+1	grimper à l'arbre	_	_	_	_	_	_	_	AlignBegin=1332183|AlignEnd=1333988
+2	branche de l'arbre	_	_	_	_	_	_	_	AlignBegin=1333988|AlignEnd=1334673
+3	tenter d'agripper le nid	_	_	_	_	_	_	_	AlignBegin=1334673|AlignEnd=1335903
+4	nid	_	_	_	_	_	_	_	AlignBegin=1335903|AlignEnd=1336623
+
+# sent_id = crdo-fsl-cuc022_109
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Les oisillons piaillent et appellent leur mère, mais elle est déjà loin !
+# text = oisillons qui piaillent APPELER VENIR MAMAN VENIR MAMAN VENIR OISEAU voler être loin
+1	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=1336623|AlignEnd=1338108
+2	APPELER	_	_	_	_	_	_	_	AlignBegin=1338108|AlignEnd=1338508
+3	VENIR	_	_	_	_	_	_	_	AlignBegin=1338508|AlignEnd=1338948
+4	MAMAN	_	_	_	_	_	_	_	AlignBegin=1338948|AlignEnd=1339388
+5	VENIR	_	_	_	_	_	_	_	AlignBegin=1339388|AlignEnd=1339948
+6	MAMAN	_	_	_	_	_	_	_	AlignBegin=1339948|AlignEnd=1340153
+7	VENIR	_	_	_	_	_	_	_	AlignBegin=1340153|AlignEnd=1340708
+8	OISEAU	_	_	_	_	_	_	_	AlignBegin=1340708|AlignEnd=1340903
+9	voler	_	_	_	_	_	_	_	AlignBegin=1340903|AlignEnd=1342068
+10	être loin	_	_	_	_	_	_	_	AlignBegin=1342068|AlignEnd=1343068
+
+# sent_id = crdo-fsl-cuc022_110
+# source_file = ./CUC022_low.mp4
+# traduction_fr = le chat tente d'agriper le nid, pour attraper les oisillons.
+# text = tenter d'agripper le nid bordure du nid oisillon (esquisse) tenter d'agripper le nid
+1	tenter d'agripper le nid	_	_	_	_	_	_	_	AlignBegin=1343068|AlignEnd=1343748
+2	bordure du nid	_	_	_	_	_	_	_	AlignBegin=1343748|AlignEnd=1344183
+3	oisillon (esquisse)	_	_	_	_	_	_	_	AlignBegin=1344183|AlignEnd=1344548
+4	tenter d'agripper le nid	_	_	_	_	_	_	_	AlignBegin=1344548|AlignEnd=1345588
+
+# sent_id = crdo-fsl-cuc022_111
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Justement, pas très loin de là, un chien marche tranquillement et tend l'oreille : il entend les piaillement des oiseaux.
+# text = JUSTE LÀ CHIEN marcher tendre l'oreille ENTENDRE LÀ (sur l'oreille) CRI OISEAU oiseau qui piaillent tendre l'oreille QUOI marcher
+1	JUSTE	_	_	_	_	_	_	_	AlignBegin=1345588|AlignEnd=1346108
+2	LÀ	_	_	_	_	_	_	_	AlignBegin=1346108|AlignEnd=1346868
+3	CHIEN	_	_	_	_	_	_	_	AlignBegin=1346868|AlignEnd=1347188
+4	marcher	_	_	_	_	_	_	_	AlignBegin=1347188|AlignEnd=1347868
+5	tendre l'oreille	_	_	_	_	_	_	_	AlignBegin=1347868|AlignEnd=1348668
+6	ENTENDRE	_	_	_	_	_	_	_	AlignBegin=1348668|AlignEnd=1349193
+7	LÀ (sur l'oreille)	_	_	_	_	_	_	_	AlignBegin=1349193|AlignEnd=1349428
+8	CRI	_	_	_	_	_	_	_	AlignBegin=1349428|AlignEnd=1349908
+9	OISEAU	_	_	_	_	_	_	_	AlignBegin=1349908|AlignEnd=1350348
+10	oiseau qui piaillent	_	_	_	_	_	_	_	AlignBegin=1350348|AlignEnd=1351063
+11	tendre l'oreille	_	_	_	_	_	_	_	AlignBegin=1351063|AlignEnd=1351708
+12	QUOI	_	_	_	_	_	_	_	AlignBegin=1351708|AlignEnd=1352108
+13	marcher	_	_	_	_	_	_	_	AlignBegin=1352108|AlignEnd=1352798
+
+# sent_id = crdo-fsl-cuc022_112
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Que se passe-t-il? Il avance, curieux, et aperçoit les oisillons piailler.
+# text = s'arrêter APERCEVOIR ? oisillons qui piaillent
+1	s'arrêter	_	_	_	_	_	_	_	AlignBegin=1352798|AlignEnd=1353033
+2	APERCEVOIR ?	_	_	_	_	_	_	_	AlignBegin=1353033|AlignEnd=1353348
+3	oisillons qui piaillent	_	_	_	_	_	_	_	AlignBegin=1353348|AlignEnd=1354868
+
+# sent_id = crdo-fsl-cuc022_113
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Regardant plus bas, il voit le chat qui tente d'agriper le nid,
+# text = REGARDER PLUS BAS LÀ CHAT tenter d'agripper le nid regarder vers le bas
+1	REGARDER PLUS BAS	_	_	_	_	_	_	_	AlignBegin=1354868|AlignEnd=1355518
+2	LÀ	_	_	_	_	_	_	_	AlignBegin=1355518|AlignEnd=1355988
+3	CHAT	_	_	_	_	_	_	_	AlignBegin=1355988|AlignEnd=1356868
+4	tenter d'agripper le nid	_	_	_	_	_	_	_	AlignBegin=1356868|AlignEnd=1358503
+5	regarder vers le bas	_	_	_	_	_	_	_	AlignBegin=1358503|AlignEnd=1359348
+
+# sent_id = crdo-fsl-cuc022_114
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat regarde vers le bas: "zut ! Le chien arrive en aboyant"
+# text = FINI CHIEN (esquisse) courir aboyer courir
+1	FINI	_	_	_	_	_	_	_	AlignBegin=1359348|AlignEnd=1359668
+2	CHIEN (esquisse)	_	_	_	_	_	_	_	AlignBegin=1359668|AlignEnd=1359993
+3	courir	_	_	_	_	_	_	_	AlignBegin=1359993|AlignEnd=1361628
+4	aboyer	_	_	_	_	_	_	_	AlignBegin=1361628|AlignEnd=1362068
+5	courir	_	_	_	_	_	_	_	AlignBegin=1362068|AlignEnd=1362508
+
+# sent_id = crdo-fsl-cuc022_115
+# source_file = ./CUC022_low.mp4
+# traduction_fr = le chat, toujours agripé à l'arbre, fait des efforts désespéré pour agriper le nid.
+# text = chat agrippé à l'arbre tenter d'agripper le nid EFFORT tenter d'agripper le nid
+1	chat agrippé à l'arbre	_	_	_	_	_	_	_	AlignBegin=1362508|AlignEnd=1363108
+2	tenter d'agripper le nid	_	_	_	_	_	_	_	AlignBegin=1363108|AlignEnd=1364033
+3	EFFORT	_	_	_	_	_	_	_	AlignBegin=1364033|AlignEnd=1364343
+4	tenter d'agripper le nid	_	_	_	_	_	_	_	AlignBegin=1364343|AlignEnd=1365343
+
+# sent_id = crdo-fsl-cuc022_116
+# source_file = ./CUC022_low.mp4
+# traduction_fr = le chien s'arrête, grogne, saute et attrape la queue du chat.
+# text = être à l'arrêt, croc dehors attraper quelque chose avec force quelque chose qui pend QUEUE attraper quelque chose
+1	être à l'arrêt, croc dehors	_	_	_	_	_	_	_	AlignBegin=1365343|AlignEnd=1366028
+2	attraper quelque chose avec force	_	_	_	_	_	_	_	AlignBegin=1366028|AlignEnd=1367708
+3	quelque chose qui pend	_	_	_	_	_	_	_	AlignBegin=1367708|AlignEnd=1368228
+4	QUEUE	_	_	_	_	_	_	_	AlignBegin=1368228|AlignEnd=1368778
+5	attraper quelque chose	_	_	_	_	_	_	_	AlignBegin=1368778|AlignEnd=1369503
+
+# sent_id = crdo-fsl-cuc022_117
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat surpris, s'agripe à l'arbre et crie, le chien tient la queue
+# text = CHAT (esquisse) s'agripper à l'arbre CRIER (esquiss) s'agripper à l'arbre CHIEN (esquisse) tirer quelque chose vers soi
+1	CHAT (esquisse)	_	_	_	_	_	_	_	AlignBegin=1369503|AlignEnd=1369798
+2	s'agripper à l'arbre	_	_	_	_	_	_	_	AlignBegin=1369798|AlignEnd=1370588
+3	CRIER (esquiss)	_	_	_	_	_	_	_	AlignBegin=1370588|AlignEnd=1370903
+4	s'agripper à l'arbre	_	_	_	_	_	_	_	AlignBegin=1370903|AlignEnd=1371278
+5	CHIEN (esquisse)	_	_	_	_	_	_	_	AlignBegin=1371278|AlignEnd=1371588
+6	tirer quelque chose vers soi	_	_	_	_	_	_	_	AlignBegin=1371588|AlignEnd=1373068
+
+# sent_id = crdo-fsl-cuc022_118
+# source_file = ./CUC022_low.mp4
+# traduction_fr = le chat a les postérieurs dans le vide, le chien tire la queue et le chat lâche prise et fait un vol plané avant de tomber.
+# text = pattes arrière dans le vide tirer d'un coup sec lâcher prise CHAT perdre l'équilibre tomber
+1	pattes arrière dans le vide	_	_	_	_	_	_	_	AlignBegin=1373068|AlignEnd=1374663
+2	tirer d'un coup sec	_	_	_	_	_	_	_	AlignBegin=1374663|AlignEnd=1375988
+3	lâcher prise	_	_	_	_	_	_	_	AlignBegin=1375988|AlignEnd=1376633
+4	CHAT	_	_	_	_	_	_	_	AlignBegin=1376633|AlignEnd=1376988
+5	perdre l'équilibre	_	_	_	_	_	_	_	AlignBegin=1376988|AlignEnd=1377388
+6	tomber	_	_	_	_	_	_	_	AlignBegin=1377388|AlignEnd=1378943
+
+# sent_id = crdo-fsl-cuc022_119
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il se relève en crachant de colère, les poils hérisés,
+# text = se relever être à l'arrêt, attaquant poils hérissés être à l'arrêt
+1	se relever	_	_	_	_	_	_	_	AlignBegin=1378943|AlignEnd=1379458
+2	être à l'arrêt, attaquant	_	_	_	_	_	_	_	AlignBegin=1379458|AlignEnd=1380108
+3	poils hérissés	_	_	_	_	_	_	_	AlignBegin=1380108|AlignEnd=1380828
+4	être à l'arrêt	_	_	_	_	_	_	_	AlignBegin=1380828|AlignEnd=1381228
+
+# sent_id = crdo-fsl-cuc022_120
+# source_file = ./CUC022_low.mp4
+# traduction_fr = le chien aboie. Ils se disputent.
+# text = APRES (esquisse) aboyer SE DISPUTER
+1	APRES (esquisse)	_	_	_	_	_	_	_	AlignBegin=1381228|AlignEnd=1381663
+2	aboyer	_	_	_	_	_	_	_	AlignBegin=1381663|AlignEnd=1382748
+3	SE DISPUTER	_	_	_	_	_	_	_	AlignBegin=1382748|AlignEnd=1384428
+
+# sent_id = crdo-fsl-cuc022_121
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Justement, l'oiseau entent et affolé retourne en vitesse au nid, il arrive à l'arbre et les oisillons piaillent,
+# text = JUSTE OISEAU voler ENTENDRE RETOURNER voler arriver à l'arbre (être en train de) OISEAU (esquisse) oisillons piailler arriver à l'arbre
+1	JUSTE	_	_	_	_	_	_	_	AlignBegin=1384428|AlignEnd=1384788
+2	OISEAU	_	_	_	_	_	_	_	AlignBegin=1384788|AlignEnd=1385068
+3	voler	_	_	_	_	_	_	_	AlignBegin=1385068|AlignEnd=1386058
+4	ENTENDRE	_	_	_	_	_	_	_	AlignBegin=1386058|AlignEnd=1386748
+5	RETOURNER	_	_	_	_	_	_	_	AlignBegin=1386748|AlignEnd=1388148
+6	voler	_	_	_	_	_	_	_	AlignBegin=1388148|AlignEnd=1389308
+7	arriver à l'arbre (être en train de)	_	_	_	_	_	_	_	AlignBegin=1389308|AlignEnd=1390668
+8	OISEAU (esquisse)	_	_	_	_	_	_	_	AlignBegin=1390668|AlignEnd=1390863
+9	oisillons piailler	_	_	_	_	_	_	_	AlignBegin=1390863|AlignEnd=1392148
+10	arriver à l'arbre	_	_	_	_	_	_	_	AlignBegin=1392148|AlignEnd=1392748
+
+# sent_id = crdo-fsl-cuc022_122
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau regarde en bas et aperçoit le chat et le chien se disputer.
+# text = regarder en bas APERCEVOIR LÀ SE DISPUTER
+1	regarder en bas	_	_	_	_	_	_	_	AlignBegin=1392748|AlignEnd=1393988
+2	APERCEVOIR	_	_	_	_	_	_	_	AlignBegin=1393988|AlignEnd=1394388
+3	LÀ	_	_	_	_	_	_	_	AlignBegin=1394388|AlignEnd=1394588
+4	SE DISPUTER	_	_	_	_	_	_	_	AlignBegin=1394588|AlignEnd=1396468
+
+# sent_id = crdo-fsl-cuc022_123
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat crache de colère, part, le chien le poursuit en courant.
+# text = CHAT s'affronter SE DISPUTER (esquisse) PARTIR SE POURSUIVRE CHIEN courir
+1	CHAT	_	_	_	_	_	_	_	AlignBegin=1396468|AlignEnd=1396908
+2	s'affronter	_	_	_	_	_	_	_	AlignBegin=1396908|AlignEnd=1397828
+3	SE DISPUTER (esquisse)	_	_	_	_	_	_	_	AlignBegin=1397828|AlignEnd=1398148
+4	PARTIR	_	_	_	_	_	_	_	AlignBegin=1398148|AlignEnd=1398787
+5	SE POURSUIVRE	_	_	_	_	_	_	_	AlignBegin=1398787|AlignEnd=1399667
+6	CHIEN	_	_	_	_	_	_	_	AlignBegin=1399667|AlignEnd=1400222
+7	courir	_	_	_	_	_	_	_	AlignBegin=1400222|AlignEnd=1401187
+
+# sent_id = crdo-fsl-cuc022_124
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le chat court et regrette ce qu'il a fait, les deux animaux disparaissent au loin, dans un nuage de poussière.
+# text = CHAT courir REGRETTER courir nuage de poussière s'atténuer (traces de poussière) Position neutre Position Neutre THEME
+1	CHAT	_	_	_	_	_	_	_	AlignBegin=1401187|AlignEnd=1401667
+2	courir	_	_	_	_	_	_	_	AlignBegin=1401667|AlignEnd=1403147
+3	REGRETTER	_	_	_	_	_	_	_	AlignBegin=1403147|AlignEnd=1403947
+4	courir	_	_	_	_	_	_	_	AlignBegin=1403947|AlignEnd=1404427
+5	nuage de poussière	_	_	_	_	_	_	_	AlignBegin=1404427|AlignEnd=1405902
+6	s'atténuer (traces de poussière)	_	_	_	_	_	_	_	AlignBegin=1405902|AlignEnd=1407307
+7	Position neutre	_	_	_	_	_	_	_	AlignBegin=1407307|AlignEnd=1408507
+8	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1413935|AlignEnd=1414305
+9	THEME	_	_	_	_	_	_	_	AlignBegin=1414305|AlignEnd=1415615
+
+# sent_id = crdo-fsl-cuc022_125
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est l'histoire d'un cheval. Dans un petit village, tout autour d'un grand jardin, il y a des champs.
+# text = CHEVAL PETIT VILLAGE étendue JARDIN CHAMPS étendue FLEURS PARSEMEES
+1	CHEVAL	_	_	_	_	_	_	_	AlignBegin=1415615|AlignEnd=1417775
+2	PETIT	_	_	_	_	_	_	_	AlignBegin=1417775|AlignEnd=1418625
+3	VILLAGE	_	_	_	_	_	_	_	AlignBegin=1418625|AlignEnd=1419425
+4	étendue	_	_	_	_	_	_	_	AlignBegin=1419425|AlignEnd=1421345
+5	JARDIN	_	_	_	_	_	_	_	AlignBegin=1421345|AlignEnd=1422145
+6	CHAMPS	_	_	_	_	_	_	_	AlignBegin=1422145|AlignEnd=1423785
+7	étendue	_	_	_	_	_	_	_	AlignBegin=1423785|AlignEnd=1424425
+8	FLEURS PARSEMEES	_	_	_	_	_	_	_	AlignBegin=1424425|AlignEnd=1427425
+
+# sent_id = crdo-fsl-cuc022_126
+# source_file = ./CUC022_low.mp4
+# traduction_fr = avec des fleurs parsemées, le soleil qui brille, le cheval content et heureux, galope.
+# text = SOLEIL CHEVAL CONTENT HEUREUX galoper vent souffle
+1	SOLEIL	_	_	_	_	_	_	_	AlignBegin=1427425|AlignEnd=1428545
+2	CHEVAL	_	_	_	_	_	_	_	AlignBegin=1428545|AlignEnd=1429745
+3	CONTENT	_	_	_	_	_	_	_	AlignBegin=1429745|AlignEnd=1430185
+4	HEUREUX	_	_	_	_	_	_	_	AlignBegin=1430185|AlignEnd=1430825
+5	galoper	_	_	_	_	_	_	_	AlignBegin=1430825|AlignEnd=1433825
+6	vent souffle	_	_	_	_	_	_	_	AlignBegin=1433825|AlignEnd=1434785
+
+# sent_id = crdo-fsl-cuc022_127
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le vent souffle, il n'arrête pas de galoper, mais devant lui, au loin, il y a une barrière et de l'autre côté, une vache
+# text = galoper loin devant lui galoper barrière LÀ (de l'autre côté) VACHE MANGER ruminer
+1	galoper	_	_	_	_	_	_	_	AlignBegin=1434785|AlignEnd=1438865
+2	loin devant lui	_	_	_	_	_	_	_	AlignBegin=1438865|AlignEnd=1439785
+3	galoper	_	_	_	_	_	_	_	AlignBegin=1439785|AlignEnd=1440385
+4	barrière	_	_	_	_	_	_	_	AlignBegin=1440385|AlignEnd=1441505
+5	LÀ (de l'autre côté)	_	_	_	_	_	_	_	AlignBegin=1441505|AlignEnd=1442430
+6	VACHE	_	_	_	_	_	_	_	AlignBegin=1442430|AlignEnd=1443065
+7	MANGER	_	_	_	_	_	_	_	AlignBegin=1443065|AlignEnd=1443345
+8	ruminer	_	_	_	_	_	_	_	AlignBegin=1443345|AlignEnd=1444025
+
+# sent_id = crdo-fsl-cuc022_128
+# source_file = ./CUC022_low.mp4
+# traduction_fr = qui rumine, avec une croupe large, elle rumine. Un oiseau piaille à côté d'elle, les ailes déployées.
+# text = croupe large ruminer bec d'OISEAU parler (pour un oiseau) voleter parler (pour un oiseau) REGARDER
+1	croupe large	_	_	_	_	_	_	_	AlignBegin=1444025|AlignEnd=1445265
+2	ruminer	_	_	_	_	_	_	_	AlignBegin=1445265|AlignEnd=1446985
+3	bec d'OISEAU	_	_	_	_	_	_	_	AlignBegin=1446985|AlignEnd=1447505
+4	parler (pour un oiseau)	_	_	_	_	_	_	_	AlignBegin=1447505|AlignEnd=1448500
+5	voleter	_	_	_	_	_	_	_	AlignBegin=1448500|AlignEnd=1449025
+6	parler (pour un oiseau)	_	_	_	_	_	_	_	AlignBegin=1449025|AlignEnd=1450505
+7	REGARDER	_	_	_	_	_	_	_	AlignBegin=1450505|AlignEnd=1450865
+
+# sent_id = crdo-fsl-cuc022_129
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il regarde vers la droite et aperçoit le cheval qui se rapproche au galop. L'oiseau, effaré, appelle la vache
+# text = APERCEVOIR quelque chose se rapproche CHEVAL (esquisse) galoper bec d'OISEAU (esquisse) appeler la vache voleter appeler la vache LÀ
+1	APERCEVOIR	_	_	_	_	_	_	_	AlignBegin=1450865|AlignEnd=1451305
+2	quelque chose se rapproche	_	_	_	_	_	_	_	AlignBegin=1451305|AlignEnd=1452340
+3	CHEVAL (esquisse)	_	_	_	_	_	_	_	AlignBegin=1452340|AlignEnd=1452705
+4	galoper	_	_	_	_	_	_	_	AlignBegin=1452705|AlignEnd=1453825
+5	bec d'OISEAU (esquisse)	_	_	_	_	_	_	_	AlignBegin=1453825|AlignEnd=1454145
+6	appeler la vache	_	_	_	_	_	_	_	AlignBegin=1454145|AlignEnd=1454585
+7	voleter	_	_	_	_	_	_	_	AlignBegin=1454586|AlignEnd=1454906
+8	appeler la vache	_	_	_	_	_	_	_	AlignBegin=1454906|AlignEnd=1455146
+9	LÀ	_	_	_	_	_	_	_	AlignBegin=1455146|AlignEnd=1455986
+
+# sent_id = crdo-fsl-cuc022_130
+# source_file = ./CUC022_low.mp4
+# traduction_fr = et lui montre le cheval :"hey, y a le cheval qui arrive !" La vache, rumine, relève la tête et voit le cheval :
+# text = CHEVAL ARRIVER cornes de VACHE ruminer lever la tête pour regarder OUI
+1	CHEVAL	_	_	_	_	_	_	_	AlignBegin=1455986|AlignEnd=1456466
+2	ARRIVER	_	_	_	_	_	_	_	AlignBegin=1456466|AlignEnd=1457386
+3	cornes de VACHE	_	_	_	_	_	_	_	AlignBegin=1457386|AlignEnd=1457866
+4	ruminer	_	_	_	_	_	_	_	AlignBegin=1457866|AlignEnd=1458421
+5	lever la tête pour regarder	_	_	_	_	_	_	_	AlignBegin=1458421|AlignEnd=1459826
+6	OUI	_	_	_	_	_	_	_	AlignBegin=1459826|AlignEnd=1460696
+
+# sent_id = crdo-fsl-cuc022_131
+# source_file = ./CUC022_low.mp4
+# traduction_fr = "oui, en effet !" Le cheval se rapproche, au galop, et pile devant eux. "Bonjour l'oiseau, comment vas-tu?"
+# text = se retourner, surpris voir un animal qui se rapproche galoper s'arrêter brusquement BONJOUR OISEAU TOI CA VA reculer
+1	se retourner, surpris	_	_	_	_	_	_	_	AlignBegin=1460696|AlignEnd=1461906
+2	voir un animal qui se rapproche	_	_	_	_	_	_	_	AlignBegin=1461906|AlignEnd=1462866
+3	galoper	_	_	_	_	_	_	_	AlignBegin=1462866|AlignEnd=1464416
+4	s'arrêter brusquement	_	_	_	_	_	_	_	AlignBegin=1464416|AlignEnd=1465546
+5	BONJOUR	_	_	_	_	_	_	_	AlignBegin=1465546|AlignEnd=1466186
+6	OISEAU	_	_	_	_	_	_	_	AlignBegin=1466186|AlignEnd=1466506
+7	TOI	_	_	_	_	_	_	_	AlignBegin=1466506|AlignEnd=1466706
+8	CA VA	_	_	_	_	_	_	_	AlignBegin=1466706|AlignEnd=1467226
+9	reculer	_	_	_	_	_	_	_	AlignBegin=1467226|AlignEnd=1468626
+
+# sent_id = crdo-fsl-cuc022_132
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau recule, très surpris et demande à la vache : "C'est qui ? Ah, c'est le cheval… ah bon, ça va!"
+# text = LUI QUI LUI CHEVAL LUI ah bon! VACHE
+1	LUI	_	_	_	_	_	_	_	AlignBegin=1468626|AlignEnd=1468946
+2	QUI	_	_	_	_	_	_	_	AlignBegin=1468946|AlignEnd=1469346
+3	LUI	_	_	_	_	_	_	_	AlignBegin=1469346|AlignEnd=1469906
+4	CHEVAL	_	_	_	_	_	_	_	AlignBegin=1469906|AlignEnd=1470226
+5	LUI	_	_	_	_	_	_	_	AlignBegin=1470226|AlignEnd=1470666
+6	ah bon!	_	_	_	_	_	_	_	AlignBegin=1470666|AlignEnd=1472026
+7	VACHE	_	_	_	_	_	_	_	AlignBegin=1472026|AlignEnd=1472586
+
+# sent_id = crdo-fsl-cuc022_133
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La vache :"bonjour, ça va toi?" le cheval : "oui, ça va "
+# text = BONJOUR CA VA (esquisse) TOI OUI (esquisse) oreilles de CHEVAL CA VA MOI JUSTE
+1	BONJOUR	_	_	_	_	_	_	_	AlignBegin=1472586|AlignEnd=1473101
+2	CA VA (esquisse)	_	_	_	_	_	_	_	AlignBegin=1473101|AlignEnd=1473226
+3	TOI	_	_	_	_	_	_	_	AlignBegin=1473226|AlignEnd=1473666
+4	OUI (esquisse)	_	_	_	_	_	_	_	AlignBegin=1473666|AlignEnd=1473986
+5	oreilles de CHEVAL	_	_	_	_	_	_	_	AlignBegin=1473986|AlignEnd=1474426
+6	CA VA	_	_	_	_	_	_	_	AlignBegin=1474426|AlignEnd=1474666
+7	MOI	_	_	_	_	_	_	_	AlignBegin=1474666|AlignEnd=1474901
+8	JUSTE	_	_	_	_	_	_	_	AlignBegin=1476061|AlignEnd=1476756
+
+# sent_id = crdo-fsl-cuc022_134
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le cheval, bien campé au sol, réfléchit : j'aimerais bien moi…"  Il recule
+# text = CHEVAL jauger la situation VOULOIR jauger la situation reculer MOI (esquisse)
+1	CHEVAL	_	_	_	_	_	_	_	AlignBegin=1476756|AlignEnd=1477266
+2	jauger la situation	_	_	_	_	_	_	_	AlignBegin=1477266|AlignEnd=1478146
+3	VOULOIR	_	_	_	_	_	_	_	AlignBegin=1478146|AlignEnd=1479031
+4	jauger la situation	_	_	_	_	_	_	_	AlignBegin=1479031|AlignEnd=1479706
+5	reculer	_	_	_	_	_	_	_	AlignBegin=1479706|AlignEnd=1480341
+6	MOI (esquisse)	_	_	_	_	_	_	_	AlignBegin=1480341|AlignEnd=1480426
+
+# sent_id = crdo-fsl-cuc022_135
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Moi, je veux être le premier, le plus fort, je vais sauter la barrière
+# text = VOULOIR MOI PREMIER FORT sauter barrière sauter TOI
+1	VOULOIR	_	_	_	_	_	_	_	AlignBegin=1480426|AlignEnd=1480826
+2	MOI	_	_	_	_	_	_	_	AlignBegin=1480826|AlignEnd=1480946
+3	PREMIER	_	_	_	_	_	_	_	AlignBegin=1480946|AlignEnd=1481266
+4	FORT	_	_	_	_	_	_	_	AlignBegin=1481266|AlignEnd=1481626
+5	sauter	_	_	_	_	_	_	_	AlignBegin=1481626|AlignEnd=1482546
+6	barrière	_	_	_	_	_	_	_	AlignBegin=1482546|AlignEnd=1482861
+7	sauter	_	_	_	_	_	_	_	AlignBegin=1482861|AlignEnd=1483346
+8	TOI	_	_	_	_	_	_	_	AlignBegin=1483346|AlignEnd=1483666
+
+# sent_id = crdo-fsl-cuc022_136
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Toi, l'oiseau, tu sais pas le faire! Et toi non plus, la vache !" La vache, vexée, "moi?
+# text = NE PAS SAVOIR OISEAU TOI NE PAS SAVOIR VACHE cornes de VACHE MOI pffff!
+1	NE PAS SAVOIR	_	_	_	_	_	_	_	AlignBegin=1483666|AlignEnd=1483981
+2	OISEAU	_	_	_	_	_	_	_	AlignBegin=1483981|AlignEnd=1484506
+3	TOI	_	_	_	_	_	_	_	AlignBegin=1484506|AlignEnd=1484826
+4	NE PAS SAVOIR	_	_	_	_	_	_	_	AlignBegin=1484826|AlignEnd=1485266
+5	VACHE	_	_	_	_	_	_	_	AlignBegin=1485266|AlignEnd=1485826
+6	cornes de VACHE	_	_	_	_	_	_	_	AlignBegin=1485826|AlignEnd=1486386
+7	MOI	_	_	_	_	_	_	_	AlignBegin=1486386|AlignEnd=1486906
+8	pffff!	_	_	_	_	_	_	_	AlignBegin=1486906|AlignEnd=1487746
+
+# sent_id = crdo-fsl-cuc022_137
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Pfff ! Pourquoi tu me taquines? Et alors!? "L'oiseau à la vache :"Pfff ! Laisse tomber!", au cheval :"Fais voir !"
+# text = POURQUOI TAQUINER et alors? bec d'OISEAU laisser tomber! FAIRE VOIR vas-y!
+1	POURQUOI	_	_	_	_	_	_	_	AlignBegin=1487746|AlignEnd=1488066
+2	TAQUINER	_	_	_	_	_	_	_	AlignBegin=1488066|AlignEnd=1488506
+3	et alors?	_	_	_	_	_	_	_	AlignBegin=1488506|AlignEnd=1489026
+4	bec d'OISEAU	_	_	_	_	_	_	_	AlignBegin=1489026|AlignEnd=1489556
+5	laisser tomber!	_	_	_	_	_	_	_	AlignBegin=1489556|AlignEnd=1490306
+6	FAIRE VOIR	_	_	_	_	_	_	_	AlignBegin=1490306|AlignEnd=1490746
+7	vas-y!	_	_	_	_	_	_	_	AlignBegin=1490746|AlignEnd=1491551
+
+# sent_id = crdo-fsl-cuc022_138
+# source_file = ./CUC022_low.mp4
+# traduction_fr = allez vas-y !" Le cheval, fier : "OK! Vous allez voir que je suis le plus fort, c'est moi le plus fort ! "
+# text = CHEVAL O.K. MOI VOIR FIER MOI FORT MOI attendre
+1	CHEVAL	_	_	_	_	_	_	_	AlignBegin=1491551|AlignEnd=1492106
+2	O.K.	_	_	_	_	_	_	_	AlignBegin=1492106|AlignEnd=1492426
+3	MOI	_	_	_	_	_	_	_	AlignBegin=1492426|AlignEnd=1492746
+4	VOIR	_	_	_	_	_	_	_	AlignBegin=1492746|AlignEnd=1493186
+5	FIER	_	_	_	_	_	_	_	AlignBegin=1493186|AlignEnd=1493586
+6	MOI	_	_	_	_	_	_	_	AlignBegin=1493586|AlignEnd=1493746
+7	FORT	_	_	_	_	_	_	_	AlignBegin=1493746|AlignEnd=1493941
+8	MOI	_	_	_	_	_	_	_	AlignBegin=1493941|AlignEnd=1494146
+9	attendre	_	_	_	_	_	_	_	AlignBegin=1494146|AlignEnd=1494426
+
+# sent_id = crdo-fsl-cuc022_139
+# source_file = ./CUC022_low.mp4
+# traduction_fr = attendez!"  Il recule de la barrière, prend son élan et saute.  Il perd l'équilibre et patatras! Il tombe.
+# text = reculer barrière animal qui recule galoper sauter perdre l'équilibre tomber barrière cassée
+1	reculer	_	_	_	_	_	_	_	AlignBegin=1494426|AlignEnd=1496266
+2	barrière	_	_	_	_	_	_	_	AlignBegin=1496266|AlignEnd=1497066
+3	animal qui recule	_	_	_	_	_	_	_	AlignBegin=1497066|AlignEnd=1498426
+4	galoper	_	_	_	_	_	_	_	AlignBegin=1498426|AlignEnd=1501266
+5	sauter	_	_	_	_	_	_	_	AlignBegin=1501266|AlignEnd=1503741
+6	perdre l'équilibre	_	_	_	_	_	_	_	AlignBegin=1503741|AlignEnd=1504586
+7	tomber	_	_	_	_	_	_	_	AlignBegin=1504586|AlignEnd=1505866
+8	barrière cassée	_	_	_	_	_	_	_	AlignBegin=1505866|AlignEnd=1506786
+
+# sent_id = crdo-fsl-cuc022_140
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La barrière est cassée,le cheval est étendu par terre, les pattes en l'air, la vache aperçoit sur sa jambe
+# text = tomber JUSTE (esquisse) tomber être étendu au sol regarder la scène APERCEVOIR (esquisse) LÀ SANG
+1	tomber	_	_	_	_	_	_	_	AlignBegin=1506786|AlignEnd=1508426
+2	JUSTE (esquisse)	_	_	_	_	_	_	_	AlignBegin=1508986|AlignEnd=1509186
+3	tomber	_	_	_	_	_	_	_	AlignBegin=1509186|AlignEnd=1509901
+4	être étendu au sol	_	_	_	_	_	_	_	AlignBegin=1509901|AlignEnd=1512066
+5	regarder la scène	_	_	_	_	_	_	_	AlignBegin=1512066|AlignEnd=1513906
+6	APERCEVOIR (esquisse)	_	_	_	_	_	_	_	AlignBegin=1513906|AlignEnd=1514186
+7	LÀ	_	_	_	_	_	_	_	AlignBegin=1514186|AlignEnd=1514706
+8	SANG	_	_	_	_	_	_	_	AlignBegin=1514706|AlignEnd=1515266
+
+# sent_id = crdo-fsl-cuc022_141
+# source_file = ./CUC022_low.mp4
+# traduction_fr = du sang qui coule. Il souffre, les jambes étendues,il souffre :"houlàlàlà! S'il te plaît
+# text = couler sur la patte aïe aîe aïe! AVOIR MAL LÀ (jambe) ouh là là! aïe aïe aïe! S'IL VOUS PLAIT AIDER
+1	couler sur la patte	_	_	_	_	_	_	_	AlignBegin=1515266|AlignEnd=1516306
+2	aïe aîe aïe!	_	_	_	_	_	_	_	AlignBegin=1516306|AlignEnd=1517226
+3	AVOIR MAL	_	_	_	_	_	_	_	AlignBegin=1517226|AlignEnd=1517626
+4	LÀ (jambe)	_	_	_	_	_	_	_	AlignBegin=1517626|AlignEnd=1517981
+5	ouh là là!	_	_	_	_	_	_	_	AlignBegin=1517981|AlignEnd=1518316
+6	aïe aïe aïe!	_	_	_	_	_	_	_	AlignBegin=1518316|AlignEnd=1518826
+7	S'IL VOUS PLAIT	_	_	_	_	_	_	_	AlignBegin=1518826|AlignEnd=1519266
+8	AIDER	_	_	_	_	_	_	_	AlignBegin=1519266|AlignEnd=1519546
+
+# sent_id = crdo-fsl-cuc022_142
+# source_file = ./CUC022_low.mp4
+# traduction_fr = aide moi, vite, vite, vite" l'oiseau regarde, la vache cherche du regard quelque chose au loin :"comment l'aider?
+# text = VITE VITE OISEAU regarder et réfléchir cornes de VACHE regarder et réfléchir COMMENT (esquisse) AIDER chercher du regard IDEE
+1	VITE VITE	_	_	_	_	_	_	_	AlignBegin=1519546|AlignEnd=1520586
+2	OISEAU	_	_	_	_	_	_	_	AlignBegin=1520586|AlignEnd=1520866
+3	regarder et réfléchir	_	_	_	_	_	_	_	AlignBegin=1520866|AlignEnd=1522626
+4	cornes de VACHE	_	_	_	_	_	_	_	AlignBegin=1522626|AlignEnd=1523146
+5	regarder et réfléchir	_	_	_	_	_	_	_	AlignBegin=1523146|AlignEnd=1523706
+6	COMMENT (esquisse)	_	_	_	_	_	_	_	AlignBegin=1523706|AlignEnd=1523946
+7	AIDER	_	_	_	_	_	_	_	AlignBegin=1523946|AlignEnd=1524426
+8	chercher du regard	_	_	_	_	_	_	_	AlignBegin=1524426|AlignEnd=1525346
+9	IDEE	_	_	_	_	_	_	_	AlignBegin=1525346|AlignEnd=1526226
+
+# sent_id = crdo-fsl-cuc022_143
+# source_file = ./CUC022_low.mp4
+# traduction_fr = "Ah! J'ai une idée!"
+# text = APERCEVOIR
+1	APERCEVOIR	_	_	_	_	_	_	_	AlignBegin=1526226|AlignEnd=1526706
+
+# sent_id = crdo-fsl-cuc022_144
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Et elle aperçoit au loin, une maison de pharmacie, avec une croix sur la maison
+# text = au loin MAISON LÀ (sur la maison) LÀ PHARMACIE croix sur la maison regarder
+1	au loin	_	_	_	_	_	_	_	AlignBegin=1526706|AlignEnd=1527466
+2	MAISON	_	_	_	_	_	_	_	AlignBegin=1527466|AlignEnd=1528021
+3	LÀ (sur la maison)	_	_	_	_	_	_	_	AlignBegin=1528021|AlignEnd=1528346
+4	LÀ	_	_	_	_	_	_	_	AlignBegin=1528346|AlignEnd=1528666
+5	PHARMACIE	_	_	_	_	_	_	_	AlignBegin=1528666|AlignEnd=1529466
+6	croix sur la maison	_	_	_	_	_	_	_	AlignBegin=1529466|AlignEnd=1530186
+7	regarder	_	_	_	_	_	_	_	AlignBegin=1530186|AlignEnd=1531386
+
+# sent_id = crdo-fsl-cuc022_145
+# source_file = ./CUC022_low.mp4
+# traduction_fr = L'oiseau regarde la vache, qui lui dit :" attends, je vais l'aider, toi va chercher là bas" Oiseau hoche la tête
+# text = cornes de VACHE attendre AIDER CHERCHER (esquisse) attendre LÀ-BAS acquiescer voler
+1	cornes de VACHE	_	_	_	_	_	_	_	AlignBegin=1531386|AlignEnd=1531746
+2	attendre	_	_	_	_	_	_	_	AlignBegin=1531746|AlignEnd=1532066
+3	AIDER	_	_	_	_	_	_	_	AlignBegin=1532066|AlignEnd=1532426
+4	CHERCHER (esquisse)	_	_	_	_	_	_	_	AlignBegin=1532426|AlignEnd=1532626
+5	attendre	_	_	_	_	_	_	_	AlignBegin=1532626|AlignEnd=1532986
+6	LÀ-BAS	_	_	_	_	_	_	_	AlignBegin=1532986|AlignEnd=1533546
+7	acquiescer	_	_	_	_	_	_	_	AlignBegin=1533546|AlignEnd=1534026
+8	voler	_	_	_	_	_	_	_	AlignBegin=1534026|AlignEnd=1535266
+
+# sent_id = crdo-fsl-cuc022_146
+# source_file = ./CUC022_low.mp4
+# traduction_fr = et prend son envol, il arrive à la pharmacie, la vache regarde le cheval, lui soulève une jambe avec sa corne
+# text = partir arriver sur le toit regarder soulever quelque chose avec une corne lever la patte IMPOSSIBLE
+1	partir	_	_	_	_	_	_	_	AlignBegin=1535266|AlignEnd=1536226
+2	arriver sur le toit	_	_	_	_	_	_	_	AlignBegin=1536226|AlignEnd=1537826
+3	regarder	_	_	_	_	_	_	_	AlignBegin=1537826|AlignEnd=1539186
+4	soulever quelque chose avec une corne	_	_	_	_	_	_	_	AlignBegin=1539186|AlignEnd=1539956
+5	lever la patte	_	_	_	_	_	_	_	AlignBegin=1539956|AlignEnd=1541106
+6	IMPOSSIBLE	_	_	_	_	_	_	_	AlignBegin=1541106|AlignEnd=1541466
+
+# sent_id = crdo-fsl-cuc022_147
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le cheval : "Ouch! C'est impossible de se lever, je souffre et il y a du sang qui coule" il bouge la patte, la vache l'examine et lui dit :"attends
+# text = se relever SOUFFRIR SANG couler sur la patte bouger la patte cornes de VACHE attendre ATTENDRE VA VA
+1	se relever	_	_	_	_	_	_	_	AlignBegin=1541466|AlignEnd=1542151
+2	SOUFFRIR	_	_	_	_	_	_	_	AlignBegin=1542151|AlignEnd=1542706
+3	SANG	_	_	_	_	_	_	_	AlignBegin=1542706|AlignEnd=1542906
+4	couler sur la patte	_	_	_	_	_	_	_	AlignBegin=1542906|AlignEnd=1543506
+5	bouger la patte	_	_	_	_	_	_	_	AlignBegin=1543506|AlignEnd=1544746
+6	cornes de VACHE	_	_	_	_	_	_	_	AlignBegin=1544746|AlignEnd=1545346
+7	attendre	_	_	_	_	_	_	_	AlignBegin=1545346|AlignEnd=1545706
+8	ATTENDRE	_	_	_	_	_	_	_	AlignBegin=1545706|AlignEnd=1546106
+9	VA VA	_	_	_	_	_	_	_	AlignBegin=1546106|AlignEnd=1546426
+
+# sent_id = crdo-fsl-cuc022_148
+# source_file = ./CUC022_low.mp4
+# traduction_fr = il va arriver"La vache regarde au loin, et aperçoit l'oiseau qui arrive. Il porte quelque chose de lourd, une boîte
+# text = ARRIVER regarder REGARDER APERCEVOIR LÀ OISEAU voler voler en portant quelque chose dans ses serres boîte voler en maintenant quelque chose voler en portant quelque chose dans ses serres voler
+1	ARRIVER	_	_	_	_	_	_	_	AlignBegin=1546426|AlignEnd=1546746
+2	regarder	_	_	_	_	_	_	_	AlignBegin=1546746|AlignEnd=1547146
+3	REGARDER	_	_	_	_	_	_	_	AlignBegin=1547146|AlignEnd=1548426
+4	APERCEVOIR	_	_	_	_	_	_	_	AlignBegin=1548426|AlignEnd=1548746
+5	LÀ	_	_	_	_	_	_	_	AlignBegin=1548746|AlignEnd=1549066
+6	OISEAU	_	_	_	_	_	_	_	AlignBegin=1549066|AlignEnd=1549306
+7	voler	_	_	_	_	_	_	_	AlignBegin=1549306|AlignEnd=1549861
+8	voler en portant quelque chose dans ses serres	_	_	_	_	_	_	_	AlignBegin=1549861|AlignEnd=1551826
+9	boîte	_	_	_	_	_	_	_	AlignBegin=1551826|AlignEnd=1553066
+10	voler en maintenant quelque chose	_	_	_	_	_	_	_	AlignBegin=1553066|AlignEnd=1553706
+11	voler en portant quelque chose dans ses serres	_	_	_	_	_	_	_	AlignBegin=1553706|AlignEnd=1554586
+12	voler	_	_	_	_	_	_	_	AlignBegin=1554586|AlignEnd=1555466
+
+# sent_id = crdo-fsl-cuc022_149
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Il porte la boîte, toujours en volant, et arrive pour la poser. Il est essoufflé.
+# text = voler en portant quelque chose dans ses serres ARRIVER poser quelque chose être essoufflé VACHE
+1	voler en portant quelque chose dans ses serres	_	_	_	_	_	_	_	AlignBegin=1555466|AlignEnd=1556346
+2	ARRIVER	_	_	_	_	_	_	_	AlignBegin=1556346|AlignEnd=1557346
+3	poser quelque chose	_	_	_	_	_	_	_	AlignBegin=1557346|AlignEnd=1558306
+4	être essoufflé	_	_	_	_	_	_	_	AlignBegin=1558306|AlignEnd=1559311
+5	VACHE	_	_	_	_	_	_	_	AlignBegin=1559786|AlignEnd=1560666
+
+# sent_id = crdo-fsl-cuc022_150
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La vache au cheval :" attends" elle ouvre la boite avec ses cornes qui s'ouvre lourdement. "Attends" le cheval
+# text = attendre regarder au sol boîte ouvrir avec les cornes s'ouvrir (boîte) attendre CHEVAL avoir mal
+1	attendre	_	_	_	_	_	_	_	AlignBegin=1560666|AlignEnd=1560916
+2	regarder au sol	_	_	_	_	_	_	_	AlignBegin=1560916|AlignEnd=1561866
+3	boîte	_	_	_	_	_	_	_	AlignBegin=1561866|AlignEnd=1562906
+4	ouvrir avec les cornes	_	_	_	_	_	_	_	AlignBegin=1562906|AlignEnd=1564266
+5	s'ouvrir (boîte)	_	_	_	_	_	_	_	AlignBegin=1564266|AlignEnd=1566226
+6	attendre	_	_	_	_	_	_	_	AlignBegin=1566226|AlignEnd=1566746
+7	CHEVAL	_	_	_	_	_	_	_	AlignBegin=1566746|AlignEnd=1567261
+8	avoir mal	_	_	_	_	_	_	_	AlignBegin=1567261|AlignEnd=1568146
+
+# sent_id = crdo-fsl-cuc022_151
+# source_file = ./CUC022_low.mp4
+# traduction_fr = les pattes étendues, souffre :" houlàlàlà, ma jambe! Vite! Je sens que je vais mourir !
+# text = AVOIR MAL (esquisse) LÀ (jambe) VITE ouh là là! SENTIR VA VA MOURIR MOI
+1	AVOIR MAL (esquisse)	_	_	_	_	_	_	_	AlignBegin=1568146|AlignEnd=1568426
+2	LÀ (jambe)	_	_	_	_	_	_	_	AlignBegin=1568426|AlignEnd=1568706
+3	VITE	_	_	_	_	_	_	_	AlignBegin=1568706|AlignEnd=1569106
+4	ouh là là!	_	_	_	_	_	_	_	AlignBegin=1569106|AlignEnd=1569386
+5	SENTIR	_	_	_	_	_	_	_	AlignBegin=1569386|AlignEnd=1569906
+6	VA VA	_	_	_	_	_	_	_	AlignBegin=1569906|AlignEnd=1570106
+7	MOURIR	_	_	_	_	_	_	_	AlignBegin=1570106|AlignEnd=1570546
+8	MOI	_	_	_	_	_	_	_	AlignBegin=1570546|AlignEnd=1570751
+
+# sent_id = crdo-fsl-cuc022_152
+# source_file = ./CUC022_low.mp4
+# traduction_fr = mon sang coule sur ma jambe, houlàlàlà , vite, vite ! " la vache, le rassure "attends" elle regarde la plaie,
+# text = SANG couler sur la jambe ouh là là! VITE MOI (esquisse) attendre (esquisse) regarder saisir quelque chose avec ses cornes
+1	SANG	_	_	_	_	_	_	_	AlignBegin=1570751|AlignEnd=1570986
+2	couler sur la jambe	_	_	_	_	_	_	_	AlignBegin=1570986|AlignEnd=1571541
+3	ouh là là!	_	_	_	_	_	_	_	AlignBegin=1571541|AlignEnd=1571826
+4	VITE	_	_	_	_	_	_	_	AlignBegin=1571826|AlignEnd=1572266
+5	MOI (esquisse)	_	_	_	_	_	_	_	AlignBegin=1572266|AlignEnd=1572466
+6	attendre (esquisse)	_	_	_	_	_	_	_	AlignBegin=1572466|AlignEnd=1572706
+7	regarder	_	_	_	_	_	_	_	AlignBegin=1572706|AlignEnd=1573266
+8	saisir quelque chose avec ses cornes	_	_	_	_	_	_	_	AlignBegin=1573266|AlignEnd=1574426
+
+# sent_id = crdo-fsl-cuc022_153
+# source_file = ./CUC022_low.mp4
+# traduction_fr = et saisis quelque chose avec ses cornes, c'est une bande blanche , elle la sort de la boîte et enroule la bande
+# text = BLANC BANDE forme petite défaire la bande avec la corne forme petite qui s'allonge bande défaite avec corne (fin) enrouler la bande se faire bander péniblement
+1	BLANC	_	_	_	_	_	_	_	AlignBegin=1574426|AlignEnd=1574586
+2	BANDE	_	_	_	_	_	_	_	AlignBegin=1574586|AlignEnd=1575186
+3	forme petite	_	_	_	_	_	_	_	AlignBegin=1575186|AlignEnd=1575586
+4	défaire la bande avec la corne	_	_	_	_	_	_	_	AlignBegin=1575586|AlignEnd=1576256
+5	forme petite qui s'allonge	_	_	_	_	_	_	_	AlignBegin=1576256|AlignEnd=1577426
+6	bande défaite avec corne (fin)	_	_	_	_	_	_	_	AlignBegin=1577426|AlignEnd=1577746
+7	enrouler la bande	_	_	_	_	_	_	_	AlignBegin=1577746|AlignEnd=1578826
+8	se faire bander péniblement	_	_	_	_	_	_	_	AlignBegin=1578826|AlignEnd=1579751
+
+# sent_id = crdo-fsl-cuc022_154
+# source_file = ./CUC022_low.mp4
+# traduction_fr = autour de la jambe du cheval."aïe! J'ai mal! Je souffre!"et se laisse bande la patte. L'oiseau regarde la scène
+# text = appeler PATIENCE attendre SOUFFRIR se faire bander être statique regarder REGARDER cornes de VACHE (esquisse)
+1	appeler	_	_	_	_	_	_	_	AlignBegin=1579751|AlignEnd=1580231
+2	PATIENCE	_	_	_	_	_	_	_	AlignBegin=1580231|AlignEnd=1580586
+3	attendre	_	_	_	_	_	_	_	AlignBegin=1580586|AlignEnd=1580786
+4	SOUFFRIR	_	_	_	_	_	_	_	AlignBegin=1580786|AlignEnd=1581346
+5	se faire bander	_	_	_	_	_	_	_	AlignBegin=1581346|AlignEnd=1582626
+6	être statique	_	_	_	_	_	_	_	AlignBegin=1582626|AlignEnd=1583266
+7	regarder	_	_	_	_	_	_	_	AlignBegin=1583266|AlignEnd=1585066
+8	REGARDER	_	_	_	_	_	_	_	AlignBegin=1585066|AlignEnd=1585666
+9	cornes de VACHE (esquisse)	_	_	_	_	_	_	_	AlignBegin=1585666|AlignEnd=1585946
+
+# sent_id = crdo-fsl-cuc022_155
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La vache à l'oiseau : "attends" elle termine d'enrouler la bande :" voilà, essaie de te lever.
+# text = attendre finir d'enrouler bande fini ESSAYER venir se relever VACHE
+1	attendre	_	_	_	_	_	_	_	AlignBegin=1585946|AlignEnd=1586306
+2	finir d'enrouler bande	_	_	_	_	_	_	_	AlignBegin=1586306|AlignEnd=1586866
+3	fini	_	_	_	_	_	_	_	AlignBegin=1586866|AlignEnd=1587266
+4	ESSAYER	_	_	_	_	_	_	_	AlignBegin=1587266|AlignEnd=1587421
+5	venir	_	_	_	_	_	_	_	AlignBegin=1587421|AlignEnd=1587706
+6	se relever	_	_	_	_	_	_	_	AlignBegin=1587706|AlignEnd=1588626
+7	VACHE	_	_	_	_	_	_	_	AlignBegin=1588626|AlignEnd=1589426
+
+# sent_id = crdo-fsl-cuc022_156
+# source_file = ./CUC022_low.mp4
+# traduction_fr = La vache ;'aide à se lever, le cheval boite, la vache insiste , le cheval :" aïe, attends!"
+# text = se relever péniblement se lever boiter cornes de VACHE allez allez QUOI attendre (esquisse) cornes de VACHE (esquisse) se rétablir progressivement
+1	se relever péniblement	_	_	_	_	_	_	_	AlignBegin=1589426|AlignEnd=1590741
+2	se lever	_	_	_	_	_	_	_	AlignBegin=1590741|AlignEnd=1591136
+3	boiter	_	_	_	_	_	_	_	AlignBegin=1591136|AlignEnd=1593746
+4	cornes de VACHE	_	_	_	_	_	_	_	AlignBegin=1593746|AlignEnd=1594426
+5	allez allez	_	_	_	_	_	_	_	AlignBegin=1594426|AlignEnd=1595581
+6	QUOI	_	_	_	_	_	_	_	AlignBegin=1595581|AlignEnd=1596186
+7	attendre (esquisse)	_	_	_	_	_	_	_	AlignBegin=1596186|AlignEnd=1596466
+8	cornes de VACHE (esquisse)	_	_	_	_	_	_	_	AlignBegin=1596466|AlignEnd=1596706
+9	se rétablir progressivement	_	_	_	_	_	_	_	AlignBegin=1596706|AlignEnd=1598626
+
+# sent_id = crdo-fsl-cuc022_157
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Tandis qu'il boite encore, la vache se moque du cheval : "Eh bien, pourquoi tu me disais: "Je sais sauter moi." Hein? "
+# text = POURQUOI TOI ME SIGNER (= me dire) SAVOIR sauter hein cornes de VACHE (esquisse)
+1	POURQUOI	_	_	_	_	_	_	_	AlignBegin=1598626|AlignEnd=1599271
+2	TOI	_	_	_	_	_	_	_	AlignBegin=1599271|AlignEnd=1599506
+3	ME SIGNER (= me dire)	_	_	_	_	_	_	_	AlignBegin=1599506|AlignEnd=1600101
+4	SAVOIR	_	_	_	_	_	_	_	AlignBegin=1600101|AlignEnd=1600546
+5	sauter	_	_	_	_	_	_	_	AlignBegin=1600546|AlignEnd=1601661
+6	hein	_	_	_	_	_	_	_	AlignBegin=1601661|AlignEnd=1602061
+7	cornes de VACHE (esquisse)	_	_	_	_	_	_	_	AlignBegin=1602061|AlignEnd=1602586
+
+# sent_id = crdo-fsl-cuc022_158
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le cheval, déçu : "Je m'excuse, j'ai été vraiment bête de dire ça, je regrette,
+# text = oreilles de CHEVAL MOI PARDON VRAI MOI BETE SIGNER MOI REGRETTER "PAF" (se faire piéger)
+1	oreilles de CHEVAL	_	_	_	_	_	_	_	AlignBegin=1602586|AlignEnd=1602986
+2	MOI	_	_	_	_	_	_	_	AlignBegin=1602986|AlignEnd=1603226
+3	PARDON	_	_	_	_	_	_	_	AlignBegin=1603226|AlignEnd=1603746
+4	VRAI	_	_	_	_	_	_	_	AlignBegin=1603746|AlignEnd=1603986
+5	MOI	_	_	_	_	_	_	_	AlignBegin=1603986|AlignEnd=1604111
+6	BETE	_	_	_	_	_	_	_	AlignBegin=1604111|AlignEnd=1604666
+7	SIGNER	_	_	_	_	_	_	_	AlignBegin=1604666|AlignEnd=1605026
+8	MOI	_	_	_	_	_	_	_	AlignBegin=1605026|AlignEnd=1605266
+9	REGRETTER	_	_	_	_	_	_	_	AlignBegin=1605266|AlignEnd=1606071
+10	"PAF" (se faire piéger)	_	_	_	_	_	_	_	AlignBegin=1606071|AlignEnd=1606776
+
+# sent_id = crdo-fsl-cuc022_159
+# source_file = ./CUC022_low.mp4
+# traduction_fr = je me suis fait piéger, la prochaine fois j'y penserai plus." L'oiseau lui dit :" Ah! Voilà, T'as compris! "
+# text = PROCHAINE FOIS PENSER (esquisse) PLUS JAMAIS bec d'OISEAU alors! COMPRIS voilà! MOI (esquisse)
+1	PROCHAINE	_	_	_	_	_	_	_	AlignBegin=1606776|AlignEnd=1607236
+2	FOIS	_	_	_	_	_	_	_	AlignBegin=1607236|AlignEnd=1607431
+3	PENSER (esquisse)	_	_	_	_	_	_	_	AlignBegin=1607431|AlignEnd=1607746
+4	PLUS JAMAIS	_	_	_	_	_	_	_	AlignBegin=1607746|AlignEnd=1608746
+5	bec d'OISEAU	_	_	_	_	_	_	_	AlignBegin=1608746|AlignEnd=1609186
+6	alors!	_	_	_	_	_	_	_	AlignBegin=1609186|AlignEnd=1609421
+7	COMPRIS	_	_	_	_	_	_	_	AlignBegin=1609421|AlignEnd=1609866
+8	voilà!	_	_	_	_	_	_	_	AlignBegin=1609866|AlignEnd=1610736
+9	MOI (esquisse)	_	_	_	_	_	_	_	AlignBegin=1610736|AlignEnd=1611026
+
+# sent_id = crdo-fsl-cuc022_160
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le cheval :" pardon! Merci l'oiseau de m'avoir sauvé, merci aussi la vache ! "
+# text = PARDON MERCI OISEAU SAUVER AUSSI MERCI VACHE REGARDER
+1	PARDON	_	_	_	_	_	_	_	AlignBegin=1611026|AlignEnd=1611586
+2	MERCI	_	_	_	_	_	_	_	AlignBegin=1611586|AlignEnd=1612306
+3	OISEAU	_	_	_	_	_	_	_	AlignBegin=1612306|AlignEnd=1612706
+4	SAUVER	_	_	_	_	_	_	_	AlignBegin=1612706|AlignEnd=1613146
+5	AUSSI	_	_	_	_	_	_	_	AlignBegin=1613146|AlignEnd=1613426
+6	MERCI	_	_	_	_	_	_	_	AlignBegin=1613426|AlignEnd=1613826
+7	VACHE	_	_	_	_	_	_	_	AlignBegin=1613826|AlignEnd=1615306
+8	REGARDER	_	_	_	_	_	_	_	AlignBegin=1615306|AlignEnd=1615916
+
+# sent_id = crdo-fsl-cuc022_161
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ils se regardent et s'en vont ensemble, la vache et le cheval côte à côte et l'oiseau qui les suit en volant. Ils chantent ensemble.
+# text = SE REGARDER venir (vers D) venir (vers G) gambader côte à côte voler (derrière eux) CHANTER (EN SIGNES) ENSEMBLE Position Neutre Position Neutre
+1	SE REGARDER	_	_	_	_	_	_	_	AlignBegin=1615916|AlignEnd=1616301
+2	venir (vers D)	_	_	_	_	_	_	_	AlignBegin=1616301|AlignEnd=1616946
+3	venir (vers G)	_	_	_	_	_	_	_	AlignBegin=1616946|AlignEnd=1617626
+4	gambader côte à côte	_	_	_	_	_	_	_	AlignBegin=1617626|AlignEnd=1618666
+5	voler (derrière eux)	_	_	_	_	_	_	_	AlignBegin=1618666|AlignEnd=1619866
+6	CHANTER (EN SIGNES)	_	_	_	_	_	_	_	AlignBegin=1619866|AlignEnd=1620626
+7	ENSEMBLE	_	_	_	_	_	_	_	AlignBegin=1620626|AlignEnd=1622701
+8	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1622701|AlignEnd=1623541
+9	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1778453|AlignEnd=1778828
+
+# sent_id = crdo-fsl-cuc022_162
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est le thème d'une tarte, une quiche.
+# text = THEME GATEAU (esquisse) forme ronde (plat) Q.U.I.C.H. PI
+1	THEME	_	_	_	_	_	_	_	AlignBegin=1778828|AlignEnd=1779828
+2	GATEAU (esquisse)	_	_	_	_	_	_	_	AlignBegin=1779828|AlignEnd=1780148
+3	forme ronde (plat)	_	_	_	_	_	_	_	AlignBegin=1780148|AlignEnd=1781348
+4	Q.U.I.C.H.	_	_	_	_	_	_	_	AlignBegin=1781348|AlignEnd=1782388
+5	PI	_	_	_	_	_	_	_	AlignBegin=1782388|AlignEnd=1782823
+
+# sent_id = crdo-fsl-cuc022_163
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est mignon...
+# text = QUOI (esquisse) MIGNON? étendue plate forme ronde (plat)
+1	QUOI (esquisse)	_	_	_	_	_	_	_	AlignBegin=1782823|AlignEnd=1783063
+2	MIGNON?	_	_	_	_	_	_	_	AlignBegin=1783063|AlignEnd=1783388
+3	étendue plate	_	_	_	_	_	_	_	AlignBegin=1783388|AlignEnd=1783988
+4	forme ronde (plat)	_	_	_	_	_	_	_	AlignBegin=1783988|AlignEnd=1784348
+
+# sent_id = crdo-fsl-cuc022_164
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Alors, chez moi…
+# text = ALORS Position Neutre MON MAISON Position Neutre JUSTE Position Neutre
+1	ALORS	_	_	_	_	_	_	_	AlignBegin=1784348|AlignEnd=1785308
+2	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1785308|AlignEnd=1786028
+3	MON	_	_	_	_	_	_	_	AlignBegin=1786028|AlignEnd=1786468
+4	MAISON	_	_	_	_	_	_	_	AlignBegin=1786468|AlignEnd=1787188
+5	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1787188|AlignEnd=1791263
+6	JUSTE	_	_	_	_	_	_	_	AlignBegin=1791263|AlignEnd=1792038
+7	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1792038|AlignEnd=1793308
+
+# sent_id = crdo-fsl-cuc022_165
+# source_file = ./CUC022_low.mp4
+# traduction_fr = d'abord, il faut une pâte roulée
+# text = D'ABORD QUOI (esquisse) forme cylindrique (rouleau) SON PAIN (esquisse) mou
+1	D'ABORD	_	_	_	_	_	_	_	AlignBegin=1793308|AlignEnd=1793588
+2	QUOI (esquisse)	_	_	_	_	_	_	_	AlignBegin=1793588|AlignEnd=1793828
+3	forme cylindrique (rouleau)	_	_	_	_	_	_	_	AlignBegin=1793828|AlignEnd=1794588
+4	SON	_	_	_	_	_	_	_	AlignBegin=1794588|AlignEnd=1794868
+5	PAIN (esquisse)	_	_	_	_	_	_	_	AlignBegin=1794868|AlignEnd=1795233
+6	mou	_	_	_	_	_	_	_	AlignBegin=1795233|AlignEnd=1795788
+
+# sent_id = crdo-fsl-cuc022_166
+# source_file = ./CUC022_low.mp4
+# traduction_fr = On découpe l'emballage plastique de la pâte avec des ciseaux.
+# text = forme cylindrique (rouleau) rouler PLASTIQUE découper avec des ciseaux
+1	forme cylindrique (rouleau)	_	_	_	_	_	_	_	AlignBegin=1795788|AlignEnd=1796508
+2	rouler	_	_	_	_	_	_	_	AlignBegin=1796508|AlignEnd=1797223
+3	PLASTIQUE	_	_	_	_	_	_	_	AlignBegin=1797223|AlignEnd=1797628
+4	découper avec des ciseaux	_	_	_	_	_	_	_	AlignBegin=1797628|AlignEnd=1797988
+
+# sent_id = crdo-fsl-cuc022_167
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on enlève le plastique et on déroule la pâte.
+# text = ENLEVER forme cylindrique (rouleau) dérouler
+1	ENLEVER	_	_	_	_	_	_	_	AlignBegin=1797988|AlignEnd=1798428
+2	forme cylindrique (rouleau)	_	_	_	_	_	_	_	AlignBegin=1798428|AlignEnd=1798668
+3	dérouler	_	_	_	_	_	_	_	AlignBegin=1798668|AlignEnd=1799388
+
+# sent_id = crdo-fsl-cuc022_168
+# source_file = ./CUC022_low.mp4
+# traduction_fr = On l'applatit au rouleau à pâtisserie,
+# text = aplatir au rouleau à pâtisserie
+1	aplatir au rouleau à pâtisserie	_	_	_	_	_	_	_	AlignBegin=1799388|AlignEnd=1801348
+
+# sent_id = crdo-fsl-cuc022_169
+# source_file = ./CUC022_low.mp4
+# traduction_fr = quand c'est bien lisse (plat), on prend un moule à tarte en fer, avec une bordure autour.
+# text = bien lisse JUSTE FER forme ronde épaisse (moule) en cercle, rond bords épais forme ronde épaisse (moule) LÀ (le moule)
+1	bien lisse	_	_	_	_	_	_	_	AlignBegin=1801348|AlignEnd=1802748
+2	JUSTE	_	_	_	_	_	_	_	AlignBegin=1802748|AlignEnd=1803308
+3	FER	_	_	_	_	_	_	_	AlignBegin=1803308|AlignEnd=1803708
+4	forme ronde épaisse (moule)	_	_	_	_	_	_	_	AlignBegin=1803708|AlignEnd=1804228
+5	en cercle, rond	_	_	_	_	_	_	_	AlignBegin=1804228|AlignEnd=1805188
+6	bords épais	_	_	_	_	_	_	_	AlignBegin=1805188|AlignEnd=1806348
+7	forme ronde épaisse (moule)	_	_	_	_	_	_	_	AlignBegin=1806348|AlignEnd=1806668
+8	LÀ (le moule)	_	_	_	_	_	_	_	AlignBegin=1806668|AlignEnd=1806908
+
+# sent_id = crdo-fsl-cuc022_170
+# source_file = ./CUC022_low.mp4
+# traduction_fr = On retourne le moule sur la pâte, ce qui est difficile, et avec un couteau, on coupe les bords de la pâte.
+# text = retourner le moule sur la pâte DIFFICILE COUTEAU couper autour SOUPLE
+1	retourner le moule sur la pâte	_	_	_	_	_	_	_	AlignBegin=1806908|AlignEnd=1808828
+2	DIFFICILE	_	_	_	_	_	_	_	AlignBegin=1808828|AlignEnd=1809268
+3	COUTEAU	_	_	_	_	_	_	_	AlignBegin=1809268|AlignEnd=1809628
+4	couper autour	_	_	_	_	_	_	_	AlignBegin=1809628|AlignEnd=1811028
+5	SOUPLE	_	_	_	_	_	_	_	AlignBegin=1811028|AlignEnd=1811938
+
+# sent_id = crdo-fsl-cuc022_171
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Ce qui reste, on en fait un boule et on la met de côté. On retourne le plat
+# text = récupérer les bouts autour faire une boule la poser à côté retourner le plat forme ronde (plat) prendre la pâte
+1	récupérer les bouts autour	_	_	_	_	_	_	_	AlignBegin=1811938|AlignEnd=1813223
+2	faire une boule	_	_	_	_	_	_	_	AlignBegin=1813223|AlignEnd=1813828
+3	la poser à côté	_	_	_	_	_	_	_	AlignBegin=1813828|AlignEnd=1814593
+4	retourner le plat	_	_	_	_	_	_	_	AlignBegin=1814593|AlignEnd=1815628
+5	forme ronde (plat)	_	_	_	_	_	_	_	AlignBegin=1815628|AlignEnd=1816108
+6	prendre la pâte	_	_	_	_	_	_	_	AlignBegin=1816108|AlignEnd=1816548
+
+# sent_id = crdo-fsl-cuc022_172
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on prend la pâte avec le papier cuisson dessous, pour éviter que la tarte (gâteau) parte en miette ou colle au fond.
+# text = AVEC PLASTIQUE dessous POUR PROTEGER PAS GATEAU MOU COLLER NON (esquisse)
+1	AVEC	_	_	_	_	_	_	_	AlignBegin=1816548|AlignEnd=1816788
+2	PLASTIQUE	_	_	_	_	_	_	_	AlignBegin=1816788|AlignEnd=1817308
+3	dessous	_	_	_	_	_	_	_	AlignBegin=1817308|AlignEnd=1817988
+4	POUR	_	_	_	_	_	_	_	AlignBegin=1817988|AlignEnd=1818268
+5	PROTEGER	_	_	_	_	_	_	_	AlignBegin=1818268|AlignEnd=1818588
+6	PAS	_	_	_	_	_	_	_	AlignBegin=1818588|AlignEnd=1818948
+7	GATEAU	_	_	_	_	_	_	_	AlignBegin=1818948|AlignEnd=1819268
+8	MOU	_	_	_	_	_	_	_	AlignBegin=1819268|AlignEnd=1819588
+9	COLLER	_	_	_	_	_	_	_	AlignBegin=1819588|AlignEnd=1820068
+10	NON (esquisse)	_	_	_	_	_	_	_	AlignBegin=1820068|AlignEnd=1820263
+
+# sent_id = crdo-fsl-cuc022_173
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on prend la pâte et la pose dans le moule, bien aplatir sur les bords et faire le tour du moule.
+# text = prendre la pâte poser sur le moule bien aplatir sur les côtés faire le tour du moule aplatir au fond
+1	prendre la pâte	_	_	_	_	_	_	_	AlignBegin=1820263|AlignEnd=1821118
+2	poser sur le moule	_	_	_	_	_	_	_	AlignBegin=1821118|AlignEnd=1821428
+3	bien aplatir sur les côtés	_	_	_	_	_	_	_	AlignBegin=1821428|AlignEnd=1822748
+4	faire le tour du moule	_	_	_	_	_	_	_	AlignBegin=1822748|AlignEnd=1823783
+5	aplatir au fond	_	_	_	_	_	_	_	AlignBegin=1823783|AlignEnd=1824948
+
+# sent_id = crdo-fsl-cuc022_174
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Lorsque c'est fini, on pique le fond avec une fourchette.
+# text = FINI ENCORE MAIS FOURCHETTE prendre fourchette
+1	FINI	_	_	_	_	_	_	_	AlignBegin=1824948|AlignEnd=1825383
+2	ENCORE	_	_	_	_	_	_	_	AlignBegin=1825383|AlignEnd=1825748
+3	MAIS	_	_	_	_	_	_	_	AlignBegin=1825748|AlignEnd=1826068
+4	FOURCHETTE	_	_	_	_	_	_	_	AlignBegin=1826068|AlignEnd=1826508
+5	prendre fourchette	_	_	_	_	_	_	_	AlignBegin=1826508|AlignEnd=1826908
+
+# sent_id = crdo-fsl-cuc022_175
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Bien piquer toute la pâte.
+# text = piquer toute la pâte PRECIS TOUT JUSTE
+1	piquer toute la pâte	_	_	_	_	_	_	_	AlignBegin=1826908|AlignEnd=1829908
+2	PRECIS	_	_	_	_	_	_	_	AlignBegin=1829908|AlignEnd=1830503
+3	TOUT	_	_	_	_	_	_	_	AlignBegin=1830503|AlignEnd=1830948
+4	JUSTE	_	_	_	_	_	_	_	AlignBegin=1830948|AlignEnd=1831188
+
+# sent_id = crdo-fsl-cuc022_176
+# source_file = ./CUC022_low.mp4
+# traduction_fr = On vérifie, et on met le moule de côté.
+# text = LÀ FINI mettre le moule de côté MAIS
+1	LÀ	_	_	_	_	_	_	_	AlignBegin=1831188|AlignEnd=1831668
+2	FINI	_	_	_	_	_	_	_	AlignBegin=1831668|AlignEnd=1831868
+3	mettre le moule de côté	_	_	_	_	_	_	_	AlignBegin=1831868|AlignEnd=1832628
+4	MAIS	_	_	_	_	_	_	_	AlignBegin=1832628|AlignEnd=1833348
+
+# sent_id = crdo-fsl-cuc022_177
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Puis, on ouvre le four, on le fait préchauffer 5 minutes, et on le laisse,
+# text = OUVRIR LE FOUR PREPARER CINQ MINUTE CHAUFFER LAISSER
+1	OUVRIR LE FOUR	_	_	_	_	_	_	_	AlignBegin=1833348|AlignEnd=1834188
+2	PREPARER	_	_	_	_	_	_	_	AlignBegin=1834188|AlignEnd=1834673
+3	CINQ	_	_	_	_	_	_	_	AlignBegin=1834673|AlignEnd=1835148
+4	MINUTE	_	_	_	_	_	_	_	AlignBegin=1835148|AlignEnd=1835508
+5	CHAUFFER	_	_	_	_	_	_	_	AlignBegin=1835508|AlignEnd=1836668
+6	LAISSER	_	_	_	_	_	_	_	AlignBegin=1836668|AlignEnd=1837348
+
+# sent_id = crdo-fsl-cuc022_178
+# source_file = ./CUC022_low.mp4
+# traduction_fr = en attendant on continue de travailler
+# text = ATTENDRE LAISSER CONTINUER TRAVAILLER QUOI (puis pause)
+1	ATTENDRE	_	_	_	_	_	_	_	AlignBegin=1837348|AlignEnd=1837628
+2	LAISSER	_	_	_	_	_	_	_	AlignBegin=1837628|AlignEnd=1837953
+3	CONTINUER	_	_	_	_	_	_	_	AlignBegin=1837953|AlignEnd=1838508
+4	TRAVAILLER	_	_	_	_	_	_	_	AlignBegin=1838508|AlignEnd=1838828
+5	QUOI (puis pause)	_	_	_	_	_	_	_	AlignBegin=1838828|AlignEnd=1839908
+
+# sent_id = crdo-fsl-cuc022_179
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Alors… il faut prendre 4 œufs, un saladier
+# text = IL FAUT PRENDRE QUATRE OEUF grande forme incurvée (saladier) OEUF QUATRE
+1	IL FAUT	_	_	_	_	_	_	_	AlignBegin=1839908|AlignEnd=1840388
+2	PRENDRE	_	_	_	_	_	_	_	AlignBegin=1840388|AlignEnd=1840868
+3	QUATRE	_	_	_	_	_	_	_	AlignBegin=1840868|AlignEnd=1841268
+4	OEUF	_	_	_	_	_	_	_	AlignBegin=1841268|AlignEnd=1842228
+5	grande forme incurvée (saladier)	_	_	_	_	_	_	_	AlignBegin=1842228|AlignEnd=1842908
+6	OEUF	_	_	_	_	_	_	_	AlignBegin=1842908|AlignEnd=1843348
+7	QUATRE	_	_	_	_	_	_	_	AlignBegin=1843348|AlignEnd=1843623
+
+# sent_id = crdo-fsl-cuc022_180
+# source_file = ./CUC022_low.mp4
+# traduction_fr = casser les œufs dans le saladier un par un.
+# text = casser les 4 oeufs dans le saladier un par un
+1	casser les 4 oeufs dans le saladier un par un	_	_	_	_	_	_	_	AlignBegin=1843623|AlignEnd=1847303
+
+# sent_id = crdo-fsl-cuc022_181
+# source_file = ./CUC022_low.mp4
+# traduction_fr = battre les œufs jusqu'à ce qu'ils deviennent jaunes, un peu mousseux, bien les battre
+# text = saladier "comme ça" battre les oeufs DEVENIR JAUNE flasque et mousseux battre les oeufs prendre le saladier le poser à côté
+1	saladier "comme ça"	_	_	_	_	_	_	_	AlignBegin=1847303|AlignEnd=1847908
+2	battre les oeufs	_	_	_	_	_	_	_	AlignBegin=1847908|AlignEnd=1849548
+3	DEVENIR	_	_	_	_	_	_	_	AlignBegin=1849548|AlignEnd=1850028
+4	JAUNE	_	_	_	_	_	_	_	AlignBegin=1850028|AlignEnd=1850388
+5	flasque et mousseux	_	_	_	_	_	_	_	AlignBegin=1850388|AlignEnd=1852028
+6	battre les oeufs	_	_	_	_	_	_	_	AlignBegin=1852028|AlignEnd=1852708
+7	prendre le saladier	_	_	_	_	_	_	_	AlignBegin=1852708|AlignEnd=1853068
+8	le poser à côté	_	_	_	_	_	_	_	AlignBegin=1853068|AlignEnd=1853563
+
+# sent_id = crdo-fsl-cuc022_182
+# source_file = ./CUC022_low.mp4
+# traduction_fr = mettre le saladier de côté et prendre un pot de crème fraîche.
+# text = Position Neutre ALLER CHERCHER forme cylindrique petite (pot) CREME FRAICHE
+1	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1853563|AlignEnd=1854268
+2	ALLER CHERCHER	_	_	_	_	_	_	_	AlignBegin=1854268|AlignEnd=1855028
+3	forme cylindrique petite (pot)	_	_	_	_	_	_	_	AlignBegin=1855028|AlignEnd=1855748
+4	CREME	_	_	_	_	_	_	_	AlignBegin=1855748|AlignEnd=1856348
+5	FRAICHE	_	_	_	_	_	_	_	AlignBegin=1856348|AlignEnd=1857108
+
+# sent_id = crdo-fsl-cuc022_183
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Un pot de taille moyenne,
+# text = ouvrir le pot gros petit cylindre JUSTE petit cylindre
+1	ouvrir le pot	_	_	_	_	_	_	_	AlignBegin=1857108|AlignEnd=1857953
+2	gros	_	_	_	_	_	_	_	AlignBegin=1857953|AlignEnd=1858228
+3	petit cylindre	_	_	_	_	_	_	_	AlignBegin=1858228|AlignEnd=1858948
+4	JUSTE	_	_	_	_	_	_	_	AlignBegin=1858948|AlignEnd=1859268
+5	petit cylindre	_	_	_	_	_	_	_	AlignBegin=1859268|AlignEnd=1859708
+
+# sent_id = crdo-fsl-cuc022_184
+# source_file = ./CUC022_low.mp4
+# traduction_fr = l'ouvrir et mettre tout le pot de crème dans le saladier.
+# text = ouvrir le pot mettre la crème dans le saladier TOUT COMPLET mettre la crème dans le saladier
+1	ouvrir le pot	_	_	_	_	_	_	_	AlignBegin=1859708|AlignEnd=1860238
+2	mettre la crème dans le saladier	_	_	_	_	_	_	_	AlignBegin=1860238|AlignEnd=1861228
+3	TOUT	_	_	_	_	_	_	_	AlignBegin=1861228|AlignEnd=1861828
+4	COMPLET	_	_	_	_	_	_	_	AlignBegin=1861828|AlignEnd=1862628
+5	mettre la crème dans le saladier	_	_	_	_	_	_	_	AlignBegin=1862628|AlignEnd=1863868
+
+# sent_id = crdo-fsl-cuc022_185
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Battre le tout, jusqu'à ce que ça devienne blanc-jaune, mousseux, bien mélanger,
+# text = battre le tout surface mousseuse COMME (esquisse) JAUNE BLANC gonfler battre le tout
+1	battre le tout	_	_	_	_	_	_	_	AlignBegin=1863868|AlignEnd=1865468
+2	surface mousseuse	_	_	_	_	_	_	_	AlignBegin=1865468|AlignEnd=1866308
+3	COMME (esquisse)	_	_	_	_	_	_	_	AlignBegin=1866308|AlignEnd=1866708
+4	JAUNE	_	_	_	_	_	_	_	AlignBegin=1866708|AlignEnd=1867028
+5	BLANC	_	_	_	_	_	_	_	AlignBegin=1867028|AlignEnd=1867468
+6	gonfler	_	_	_	_	_	_	_	AlignBegin=1867468|AlignEnd=1868428
+7	battre le tout	_	_	_	_	_	_	_	AlignBegin=1868428|AlignEnd=1869508
+
+# sent_id = crdo-fsl-cuc022_186
+# source_file = ./CUC022_low.mp4
+# traduction_fr = une préparation fluide se forme, on bat jusqu'à ce que lorsqu'on soulève la fourchette,
+# text = surface mousseuse fluide battre le tout (quasi esquisse) SUIVRE soulever la fourchette
+1	surface mousseuse	_	_	_	_	_	_	_	AlignBegin=1869508|AlignEnd=1870268
+2	fluide	_	_	_	_	_	_	_	AlignBegin=1870268|AlignEnd=1871148
+3	battre le tout (quasi esquisse)	_	_	_	_	_	_	_	AlignBegin=1871148|AlignEnd=1871548
+4	SUIVRE	_	_	_	_	_	_	_	AlignBegin=1871548|AlignEnd=1872148
+5	soulever la fourchette	_	_	_	_	_	_	_	AlignBegin=1872148|AlignEnd=1872713
+
+# sent_id = crdo-fsl-cuc022_187
+# source_file = ./CUC022_low.mp4
+# traduction_fr = la préparation devient filante.
+# text = oeufs battus filant JUSTE
+1	oeufs battus filant	_	_	_	_	_	_	_	AlignBegin=1872713|AlignEnd=1873338
+2	JUSTE	_	_	_	_	_	_	_	AlignBegin=1873338|AlignEnd=1873558
+
+# sent_id = crdo-fsl-cuc022_188
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est bon, on pose le saladier à côté et on met encore autre chose
+# text = poser le saladier à côté ENCORE AUTRE FROMAGE paquet carré
+1	poser le saladier à côté	_	_	_	_	_	_	_	AlignBegin=1873558|AlignEnd=1874348
+2	ENCORE	_	_	_	_	_	_	_	AlignBegin=1874348|AlignEnd=1874708
+3	AUTRE	_	_	_	_	_	_	_	AlignBegin=1874708|AlignEnd=1875388
+4	FROMAGE	_	_	_	_	_	_	_	AlignBegin=1875388|AlignEnd=1875948
+5	paquet carré	_	_	_	_	_	_	_	AlignBegin=1875948|AlignEnd=1876628
+
+# sent_id = crdo-fsl-cuc022_189
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Le paquet de fromage râpé, qu'on ouvre avec des ciseaux, et on verse tout dans le saladier.
+# text = hacher couper (avec des ciseaux) TOUT verser battre le tout
+1	hacher	_	_	_	_	_	_	_	AlignBegin=1876628|AlignEnd=1877748
+2	couper (avec des ciseaux)	_	_	_	_	_	_	_	AlignBegin=1877748|AlignEnd=1878508
+3	TOUT	_	_	_	_	_	_	_	AlignBegin=1878508|AlignEnd=1879073
+4	verser	_	_	_	_	_	_	_	AlignBegin=1879073|AlignEnd=1880668
+5	battre le tout	_	_	_	_	_	_	_	AlignBegin=1880668|AlignEnd=1881828
+
+# sent_id = crdo-fsl-cuc022_190
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on mélange, une surface pâteuse se forme, on mélange et on met le saladier de côté.
+# text = surface pâteuse battre le tout mettre le saladier de côté Position Neutre AUTRE forme allongée (barquette)
+1	surface pâteuse	_	_	_	_	_	_	_	AlignBegin=1881828|AlignEnd=1882708
+2	battre le tout	_	_	_	_	_	_	_	AlignBegin=1882708|AlignEnd=1884348
+3	mettre le saladier de côté	_	_	_	_	_	_	_	AlignBegin=1884348|AlignEnd=1885148
+4	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1885148|AlignEnd=1885588
+5	AUTRE	_	_	_	_	_	_	_	AlignBegin=1885588|AlignEnd=1886028
+6	forme allongée (barquette)	_	_	_	_	_	_	_	AlignBegin=1886028|AlignEnd=1886748
+
+# sent_id = crdo-fsl-cuc022_191
+# source_file = ./CUC022_low.mp4
+# traduction_fr = Une barquette en plastique avec du jambon coupé en morceaux fins,
+# text = PLASTIQUE forme allongée (barquette) JAMBON AVEC BLANC (esquisse) formes fines (morceaux) HACHER tenir la barquette
+1	PLASTIQUE	_	_	_	_	_	_	_	AlignBegin=1886748|AlignEnd=1887268
+2	forme allongée (barquette)	_	_	_	_	_	_	_	AlignBegin=1887268|AlignEnd=1887748
+3	JAMBON	_	_	_	_	_	_	_	AlignBegin=1887748|AlignEnd=1888508
+4	AVEC	_	_	_	_	_	_	_	AlignBegin=1888508|AlignEnd=1888788
+5	BLANC (esquisse)	_	_	_	_	_	_	_	AlignBegin=1888788|AlignEnd=1888988
+6	formes fines (morceaux)	_	_	_	_	_	_	_	AlignBegin=1888988|AlignEnd=1889908
+7	HACHER	_	_	_	_	_	_	_	AlignBegin=1889908|AlignEnd=1890948
+8	tenir la barquette	_	_	_	_	_	_	_	AlignBegin=1890948|AlignEnd=1891278
+
+# sent_id = crdo-fsl-cuc022_192
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on la verse dans le saladier,
+# text = verser dans le saladier battre le tout
+1	verser dans le saladier	_	_	_	_	_	_	_	AlignBegin=1891278|AlignEnd=1892828
+2	battre le tout	_	_	_	_	_	_	_	AlignBegin=1892828|AlignEnd=1893708
+
+# sent_id = crdo-fsl-cuc022_193
+# source_file = ./CUC022_low.mp4
+# traduction_fr = la surface est pâteuse, et on mélange, puis c'est fini.
+# text = surface pâteuse battre le tout FINI tenir/poser le saladier
+1	surface pâteuse	_	_	_	_	_	_	_	AlignBegin=1893708|AlignEnd=1894308
+2	battre le tout	_	_	_	_	_	_	_	AlignBegin=1894308|AlignEnd=1894908
+3	FINI	_	_	_	_	_	_	_	AlignBegin=1894908|AlignEnd=1895348
+4	tenir/poser le saladier	_	_	_	_	_	_	_	AlignBegin=1895348|AlignEnd=1895828
+
+# sent_id = crdo-fsl-cuc022_194
+# source_file = ./CUC022_low.mp4
+# traduction_fr = lorsqu'on apercoit le four chaud, et en ouvrant, la chaleur se dégage, c'est bon.
+# text = APERCEVOIR CHAUD CHAUFFER OUVRIR LE FOUR LÀ chaleur se dégage grande forme incurvée (moule à tarte?)
+1	APERCEVOIR	_	_	_	_	_	_	_	AlignBegin=1895828|AlignEnd=1896428
+2	CHAUD	_	_	_	_	_	_	_	AlignBegin=1896428|AlignEnd=1896828
+3	CHAUFFER	_	_	_	_	_	_	_	AlignBegin=1896828|AlignEnd=1897188
+4	OUVRIR LE FOUR	_	_	_	_	_	_	_	AlignBegin=1897188|AlignEnd=1897788
+5	LÀ	_	_	_	_	_	_	_	AlignBegin=1897788|AlignEnd=1898268
+6	chaleur se dégage	_	_	_	_	_	_	_	AlignBegin=1898268|AlignEnd=1899108
+7	grande forme incurvée (moule à tarte?)	_	_	_	_	_	_	_	AlignBegin=1899108|AlignEnd=1899988
+
+# sent_id = crdo-fsl-cuc022_195
+# source_file = ./CUC022_low.mp4
+# traduction_fr = On prend le moule en fer avec des trous de fourchettes dedans,
+# text = FER fourchette plantée dans la pâte forme incurvée (saladier)
+1	FER	_	_	_	_	_	_	_	AlignBegin=1899988|AlignEnd=1900348
+2	fourchette plantée dans la pâte	_	_	_	_	_	_	_	AlignBegin=1900348|AlignEnd=1901548
+3	forme incurvée (saladier)	_	_	_	_	_	_	_	AlignBegin=1901548|AlignEnd=1902468
+
+# sent_id = crdo-fsl-cuc022_196
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on verse le contenu du saladier avec une cuillère et on racle bien le saladier au dessus de la tarte.
+# text = mettre le contenu du saladier sur la pâte avec une cuillère racler le saladier au dessus du plat poser le saladier vide
+1	mettre le contenu du saladier sur la pâte avec une cuillère	_	_	_	_	_	_	_	AlignBegin=1902468|AlignEnd=1904108
+2	racler le saladier au dessus du plat	_	_	_	_	_	_	_	AlignBegin=1904108|AlignEnd=1905228
+3	poser le saladier vide	_	_	_	_	_	_	_	AlignBegin=1905228|AlignEnd=1905668
+
+# sent_id = crdo-fsl-cuc022_197
+# source_file = ./CUC022_low.mp4
+# traduction_fr = c'est bon, on prend la tarte et on l'enfourne, on referme le four.
+# text = surface liquide (sur la tarte) JUSTE enfourner la tarte REFERMER LE FOUR
+1	surface liquide (sur la tarte)	_	_	_	_	_	_	_	AlignBegin=1905668|AlignEnd=1907428
+2	JUSTE	_	_	_	_	_	_	_	AlignBegin=1907428|AlignEnd=1907708
+3	enfourner la tarte	_	_	_	_	_	_	_	AlignBegin=1907708|AlignEnd=1909748
+4	REFERMER LE FOUR	_	_	_	_	_	_	_	AlignBegin=1909748|AlignEnd=1911108
+
+# sent_id = crdo-fsl-cuc022_198
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on attend 30 ou 25 minutes, en controlant de temps en temps.
+# text = ATTENDRE TRENTE MINUTE OU VINGT-CINQ MINUTE AVEC
+1	ATTENDRE	_	_	_	_	_	_	_	AlignBegin=1911108|AlignEnd=1911948
+2	TRENTE	_	_	_	_	_	_	_	AlignBegin=1911948|AlignEnd=1912513
+3	MINUTE	_	_	_	_	_	_	_	AlignBegin=1912513|AlignEnd=1913028
+4	OU	_	_	_	_	_	_	_	AlignBegin=1913028|AlignEnd=1913388
+5	VINGT-CINQ	_	_	_	_	_	_	_	AlignBegin=1913388|AlignEnd=1913703
+6	MINUTE	_	_	_	_	_	_	_	AlignBegin=1913703|AlignEnd=1914108
+7	AVEC	_	_	_	_	_	_	_	AlignBegin=1914108|AlignEnd=1914428
+
+# sent_id = crdo-fsl-cuc022_199
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on ouvre puis referme le four,
+# text = CONTRÔLER OUVRIR ET FERMER LE FOUR
+1	CONTRÔLER	_	_	_	_	_	_	_	AlignBegin=1914428|AlignEnd=1914868
+2	OUVRIR ET FERMER LE FOUR	_	_	_	_	_	_	_	AlignBegin=1914868|AlignEnd=1915668
+
+# sent_id = crdo-fsl-cuc022_200
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on attend et quand l'heure est passée, on ouvre le four et on vérifie avec une fourchette
+# text = ATTENDRE PASSER HEURE OUVRIR LE FOUR FOURCHETTE CONTRÔLER
+1	ATTENDRE	_	_	_	_	_	_	_	AlignBegin=1915668|AlignEnd=1916708
+2	PASSER	_	_	_	_	_	_	_	AlignBegin=1916708|AlignEnd=1917143
+3	HEURE	_	_	_	_	_	_	_	AlignBegin=1917143|AlignEnd=1917388
+4	OUVRIR LE FOUR	_	_	_	_	_	_	_	AlignBegin=1917388|AlignEnd=1918263
+5	FOURCHETTE	_	_	_	_	_	_	_	AlignBegin=1918263|AlignEnd=1919148
+6	CONTRÔLER	_	_	_	_	_	_	_	AlignBegin=1919148|AlignEnd=1919548
+
+# sent_id = crdo-fsl-cuc022_201
+# source_file = ./CUC022_low.mp4
+# traduction_fr = On pique la tarte et si c'est mou c'est que c'est pas fini, pas encore prêt.
+# text = piquer la tarte mou PAS FINI PAS ENCORE PRÊT
+1	piquer la tarte	_	_	_	_	_	_	_	AlignBegin=1919548|AlignEnd=1920708
+2	mou	_	_	_	_	_	_	_	AlignBegin=1920708|AlignEnd=1921308
+3	PAS FINI	_	_	_	_	_	_	_	AlignBegin=1921308|AlignEnd=1921988
+4	PAS ENCORE	_	_	_	_	_	_	_	AlignBegin=1921988|AlignEnd=1922428
+5	PRÊT	_	_	_	_	_	_	_	AlignBegin=1922428|AlignEnd=1922788
+
+# sent_id = crdo-fsl-cuc022_202
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on referme le four et on attend, lorqu'une odeur forte se répand,
+# text = CUIRE REFERMER LE FOUR ATTENDRE ODEUR PUISSANT
+1	CUIRE	_	_	_	_	_	_	_	AlignBegin=1922788|AlignEnd=1923498
+2	REFERMER LE FOUR	_	_	_	_	_	_	_	AlignBegin=1923498|AlignEnd=1924308
+3	ATTENDRE	_	_	_	_	_	_	_	AlignBegin=1924308|AlignEnd=1924868
+4	ODEUR	_	_	_	_	_	_	_	AlignBegin=1924868|AlignEnd=1925188
+5	PUISSANT	_	_	_	_	_	_	_	AlignBegin=1925188|AlignEnd=1925628
+
+# sent_id = crdo-fsl-cuc022_203
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on ouvre le four et on sort la tarte; on la pose sur la table et elle est bien prête et cuite.
+# text = ODEUR QUI SE REPAND OUVRIR LE FOUR sortir la tarte et la poser BIEN PRÊT
+1	ODEUR QUI SE REPAND	_	_	_	_	_	_	_	AlignBegin=1925628|AlignEnd=1926348
+2	OUVRIR LE FOUR	_	_	_	_	_	_	_	AlignBegin=1926348|AlignEnd=1927143
+3	sortir la tarte et la poser	_	_	_	_	_	_	_	AlignBegin=1927143|AlignEnd=1928868
+4	BIEN	_	_	_	_	_	_	_	AlignBegin=1928868|AlignEnd=1929268
+5	PRÊT	_	_	_	_	_	_	_	AlignBegin=1929268|AlignEnd=1929628
+
+# sent_id = crdo-fsl-cuc022_204
+# source_file = ./CUC022_low.mp4
+# traduction_fr = On coupe des morceaux et on les sert,
+# text = CUIRE couper des morceaux servir
+1	CUIRE	_	_	_	_	_	_	_	AlignBegin=1929628|AlignEnd=1930468
+2	couper des morceaux	_	_	_	_	_	_	_	AlignBegin=1930468|AlignEnd=1931308
+3	servir	_	_	_	_	_	_	_	AlignBegin=1931308|AlignEnd=1932268
+
+# sent_id = crdo-fsl-cuc022_205
+# source_file = ./CUC022_low.mp4
+# traduction_fr = on mange un morceau, c'est moelleux. Le fromage…, la crème et le jambon,...
+# text = mordre dans un morceau MOELLEUX FROMAGE CREME JAMBON mordre dans un morceau
+1	mordre dans un morceau	_	_	_	_	_	_	_	AlignBegin=1932268|AlignEnd=1932663
+2	MOELLEUX	_	_	_	_	_	_	_	AlignBegin=1932663|AlignEnd=1933463
+3	FROMAGE	_	_	_	_	_	_	_	AlignBegin=1933463|AlignEnd=1933948
+4	CREME	_	_	_	_	_	_	_	AlignBegin=1933948|AlignEnd=1935228
+5	JAMBON	_	_	_	_	_	_	_	AlignBegin=1935228|AlignEnd=1935788
+6	mordre dans un morceau	_	_	_	_	_	_	_	AlignBegin=1935788|AlignEnd=1936228
+
+# sent_id = crdo-fsl-cuc022_206
+# source_file = ./CUC022_low.mp4
+# traduction_fr = C'est moelleux!
+# text = MOELLEUX Position Neutre
+1	MOELLEUX	_	_	_	_	_	_	_	AlignBegin=1936228|AlignEnd=1937508
+2	Position Neutre	_	_	_	_	_	_	_	AlignBegin=1937508|AlignEnd=1938188
+

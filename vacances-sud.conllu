@@ -1,311 +1,360 @@
 # sent_id = vacances-sud_1
-# text = [RECENT] [VACANCES] [ETE] [euh] [PARTIR] [OÙ] [FRANCE] [carte-france] [SUD] [région-sud] [mains-jointes]
+# text = [PASSÉ-PROCHE] [VACANCES] [ÉTÉ] [euh] [PARTIR] [OÙ] [FRANCE] [carte-france] [SUD] [région-sud] [mains-jointes]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Les dernières vacances d’été, on est partis dans le sud de la France.
-1	[RECENT]	_	ADJ	_	ExtPos=ADV	5	mod	_	AlignBegin=2248|AlignEnd=2717
-2	[VACANCES]	_	NOUN	_	ExtPos=ADV	1	conj:zoom	_	AlignBegin=2723|AlignEnd=3166
-3	[ETE]	_	NOUN	_	_	2	udep	_	AlignBegin=3183|AlignEnd=4330
-4	[euh]	_	INTJ	_	_	1	discourse	_	AlignBegin=4343|AlignEnd=4992
-5	[PARTIR]	_	VERB	_	_	0	root	_	AlignBegin=5011|AlignEnd=5706|Subj=1(pl-implicite)
-6	[OÙ]	_	PRON	_	PronType=Fqu	7	topic	_	AlignBegin=5745|AlignEnd=6867
-7	[FRANCE]	_	PROPN	_	_	5	mod	_	AlignBegin=6884|AlignEnd=7277
-8	[carte-france]	_	PRON	_	_	7	conj:illustrate	_	AlignBegin=7296|AlignEnd=8476
-9	[SUD]	_	NOUN	_	_	7	udep	_	AlignBegin=8490|AlignEnd=9205|Md-held=prm-carte
-10	[région-sud]	_	PRON	_	_	9	conj:illustrate	_	AlignBegin=9235|AlignEnd=10548|Md-held=prm-carte
-11	[mains-jointes]	_	PUNCT	_	_	5	punct	_	AlignBegin=10574|AlignEnd=11065|Md=[prfM-carte]
+# text_en = Last summer holidays, we went to the south of France.
+1	[PASSÉ-PROCHE]	_	ADV	_	_	5	mod	_	AlignBegin=2248|AlignEnd=2717|Gloss=[RECENT-PAST]
+2	[VACANCES]	_	NOUN	_	ExtPos=ADV	1	conj:zoom	_	AlignBegin=2723|AlignEnd=3166|Gloss=[HOLIDAYS]
+3	[ÉTÉ]	_	NOUN	_	_	2	udep	_	AlignBegin=3183|AlignEnd=4330|Gloss=[SUMMER]
+4	[euh]	_	INTJ	_	_	1	discourse	_	AlignBegin=4343|AlignEnd=4992|Gloss=[hesitation]
+5	[PARTIR]	_	VERB	_	_	0	root	_	AlignBegin=5011|AlignEnd=5706|Gloss=[LEAVE]|Src=1
+6	[OÙ]	_	PRON	_	PronType=Int	7	mod	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Focus=Yes|Gloss=[WHERE]
+7	[FRANCE]	_	PROPN	_	_	5	comp:obl	_	AlignBegin=6884|AlignEnd=7277|Gloss=[FRANCE]
+8	[carte-france]	_	PRON	_	_	7	conj:illustrate	_	AlignBegin=7296|AlignEnd=8476|Gloss=[map-france]
+9	[SUD]	_	NOUN	_	_	7	udep	_	AlignBegin=8490|AlignEnd=9205|Gloss=[SOUTH]|NDHHeld=prm-carte
+10	[région-sud]	_	PRON	_	_	9	conj:illustrate	_	AlignBegin=9235|AlignEnd=10548|Gloss=[south-region]|NDHHeld=prm-carte
+11	[mains-jointes]	_	PUNCT	_	_	5	punct	_	AlignBegin=10574|AlignEnd=11065|Gloss=[clasped-hands]
 
-# sent_id = vacances-sud_2_3_split2
-# text = [FAMILLE] [POSS] [MAMAN] [PAPA] [SOEUR] [TOUS-LES-nb] [VOITURE] [MONTER-VEHICULE] [CONDUIRE] [itinéraire-vers-sud] [PENDANT-nb-HEURES] [BEAUCOUP]
+# sent_id = vacances-sud_2
+# text = [FAMILLE] [POSS] [MAMAN] [PAPA] [SOEUR] [TOUS]-[QUATRE] [VOITURE] [MONTER-VEHICULE] [CONDUIRE] [itinéraire-vers-sud] [PENDANT-HEURES]-[HUIT] [beaucoup]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Dans ma famille il y a maman, papa et ma sœur, nous étions donc tous les 4. On est montés en voiture et on a roulé vers le sud pendant 8 heures. C’était long !
-1	[FAMILLE]	_	NOUN	_	_	8	subj	_	AlignBegin=11404|AlignEnd=11812
-2	[POSS]	_	ADJ	_	_	1	mod	_	AlignBegin=11823|AlignEnd=12449|Tgt=1sg
-3	[MAMAN]	_	NOUN	_	_	1	conj:appos	_	AlignBegin=12526|AlignEnd=13341
-4	[PAPA]	_	NOUN	_	_	3	conj:coord	_	AlignBegin=13355|AlignEnd=13875
-5	[SOEUR]	_	NOUN	_	_	4	conj:coord	_	AlignBegin=13909|AlignEnd=14501
-6	[TOUS-LES-nb]	_	PRON	_	_	3	conj:appos	_	AlignBegin=14529|AlignEnd=16737|nb=4
-7	[VOITURE]	_	NOUN	_	_	8	theme	_	AlignBegin=16816|AlignEnd=17737
-8	[MONTER-VEHICULE]	_	VERB	_	_	0	root	_	AlignBegin=17755|AlignEnd=18819|Subj=prm-animé|TransfertType=Situation
-9	[CONDUIRE]	_	VERB	_	_	0	root	_	AlignBegin=18843|AlignEnd=19856|Exp=intense|Theme=prm-voiture
-10	[itinéraire-vers-sud]	_	ADV	_	_	9	mod	_	AlignBegin=19894|AlignEnd=21963
-11	[PENDANT-nb-HEURES]	_	ADV	_	_	9	mod	_	AlignBegin=22005|AlignEnd=23310|nb=8
-12	[BEAUCOUP]	_	ADV	_	_	11	parataxis	_	AlignBegin=23333|AlignEnd=24676
+# text_en = In my family, there is my mom, dad, my sister, we were four. We sat in the car and we drove south for 8 hours. It was long!
+1	[FAMILLE]	_	NOUN	_	_	8	subj	_	AlignBegin=11404|AlignEnd=11812|Gloss=[FAMILY]
+2	[POSS]	_	ADJ	_	Number=Sing	1	mod	_	AlignBegin=11823|AlignEnd=12449|Gloss=[POSS]|Tgt=Prs1
+3	[MAMAN]	_	NOUN	_	_	1	conj:appos	_	AlignBegin=12526|AlignEnd=13341|Gloss=[MOM]
+4	[PAPA]	_	NOUN	_	_	3	conj:coord	_	AlignBegin=13355|AlignEnd=13875|Gloss=[DAD]
+5	[SOEUR]	_	NOUN	_	_	4	conj:coord	_	AlignBegin=13909|AlignEnd=14501|Gloss=SISTER
+6	[TOUS]-[QUATRE]	_	PRON	_	_	3	conj:appos	_	AlignBegin=14529|AlignEnd=16737|Gloss=[ALL]-[FOUR]
+7	[VOITURE]	_	NOUN	_	_	8	dislocated	_	AlignBegin=16816|AlignEnd=17737|Gloss=[CAR]
+8	[MONTER-VEHICULE]	_	VERB	_	_	0	root	_	AlignBegin=17755|AlignEnd=18819|Gloss=[SIT-VEHICULE]|Subj=prm-animé|TransfertType=Situation
+9	[CONDUIRE]	_	VERB	_	_	8	parataxis	_	AlignBegin=18843|AlignEnd=19856|Exp[ctxt]=Intensité|Gloss=[DRIVE]|Sass=voiture
+10	[itinéraire-vers-sud]	_	ADV	_	_	9	mod	_	AlignBegin=19894|AlignEnd=21963|Exp[ctxt]=Intensité|Gloss=[itinerary-south]
+11	[PENDANT-HEURES]-[HUIT]	_	ADV	_	_	9	mod	_	AlignBegin=22005|AlignEnd=23310|Exp[ctxt]=Intensité|Gloss=[DURING-HOURS]-[EIGHT]
+12	[beaucoup]	_	INTJ	_	_	11	parataxis	_	AlignBegin=23333|AlignEnd=24676|Exp[lex]=Intensité|Gloss=[a-lot]
 
-# sent_id = vacances-sud_5
+# sent_id = vacances-sud_3
+# text = [itinéraire] PNT [UN] [VILLE] [NON] [TROIS] [FAIRE-ÉTAPE] [faire-étape] [faire-étape] [voilà]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Arrivés là-bas, nous n’avions pas prévu de voir qu’une seule ville, nous avons visité 3 endroits différents.
-# text = [itinéraire] [pnt] [UN] [VILLE] [NON] [TROIS] [FAIRE-ÉTAPE] [faire-étape] [faire-étape] [voilà]
-1	[itinéraire]	_	PRON	_	_	2	mod	_	AlignBegin=24745|AlignEnd=25896|Md=[itinéraire-départ]
-2	[pnt]	_	PRON	_	_	4	mod	_	AlignBegin=25896|AlignEnd=26315|Md-held=pnt-itinéraire-début|Tgt=itinéraire-fin
-3	[UN]	_	NUM	_	_	4	det	_	AlignBegin=26356|AlignEnd=26792
-4	[VILLE]	_	NOUN	_	_	0	root	_	AlignBegin=26810|AlignEnd=27264
-5	[NON]	_	ADV	_	_	4	mod	_	AlignBegin=27329|AlignEnd=27755
-6	[TROIS]	_	NUM	_	_	7	det	_	AlignBegin=27769|AlignEnd=28125
-7	[FAIRE-ÉTAPE]	_	VERB	_	_	4	parataxis	_	AlignBegin=28157|AlignEnd=28730|Loc=L1M
-8	[faire-étape]	_	VERB	_	_	7	conj:coord	_	AlignBegin=28730|AlignEnd=29183|Loc=N1M|Md-held=Loc-L1M|Subj=MD-prm-animé
-9	[faire-étape]	_	VERB	_	_	8	conj:coord	_	AlignBegin=29183|AlignEnd=29718|Loc=R1M|Md-held=L1M|Subj=MD-prm-animé
-10	[voilà]	_	INTJ	_	_	4	discourse	_	AlignBegin=29843|AlignEnd=30477
+# text_en = At the destination, we hadn't planned to see one city, but rather to visit 3 different places.
+1	[itinéraire]	_	PRON	_	_	2	mod	_	AlignBegin=24745|AlignEnd=25896|Exp[ctxt]=Intensité|Gloss=[itinerary]|NDH=itinéraire-départ
+2	PNT	_	PRON	_	_	4	mod	_	AlignBegin=25896|AlignEnd=26315|Gloss=PNT|NDHHeld=itinéraire-début|Tgt=itinéraire-fin|wordform=[pnt]
+3	[UN]	_	NUM	_	_	4	det	_	AlignBegin=26356|AlignEnd=26792|Gloss=[ONE]
+4	[VILLE]	_	NOUN	_	_	0	root	_	AlignBegin=26810|AlignEnd=27264|Gloss=[CITY]
+5	[NON]	_	ADV	_	_	4	mod	_	AlignBegin=27329|AlignEnd=27755|Exp[lex]=Neg|Gloss=[NO]
+6	[TROIS]	_	NUM	_	_	7	det	_	AlignBegin=27769|AlignEnd=28125|Gloss=[THREE]
+7	[FAIRE-ÉTAPE]	_	VERB	_	_	4	parataxis	_	AlignBegin=28157|AlignEnd=28730|Gloss=[STOP-OFF]|Loc=PSS3l
+8	[faire-étape]	_	VERB	_	_	7	conj:coord	_	AlignBegin=28730|AlignEnd=29183|Gloss=[stop-off]|Loc=PSSN|NDHHeld=PSS3l|Subj=MD-prm-animé
+9	[faire-étape]	_	VERB	_	_	8	conj:coord	_	AlignBegin=29183|AlignEnd=29718|Gloss=[stop-off]|Loc=PSS3r|NDHHeld=PSS3l|Subj=MD-prm-animé
+10	[voilà]	_	INTJ	_	_	4	discourse	_	AlignBegin=29843|AlignEnd=30477|Gloss=[that's-it]
 
-# sent_id = vacances-sud_6
+# sent_id = vacances-sud_4
+# text = PNT [PASSÉ-PROCHE] [DIMANCHE]-[AVANT] [FAMILLE] [RÉUNIR] [MANGER] [BAVARDER] [ÉCHANGER]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Dimanche dernier, toute la famille s’est réunie pour prendre un bon repas, bavarder et échanger.
-# text = [pnt] [RECENT] [DIMANCHE- -AVANT] [FAMILLE] [RÉUNIR] [MANGER] [BAVARDER] [ECHANGER]
-1	[pnt]	_	PRON	_	_	6	unk	_	AlignBegin=31435|AlignEnd=31917|Tgt=N1M
-2	[RECENT]	_	ADJ	_	_	6	mod	_	AlignBegin=31954|AlignEnd=32634
-3	[DIMANCHE-	_	NOUN	_	_	2	conj:zoom	_	AlignBegin=32676|AlignEnd=32948
-4	-AVANT]	_	ADJ	_	_	3	mod	_	AlignBegin=32948|AlignEnd=33472|MD-held=Yes
-5	[FAMILLE]	_	NOUN	_	_	6	subj	_	AlignBegin=33532|AlignEnd=34282
-6	[RÉUNIR]	_	VERB	_	_	0	root	_	AlignBegin=34338|AlignEnd=35745
-7	[MANGER]	_	VERB	_	Number=Plur	6	conj:coord	_	AlignBegin=35787|AlignEnd=37657
-8	[BAVARDER]	_	VERB	_	_	7	conj:coord	_	AlignBegin=37681|AlignEnd=38449
-9	[ECHANGER]	_	VERB	_	_	8	conj:coord	_	AlignBegin=38468|AlignEnd=39542
+# text_en = Last sunday, all the family gathers to have a good meal, chat and exchange.
+1	PNT	_	PRON	_	_	5	discourse	_	AlignBegin=31435|AlignEnd=31917|Gloss=PNT|Tgt=PSSN|wordform=[pnt]
+2	[PASSÉ-PROCHE]	_	ADV	_	_	5	mod	_	AlignBegin=31954|AlignEnd=32634|Gloss=[RECENT-PAST]
+3	[DIMANCHE]-[AVANT]	_	ADV	_	_	2	conj:zoom	_	AlignBegin=32634|AlignEnd=33472|Gloss=[SUNDAY]-[BEFORE]
+4	[FAMILLE]	_	NOUN	_	_	5	subj	_	AlignBegin=33532|AlignEnd=34282|Gloss=[FAMILY]
+5	[RÉUNIR]	_	VERB	_	_	0	root	_	AlignBegin=34338|AlignEnd=35745|Gloss=[GATHER]
+6	[MANGER]	_	VERB	_	_	5	conj:coord	_	AlignBegin=35787|AlignEnd=37657|Exp[ctxt]=Intensité|Gloss=[EAT]
+7	[BAVARDER]	_	VERB	_	_	6	conj:coord	_	AlignBegin=37681|AlignEnd=38449|Gloss=[CHAT]
+8	[ÉCHANGER]	_	VERB	_	_	7	conj:coord	_	AlignBegin=38468|AlignEnd=39542|Gloss=[EXCHANGE]
 
-# sent_id = vacances-sud_7
+# sent_id = vacances-sud_5
+# text = [MAMAN] [prendre-parole] [appel] PNT [ADORER] [VACANCES] PNT PNT PNT [QUOI] [PRÉFÉRER] [QUOI]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Maman a demandé à tout le monde : “Pendant les vacances, lequel des 3 lieux avez-vous préféré ?”
-# text = [MAMAN] [QUESTION] [APPEL] [pnt] [ADORER] [VACANCES] [pnt] [pnt] [pnt] [QUOI] [PREFERER] [QUOI]
-1	[MAMAN]	_	NOUN	_	_	2	subj	_	AlignBegin=40019|AlignEnd=40690
-2	[QUESTION]	_	VERB	_	_	0	root	_	AlignBegin=40718|AlignEnd=40940
-3	[APPEL]	_	VERB	_	Number=Plur	2	compound:svc	_	AlignBegin=41009|AlignEnd=42824|Tgt=2pl
-4	[pnt]	_	PRON	_	_	5	subj	_	AlignBegin=42843|AlignEnd=43389|Tgt=2pl
-5	[ADORER]	_	VERB	_	_	6	mod	_	AlignBegin=43407|AlignEnd=44222|Reported=Yes
-6	[VACANCES]	_	NOUN	_	_	11	dislocated	_	AlignBegin=44241|AlignEnd=45019
-7	[pnt]	_	PRON	_	_	11	dislocated	_	AlignBegin=45046|AlignEnd=45339|Tgt=L1M
-8	[pnt]	_	PRON	_	_	7	conj:coord	_	AlignBegin=45339|AlignEnd=45574|Md-held=Loc-L1M|Tgt=N1M
-9	[pnt]	_	PRON	_	_	8	conj:coord	_	AlignBegin=45574|AlignEnd=45954|Md-held=Loc-L1M|Tgt=R1M
-10	[QUOI]	_	PRON	_	PronType=Int	11	theme	_	AlignBegin=45986|AlignEnd=46412
-11	[PREFERER]	_	VERB	_	_	2	comp:obj	_	AlignBegin=46421|AlignEnd=46917
-12	[QUOI]	_	PRON	_	PronType=Int	11	theme	_	AlignBegin=46935|AlignEnd=47648
+# text_en = Mom asked everyone: "During the holidays, which one of the 3 places did you prefer?"
+1	[MAMAN]	_	NOUN	_	_	2	subj	_	AlignBegin=40019|AlignEnd=40690|Gloss=[MOM]
+2	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=40718|AlignEnd=40940|Gloss=[take-turn]
+3	[appel]	_	VERB	_	Number=Plur	2	compound:svc	_	AlignBegin=41009|AlignEnd=42824|Gloss=[call]|Tgt=2
+4	PNT	_	PRON	_	Number=Plur	3	comp:obj	_	AlignBegin=42843|AlignEnd=43389|Gloss=PNT|Tgt=2|wordform=[pnt]
+5	[ADORER]	_	VERB	_	_	6	mod	_	AlignBegin=43407|AlignEnd=44222|Gloss=[ADORE]|Reported=Yes
+6	[VACANCES]	_	NOUN	_	_	11	dislocated	_	AlignBegin=44241|AlignEnd=45019|Gloss=[HOLIDAYS]
+7	PNT	_	PRON	_	_	11	dislocated	_	AlignBegin=45046|AlignEnd=45339|Gloss=PNT|Tgt=PSS3l|wordform=[pnt]
+8	PNT	_	PRON	_	_	7	conj:coord	_	AlignBegin=45339|AlignEnd=45574|Gloss=PNT|NDHHeld=PSS3l|Tgt=PSSN|wordform=[pnt]
+9	PNT	_	PRON	_	_	8	conj:coord	_	AlignBegin=45574|AlignEnd=45954|Gloss=PNT|NDHHeld=PSS3l|Tgt=PSS3r|wordform=[pnt]
+10	[QUOI]	_	PRON	_	PronType=Int	11	theme	_	AlignBegin=45986|AlignEnd=46412|Exp[lex]=Int|Gloss=[WHAT]
+11	[PRÉFÉRER]	_	VERB	_	_	2	comp:obj	_	AlignBegin=46421|AlignEnd=46917|Gloss=[PREFER]
+12	[QUOI]	_	PRON	_	PronType=Int	11	theme	_	AlignBegin=46935|AlignEnd=47648|Exp[lex]=Int|Gloss=[WHAT]
 
-# sent_id = vacances-sud_8_split1
-# text = [pnt] [réfléchir]
+# sent_id = vacances-sud_6
+# text = PNT [réfléchir]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Nous avons tous réfléchi
-1	[pnt]	_	PRON	_	Number=Plur	2	subj	_	AlignBegin=48019|AlignEnd=48565|Tgt=PSS1
-2	[réfléchir]	_	VERB	_	_	0	root	_	AlignBegin=48606|AlignEnd=49625
+# text_en = We all thought about it
+1	PNT	_	PRON	_	Number=Plur	2	subj	_	AlignBegin=48019|AlignEnd=48565|Gloss=PNT|Tgt=1|wordform=[pnt]
+2	[réfléchir]	_	VERB	_	_	0	root	_	AlignBegin=48606|AlignEnd=49625|Gloss=[think]
 
-# sent_id = vacances-sud_8_split2
-# text = [prendre-parole] [pnt] [SOEUR] [LEVER-LA-MAIN] [pnt] [ADMIRER] [ADORER] [pnt 2X] [PREMIER] [pnt 2X] [POURQUOI] [pnt] [LÀ] [QUOI] [MER] [PLAGE] [SABLE] [FIN] [PLAGE] [PERSONNE] [FOULE]
+# sent_id = vacances-sud_7
+# text = [prendre-parole] PNT [SOEUR] [prendre-parole] PNT [ADMIRER] [ADORER] PNT [PREMIER] PNT [POURQUOI] PNT [LÀ] [QUOI] [MER] [PLAGE] [SABLE] [FIN] [PLAGE] [PERSONNE] [FOULE] [grouiller]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = ma sœur a répondu : “Moi, j’ai vraiment adoré le premier lieu avec la mer, la plage de sable fin, et puis ça grouillait de gens !
-1	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=49639|AlignEnd=49958
-2	[pnt]	_	PRON	_	_	4	subj	_	AlignBegin=49968|AlignEnd=50194|Tgt=1
-3	[SOEUR]	_	NOUN	_	_	2	conj:appos	_	AlignBegin=50213|AlignEnd=51120
-4	[LEVER-LA-MAIN]	_	VERB	_	_	1	compound:reform	_	AlignBegin=51153|AlignEnd=51532
-5	[pnt]	_	PRON	_	_	6	subj	_	AlignBegin=51542|AlignEnd=51931|Tgt=1
-6	[ADMIRER]	_	VERB	_	_	4	conj:coord	_	AlignBegin=51954|AlignEnd=52741|Reported=Yes
-7	[ADORER]	_	VERB	_	_	6	compound:svc	_	AlignBegin=52759|AlignEnd=53685
-8	[pnt 2X]	_	PRON	_	_	7	comp:obj	_	AlignBegin=53694|AlignEnd=54269|Tgt=L1M
-9	[PREMIER]	_	ADJ	_	_	8	mod	_	AlignBegin=54296|AlignEnd=54597|Md-held=pnt-L1M
-10	[pnt 2X]	_	PRON	_	_	8	conj:dicto	_	AlignBegin=54616|AlignEnd=55431|Md-held=pnt-L1M|Tgt=L1M
-11	[POURQUOI]	_	PRON	_	PronType=Fqu	12	topic	_	AlignBegin=55769|AlignEnd=56648|Md-held=pnt-L1M
-12	[pnt]	_	PRON	_	_	7	mod	_	AlignBegin=56694|AlignEnd=57898|Md-held=pnt-L1M|Tgt=L1M
-13	[LÀ]	_	ADV	_	_	12	mod	_	AlignBegin=57931|AlignEnd=58190|Md-held=pnt-L1M
-14	[QUOI]	_	PRON	_	PronType=Fqu	15	topic	_	AlignBegin=58213|AlignEnd=58852
-15	[MER]	_	NOUN	_	_	12	mod	_	AlignBegin=58870|AlignEnd=59935
-16	[PLAGE]	_	NOUN	_	_	15	conj:coord	_	AlignBegin=59977|AlignEnd=60991
-17	[SABLE]	_	NOUN	_	_	16	conj:coord	_	AlignBegin=61023|AlignEnd=61912
-18	[FIN]	_	ADJ	_	_	17	mod	_	AlignBegin=61949|AlignEnd=62815
-19	[PLAGE]	_	NOUN	_	_	17	conj:coord	_	AlignBegin=62835|AlignEnd=63304
-20	[PERSONNE]	_	NOUN	_	Number=Plur	19	conj:coord	_	AlignBegin=63316|AlignEnd=63899
-21	[FOULE]	_	NOUN	_	_	20	conj:coord	_	AlignBegin=63987|AlignEnd=66937|Exp=Intensification|Tgt=déplacement non standard, dans espace délimité
+# text_en = my sister responded: "Personaly, I really loved the first place with the sea, the fine sandy beach, and it was teeming with people!
+1	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=49639|AlignEnd=49958|Gloss=[take-turn]
+2	PNT	_	PRON	_	Number=Sing	4	subj	_	AlignBegin=49968|AlignEnd=50194|Gloss=PNT|Tgt=1|wordform=[pnt]
+3	[SOEUR]	_	NOUN	_	_	2	conj:appos	_	AlignBegin=50213|AlignEnd=51120|Gloss=[SISTER]
+4	[prendre-parole]	_	VERB	_	_	1	compound:reform	_	AlignBegin=51153|AlignEnd=51532|Gloss=[take-turn]
+5	PNT	_	PRON	_	Number=Sing	6	subj	_	AlignBegin=51542|AlignEnd=51931|Gloss=PNT|Tgt=1|wordform=[pnt]
+6	[ADMIRER]	_	VERB	_	_	4	comp:obj	_	AlignBegin=51954|AlignEnd=52741|Gloss=[ADMIRE]|Reported=Yes
+7	[ADORER]	_	VERB	_	_	6	compound:svc	_	AlignBegin=52759|AlignEnd=53685|Gloss=[ADORE]
+8	PNT	_	PRON	_	_	7	comp:obj	_	AlignBegin=53694|AlignEnd=54269|Gloss=PNT|Tgt=PSS3l|TwoH=Yes|wordform=[pnt]
+9	[PREMIER]	_	ADJ	_	_	8	mod	_	AlignBegin=54296|AlignEnd=54597|Gloss=[FIRST]|NDHHeld=PNT-PSS3l
+10	PNT	_	PRON	_	_	8	conj:dicto	_	AlignBegin=54616|AlignEnd=55431|Gloss=PNT|NDHHeld=PNT-PSS3l|Tgt=PSS3l|TwoH=Yes|wordform=[pnt]
+11	[POURQUOI]	_	PRON	_	PronType=Int	12	mod	_	AlignBegin=55769|AlignEnd=56648|Focus=Yes|Gloss=[WHY]|NDHHeld=PNT-PSS3l
+12	PNT	_	PRON	_	_	7	mod	_	AlignBegin=56694|AlignEnd=57898|Gloss=PNT|NDHHeld=PNT-PSS3l|Tgt=PSS3l|TwoH=Yes|wordform=[pnt]
+13	[LÀ]	_	ADV	_	_	12	mod	_	AlignBegin=57931|AlignEnd=58190|Gloss=[THERE]|NDHHeld=PNT-PSS3l
+14	[QUOI]	_	PRON	_	PronType=Int	15	mod	_	AlignBegin=58213|AlignEnd=58852|Focus=Yes|Gloss=[WHAT]
+15	[MER]	_	NOUN	_	_	12	mod	_	AlignBegin=58870|AlignEnd=59935|Gloss=[SEA]
+16	[PLAGE]	_	NOUN	_	_	15	conj:coord	_	AlignBegin=59977|AlignEnd=60991|Gloss=[BEACH]
+17	[SABLE]	_	NOUN	_	_	16	conj:coord	_	AlignBegin=61023|AlignEnd=61912|Gloss=[SAND]
+18	[FIN]	_	ADJ	_	_	17	mod	_	AlignBegin=61949|AlignEnd=62815|Gloss=[FINE]
+19	[PLAGE]	_	NOUN	_	_	17	conj:coord	_	AlignBegin=62835|AlignEnd=63304|Gloss=[BEACH]
+20	[PERSONNE]	_	NOUN	_	Number=Plur	19	conj:coord	_	AlignBegin=63316|AlignEnd=63899|Gloss=[PERSON]
+21	[FOULE]	_	NOUN	_	_	20	conj:coord	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[CROWD]
+22	[grouiller]	_	NOUN	_	_	21	conj:illustrate	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[teem]|TransfertType=Situation
 
-# sent_id = vacances-sud_9
+# sent_id = vacances-sud_8
+# text = [euh] [FEUILLE] [prm:arbre] [FEUILLE] [prm:arbre] [mains-jointes]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Et les palmiers disposés ici et là,
-# text = [euh] [FEUILLE] ébauche [prm:arbre 2X] [FEUILLE] 3X [prm:arbre 2X] 2X [mains-jointes]
-1	[euh]	_	INTJ	_	_	_	_	_	AlignBegin=66962|AlignEnd=67165
-2	[FEUILLE] ébauche	_	NOUN	_	_	4	conj:dicto	_	AlignBegin=67228|AlignEnd=67452
-3	[prm:arbre 2X]	_	NOUN	_	Number=Plur	0	root	_	AlignBegin=67452|AlignEnd=68367|TransfertType=Situation
-4	[FEUILLE] 3X	_	NOUN	_	Number=Plur	3	udep	_	AlignBegin=68392|AlignEnd=69582|Loc=haut-arbre|Sass=long-grand-de-palmier|TransfertType=Situation
-5	[prm:arbre 2X] 2X	_	NOUN	_	Number=Plur	3	conj:chaining	_	AlignBegin=69595|AlignEnd=71138|TransfertType=Situation
-6	[mains-jointes]	_	PUNCT	_	_	3	punct	_	AlignBegin=71138|AlignEnd=71855
+# text_en = And the palm trees here and there,
+1	[euh]	_	INTJ	_	_	3	discourse	_	AlignBegin=66962|AlignEnd=67165
+2	[FEUILLE]	_	NOUN	_	_	4	conj:repair@scrap	_	AlignBegin=67228|AlignEnd=67452|Gloss=[LEAF]
+3	[prm:arbre]	_	NOUN	_	ExtPos=VERB|Number=Plur	0	root	_	AlignBegin=67452|AlignEnd=68367|Gloss=[prm:tree]|TransfertType=Situation|TwoH=Yes
+4	[FEUILLE]	_	NOUN	_	Number=Plur	3	udep	_	AlignBegin=68392|AlignEnd=69582|Gloss=[LEAF]|Loc=haut-arbre|Rep=3|Sass=long-grand-de-palmier|TransfertType=Situation
+5	[prm:arbre]	_	NOUN	_	Number=Plur	3	conj:illustrate	_	AlignBegin=69595|AlignEnd=71138|Gloss=[prm:tree]|Rep=4|StReal=deux-rangées-de-chaque-côté|TransfertType=Situation|TwoH=Yes
+6	[mains-jointes]	_	PUNCT	_	_	3	punct	_	AlignBegin=71138|AlignEnd=71855|Gloss=[clasped-hands]
 
-# sent_id = vacances-sud_10
+# sent_id = vacances-sud_9
+# text = [AUSSI] PNT [MER] PNT-SURFACE [PORT] [VOILE] [LUXE] [prm:bateau] PNT [IMPRESSIONNANT]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = et aussi, près de la mer, le port avec le voilier de luxe
-# text = [AUSSI] [pnt] [MER] [pnt-surface] [PORT] [VOILE] [LUXE] [prm:bateau] [pnt] [IMPRESSIONNANT]
-1	[AUSSI]	_	CCONJ	_	_	5	cc	_	AlignBegin=71861|AlignEnd=72152
-2	[pnt]	_	PRON	_	_	5	mod	_	AlignBegin=72190|AlignEnd=72722|Tgt=L1E
-3	[MER]	_	NOUN	_	_	4	comp	_	AlignBegin=72772|AlignEnd=73810|Md=[MER]
-4	[pnt-surface]	_	PRON	_	_	2	conj:appos	_	AlignBegin=73823|AlignEnd=75342|Md-held=mer|Tgt=L1M
-5	[PORT]	_	NOUN	_	_	0	root	_	AlignBegin=75354|AlignEnd=77127|Loc=L1M
-6	[VOILE]	_	NOUN	_	Number=Plur	5	udep	_	AlignBegin=77152|AlignEnd=77987|Loc=L1M
-7	[LUXE]	_	NOUN	_	_	6	mod	_	AlignBegin=78076|AlignEnd=78975
-8	[prm:bateau]	_	PRON	_	_	10	dislocated	_	AlignBegin=79025|AlignEnd=80101|Loc=L1M
-9	[pnt]	_	PRON	_	_	10	subj	_	AlignBegin=80114|AlignEnd=81063|Md-held=prm-bateau|Tgt=Md
-10	[IMPRESSIONNANT]	_	ADJ	_	ExtPos=VERB	0	root	_	AlignBegin=81127|AlignEnd=81759|Md-held=prm-bateau
+# text_en = and also, close to the sea, the port with luxurious sailing boats
+1	[AUSSI]	_	CCONJ	_	_	5	cc	_	AlignBegin=71861|AlignEnd=72152|Gloss=[ALSO]
+2	PNT	_	PRON	_	_	5	mod	_	AlignBegin=72190|AlignEnd=72722|Gloss=PNT|Tgt=PSSLl|wordform=[pnt]
+3	[MER]	_	NOUN	_	_	4	comp	_	AlignBegin=72772|AlignEnd=73810|Gloss=[SEA]|Loc=PSSLl
+4	PNT-SURFACE	_	PRON	_	_	2	conj:appos	_	AlignBegin=73823|AlignEnd=75342|Gloss=PNT-SURFACE|NDHHeld=mer|Tgt=L-of-Md
+5	[PORT]	_	NOUN	_	ExtPos=VERB	0	root	_	AlignBegin=75354|AlignEnd=77127|Gloss=[PORT]|Loc=PSSLl
+6	[VOILE]	_	NOUN	_	Number=Plur	5	udep	_	AlignBegin=77152|AlignEnd=77987|Gloss=[SAIL]|Loc=PSSLl
+7	[LUXE]	_	NOUN	_	_	6	mod	_	AlignBegin=78076|AlignEnd=78975|Gloss=[LUXURY]
+8	[prm:bateau]	_	PRON	_	_	5	conj:illustrate	_	AlignBegin=79025|AlignEnd=80101|Gloss=[prm:boat]
+9	PNT	_	PRON	_	_	10	subj	_	AlignBegin=80114|AlignEnd=81063|Gloss=PNT|NDHHeld=prm-bateau|Tgt=Md|wordform=[pnt]
+10	[IMPRESSIONNANT]	_	ADJ	_	ExtPos=VERB	8	mod	_	AlignBegin=81127|AlignEnd=81759|Gloss=[IMPRESSIVE]|NDHHeld=prm-bateau
 
-# sent_id = vacances-sud_11
+# sent_id = vacances-sud_10
+# text = [PERSONNE] [PROMENER] [FOULE]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = et tous les promeneurs qui se baladaient là,
-# text = [PERSONNE] [PROMENER] [FOULE]
-1	[PERSONNE]	_	NOUN	_	Number=Plur	2	subj	_	AlignBegin=82304|AlignEnd=82861
-2	[PROMENER]	_	VERB	_	_	0	root	_	AlignBegin=82886|AlignEnd=83278
-3	[FOULE]	_	NOUN	_	_	2	theme	_	AlignBegin=83329|AlignEnd=85937
+# text_en = and all the walkers strolling here,
+1	[PERSONNE]	_	NOUN	_	Number=Plur	2	subj	_	AlignBegin=82304|AlignEnd=82861|Gloss=[PERSON]
+2	[PROMENER]	_	VERB	_	_	0	root	_	AlignBegin=82886|AlignEnd=83278|Gloss=[STROLL]
+3	[FOULE]	_	NOUN	_	_	2	conj:illustrate	_	AlignBegin=83329|AlignEnd=85937|Exp[lex]=Intensité|Gloss=[CROWD]
 
-# sent_id = vacances-sud_12
+# sent_id = vacances-sud_11
+# text = PNT-SURFACE [AGRÉABLE]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = c’était très agréable !”.
-# text = [pnt-surface] [AGREABLE]
-1	[pnt-surface]	_	PRON	_	_	2	subj	_	AlignBegin=86063|AlignEnd=86924|Tgt=all
-2	[AGREABLE]	_	ADJ	_	ExtPos=VERB	0	root	_	AlignBegin=87013|AlignEnd=88114
+# text_en = it was very nice!".
+1	PNT-SURFACE	_	PRON	_	_	2	subj	_	AlignBegin=86063|AlignEnd=86924|Gloss=PNT-SURFACE|Tgt=PSSN
+2	[AGRÉABLE]	_	ADJ	_	ExtPos=VERB	0	root	_	AlignBegin=87013|AlignEnd=88114|Gloss=[PLEASANT]
 
-# sent_id = vacances-sud_13
+# sent_id = vacances-sud_12
+# text = [écouter-en-regardant] PNT [SOEUR] PNT [c'est-ça] [porter-intérêt]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Nous écoutions ma soeur
-# text = [écouter-en-regardant] [pnt] [SOEUR] [pnt] [C'EST-CA] [porter-intérêt]
-1	[écouter-en-regardant]	_	VERB	_	_	0	root	_	AlignBegin=88544|AlignEnd=89139|Subj=prb-famille|TransfertType=Personne
-2	[pnt]	_	PRON	_	_	1	comp:obj	_	AlignBegin=89152|AlignEnd=89481|Tgt=3sg
-3	[SOEUR]	_	NOUN	_	_	2	conj:appos	_	AlignBegin=89506|AlignEnd=89937
-4	[pnt]	_	PRON	_	_	2	conj:redup	_	AlignBegin=89967|AlignEnd=90191|Tgt=3sg
-5	[C'EST-CA]	_	INTJ	_	_	4	discourse	_	AlignBegin=90198|AlignEnd=90641
-6	[porter-intérêt]	_	VERB	_	_	1	conj:reform	_	AlignBegin=90663|AlignEnd=91787
+# text_en = We were listening to my sister
+1	[écouter-en-regardant]	_	VERB	_	_	0	root	_	AlignBegin=88544|AlignEnd=89139|Gloss=[listen-looking]
+2	PNT	_	PRON	_	Number=Sing	1	comp:obj	_	AlignBegin=89152|AlignEnd=89481|Gloss=PNT|Tgt=PSS3|wordform=[pnt]
+3	[SOEUR]	_	NOUN	_	_	2	conj:appos	_	AlignBegin=89506|AlignEnd=89937|Gloss=[SISTER]
+4	PNT	_	PRON	_	Number=Sing	2	conj:redup	_	AlignBegin=89967|AlignEnd=90191|Gloss=PNT|Tgt=PSS3|wordform=[pnt]
+5	[c'est-ça]	_	INTJ	_	_	1	discourse	_	AlignBegin=90198|AlignEnd=90641|Gloss=[that's-right]
+6	[porter-intérêt]	_	VERB	_	_	1	conj:reform	_	AlignBegin=90663|AlignEnd=91787|Gloss=[show-interest]
 
-# sent_id = vacances-sud_14_split1
-# text = [transition] [PAPA] [prendre-parole] [pnt] [ADORER] [pnt 2X] [PREMIER] [VILLE] [NON] [pnt] [DEUXIEME]
+# sent_id = vacances-sud_13
+# text = [transition] [PAPA] [prendre-parole] PNT [ADORER] PNT [PREMIER] [VILLE] [NON] PNT [DEUXIÈME]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = quand papa a pris la parole : “Moi, ce n’est pas le premier mais le deuxième lieu que j’ai adoré,
-1	[transition]	_	NOUN	_	_	3	discourse	_	AlignBegin=91802|AlignEnd=92264
-2	[PAPA]	_	NOUN	_	_	3	subj	_	AlignBegin=92346|AlignEnd=92868
-3	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=92904|AlignEnd=93618
-4	[pnt]	_	PRON	_	_	5	subj	_	AlignBegin=93669|AlignEnd=94029|Tgt=1sg
-5	[ADORER]	_	VERB	_	_	3	comp:obj	_	AlignBegin=94110|AlignEnd=94853|Reported=Yes
-6	[pnt 2X]	_	PRON	_	_	5	comp:obj	_	AlignBegin=94868|AlignEnd=95109|Md=[pt]|Tgt=L1M
-7	[PREMIER]	_	NUM	_	NumType=Ord	8	mod	_	AlignBegin=95109|AlignEnd=95529|Md-held=pnt-L1M
-8	[VILLE]	_	NOUN	_	_	6	mod	_	AlignBegin=95544|AlignEnd=95765|Md-held=pnt-L1M
-9	[NON]	_	ADV	_	_	6	mod	_	AlignBegin=95779|AlignEnd=96059|Md-held=pnt-L1M
-10	[pnt]	_	PRON	_	_	6	conj:coord	_	AlignBegin=96088|AlignEnd=96728|Md-held=pnt-L1M|Tgt=N1M
-11	[DEUXIEME]	_	NUM	_	NumType=Ord	10	mod	_	AlignBegin=96765|AlignEnd=97154
+# text_en = then Dad said "in my case, I didn’t prefer the first place, but rather the second.
+1	[transition]	_	ADV	_	_	3	discourse	_	AlignBegin=91802|AlignEnd=92264|Gloss=[transition]
+2	[PAPA]	_	NOUN	_	_	3	subj	_	AlignBegin=92346|AlignEnd=92868|Gloss=[DAD]
+3	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=92904|AlignEnd=93618|Gloss=[take-a-turn]
+4	PNT	_	PRON	_	Number=Sing	5	subj	_	AlignBegin=93669|AlignEnd=94029|Gloss=PNT|Tgt=Prs1|TransfertType=Personne|wordform=[pnt]
+5	[ADORER]	_	VERB	_	_	3	comp:obj	_	AlignBegin=94110|AlignEnd=94853|Gloss=[ADORE]|Reported=Yes
+6	PNT	_	PRON	_	_	5	comp:obj	_	AlignBegin=94868|AlignEnd=95109|Exp[ctxt]=Neg|Gloss=PNT|Tgt=PSS3l|TwoH=Yes|wordform=[pnt]
+7	[PREMIER]	_	NUM	_	NumType=Ord	8	mod	_	AlignBegin=95109|AlignEnd=95529|Exp[ctxt]=Neg|Gloss=[FIRST]|NDHHeld=PNT-PSS3l
+8	[VILLE]	_	NOUN	_	_	6	mod	_	AlignBegin=95544|AlignEnd=95765|Exp[ctxt]=Neg|Gloss=[CITY]|NDHHeld=PNT-PSS3l
+9	[NON]	_	ADV	_	_	6	mod	_	AlignBegin=95779|AlignEnd=96059|Exp[lex]=Neg|Gloss=[NO]|NDHHeld=PNT-PSS3l
+10	PNT	_	PRON	_	_	6	conj:coord	_	AlignBegin=96088|AlignEnd=96728|Gloss=PNT|NDHHeld=PNT-PSS3l|Tgt=PSSN|wordform=[pnt]
+11	[DEUXIÈME]	_	NUM	_	NumType=Ord	10	mod	_	AlignBegin=96765|AlignEnd=97154|Gloss=[SECOND]
 
-# sent_id = vacances-sud_14_split2_split1
-# text = [pnt 2X] [QUOI] [MER] [NON] [à-l'avant] [pt-surface] [FORÊT] [pnt] [RIVIERE]
+# sent_id = vacances-sud_14
+# text = PNT [QUOI] [MER] [NON] [à-l'avant] PNT-SURFACE [FORÊT] PNT [RIVIÈRE]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = dans les terres, la forêt avec la petite rivière sinueuse
-1	[pnt 2X]	_	PRON	_	_	2	mod	_	AlignBegin=97161|AlignEnd=97791|Tgt=N1M
-2	[QUOI]	_	PRON	_	PronType=Rel	0	root	_	AlignBegin=97791|AlignEnd=98926|Md-held=pnt-N1M
-3	[MER]	_	NOUN	_	_	2	conj:appos	_	AlignBegin=98926|AlignEnd=99826|Md=[MER]
-4	[NON]	_	ADV	_	_	3	mod	_	AlignBegin=99826|AlignEnd=100096|Md=[MER]|Md-held=[MER]/Yes
-5	[à-l'avant]	_	NOUN	_	_	6	mod	_	AlignBegin=100100|AlignEnd=100513|Loc=N1M
-6	[pt-surface]	_	PRON	_	_	3	conj:coord	_	AlignBegin=100522|AlignEnd=101504|Loc=N1B|Md-held=à-l'avant
-7	[FORÊT]	_	NOUN	_	_	6	mod	_	AlignBegin=101509|AlignEnd=103165
-8	[pnt]	_	PRON	_	_	6	conj:coord	_	AlignBegin=103174|AlignEnd=103439|Tgt=N1M
-9	[RIVIERE]	_	NOUN	_	_	8	mod	_	AlignBegin=103448|AlignEnd=105461
-
-# sent_id = vacances-sud_14_split2_split2
-# text = [PERSONNE] [PEU] [prm:personne 2X] 2X
-# source_file = ./recit-agnieska.mp4
-# traduction_fr = (et surtout) très peu de monde.
-1	[PERSONNE]	_	NOUN	_	_	2	subj	_	AlignBegin=105470|AlignEnd=105978
-2	[PEU]	_	ADV	_	ExtPos=VERB	0	root	_	AlignBegin=105991|AlignEnd=106787
-3	[prm:personne 2X] 2X	_	PRON	_	_	2	conj:illustrate	_	AlignBegin=106791|AlignEnd=108683|TransfertType=Situation
+# text_en = inland, the forest with a small winding river
+1	PNT	_	PRON	_	_	3	mod	_	AlignBegin=97161|AlignEnd=97791|Gloss=PNT|Tgt=PSSN|TwoH=Yes|wordform=[pnt]
+2	[QUOI]	_	PRON	_	PronType=Int	3	topic	_	AlignBegin=97791|AlignEnd=98926|Exp[lex]=Int|Focus=Yes|Gloss=[WHAT]
+3	[MER]	_	NOUN	_	ExtPos=VERB	0	root	_	AlignBegin=98926|AlignEnd=99826|Exp[ctxt]=Int|Gloss=[SEA]
+4	[NON]	_	ADV	_	_	3	mod	_	AlignBegin=99826|AlignEnd=100096|Exp[lex]=Neg|Gloss=[NO]|NDHHeld=mer
+5	[à-l'avant]	_	NOUN	_	_	6	mod	_	AlignBegin=100100|AlignEnd=100513|Gloss=[at-the-front]|Loc=PSSN
+6	PNT-SURFACE	_	PRON	_	_	3	conj:coord	_	AlignBegin=100522|AlignEnd=101504|Gloss=PNT-SURFACE|Loc=PSS1|NDHHeld=à-l'avant
+7	[FORÊT]	_	NOUN	_	_	6	mod	_	AlignBegin=101509|AlignEnd=103165|Gloss=[FOREST]
+8	PNT	_	PRON	_	_	6	conj:coord	_	AlignBegin=103174|AlignEnd=103439|Gloss=PNT|Tgt=PSS1|wordform=[pnt]
+9	[RIVIÈRE]	_	NOUN	_	_	8	mod	_	AlignBegin=103448|AlignEnd=105461|Gloss=[RIVER]|Sass=petit+sinueux
 
 # sent_id = vacances-sud_15
+# text = [PERSONNE] [PEU] [prm:personne]
 # source_file = ./recit-agnieska.mp4
-# traduction_fr = Nager dans la rivière, qu’est-ce que c’était agréable, l’eau était froide mais on profitait du calme, de la nature…”.
-# text = [pnt] [NAGER] [AGREABLE] [EAU] [FROID] [CALME] [NATURE] [pt-surface] [mains-jointes]
-1	[pnt]	_	PRON	_	_	2	mod	_	AlignBegin=108687|AlignEnd=109322|Tgt=PSSN
-2	[NAGER]	_	VERB	_	_	0	root	_	AlignBegin=109352|AlignEnd=111017
-3	[AGREABLE]	_	ADJ	_	_	2	mod	_	AlignBegin=111017|AlignEnd=111722
-4	[EAU]	_	NOUN	_	_	0	root	_	AlignBegin=111722|AlignEnd=111857
-5	[FROID]	_	ADJ	_	_	4	mod	_	AlignBegin=111857|AlignEnd=113357
-6	[CALME]	_	ADJ	_	_	7	mod	_	AlignBegin=113357|AlignEnd=114574
-7	[NATURE]	_	NOUN	_	_	0	root	_	AlignBegin=114578|AlignEnd=115078
-8	[pt-surface]	_	PRON	_	_	7	conj:reform	_	AlignBegin=115083|AlignEnd=116074|Tgt=PSSLr
-9	[mains-jointes]	_	PUNCT	_	_	7	punct	_	AlignBegin=116074|AlignEnd=116726
+# traduction_fr = (et surtout) très peu de monde.
+# text_en = (and especially) very little people.
+1	[PERSONNE]	_	NOUN	_	_	2	subj	_	AlignBegin=105470|AlignEnd=105978|Gloss=[PERSON]
+2	[PEU]	_	ADV	_	ExtPos=VERB	0	root	_	AlignBegin=105991|AlignEnd=106787|Exp[lex]=Intensité|Gloss=[LITTLE]
+3	[prm:personne]	_	NOUN	_	_	2	conj:illustrate	_	AlignBegin=106791|AlignEnd=108683|Exp[ctxt]=Intensité|Gloss=[prm:person]|Rep=4|TransfertType=Situation|TwoH=Yes
 
 # sent_id = vacances-sud_16
+# text = PNT [NAGER] [AGRÉABLE]
 # source_file = ./recit-agnieska.mp4
-# traduction_fr = Nous écoutions papa, intéressés.
-# text = [REGARDER] [écouter-en-regardant] [INTERESSANT] [pnt]
-1	[REGARDER]	_	VERB	_	_	0	root	_	AlignBegin=116743|AlignEnd=117130|Tgt=PSS3
-2	[écouter-en-regardant]	_	VERB	_	_	1	conj:illustrate	_	AlignBegin=117139|AlignEnd=117970
-3	[INTERESSANT]	_	VERB	_	_	2	parataxis	_	AlignBegin=117974|AlignEnd=118648
-4	[pnt]	_	PRON	_	_	_	_	_	AlignBegin=118648|AlignEnd=119326|Tgt=sujet ou papa?
+# traduction_fr = Nager dans la rivière, qu’est-ce que c’était agréable,
+# text_en = Swimming in the river, how nice
+1	PNT	_	PRON	_	_	2	mod	_	AlignBegin=108687|AlignEnd=109322|Gloss=PNT|Tgt=PSSN|wordform=[pnt]
+2	[NAGER]	_	VERB	_	_	0	root	_	AlignBegin=109352|AlignEnd=111017|Exp[ctxt]=Positif|Gloss=[SWIM]
+3	[AGRÉABLE]	_	ADJ	_	_	2	mod	_	AlignBegin=111017|AlignEnd=111722|Exp[lex]=Positif|Gloss=[PLEASANT]
 
 # sent_id = vacances-sud_17
+# text = [EAU] [FROID]
 # source_file = ./recit-agnieska.mp4
-# traduction_fr = À mon tour, j’ai dit “Moi ce n’est ni le premier, ni le deuxième mais le troisième endroit que j’ai adoré. Le bord de mer mais pas la plage,
-# text = [prendre-parole] [pnt] [prendre-parole] [pnt] [pnt] [TROISIEME] [pnt] [ADORER2] [pnt] [QUOI] [MER] [MAIS] [PLAGE] [DIFFERENT]
-1	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=119352|AlignEnd=119626|Trs=Left
-2	[pnt]	_	PRON	_	_	1	subj	_	AlignBegin=119630|AlignEnd=120600|Tgt=PSS1
-3	[prendre-parole]	_	VERB	_	_	1	conj:reform	_	AlignBegin=120604|AlignEnd=121200|Exp=Neg
-4	[pnt]	_	PRON	_	_	8	comp:obj	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Md=[pt]|Src=L1M|Tgt=N1M
-5	[pnt]	_	PRON	_	_	7	conj:dicto	_	AlignBegin=122274|AlignEnd=122826|Md-held=pnt-L1M|Src=N1M|Tgt=R1M
-6	[TROISIEME]	_	NUM	_	NumType=Ord	7	mod	_	AlignBegin=122826|AlignEnd=123287|Md=[pt]
-7	[pnt]	_	PRON	_	_	8	comp:obj	_	AlignBegin=123296|AlignEnd=123904|Tgt=R1M
-8	[ADORER2]	_	VERB	_	_	3	comp:obj	_	AlignBegin=123913|AlignEnd=124939|Reported=Yes
-9	[pnt]	_	PRON	_	_	8	comp:obj	_	AlignBegin=124939|AlignEnd=125296|Exp=Interrogatif|Md-held=Yes
-10	[QUOI]	_	PRON	_	PronType=Fqu	11	topic	_	AlignBegin=125300|AlignEnd=125913|Exp=Interrogatif|Md-held=Yes
-11	[MER]	_	NOUN	_	_	9	mod	_	AlignBegin=125913|AlignEnd=127078
-12	[MAIS]	_	CCONJ	_	_	13	cc	_	AlignBegin=127091|AlignEnd=127635|Md-held=mer
-13	[PLAGE]	_	NOUN	_	_	11	conj:coord	_	AlignBegin=127657|AlignEnd=128383|Md=[MER]
-14	[DIFFERENT]	_	ADJ	_	_	13	mod	_	AlignBegin=128396|AlignEnd=128987
+# traduction_fr = l’eau était froide
+# text_en = the water was cold
+1	[EAU]	_	NOUN	_	_	0	root	_	AlignBegin=111722|AlignEnd=111857|Gloss=[WATER]
+2	[FROID]	_	ADJ	_	_	1	mod	_	AlignBegin=111857|AlignEnd=113357|Gloss=[COLD]
 
 # sent_id = vacances-sud_18
+# text = [CALME] [NATURE] PNT-SURFACE [mains-jointes]
 # source_file = ./recit-agnieska.mp4
-# traduction_fr = les calanques avec les rochers tout autour.
-# text = [CALANQUE] [ROCHER] [rochers 2X]
-1	[CALANQUE]	_	NOUN	_	_	_	_	_	AlignBegin=129013|AlignEnd=130809|TransfertType=Situation
-2	[ROCHER]	_	NOUN	_	_	_	_	_	AlignBegin=130817|AlignEnd=131152
-3	[rochers 2X]	_	PRON	_	_	_	_	_	AlignBegin=131170|AlignEnd=132813
+# traduction_fr = mais on profitait du calme, de la nature…”.
+# text_en = but we enjoyed the calm, the nature...".
+1	[CALME]	_	ADJ	_	_	2	mod	_	AlignBegin=113357|AlignEnd=114574|Gloss=[CALM]
+2	[NATURE]	_	NOUN	_	_	0	root	_	AlignBegin=114578|AlignEnd=115078|Gloss=[NATURE]
+3	PNT-SURFACE	_	PRON	_	_	2	conj:illustrate	_	AlignBegin=115083|AlignEnd=116074|Gloss=PNT-SURFACE|Tgt=PSSLr
+4	[mains-jointes]	_	PUNCT	_	_	2	punct	_	AlignBegin=116074|AlignEnd=116726|Gloss=[clapsed-hands]
 
 # sent_id = vacances-sud_19
+# text = [REGARDER] [écouter-en-regardant] [INTÉRESSANT] [pnt]
 # source_file = ./recit-agnieska.mp4
-# traduction_fr = On pouvait voir la mer depuis les hauteurs.
-# text = [REGARDER]
-1	[REGARDER]	_	VERB	_	_	0	root	_	AlignBegin=132822|AlignEnd=134400|Md=bord/falaise|Tgt=R-to-L
+# traduction_fr = Nous écoutions papa, intéressés.
+# text_en = We listen to dad, interested.
+1	[REGARDER]	_	VERB	_	_	0	root	_	AlignBegin=116743|AlignEnd=117130|Gloss=[LOOK]|Tgt=PSS3
+2	[écouter-en-regardant]	_	VERB	_	_	1	conj:illustrate	_	AlignBegin=117139|AlignEnd=117970|Gloss=[listen-looking]
+3	[INTÉRESSANT]	_	VERB	_	_	2	parataxis	_	AlignBegin=117974|AlignEnd=118648|Gloss=[INTERESTING]
+4	PNT	_	PRON	_	_	3	comp:obj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT|Tgt=PSSN|wordform=[pnt]
 
 # sent_id = vacances-sud_20
+# text = [prendre-parole] PNT [prendre-parole] PNT PNT [TROISIÈME] PNT [ADORER2] PNT [QUOI] [MER] [MAIS] [PLAGE] [DIFFÉRENT]
 # source_file = ./recit-agnieska.mp4
-# traduction_fr = Et dans l’eau, pas de sable mais des rochers, d’ailleurs quand on rentrait dans l’eau ça faisait mal aux pieds, puis une fois dans l’eau, on nageait et ça allait mieux.
-# text = [AUSSI] [RENTRER] [EAU] [SABLE] [ROCHER] [rochers-ts] [RENTRER] [EAU] [rentrer-dans-eau] [marcher-dans-l'eau] [rochers-dans-les-pieds] [NAGER] [AGREABLE]
-1	[AUSSI]	_	ADV	_	_	_	_	_	AlignBegin=134500|AlignEnd=134960
-2	[RENTRER]	_	VERB	_	_	_	_	_	AlignBegin=134960|AlignEnd=135278
-3	[EAU]	_	NOUN	_	_	_	_	_	AlignBegin=135278|AlignEnd=136174
-4	[SABLE]	_	NOUN	_	_	_	_	_	AlignBegin=136187|AlignEnd=137313
-5	[ROCHER]	_	NOUN	_	_	_	_	_	AlignBegin=137317|AlignEnd=138026
-6	[rochers-ts]	_	NOUN	_	_	_	_	_	AlignBegin=138035|AlignEnd=139774
-7	[RENTRER]	_	VERB	_	_	_	_	_	AlignBegin=140278|AlignEnd=140835|Md=bord
-8	[EAU]	_	NOUN	_	_	_	_	_	AlignBegin=140835|AlignEnd=141157|Md-held=bord
-9	[rentrer-dans-eau]	_	VERB	_	_	_	_	_	AlignBegin=141174|AlignEnd=142065|Md-held=bord
-10	[marcher-dans-l'eau]	_	VERB	_	_	_	_	_	AlignBegin=142078|AlignEnd=143261
-11	[rochers-dans-les-pieds]	_	NOUN	_	_	_	_	_	AlignBegin=143270|AlignEnd=144204
-12	[NAGER]	_	VERB	_	_	_	_	_	AlignBegin=144217|AlignEnd=147069
-13	[AGREABLE]	_	ADJ	_	_	_	_	_	AlignBegin=147069|AlignEnd=148069
+# traduction_fr = À mon tour, j’ai dit “Moi ce n’est ni le premier, ni le deuxième mais le troisième endroit que j’ai adoré. Le bord de mer mais pas la plage,
+# text_en = In turn, I said "For me, it's neither the first or the second but rather the third place that I loved. The seashore but not the beach,
+1	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=119352|AlignEnd=119626|Gloss=[take-turn]|Trs=Left
+2	PNT	_	PRON	_	Number=Sing	1	subj	_	AlignBegin=119630|AlignEnd=120600|Gloss=PNT|Tgt=1|wordform=[pnt]
+3	[prendre-parole]	_	VERB	_	_	1	conj:reform	_	AlignBegin=120604|AlignEnd=121200|Exp[ctxt]=Neg|Gloss=[take-turn]
+4	PNT	_	PRON	_	_	8	comp:obj	_	AlignBegin=121200|AlignEnd=122265|Exp[ctxt]=Neg|Gloss=PNT|Src=PSS3l|Tgt=PSSN|wordform=[pnt]
+5	PNT	_	PRON	_	_	7	conj:dicto	_	AlignBegin=122274|AlignEnd=122826|Gloss=PNT|NDHHeld=PNT-PSS3l|Src=PSSN|Tgt=PSS3r|wordform=[pnt]
+6	[TROISIÈME]	_	NUM	_	NumType=Ord	7	mod	_	AlignBegin=122826|AlignEnd=123287|Gloss=[THIRD]
+7	PNT	_	PRON	_	_	8	comp:obj	_	AlignBegin=123296|AlignEnd=123904|Gloss=PNT|Tgt=PSS3r|wordform=[pnt]
+8	[ADORER2]	_	VERB	_	_	3	comp:obj	_	AlignBegin=123913|AlignEnd=124939|Gloss=[ADORE2]|Reported=Yes
+9	PNT	_	PRON	_	_	8	comp:obj	_	AlignBegin=124939|AlignEnd=125296|Exp[ctxt]=Int|Gloss=PNT|NDHHeld=Yes|wordform=[pnt]
+10	[QUOI]	_	PRON	_	PronType=Int	11	mod	_	AlignBegin=125300|AlignEnd=125913|Exp[lex]=Int|Focus=Yes|Gloss=[WHAT]|NDHHeld=Yes
+11	[MER]	_	NOUN	_	_	9	mod	_	AlignBegin=125913|AlignEnd=127078|Gloss=[SEA]
+12	[MAIS]	_	CCONJ	_	_	13	cc	_	AlignBegin=127091|AlignEnd=127635|Gloss=[BUT]|NDHHeld=mer
+13	[PLAGE]	_	NOUN	_	_	11	conj:coord	_	AlignBegin=127657|AlignEnd=128383|Gloss=[BEACH]
+14	[DIFFÉRENT]	_	ADJ	_	_	13	mod	_	AlignBegin=128396|AlignEnd=128987|Gloss=[DIFFERENT]
 
 # sent_id = vacances-sud_21
+# text = [CALANQUE] [ROCHER] [rocher]
+# source_file = ./recit-agnieska.mp4
+# traduction_fr = les calanques avec les rochers tout autour.
+# text_en = the rocky inlet with the rocks around.
+1	[CALANQUE]	_	NOUN	_	_	0	root	_	AlignBegin=129013|AlignEnd=130809|Gloss=[ROCKY-INLET]|TransfertType=Situation
+2	[ROCHER]	_	NOUN	_	_	3	mod	_	AlignBegin=130817|AlignEnd=131152|Gloss=[ROCK]
+3	[rocher]	_	PRON	_	_	1	conj:illustrate	_	AlignBegin=131170|AlignEnd=132813|Exp[ctxt]=Intensité|Gloss=[rock]|TransfertType=Situation|TwoH=Yes
+
+# sent_id = vacances-sud_22
+# text = [REGARDER]
+# source_file = ./recit-agnieska.mp4
+# traduction_fr = On pouvait voir la mer depuis les hauteurs.
+# text_en = We could see the sea from the hights.
+1	[REGARDER]	_	VERB	_	_	0	root	_	AlignBegin=132822|AlignEnd=134400|Gloss=[LOOK]|NDH=falaise|Tgt=down-left-to-down-right|TransfertType=Situation+Personne
+
+# sent_id = vacances-sud_23
+# text = [AUSSI] [là-bas-en-bas] [EAU] [SABLE] [ROCHER] [rocher]
+# source_file = ./recit-agnieska.mp4
+# traduction_fr = Et dans l’eau, pas de sable mais des rochers,
+# text_en = And in the water, not sand but rocks,
+1	[AUSSI]	_	ADV	_	_	5	cc	_	AlignBegin=134500|AlignEnd=134960|Gloss=[ALSO]
+2	[là-bas-en-bas]	_	NOUN	_	_	3	mod	_	AlignBegin=134960|AlignEnd=135278|Gloss=[down-there]
+3	[EAU]	_	NOUN	_	_	5	mod	_	AlignBegin=135278|AlignEnd=136174|Gloss=[WATER]
+4	[SABLE]	_	NOUN	_	_	5	conj:coord	_	AlignBegin=136187|AlignEnd=137313|Exp[ctxt]=Neg|Gloss=[SAND]
+5	[ROCHER]	_	NOUN	_	ExtPos=VERB	0	root	_	AlignBegin=137317|AlignEnd=138026|Gloss=[ROCK]
+6	[rocher]	_	NOUN	_	_	5	conj:illustrate	_	AlignBegin=138035|AlignEnd=139774|Exp[ctxt]=Intensité|Gloss=[rock]
+
+# sent_id = vacances-sud_24
+# text = [RENTRER] [EAU] [avancer] [marcher-difficilement] [rochers-dans-les-pieds] [marcher-difficilement] [NAGER] [AGRÉABLE]
+# source_file = ./recit-agnieska.mp4
+# traduction_fr = d’ailleurs quand on rentrait dans l’eau ça faisait mal aux pieds, puis une fois dans l’eau, on nageait et ça allait mieux.
+# text_en = when we enter in the water it hurts the feet, but once in the water, we swim and it is better.
+1	[RENTRER]	_	VERB	_	_	0	root	_	AlignBegin=140278|AlignEnd=140835|Gloss=[ENTER]|NDH=bord
+2	[EAU]	_	NOUN	_	_	1	conj:obl	_	AlignBegin=140835|AlignEnd=141157|Gloss=[WATER]|NDHHeld=bord
+3	[avancer]	_	VERB	_	_	1	conj:chaining	_	AlignBegin=141174|AlignEnd=142065|Exp[ctxt]=Douleur|Gloss=[go-forward]|NDHHeld=bord
+4	[marcher-difficilement]	_	VERB	_	_	3	conj:chaining	_	AlignBegin=142078|AlignEnd=143261|Exp[lex]=Douleur|Gloss=[hardly-walk]|Subj=prm-pieds
+5	[rochers-dans-les-pieds]	_	NOUN	_	_	4	conj:illustrate	_	AlignBegin=143270|AlignEnd=144204|Exp[ctxt]=Douleur|Gloss=[rocks-in-feet]|Loc=NDH|NDHHeld=prm-pied|Rep=3|Theme=prm-MD-rocher
+6	[marcher-difficilement]	_	VERB	_	_	4	conj:redup	_	AlignBegin=144217|AlignEnd=145080|Exp[lex]=Douleur|Gloss=[hardly-walk]
+7	[NAGER]	_	VERB	_	_	6	conj:chaining	_	AlignBegin=145080|AlignEnd=147069|Exp[ctxt]=Positif|Gloss=[SWIM]
+8	[AGRÉABLE]	_	ADJ	_	_	7	mod	_	AlignBegin=147069|AlignEnd=148069|Exp[lex]=Positif|Gloss=[PLEASANT]
+
+# sent_id = vacances-sud_25
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Et là il n’y avait vraiment pas un chat ! C’était paisible.”
 # text = [PERSONNE] [VIDE] [CALME]
-1	[PERSONNE]	_	ADJ	_	_	_	_	_	AlignBegin=148297|AlignEnd=148897
-2	[VIDE]	_	ADJ	_	_	_	_	_	AlignBegin=148924|AlignEnd=150207
-3	[CALME]	_	ADJ	_	_	_	_	_	AlignBegin=150228|AlignEnd=151862
+1	[PERSONNE]	_	NOUN	_	Number=Plur	2	subj	_	AlignBegin=148297|AlignEnd=148897|Gloss=[PERSON]|Rep=4
+2	[VIDE]	_	ADJ	_	ExtPos=VERB	0	root	_	AlignBegin=148924|AlignEnd=150207|Exp[ctxt]=Neg|Gloss=[EMPTY]
+3	[CALME]	_	ADJ	_	ExtPos=VERB	2	conj:chaining	_	AlignBegin=150228|AlignEnd=151862|Exp[ctxt]=Neg|Gloss=[CALM]
 
-# sent_id = vacances-sud_22
+# sent_id = vacances-sud_26
+# text = [TOUS]-[QUATRE] [REGARDER] [OUI] [DIFFÉRENT]
 # source_file = ./recit-agnieska.mp4
 # traduction_fr = Nous étions là tous les 4, à écouter les souvenirs de chacun, tous différents.
-# text = [TOUS-LES-nb] [ECOUTER-EN-REGARDANT] [OUI] [DIFFERENT] 3X
-1	[TOUS-LES-nb]	_	PRON	_	_	_	_	_	AlignBegin=153228|AlignEnd=153862
-2	[ECOUTER-EN-REGARDANT]	_	VERB	_	_	_	_	_	AlignBegin=153869|AlignEnd=154648
-3	[OUI]	_	ADV	_	_	_	_	_	AlignBegin=154662|AlignEnd=155055
-4	[DIFFERENT] 3X	_	ADJ	_	_	_	_	_	AlignBegin=155062|AlignEnd=156979
+# text_en = We were all four here, listening to everyone's memories, each different.
+1	[TOUS]-[QUATRE]	_	PRON	_	_	2	subj	_	AlignBegin=153228|AlignEnd=153862|Gloss=[ALL]-[FOUR]
+2	[REGARDER]	_	VERB	_	_	_	_	_	AlignBegin=153869|AlignEnd=154648|Gloss=[LOOK]|Tgt=Rcp
+3	[OUI]	_	ADV	_	_	4	discourse	_	AlignBegin=154662|AlignEnd=155055|Gloss=[YES]|Reported=Yes
+4	[DIFFÉRENT]	_	ADJ	_	_	2	parataxis	_	AlignBegin=155062|AlignEnd=156979|Gloss=[DIFFERENT]|Rep=3
 
-# sent_id = vacances-sud_23
+# sent_id = vacances-sud_27
+# text = [prendre-parole] [MAMAN] [OUI] [DIFFÉRENT] [DONNER] [DÉCOUVERTE] [DIFFÉRENT] [RICHE] [INTÉRESSANT]
 # source_file = ./recit-agnieska.mp4
-# traduction_fr = Maman a terminé en disant : “Avec ces endroits différents, les découvertes étaient variées et riches. C’était très intéressant, oui, c’était vraiment des bonnes vacances.”
-# text = [MAMAN] [OUI] [DIFFERENT] 2X [DONNER] [DECOUVERTE] [DIFFERENT] [RICHE] [INTERESSANT] [BIEN] [PARFAIT] [BIEN] [VACANCES] [OUI]
-1	[MAMAN]	_	NOUN	_	_	_	_	_	AlignBegin=157083|AlignEnd=158014
-2	[OUI]	_	ADV	_	_	_	_	_	AlignBegin=158028|AlignEnd=159214
-3	[DIFFERENT] 2X	_	ADJ	_	_	_	_	_	AlignBegin=159228|AlignEnd=160186
-4	[DONNER]	_	VERB	_	_	_	_	_	AlignBegin=160207|AlignEnd=160862
-5	[DECOUVERTE]	_	NOUN	_	_	_	_	_	AlignBegin=160897|AlignEnd=161621
-6	[DIFFERENT]	_	ADJ	_	_	_	_	_	AlignBegin=161641|AlignEnd=162690
-7	[RICHE]	_	ADJ	_	_	_	_	_	AlignBegin=162724|AlignEnd=164179
-8	[INTERESSANT]	_	ADJ	_	_	_	_	_	AlignBegin=164207|AlignEnd=164966
-9	[BIEN]	_	ADJ	_	_	_	_	_	AlignBegin=164986|AlignEnd=165579
-10	[PARFAIT]	_	ADJ	_	_	_	_	_	AlignBegin=165593|AlignEnd=166572
-11	[BIEN]	_	ADJ	_	_	_	_	_	AlignBegin=166572|AlignEnd=167034
-12	[VACANCES]	_	NOUN	_	_	_	_	_	AlignBegin=167069|AlignEnd=167572
-13	[OUI]	_	ADV	_	_	_	_	_	AlignBegin=167600|AlignEnd=168186
+# traduction_fr = Maman a terminé en disant : “Avec ces endroits différents, les découvertes étaient variées et riches. C’était très intéressant,
+# text_en = Mom finished saying: "With the different places, the discoveries where diverse and riche. It was very interesting,
+1	[prendre-parole]	_	VERB	_	_	0	root	_	AlignBegin=157083|AlignEnd=157550|Gloss=[take-turn]
+2	[MAMAN]	_	NOUN	_	_	1	subj	_	AlignBegin=157550|AlignEnd=158014|Gloss=[MOM]
+3	[OUI]	_	ADV	_	_	6	discourse	_	AlignBegin=158028|AlignEnd=159214|Gloss=[YES]
+4	[DIFFÉRENT]	_	ADJ	_	_	6	mod	_	AlignBegin=159228|AlignEnd=160186|Gloss=[DIFFERENT]|Rep=2
+5	[DONNER]	_	VERB	_	_	6	mod	_	AlignBegin=160207|AlignEnd=160862|Gloss=[GIVE]
+6	[DÉCOUVERTE]	_	NOUN	_	_	1	comp:obj	_	AlignBegin=160897|AlignEnd=161621|Gloss=[DISCOVERY]|Reported=Yes
+7	[DIFFÉRENT]	_	ADJ	_	_	6	mod	_	AlignBegin=161641|AlignEnd=162690|Gloss=[DIFFERENT]
+8	[RICHE]	_	ADJ	_	_	7	conj:coord	_	AlignBegin=162724|AlignEnd=164179|Gloss=[RICH]
+9	[INTÉRESSANT]	_	ADJ	_	_	8	conj:coord	_	AlignBegin=164207|AlignEnd=164966|Gloss=[INTERESTING]
+
+# sent_id = vacances-sud_28
+# text = [BEAU] [JUSTE] [BEAU] [VACANCES] [OUI]
+# source_file = ./recit-agnieska.mp4
+# traduction_fr = oui, c’était vraiment des bonnes vacances.”
+# text_en = yes, it was very good holidays."
+1	[BEAU]	_	ADJ	_	_	4	mod	_	AlignBegin=164986|AlignEnd=165579
+2	[JUSTE]	_	ADJ	_	_	4	mod	_	AlignBegin=165593|AlignEnd=166572
+3	[BEAU]	_	ADJ	_	_	4	mod	_	AlignBegin=166572|AlignEnd=167034
+4	[VACANCES]	_	NOUN	_	_	0	root	_	AlignBegin=167069|AlignEnd=167572
+5	[OUI]	_	ADV	_	_	4	discourse	_	AlignBegin=167600|AlignEnd=168186
 
