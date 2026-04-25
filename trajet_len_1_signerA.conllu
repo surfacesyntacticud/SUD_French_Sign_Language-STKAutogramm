@@ -1,0 +1,103 @@
+# sent_id = trajet-len-1-signerA_1
+# text = [OUI] [PREMIER] PNT [MARCHER]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = En premier, je marche…
+# text_en = Firstly, I walk...
+1	[OUI]	_	INTJ	_	_	4	discourse	_	AlignBegin=10995|AlignEnd=11392|Gloss=[YES]
+2	[PREMIER]	_	NUM	_	ExtPos=CCONJ	4	mod	_	AlignBegin=11514|AlignEnd=12052|Gloss=[FIRST]
+3	PNT	_	PRON	_	_	4	subj	_	AlignBegin=12075|AlignEnd=12722|Gloss=PNT|wordform=[pnt]
+4	[MARCHER]	_	VERB	_	_	0	root@scrap	_	AlignBegin=12741|AlignEnd=13656|Gloss=[WALK]
+
+# sent_id = trajet-len-1-signerA_2
+# text = [QUATRE-VINGT-DIX] [QUATRE] [C]-[H]~ [NEUF] [QUATRE] PNT [PROCHE] [DEUX] [MINUTE] [MARCHER] [TRAM]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Dans le 94, à C-H-quelque chose, dans le 94. À côté, à 2 minutes de marche, il y a le tram,
+# text_en = In the (departement) 94, at C-H-something, in the 94. Next by, in a 2 minute walk, there is the tram,
+1	[QUATRE-VINGT-DIX]	_	NUM	_	_	0	root	_	AlignBegin=14311|AlignEnd=14807|Gloss=[NINETY]
+2	[QUATRE]	_	NUM	_	_	1	flat:num	_	AlignBegin=14816|AlignEnd=15250|Gloss=[FOUR]
+3	[C]-[H]~	_	PROPN	_	_	1	conj:zoom@scrap	_	AlignBegin=15259|AlignEnd=15774|Gloss=[C-H-]
+4	[NEUF]	_	NUM	_	_	1	conj:reform	_	AlignBegin=15783|AlignEnd=16160|Gloss=[NINE]
+5	[QUATRE]	_	NUM	_	_	4	flat:num	_	AlignBegin=16160|AlignEnd=16481|Gloss=[FOUR]
+6	PNT	_	PRON	_	_	10	subj	_	AlignBegin=16486|AlignEnd=16871|Gloss=PNT|Tgt=Prs1|wordform=[pnt]
+7	[PROCHE]	_	ADJ	_	_	11	mod	_	AlignBegin=16886|AlignEnd=17601|Gloss=[NEAR]
+8	[DEUX]	_	NUM	_	_	9	mod	_	AlignBegin=17607|AlignEnd=17829|Gloss=[TWO]
+9	[MINUTE]	_	NOUN	_	_	10	mod	_	AlignBegin=17829|AlignEnd=18171|Gloss=[MINUTE]
+10	[MARCHER]	_	VERB	_	_	11	mod	_	AlignBegin=18177|AlignEnd=18502|Gloss=[WALK]
+11	[TRAM]	_	NOUN	_	_	0	root	_	AlignBegin=18506|AlignEnd=19910|Gloss=[TRAM]
+
+# sent_id = trajet-len-1-signerA_3
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = ligne 7 du tram. Je monte dedans, je passe toutes les stations et jusqu’au bout, au terminus, je change pour le métro ligne 7 à Villejuif. Je monte dans le métro, jusqu’à l’arrêt G-O-B-L-j’ai oublié, là je change. Donc je descends là.
+# text = [LIGNE] [SEPT] [LIGNE] [TRAM] [MONTER-VEHICULE] [ARRÊT] [TERMINUS] [FIN] [MÉTRO] [CHANGEMENT] [MÉTRO] [SEPT] [LIGNE] [VILLE]-[JUIF] [MÉTRO] [MONTER-VEHICULE/EMBARQUER] [JUSQUE] [DESCENDRE] [CHANGEMENT] [G-O-B-L-E-] [OUBLIER] [CHANGEMENT] [DESCENDRE] [OUI]
+1	[LIGNE]	_	NOUN	_	_	5	comp:obj	_	AlignBegin=19910|AlignEnd=20365|Gloss=[LINE]
+2	[SEPT]	_	NUM	_	_	1	mod	_	AlignBegin=20377|AlignEnd=20615|Gloss=[SEVEN]
+3	[LIGNE]	_	NOUN	_	_	1	conj:redup	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
+4	[TRAM]	_	NOUN	_	_	3	mod	_	AlignBegin=21123|AlignEnd=21660|Gloss=[TRAM]
+5	[MONTER-VEHICULE]	_	VERB	_	_	_	_	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-VEHICULE]|Sass=tram
+6	[ARRÊT]	_	_	_	Number=Plur	_	_	_	AlignBegin=22291|AlignEnd=23545|Gloss=[STOP]
+7	[TERMINUS]	_	_	_	_	_	_	_	AlignBegin=23553|AlignEnd=24119|Gloss=[TERMINUS]
+8	[FIN]	_	_	_	_	_	_	_	AlignBegin=24134|AlignEnd=25110|Gloss=[END]
+9	[MÉTRO]	_	_	_	_	_	_	_	AlignBegin=25118|AlignEnd=25559|Gloss=[METRO]
+10	[CHANGEMENT]	_	_	_	_	_	_	_	AlignBegin=25575|AlignEnd=25969|Gloss=[CHANGE]
+11	[MÉTRO]	_	_	_	_	_	_	_	AlignBegin=25969|AlignEnd=26189|Gloss=[METRO]
+12	[SEPT]	_	_	_	_	_	_	_	AlignBegin=26205|AlignEnd=26535|Gloss=[SEVEN]
+13	[LIGNE]	_	_	_	_	_	_	_	AlignBegin=26543|AlignEnd=26866|Gloss=[LINE]
+14	[VILLE]-[JUIF]	_	_	_	_	_	_	_	AlignBegin=26882|AlignEnd=28024|Gloss=[VILLE]-[JUIF]
+15	[MÉTRO]	_	_	_	_	_	_	_	AlignBegin=28024|AlignEnd=28669|Gloss=[METRO]
+16	[MONTER-VEHICULE/EMBARQUER]	_	_	_	_	_	_	_	AlignBegin=28669|AlignEnd=29630|Gloss=[SIT-VEHICULE]|Sass=train
+17	[JUSQUE]	_	_	_	_	_	_	_	AlignBegin=29638|AlignEnd=29992|Gloss=[UNTIL]
+18	[DESCENDRE]	_	_	_	_	_	_	_	AlignBegin=30008|AlignEnd=30528|Gloss=[GET-OUT]
+19	[CHANGEMENT]	_	_	_	_	_	_	_	AlignBegin=30543|AlignEnd=30835|Gloss=[CHANGE]
+20	[G-O-B-L-E-]	_	_	_	_	_	_	_	AlignBegin=30843|AlignEnd=32268|Gloss=[G-O-B-L-E-]
+21	[OUBLIER]	_	_	_	_	_	_	_	AlignBegin=32276|AlignEnd=32654|Gloss=[FORGOT]
+22	[CHANGEMENT]	_	_	_	_	_	_	_	AlignBegin=32677|AlignEnd=33039|Gloss=[CHANGE]
+23	[DESCENDRE]	_	_	_	_	_	_	_	AlignBegin=33055|AlignEnd=34047|Gloss=[GET-OUT]
+24	[OUI]	_	_	_	_	_	_	_	AlignBegin=35598|AlignEnd=36110|Gloss=[YES]
+
+# sent_id = trajet-len-1-signerA_4
+# text = [OUI] [À-CÔTÉ] [LA?] [DESCENDRE] [BUS] [NUMÉRO] [VINGT] [SEPT] [BUS]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Oui, à côté, là. Je descends du métro et je prends le bus numéro 27, le bus.
+# text_en = Yes, next by, here. I get out of the metro and I take the bus number 27.
+1	[OUI]	_	INTJ	_	_	4	discourse	_	AlignBegin=35598|AlignEnd=36110|Gloss=[YES]
+2	[À-CÔTÉ]	_	ADV	_	_	4	mod	_	AlignBegin=36157|AlignEnd=36717|Gloss=[NEXT-TO]
+3	[LA?]	_	_	_	_	_	_	_	AlignBegin=36748|AlignEnd=36969
+4	[DESCENDRE]	_	VERB	_	_	0	root	_	AlignBegin=36984|AlignEnd=38000|Gloss=[GET-OUT]
+5	[BUS]	_	NOUN	_	ExtPos=VERB	4	conj:coord	_	AlignBegin=38425|AlignEnd=38976|Gloss=[BUS]
+6	[NUMÉRO]	_	NOUN	_	_	5	mod	_	AlignBegin=39008|AlignEnd=39622|Gloss=[NUMBER]
+7	[VINGT]	_	NUM	_	_	6	comp:obj	_	AlignBegin=39646|AlignEnd=39882|Gloss=[TWENTY]
+8	[SEPT]	_	NUM	_	_	7	flat:num	_	AlignBegin=39898|AlignEnd=40323|Gloss=[SEVEN]
+9	[BUS]	_	NOUN	_	_	5	conj:redup	_	AlignBegin=40339|AlignEnd=40961|Gloss=[BUS]
+
+# sent_id = trajet-len-1-signerA_5
+# text = [VINGT] [SEPT] [BUS]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = 27 le bus
+# text_en = the bus 27
+1	[VINGT]	_	NUM	_	_	3	mod	_	AlignBegin=41756|AlignEnd=42252|Gloss=[TWENTY]
+2	[SEPT]	_	NUM	_	_	1	flat:num	_	AlignBegin=42260|AlignEnd=43024|Gloss=[SEVEN]
+3	[BUS]	_	NOUN	_	_	0	root	_	AlignBegin=43055|AlignEnd=43433|Gloss=[BUS]
+
+# sent_id = trajet-len-1-signerA_6
+# text = [JUSQUE] [DESCENDRE] [SAINT] [JACQUES] [voilà]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Jusqu’à l’arrêt Saint-Jacques et voilà.
+# text_en = Until the stop Saint-Jacques, that's it.
+1	[JUSQUE]	_	ADV	_	_	2	mod	_	AlignBegin=43772|AlignEnd=44449|Gloss=[UNTIL]
+2	[DESCENDRE]	_	VERB	_	_	0	root	_	AlignBegin=44465|AlignEnd=44780|Gloss=[GET-OUT]
+3	[SAINT]	_	ADJ	_	_	2	comp:obl	_	AlignBegin=44787|AlignEnd=45189|Gloss=[SAINT]
+4	[JACQUES]	_	PROPN	_	_	3	flat	_	AlignBegin=45213|AlignEnd=45591|Gloss=[JACQUES]
+5	[voilà]	_	INTJ	_	_	2	discourse	_	AlignBegin=45630|AlignEnd=46213|Gloss=[well]
+
+# sent_id = trajet-len-1-signerA_7
+# text = [ENVIRON] [TRENTE] [MINUTE] [QUARANTE] [MINUTE] [ENVIRON]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = à peu près, 30, 40 minutes.
+# text_en = around 30, 40 minutes.
+1	[ENVIRON]	_	ADV	_	_	3	discourse	_	AlignBegin=48661|AlignEnd=49213|Gloss=[APPROXIMATELY]
+2	[TRENTE]	_	NUM	_	_	3	mod	_	AlignBegin=49213|AlignEnd=49535|Gloss=[THIRTY]
+3	[MINUTE]	_	NOUN	_	_	0	root	_	AlignBegin=49551|AlignEnd=50157|Gloss=[MINUTE]
+4	[QUARANTE]	_	NUM	_	_	5	mod	_	AlignBegin=50165|AlignEnd=50425|Gloss=[FOURTY]
+5	[MINUTE]	_	NOUN	_	_	3	conj:redup	_	AlignBegin=50441|AlignEnd=50913|Gloss=[MINUTE]
+6	[ENVIRON]	_	ADV	_	_	3	discourse	_	AlignBegin=50937|AlignEnd=51362|Gloss=[APPROXIMATELY]
+
