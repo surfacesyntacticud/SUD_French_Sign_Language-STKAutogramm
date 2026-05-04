@@ -3,13 +3,13 @@
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Euh, en 6ème, c’est l’année où j’ai eu les meilleurs souvenirs de ma vie.
 # text_en = Well, in 6th grade, it was the year for which I have the best life memories.
-1	[euh]	_	INTJ	_	_	6	discourse	_	AlignBegin=125|AlignEnd=948|Gloss=[hesitation]
-2	[DATE]	_	ADP	_	_	6	mod	_	AlignBegin=955|AlignEnd=1765|Gloss=[DATE]
-3	[SIXIÈME]	_	NOUN	_	NumType=Ord	4	mod	_	AlignBegin=1767|AlignEnd=2750|Gloss=[SIXTH]
-4	[ANNÉE]	_	NOUN	_	_	2	comp:obj	_	AlignBegin=2756|AlignEnd=3715|Gloss=[DURING-YEAR]
-5	[MEILLEUR]	_	ADJ	_	_	6	mod	_	AlignBegin=3715|AlignEnd=4424|Gloss=[BEST]
-6	[SOUVENIR]	_	NOUN	_	_	0	root	_	AlignBegin=4436|AlignEnd=4971|Gloss=[MEMORY]
-7	[VIE]	_	NOUN	_	_	6	udep	_	AlignBegin=4977|AlignEnd=5570|Gloss=[LIFE]
+1	[euh]	[euh]	INTJ	_	_	6	discourse	_	AlignBegin=125|AlignEnd=948|Gloss=[hesitation]
+2	[DATE]	[DATE]	ADP	_	_	6	mod	_	AlignBegin=955|AlignEnd=1765|Gloss=[DATE]
+3	[SIXIÈME]	[SIXIÈME]	NOUN	_	NumType=Ord	4	mod	_	AlignBegin=1767|AlignEnd=2750|Gloss=[SIXTH]
+4	[ANNÉE]	[ANNÉE]	NOUN	_	_	2	comp:obj	_	AlignBegin=2756|AlignEnd=3715|Gloss=[DURING-YEAR]
+5	[MEILLEUR]	[MEILLEUR]	ADJ	_	_	6	mod	_	AlignBegin=3715|AlignEnd=4424|Gloss=[BEST]
+6	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=4436|AlignEnd=4971|Gloss=[MEMORY]
+7	[VIE]	[VIE]	NOUN	_	_	6	udep	_	AlignBegin=4977|AlignEnd=5570|Gloss=[LIFE]
 
 # sent_id = souvenir_2_split1
 # text = [CLASSE] [CLASSE] [GROUPE] [CHAUD]
@@ -18,201 +18,204 @@
 # text_en = In the class, the group was warm,
 1	[CLASSE]	[CLASSE]	NOUN	_	_	2	conj:repair	_	AlignBegin=5570|AlignEnd=6103|Gloss=[CLASS]
 2	[CLASSE]	[CLASSE]	NOUN	_	_	4	mod	_	AlignBegin=6103|AlignEnd=6709|Gloss=[CLASS]
-3	[GROUPE]	_	NOUN	_	_	4	subj	_	AlignBegin=6715|AlignEnd=7483|Gloss=[GROUP]
-4	[CHAUD]	_	ADJ	_	_	0	root	_	AlignBegin=7494|AlignEnd=8395|Gloss=[WARM]
+3	[GROUPE]	[GROUPE]	NOUN	_	_	4	subj	_	AlignBegin=6715|AlignEnd=7483|Gloss=[GROUP]
+4	[CHAUD]	[CHAUD]	ADJ	_	_	0	root	_	AlignBegin=7494|AlignEnd=8395|Gloss=[WARM]
 
 # sent_id = souvenir_2_split2_split1
 # text = [~] [GROUPE~] [~] [ÉLÈVE] [AMI] [~] [LIEN] [FORT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = les élèves étaient amis, on avait des liens forts.
 # text_en = the student were friends, we had strong relations.
-1	[~]	_	X	_	_	4	unk@scrap	_	AlignBegin=8407|AlignEnd=8802|Gloss=[~]
-2	[GROUPE~]	_	X	_	ExtPos=NOUN	4	unk@scrap	_	AlignBegin=8808|AlignEnd=9355|Gloss=[GROUP~]
-3	[~]	_	X	_	_	4	unk@scrap	_	AlignBegin=9355|AlignEnd=9849|Gloss=[~]
-4	[ÉLÈVE]	_	NOUN	_	_	5	subj	_	AlignBegin=9855|AlignEnd=10413|Gloss=[STUDENT]
-5	[AMI]	_	NOUN	_	_	0	root	_	AlignBegin=10413|AlignEnd=10808|Gloss=[FRIEND]
-6	[~]	_	X	_	_	7	unk@scrap	_	AlignBegin=10808|AlignEnd=11070|Gloss=[~]
-7	[LIEN]	_	NOUN	_	_	5	conj:coord	_	AlignBegin=11081|AlignEnd=11744|Gloss=[LINK]
-8	[FORT]	_	ADV	_	_	7	mod	_	AlignBegin=11744|AlignEnd=12221|Gloss=[STRONG]
+1	[~]	[~]	X	_	_	4	unk@scrap	_	AlignBegin=8407|AlignEnd=8802|Gloss=[~]
+2	[GROUPE~]	[GROUPE~]	X	_	ExtPos=NOUN	4	unk@scrap	_	AlignBegin=8808|AlignEnd=9355|Gloss=[GROUP~]
+3	[~]	[~]	X	_	_	4	unk@scrap	_	AlignBegin=9355|AlignEnd=9849|Gloss=[~]
+4	[ÉLÈVE]	[ÉLÈVE]	NOUN	_	_	5	subj	_	AlignBegin=9855|AlignEnd=10413|Gloss=[STUDENT]
+5	[AMI]	[AMI]	NOUN	_	_	0	root	_	AlignBegin=10413|AlignEnd=10808|Gloss=[FRIEND]
+6	[~]	[~]	X	_	_	7	unk@scrap	_	AlignBegin=10808|AlignEnd=11070|Gloss=[~]
+7	[LIEN]	[LIEN]	NOUN	_	_	5	conj:coord	_	AlignBegin=11081|AlignEnd=11744|Gloss=[LINK]
+8	[FORT]	[FORT]	ADV	_	_	7	mod	_	AlignBegin=11744|AlignEnd=12221|Gloss=[STRONG]
 
 # sent_id = souvenir_2_split2_split2
 # text = [PLUS] [INTERNAT] [SAINT-JACQUES] [INTERNAT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Encore plus avec l’internat, ici, à Saint-Jacques.
 # text_en = Even more with the broading school, here, in Saint-Jacques.
-1	[PLUS]	_	ADV	_	_	0	root	_	AlignBegin=12227|AlignEnd=12843|Gloss=[PLUS]
-2	[INTERNAT]	_	NOUN	_	_	1	comp	_	AlignBegin=12849|AlignEnd=13878|Gloss=[BOARDING-SCHOOL]
-3	[SAINT-JACQUES]	_	PROPN	_	_	4	udep	_	AlignBegin=15401|AlignEnd=15860|Gloss=[SAINT-JACQUES]
-4	[INTERNAT]	_	NOUN	_	_	2	conj:reform	_	AlignBegin=15872|AlignEnd=16448|Gloss=[BOARDING-SCHOOL]
+1	[PLUS]	[PLUS]	ADV	_	_	0	root	_	AlignBegin=12227|AlignEnd=12843|Gloss=[PLUS]
+2	[INTERNAT]	[INTERNAT]	NOUN	_	_	1	comp	_	AlignBegin=12849|AlignEnd=13878|Gloss=[BOARDING-SCHOOL]
+3	[SAINT-JACQUES]	[SAINT-JACQUES]	PROPN	_	_	4	udep	_	AlignBegin=15401|AlignEnd=15860|Gloss=[SAINT-JACQUES]
+4	[INTERNAT]	[INTERNAT]	NOUN	_	_	2	conj:reform	_	AlignBegin=15872|AlignEnd=16448|Gloss=[BOARDING-SCHOOL]
 
 # sent_id = souvenir_3_split1
 # text = [PERSONNE] [PROFESSIONNEL] [COMMUNICATION] [INTÉRESSANT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Avec les personnes, les professionnels, on communiquait bien. C’était un groupe intéressant, voilà.
 # text_en = With the people, the professionals, we communicated well. It was an interesting group.
-1	[PERSONNE]	_	NOUN	_	Number=Plur	3	subj	_	AlignBegin=17000|AlignEnd=17994|Gloss=[PERSON]
-2	[PROFESSIONNEL]	_	NOUN	_	_	1	conj:appos	_	AlignBegin=18663|AlignEnd=19570|Gloss=[PROFESSIONAL]
-3	[COMMUNICATION]	_	NOUN	_	_	0	root	_	AlignBegin=20000|AlignEnd=20628|Gloss=[COMMUNICATION]
-4	[INTÉRESSANT]	_	ADJ	_	_	3	mod	_	AlignBegin=21331|AlignEnd=21983|Gloss=[INTERESTING]
+1	[PERSONNE]	[PERSONNE]	NOUN	_	Number=Plur	3	subj	_	AlignBegin=17000|AlignEnd=17994|Gloss=[PERSON]
+2	[PROFESSIONNEL]	[PROFESSIONNEL]	NOUN	_	_	1	conj:appos	_	AlignBegin=18663|AlignEnd=19570|Gloss=[PROFESSIONAL]
+3	[COMMUNICATION]	[COMMUNICATION]	NOUN	_	_	0	root	_	AlignBegin=20000|AlignEnd=20628|Gloss=[COMMUNICATION]
+4	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	3	mod	_	AlignBegin=21331|AlignEnd=21983|Gloss=[INTERESTING]
 
 # sent_id = souvenir_3_split2
 # text = [ENSUITE] [DATE] [ÉTÉ] [euh] [ENVIRON] [MAI] [AVRIL] [JUIN] [PÉRIODE] [PARTIR] [GROUPE~] [INTERNAT] [GROUPE] [QUATRE] [ÉTAGE] [GROUPE] [PARTIR] [ESPAGNE] [BARCELONE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Un jour, en été, euh, à peu près, mai, avril, juin dans cette période, on est partis avec tout le groupe d’internes, le groupe du 4ème étage, on est partis en Espagne à Barcelone en avion.
 # text_en = Once, in summer, hmm around may, april, june in this time period, we went with the group of boarders, the 4th floor group, we went to Spain, to Barcelona by plane.
-1	[ENSUITE]	_	ADV	_	_	10	discourse	_	AlignBegin=21988|AlignEnd=22686|Gloss=[THEN]
-2	[DATE]	_	ADP	_	_	10	mod	_	AlignBegin=22703|AlignEnd=23547|Gloss=[DATE]
-3	[ÉTÉ]	_	NOUN	_	_	2	comp:obj	_	AlignBegin=23558|AlignEnd=24192|Gloss=[SUMMER]
-4	[euh]	_	INTJ	_	_	5	discourse	_	AlignBegin=24215|AlignEnd=24744|Gloss=[hesitation]
-5	[ENVIRON]	_	ADV	_	_	6	mod	_	AlignBegin=24762|AlignEnd=25849|Gloss=[APPROXIMATELY]
-6	[MAI]	_	NOUN	_	_	3	conj:zoom	_	AlignBegin=25855|AlignEnd=26407|Gloss=[MAY]
-7	[AVRIL]	_	NOUN	_	_	6	conj:coord	_	AlignBegin=26407|AlignEnd=27087|Gloss=[APRIL]
-8	[JUIN]	_	NOUN	_	_	7	conj:coord	_	AlignBegin=27099|AlignEnd=27442|Gloss=[JUNE]
-9	[PÉRIODE]	_	NOUN	_	_	3	udep	_	AlignBegin=27453|AlignEnd=28087|Gloss=[PERIOD]
-10	[PARTIR]	_	VERB	_	_	0	root	_	AlignBegin=28105|AlignEnd=28948|Gloss=[LEAVE]
-11	[GROUPE~]	_	NOUN	_	_	13	conj:repair	_	AlignBegin=28959|AlignEnd=29285|Gloss=[GROUP~]
-12	[INTERNAT]	_	NOUN	_	_	13	udep	_	AlignBegin=29285|AlignEnd=29581|Gloss=[BOARDING-SCHOOL]
-13	[GROUPE]	_	NOUN	_	_	10	subj	_	AlignBegin=29587|AlignEnd=30401|Gloss=[GROUP]
-14	[QUATRE]	_	NUM	_	_	15	mod	_	AlignBegin=30651|AlignEnd=30872|Gloss=[FOUR]
-15	[ÉTAGE]	_	NOUN	_	_	16	mod	_	AlignBegin=30884|AlignEnd=31343|Gloss=[FLOOR]
-16	[GROUPE]	_	NOUN	_	_	17	subj	_	AlignBegin=31355|AlignEnd=31791|Gloss=[GROUP]
-17	[PARTIR]	_	VERB	_	_	10	conj:redup	_	AlignBegin=31802|AlignEnd=32145|Gloss=[LEAVE]
-18	[ESPAGNE]	_	PROPN	_	_	17	comp:obj	_	AlignBegin=32145|AlignEnd=32744|Gloss=[SPAIN]
-19	[BARCELONE]	_	PROPN	_	_	18	conj:zoom	_	AlignBegin=32756|AlignEnd=33512|Gloss=[BARCELONA]
+1	[ENSUITE]	[ENSUITE]	ADV	_	_	10	discourse	_	AlignBegin=21988|AlignEnd=22686|Gloss=[THEN]
+2	[DATE]	[DATE]	ADP	_	_	10	mod	_	AlignBegin=22703|AlignEnd=23547|Gloss=[DATE]
+3	[ÉTÉ]	[ÉTÉ]	NOUN	_	_	2	comp:obj	_	AlignBegin=23558|AlignEnd=24192|Gloss=[SUMMER]
+4	[euh]	[euh]	INTJ	_	_	5	discourse	_	AlignBegin=24215|AlignEnd=24744|Gloss=[hesitation]
+5	[ENVIRON]	[ENVIRON]	ADV	_	_	6	mod	_	AlignBegin=24762|AlignEnd=25849|Gloss=[APPROXIMATELY]
+6	[MAI]	[MAI]	NOUN	_	_	3	conj:zoom	_	AlignBegin=25855|AlignEnd=26407|Gloss=[MAY]
+7	[AVRIL]	[AVRIL]	NOUN	_	_	6	conj:coord	_	AlignBegin=26407|AlignEnd=27087|Gloss=[APRIL]
+8	[JUIN]	[JUIN]	NOUN	_	_	7	conj:coord	_	AlignBegin=27099|AlignEnd=27442|Gloss=[JUNE]
+9	[PÉRIODE]	[PÉRIODE]	NOUN	_	_	3	udep	_	AlignBegin=27453|AlignEnd=28087|Gloss=[PERIOD]
+10	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=28105|AlignEnd=28948|Gloss=[LEAVE]
+11	[GROUPE~]	[GROUPE~]	NOUN	_	_	13	conj:repair	_	AlignBegin=28959|AlignEnd=29285|Gloss=[GROUP~]
+12	[INTERNAT]	[INTERNAT]	NOUN	_	_	13	udep	_	AlignBegin=29285|AlignEnd=29581|Gloss=[BOARDING-SCHOOL]
+13	[GROUPE]	[GROUPE]	NOUN	_	_	10	subj	_	AlignBegin=29587|AlignEnd=30401|Gloss=[GROUP]
+14	[QUATRE]	[QUATRE]	NUM	_	_	15	mod	_	AlignBegin=30651|AlignEnd=30872|Gloss=[FOUR]
+15	[ÉTAGE]	[ÉTAGE]	NOUN	_	_	16	mod	_	AlignBegin=30884|AlignEnd=31343|Gloss=[FLOOR]
+16	[GROUPE]	[GROUPE]	NOUN	_	_	17	subj	_	AlignBegin=31355|AlignEnd=31791|Gloss=[GROUP]
+17	[PARTIR]	[PARTIR]	VERB	_	_	10	conj:redup	_	AlignBegin=31802|AlignEnd=32145|Gloss=[LEAVE]
+18	[ESPAGNE]	[ESPAGNE]	PROPN	_	_	17	comp:obj	_	AlignBegin=32145|AlignEnd=32744|Gloss=[SPAIN]
+19	[BARCELONE]	[BARCELONE]	PROPN	_	_	18	conj:zoom	_	AlignBegin=32756|AlignEnd=33512|Gloss=[BARCELONA]
 
 # sent_id = souvenir_4_split1
 # text = [voyager-en-AVION] [PREMIER] [FOIS] [GROUPE] [AMI]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = C’était la première fois qu’on partait entre amis en avion. Quand on a atterri à Barcelone, j’ai plein de souvenirs. On a rigolé, on se taquinait, on se moquait, on s’envoyait des piques, on se disputait aussi. C’était marrant. J’ai trop de souvenirs.
 # text_en = It was the first time we flew by plane with friends. When we landed in Barcelona, I have a lot of memories. We laughed, we teased, mocked and made barbed comments to each other, we were arguing too. It was funny. I have so many memories.
-1	[voyager-en-AVION]	_	NOUN	_	_	0	root	_	AlignBegin=33517|AlignEnd=34523|Gloss=[PLANE]
-2	[PREMIER]	_	ADJ	_	_	3	mod	_	AlignBegin=34529|AlignEnd=34698|Gloss=[FIRST]
-3	[FOIS]	_	NOUN	_	_	1	mod	_	AlignBegin=34698|AlignEnd=34953|Gloss=[TIME]
-4	[GROUPE]	_	NOUN	_	_	1	subj	_	AlignBegin=34959|AlignEnd=35337|Gloss=[GROUP]
-5	[AMI]	_	NOUN	_	_	4	compound	_	AlignBegin=35337|AlignEnd=35843|Gloss=[FRIEND]
+1	[voyager-en-AVION]	[AVION]?	NOUN	_	_	0	root	_	AlignBegin=33517|AlignEnd=34523|Gloss=[PLANE]
+2	[PREMIER]	[PREMIER]	ADJ	_	_	3	mod	_	AlignBegin=34529|AlignEnd=34698|Gloss=[FIRST]
+3	[FOIS]	[FOIS]	NOUN	_	_	1	mod	_	AlignBegin=34698|AlignEnd=34953|Gloss=[TIME]
+4	[GROUPE]	[GROUPE]	NOUN	_	_	1	subj	_	AlignBegin=34959|AlignEnd=35337|Gloss=[GROUP]
+5	[AMI]	[AMI]	NOUN	_	_	4	compound	_	AlignBegin=35337|AlignEnd=35843|Gloss=[FRIEND]
 
 # sent_id = souvenir_4_split2_split1
 # text = [AVION] [ATTERRIR] [BARCELONE] [PLEIN] [SOUVENIR] [RIGOLER] [TAQUINER] [MOQUER] [PÎQUER] [DISPUTER]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = C’était la première fois qu’on partait entre amis en avion. Quand on a atterri à Barcelone, j’ai plein de souvenirs. On a rigolé, on se taquinait, on se moquait, on s’envoyait des piques, on se disputait aussi. C’était marrant. J’ai trop de souvenirs.
 # text_en = It was the first time we flew by plane with friends. When we landed in Barcelona, I have a lot of memories. We laughed, we teased, mocked and made barbed comments to each other, we were arguing too. It was funny. I have so many memories.
-1	[AVION]	_	NOUN	_	_	2	conj:repair	_	AlignBegin=35855|AlignEnd=36744|Gloss=[PLANE]
-2	[ATTERRIR]	_	VERB	_	_	5	mod	_	AlignBegin=36756|AlignEnd=37831|Gloss=[LANDING]
-3	[BARCELONE]	_	PROPN	_	_	2	comp:obl	_	AlignBegin=37860|AlignEnd=38645|Gloss=[BARCELONA]
-4	[PLEIN]	_	ADV	_	_	5	mod	_	AlignBegin=38645|AlignEnd=39250|Gloss=[A-LOT]
-5	[SOUVENIR]	_	NOUN	_	_	0	root	_	AlignBegin=39267|AlignEnd=39942|Gloss=[MEMORY]
-6	[RIGOLER]	_	VERB	_	_	5	conj:appos	_	AlignBegin=39959|AlignEnd=41122|Gloss=[LAUGH]
-7	[TAQUINER]	_	VERB	_	_	6	conj:coord	_	AlignBegin=41140|AlignEnd=41756|Gloss=[TEASE]|Src=Prs1|Tgt=PSS3l
-8	[MOQUER]	_	VERB	_	_	7	conj:coord	_	AlignBegin=41767|AlignEnd=42384|Gloss=[MOCK]|Src=Prs1|Tgt=PSS3l
-9	[PÎQUER]	_	VERB	_	_	8	conj:coord	_	AlignBegin=42395|AlignEnd=43674|Gloss=[STING]|Rep=2|Src=Prs1|Tgt=PSS3l
-10	[DISPUTER]	_	VERB	_	_	9	conj:coord	_	AlignBegin=44448|AlignEnd=45419|Gloss=[ARGUE]
+1	[AVION]	[AVION]	NOUN	_	_	2	conj:repair	_	AlignBegin=35855|AlignEnd=36744|Gloss=[PLANE]
+2	[ATTERRIR]	[ATTERRIR]	VERB	_	_	5	mod	_	AlignBegin=36756|AlignEnd=37831|Gloss=[LANDING]
+3	[BARCELONE]	[BARCELONE]	PROPN	_	_	2	comp:obl	_	AlignBegin=37860|AlignEnd=38645|Gloss=[BARCELONA]
+4	[PLEIN]	[PLEIN]	ADV	_	_	5	mod	_	AlignBegin=38645|AlignEnd=39250|Gloss=[A-LOT]
+5	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=39267|AlignEnd=39942|Gloss=[MEMORY]
+6	[RIGOLER]	[RIGOLER]	VERB	_	_	5	conj:appos	_	AlignBegin=39959|AlignEnd=41122|Gloss=[LAUGH]
+7	[TAQUINER]	[TAQUINER]	VERB	_	_	6	conj:coord	_	AlignBegin=41140|AlignEnd=41756|Gloss=[TEASE]|Src=Prs1|Tgt=PSS3l
+8	[MOQUER]	[MOQUER]	VERB	_	_	7	conj:coord	_	AlignBegin=41767|AlignEnd=42384|Gloss=[MOCK]|Src=Prs1|Tgt=PSS3l
+9	[PÎQUER]	[PÎQUER]	VERB	_	_	8	conj:coord	_	AlignBegin=42395|AlignEnd=43674|Gloss=[STING]|Rep=2|Src=Prs1|Tgt=PSS3l
+10	[DISPUTER]	[DISPUTER]	VERB	_	_	9	conj:coord	_	AlignBegin=44448|AlignEnd=45419|Gloss=[ARGUE]
 
 # sent_id = souvenir_4_split2_split2
 # text = [DRÔLE] [TROP] [SOUVENIR]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = C’était la première fois qu’on partait entre amis en avion. Quand on a atterri à Barcelone, j’ai plein de souvenirs. On a rigolé, on se taquinait, on se moquait, on s’envoyait des piques, on se disputait aussi. C’était marrant. J’ai trop de souvenirs.
 # text_en = It was the first time we flew by plane with friends. When we landed in Barcelona, I have a lot of memories. We laughed, we teased, mocked and made barbed comments to each other, we were arguing too. It was funny. I have so many memories.
-1	[DRÔLE]	_	ADJ	_	_	3	discourse	_	AlignBegin=47407|AlignEnd=48349|Gloss=[FUNNY]
-2	[TROP]	_	ADV	_	_	3	mod	_	AlignBegin=48349|AlignEnd=48756|Gloss=[TOO-MUCH]
-3	[SOUVENIR]	_	NOUN	_	_	0	root	_	AlignBegin=48767|AlignEnd=49384|Gloss=[MEMORY]
+1	[DRÔLE]	[DRÔLE]	ADJ	_	_	3	discourse	_	AlignBegin=47407|AlignEnd=48349|Gloss=[FUNNY]
+2	[TROP]	[TROP]	ADV	_	_	3	mod	_	AlignBegin=48349|AlignEnd=48756|Gloss=[TOO-MUCH]
+3	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=48767|AlignEnd=49384|Gloss=[MEMORY]
 
 # sent_id = souvenir_5_split1
 # text = [DATE] [DATE] [JOUR] [MACRON] [ÉLÉCTION] [PRÉSIDENT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Et c’était le jour où Macron a été élu président
 # text_en = And it was the day Macron was elected president
-1	[DATE]	_	ADP	_	_	0	root	_	AlignBegin=50802|AlignEnd=51395|Gloss=[DATE]
-2	[DATE]	_	ADP	_	_	1	conj:repair	_	AlignBegin=51407|AlignEnd=52000|Gloss=[DATE]
-3	[JOUR]	_	NOUN	_	_	2	comp	_	AlignBegin=52000|AlignEnd=52744|Gloss=[DAY]
-4	[MACRON]	_	PROPN	_	_	5	udep	_	AlignBegin=52750|AlignEnd=53052|Gloss=[MACRON]
-5	[ÉLÉCTION]	_	NOUN	_	_	3	mod	_	AlignBegin=53070|AlignEnd=54035|Gloss=[ELECT]
-6	[PRÉSIDENT]	_	NOUN	_	_	5	mod	_	AlignBegin=54047|AlignEnd=55221|Gloss=[PRESIDENT]
+1	[DATE]	[DATE]	ADP	_	_	0	root	_	AlignBegin=50802|AlignEnd=51395|Gloss=[DATE]
+2	[DATE]	[DATE]	ADP	_	_	1	conj:repair	_	AlignBegin=51407|AlignEnd=52000|Gloss=[DATE]
+3	[JOUR]	[JOUR]	NOUN	_	_	2	comp	_	AlignBegin=52000|AlignEnd=52744|Gloss=[DAY]
+4	[MACRON]	[MACRON]	PROPN	_	_	5	udep	_	AlignBegin=52750|AlignEnd=53052|Gloss=[MACRON]
+5	[ÉLÉCTION]	[ÉLÉCTION]	NOUN	_	_	3	mod	_	AlignBegin=53070|AlignEnd=54035|Gloss=[ELECT]
+6	[PRÉSIDENT]	[PRÉSIDENT]	NOUN	_	_	5	mod	_	AlignBegin=54047|AlignEnd=55221|Gloss=[PRESIDENT]
 
 # sent_id = souvenir_5_split2_split1
-# text = PI-[CELUI-CI] [QUI]
+# text = PI[CELUI-CI] [QUI]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Et c’était le jour où Macron a été élu président alors on se disait c’est qui ? c’est qui ? J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
 # text_en = And it was the day Macron was elected president so we were wondering who is it? who is it? I was in Barcelona and we were waiting to know who got elected in France, it was funny.
-1	PI-[CELUI-CI]	_	PRON	_	_	2	subj	_	AlignBegin=55244|AlignEnd=55628|Gloss=PI|Tgt=PSSLr
-2	[QUI]	_	PRON	_	_	0	root	_	AlignBegin=55634|AlignEnd=57169|Gloss=[WHO]|Loc=PSSLr
+1	PI[CELUI-CI]	PI	PRON	_	_	2	subj	_	AlignBegin=55244|AlignEnd=55628|Gloss=PI[THIS-ONE]|Tgt=PSSLr
+2	[QUI]	[QUI]	PRON	_	_	0	root	_	AlignBegin=55634|AlignEnd=57169|Gloss=[WHO]|Loc=PSSLr
 
 # sent_id = souvenir_5_split2_split2_split1
-# text = PNT [BARCELONE]
+# text = PNT[MOI] [BARCELONE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Et c’était le jour où Macron a été élu président alors on se disait c’est qui ? c’est qui ? J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
 # text_en = And it was the day Macron was elected president so we were wondering who is it? who is it? I was in Barcelona and we were waiting to know who got elected in France, it was funny.
-1	PNT	_	PRON	_	_	2	subj	_	AlignBegin=57174|AlignEnd=57413|Gloss=PNT|Tgt=Prs1|wordform=[pnt]
-2	[BARCELONE]	_	PROPN	_	_	0	root	_	AlignBegin=57413|AlignEnd=57959|Gloss=[BARCELONA]|Loc=PSS3l
+1	PNT[MOI]	PNT	PRON	_	_	2	subj	_	AlignBegin=57174|AlignEnd=57413|Gloss=PNT[ME]|Tgt=Prs1
+2	[BARCELONE]	[BARCELONE]	PROPN	_	_	0	root	_	AlignBegin=57413|AlignEnd=57959|Gloss=[BARCELONA]|Loc=PSS3l
 
 # sent_id = souvenir_5_split2_split2_split2
 # text = [FRANCE] [QUI] [ÉLÉCTION] [OUI] [DRÔLE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Et c’était le jour où Macron a été élu président alors on se disait c’est qui ? c’est qui ? J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
 # text_en = And it was the day Macron was elected president so we were wondering who is it? who is it? I was in Barcelona and we were waiting to know who got elected in France, it was funny.
-1	[FRANCE]	_	PROPN	_	_	3	mod	_	AlignBegin=57965|AlignEnd=58413|Gloss=[FRANCE]|Loc=PSSLr
-2	[QUI]	_	PRON	_	_	3	udep	_	AlignBegin=58419|AlignEnd=58721|Gloss=[WHO]|Loc=PSSLr
-3	[ÉLÉCTION]	_	VERB	_	_	0	root	_	AlignBegin=58727|AlignEnd=59424|Gloss=[ELECTED]
-4	[OUI]	_	INTJ	_	_	3	discourse	_	AlignBegin=59430|AlignEnd=59919
-5	[DRÔLE]	_	ADJ	_	_	3	discourse	_	AlignBegin=59930|AlignEnd=60715|Gloss=[FUNNY]
+1	[FRANCE]	[FRANCE]	PROPN	_	_	3	mod	_	AlignBegin=57965|AlignEnd=58413|Gloss=[FRANCE]|Loc=PSSLr
+2	[QUI]	[QUI]	PRON	_	_	3	udep	_	AlignBegin=58419|AlignEnd=58721|Gloss=[WHO]|Loc=PSSLr
+3	[ÉLÉCTION]	[ÉLÉCTION]	VERB	_	_	0	root	_	AlignBegin=58727|AlignEnd=59424|Gloss=[ELECTED]
+4	[OUI]	[OUI]	INTJ	_	_	3	discourse	_	AlignBegin=59430|AlignEnd=59919
+5	[DRÔLE]	[DRÔLE]	ADJ	_	_	3	discourse	_	AlignBegin=59930|AlignEnd=60715|Gloss=[FUNNY]
 
 # sent_id = souvenir_6
-# text = [IL-Y-A] [CONTRE] [NON] [MACRON] PNT [PRÉFÉRER] PNT [?] [INTÉRESSANT]
+# text = [IL-Y-A] [CONTRE] [NON] [MACRON] PNT[MOI] [PRÉFÉRER] PNT[LUI] [?] [INTÉRESSANT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Y’en a qui étaient contre, qui disaient non pas Macron, je préfère celui-là. [on a vu ça]? , c’était intéressant.
 # text_en = Some were against, they were saying no not Macron, I prefer this one. We saw this, it was interesting.
-1	[IL-Y-A]	_	NOUN	_	_	0	root	_	AlignBegin=61698|AlignEnd=62035|Gloss=[THERE-IS]
-2	[CONTRE]	_	ADV	_	_	1	udep	_	AlignBegin=62052|AlignEnd=62267|Gloss=[AGAINST]
-3	[NON]	_	ADV	_	_	0	root	_	AlignBegin=62267|AlignEnd=62779|Gloss=[NO]|Reported=Yes|TransfertType=Personne
-4	[MACRON]	_	PROPN	_	_	3	mod	_	AlignBegin=62791|AlignEnd=63140|Gloss=[MACRON]
-5	PNT	_	VERB	_	_	6	subj	_	AlignBegin=63157|AlignEnd=63651|Tgt=Prs1
-6	[PRÉFÉRER]	_	VERB	_	_	3	conj:coord	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]
-7	PNT	_	PRON	_	_	6	comp:obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT|Tgt=PSS3r|wordform=[pnt]
-8	[?]	_	VERB	_	_	9	unk	_	AlignBegin=63895|AlignEnd=64610|Gloss=[SEE]
-9	[INTÉRESSANT]	_	ADJ	_	_	0	root	_	AlignBegin=64744|AlignEnd=65326|Gloss=[INTERESTING]
+1	[IL-Y-A]	[IL-Y-A]	NOUN	_	_	0	root	_	AlignBegin=61698|AlignEnd=62035|Gloss=[THERE-IS]
+2	[CONTRE]	[CONTRE]	ADV	_	_	1	udep	_	AlignBegin=62052|AlignEnd=62267|Gloss=[AGAINST]
+3	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=62267|AlignEnd=62779|Gloss=[NO]|Reported=Yes|TransfertType=Personne
+4	[MACRON]	[MACRON]	PROPN	_	_	3	mod	_	AlignBegin=62791|AlignEnd=63140|Gloss=[MACRON]
+5	PNT[MOI]	PNT	VERB	_	_	6	subj	_	AlignBegin=63157|AlignEnd=63651|Gloss=PNT[ME]|Tgt=Prs1
+6	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	3	conj:coord	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]
+7	PNT[LUI]	PNT	PRON	_	_	6	comp:obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT[HIM]|Tgt=PSS3r
+8	[?]	[?]	X	_	_	9	unk	_	AlignBegin=63895|AlignEnd=64610|Gloss=[?]
+9	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	0	root	_	AlignBegin=64744|AlignEnd=65326|Gloss=[INTERESTING]
 
 # sent_id = souvenir_7_split1_split1
 # text = [ENSUITE] [RENTRER] [TOUS] [PLEURER] [TRISTE] [PEINE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Ensuite, on est rentrés, tout le monde pleurait, était triste. Ça faisait de la peine. Après un week-end, seulement.
-1	[ENSUITE]	_	ADV	_	_	2	mod	_	AlignBegin=65616|AlignEnd=66285|Gloss=[THEN]
-2	[RENTRER]	_	NOUN	_	_	0	root	_	AlignBegin=66576|AlignEnd=67291|Gloss=[GO-BACK]
-3	[TOUS]	_	PRON	_	_	4	subj	_	AlignBegin=67297|AlignEnd=67721|Gloss=[ALL]
-4	[PLEURER]	_	VERB	_	_	2	conj:coord	_	AlignBegin=67738|AlignEnd=68099|Gloss=[CRY]
-5	[TRISTE]	_	ADJ	_	_	4	compound:svc	_	AlignBegin=68116|AlignEnd=68767|Gloss=[SAD]
-6	[PEINE]	_	NOUN	_	_	5	conj:coord	_	AlignBegin=69616|AlignEnd=70105|Gloss=[SORROW]
+1	[ENSUITE]	[ENSUITE]	ADV	_	_	2	mod	_	AlignBegin=65616|AlignEnd=66285|Gloss=[THEN]
+2	[RENTRER]	[RENTRER]	NOUN	_	_	0	root	_	AlignBegin=66576|AlignEnd=67291|Gloss=[GO-BACK]
+3	[TOUS]	[TOUS]	PRON	_	_	4	subj	_	AlignBegin=67297|AlignEnd=67721|Gloss=[ALL]
+4	[PLEURER]	[PLEURER]	VERB	_	_	2	conj:coord	_	AlignBegin=67738|AlignEnd=68099|Gloss=[CRY]
+5	[TRISTE]	[TRISTE]	ADJ	_	_	4	conj:coord	_	AlignBegin=68116|AlignEnd=68767|Gloss=[SAD]
+6	[PEINE]	[PEINE]	NOUN	_	_	5	conj:coord	_	AlignBegin=69616|AlignEnd=70105|Gloss=[SORROW]
 
 # sent_id = souvenir_7_split1_split2
 # text = [OUI] [WEEK-END] [SEULEMENT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Ensuite, on est rentrés, tout le monde pleurait, était triste. Ça faisait de la peine. Après un week-end, seulement.
-1	[OUI]	_	ADV	_	_	_	_	_	AlignBegin=71609|AlignEnd=72053|Gloss=[YES]
-2	[WEEK-END]	_	NOUN	_	_	_	_	_	AlignBegin=72099|AlignEnd=72785|Gloss=[WEEK-END]
-3	[SEULEMENT]	_	ADV	_	_	_	_	_	AlignBegin=72791|AlignEnd=73436|Gloss=[ONLY]
+1	[OUI]	[OUI]	ADV	_	_	2	discourse	_	AlignBegin=71609|AlignEnd=72053|Gloss=[YES]
+2	[WEEK-END]	[WEEK-END]	NOUN	_	_	0	root	_	AlignBegin=72099|AlignEnd=72785|Gloss=[WEEK-END]
+3	[SEULEMENT]	[SEULEMENT]	ADV	_	_	2	mod	_	AlignBegin=72791|AlignEnd=73436|Gloss=[ONLY]
 
 # sent_id = souvenir_7_split2_split1
 # text = [RETOUR] [FRANCE]
 # source_file = ./Souvenir_JAN_1.mp4
-# text_fr = On est retournés en France et en France, bah on est rentrés. Ensuite, euh après en 5ème, j’ai moins de souvenirs qu’en 6ème , en 6ème c’était top.
-1	[RETOUR]	_	NOUN	_	_	0	root	_	AlignBegin=74924|AlignEnd=75703|Gloss=[GO-BACK]
-2	[FRANCE]	_	PROPN	_	_	1	udep	_	AlignBegin=75703|AlignEnd=76444|Gloss=[FRANCE]
+# text_fr = On est retournés en France
+# text_en = We went back to France
+1	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=74924|AlignEnd=75703|Gloss=[GO-BACK]
+2	[FRANCE]	[FRANCE]	PROPN	_	_	1	udep	_	AlignBegin=75703|AlignEnd=76444|Gloss=[FRANCE]
 
 # sent_id = souvenir_7_split2_split2_split1
 # text = [FRANCE] [bah] [RETOUR]
 # source_file = ./Souvenir_JAN_1.mp4
-# text_fr = On est retournés en France et en France, bah on est rentrés. Ensuite, euh après en 5ème, j’ai moins de souvenirs qu’en 6ème , en 6ème c’était top.
-1	[FRANCE]	_	PROPN	_	_	3	udep	_	AlignBegin=76444|AlignEnd=77280|Gloss=[FRANCE]
-2	[bah]	_	INTJ	_	_	3	discourse	_	AlignBegin=0|AlignEnd=0
-3	[RETOUR]	_	NOUN	_	_	0	root	_	AlignBegin=79145|AlignEnd=79674|Gloss=[COME-BACK]
+# text_fr = et en France... bah on est rentrés.
+# text_en = and in France... well we came back.
+1	[FRANCE]	[FRANCE]	PROPN	_	_	3	udep	_	AlignBegin=76444|AlignEnd=77280|Gloss=[FRANCE]
+2	[bah]	[bah]	INTJ	_	_	3	discourse	_	AlignBegin=0|AlignEnd=0|Gloss=[well]
+3	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=79145|AlignEnd=79674|Gloss=[COME-BACK]
 
 # sent_id = souvenir_7_split2_split2_split2
 # text = [APRÈS] [APRÈS] [CINQUIÈME] [MOINS] [SOUVENIR] [SIXIÈME] [PARFAIT]
 # source_file = ./Souvenir_JAN_1.mp4
-# text_fr = On est retournés en France et en France, bah on est rentrés. Ensuite, euh après en 5ème, j’ai moins de souvenirs qu’en 6ème , en 6ème c’était top.
-1	[APRÈS]	_	ADV	_	_	2	conj:repair	_	AlignBegin=79942|AlignEnd=80372|Gloss=[AFTER]
-2	[APRÈS]	_	ADV	_	_	5	mod	_	AlignBegin=81233|AlignEnd=81680|Gloss=[AFTER]
-3	[CINQUIÈME]	_	NOUN	_	_	2	conj:zoom	_	AlignBegin=81715|AlignEnd=82349|Gloss=[FIFTH]
-4	[MOINS]	_	ADV	_	_	5	mod	_	AlignBegin=82355|AlignEnd=82936|Gloss=[LESS]
-5	[SOUVENIR]	_	NOUN	_	_	0	root	_	AlignBegin=82965|AlignEnd=83256|Gloss=[MEMORY]
-6	[SIXIÈME]	_	NOUN	_	_	7	subj	_	AlignBegin=83256|AlignEnd=83674|Gloss=[SIXTH]
-7	[PARFAIT]	_	ADJ	_	_	5	conj:coord	_	AlignBegin=83703|AlignEnd=84384|Gloss=[PERFECT]
+# text_fr = Ensuite, euh après en 5ème, j’ai moins de souvenirs qu’en 6ème , en 6ème c’était top.
+# text_en = Then, uh then in 7th grade, I have less memories than in 6th grade, in 6th grade it was great.
+1	[APRÈS]	[APRÈS]	ADV	_	_	2	conj:repair	_	AlignBegin=79942|AlignEnd=80372|Gloss=[AFTER]
+2	[APRÈS]	[APRÈS]	ADV	_	_	5	mod	_	AlignBegin=81233|AlignEnd=81680|Gloss=[AFTER]
+3	[CINQUIÈME]	[CINQUIÈME]	NOUN	_	_	2	conj:zoom	_	AlignBegin=81715|AlignEnd=82349|Gloss=[FIFTH]
+4	[MOINS]	[MOINS]	ADV	_	_	5	mod	_	AlignBegin=82355|AlignEnd=82936|Gloss=[LESS]
+5	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=82965|AlignEnd=83256|Gloss=[MEMORY]
+6	[SIXIÈME]	[SIXIÈME]	NOUN	_	_	7	subj	_	AlignBegin=83256|AlignEnd=83674|Gloss=[SIXTH]
+7	[PARFAIT]	[PARFAIT]	ADJ	_	_	5	conj:coord	_	AlignBegin=83703|AlignEnd=84384|Gloss=[PERFECT]
 

@@ -1,75 +1,75 @@
 # sent_id = trajet-len-1-signerB_1
-# text = [alors] [REVENIR-EN-ARRIÈRE] [PREMIER] [THÈME] PNT
+# text = [alors] [REVENIR-EN-ARRIÈRE] [PREMIER] [THÈME] PNT[changement-sujet?]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Alors on revient au premier thème.
 # text_en = So we go back to the first theme.
-1	[alors]	_	INTJ	_	_	2	discourse	_	AlignBegin=1160|AlignEnd=1453|Gloss=[so]
-2	[REVENIR-EN-ARRIÈRE]	_	VERB	_	_	0	root	_	AlignBegin=1467|AlignEnd=1873|Gloss=[GO-BACK]
-3	[PREMIER]	_	NUM	_	_	4	mod	_	AlignBegin=1877|AlignEnd=2203|Gloss=[FIRST]
-4	[THÈME]	_	NOUN	_	_	2	mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
-5	PNT	_	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT|Tgt=PSSN|wordform=[pnt]
+1	[alors]	[alors]	INTJ	_	_	2	discourse	_	AlignBegin=1160|AlignEnd=1453|Gloss=[so]
+2	[REVENIR-EN-ARRIÈRE]	[REVENIR-EN-ARRIÈRE]	VERB	_	_	0	root	_	AlignBegin=1467|AlignEnd=1873|Gloss=[GO-BACK]
+3	[PREMIER]	[PREMIER]	NUM	_	_	4	mod	_	AlignBegin=1877|AlignEnd=2203|Gloss=[FIRST]
+4	[THÈME]	[THÈME]	NOUN	_	_	2	mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
+5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
 
 # sent_id = trajet-len-1-signerB_2
-# text = PNT [MAISON] PNT [POSS] [JUSQUE] PNT/[LA] [ARRIVER] PNT/[LA] [SAINT-JACQUES] [COMMENT] [FAIRE] PNT [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
+# text = PNT[TOI] [MAISON] PNT[TOI] POSS-[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [SAINT-JACQUES] [COMMENT] [FAIRE] PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = De ta maison, pour venir ici et arriver à Saint-Jacques, tu fais comment ? Tu peux m’expliquer ton trajet précisément ?
 # text_en = From home, to come here, at Saint-Jacques, how do you do? Can you explain me precisely your route?
-1	PNT	_	PRON	_	_	_	_	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT|Tgt=Prs2
-2	[MAISON]	_	NOUN	_	_	_	_	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
-3	PNT	_	PRON	_	_	_	_	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT|Tgt=Prs2
-4	[POSS]	_	ADJ	_	_	_	_	_	AlignBegin=5307|AlignEnd=5726|Gloss=[POSS]|Tgt=Prs2
-5	[JUSQUE]	_	ADP	_	_	_	_	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
-6	PNT/[LA]	_	PRON	_	_	_	_	_	AlignBegin=6255|AlignEnd=6481
-7	[ARRIVER]	_	VERB	_	_	_	_	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
-8	PNT/[LA]	_	PRON	_	_	_	_	_	AlignBegin=7226|AlignEnd=7698
-9	[SAINT-JACQUES]	_	PROPN	_	_	_	_	_	AlignBegin=7717|AlignEnd=8090|Gloss=[SAINT-JACQUES]
-10	[COMMENT]	_	PRON	_	PronType=Int	11	mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
-11	[FAIRE]	_	VERB	_	_	0	root	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
-12	PNT	_	PRON	_	_	11	subj	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT|Tgt=Prs2
-13	[TRAJET]	_	NOUN	_	_	11	comp:obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
-14	[POUVOIR]	_	VERB	_	_	11	conj:coord	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
-15	[EXPLIQUER]	_	VERB	_	_	14	comp:obj	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]
-16	[PRÉCIS]	_	ADJ	_	_	15	mod	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
+1	PNT[TOI]	PNT	PRON	_	_	_	_	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
+2	[MAISON]	[MAISON]	NOUN	_	_	_	_	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
+3	PNT[TOI]	PNT	PRON	_	_	_	_	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
+4	POSS-[TOI]	POSS	ADJ	_	_	_	_	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS-[YOU]|Tgt=Prs2
+5	[JUSQUE]	[JUSQUE]	ADP	_	_	_	_	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
+6	PNT[là]	PNT	PRON	_	_	_	_	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]
+7	[ARRIVER]	[ARRIVER]	VERB	_	_	_	_	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
+8	PNT[là]	PNT	PRON	_	_	_	_	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
+9	[SAINT-JACQUES]	[SAINT-JACQUES]	PROPN	_	_	_	_	_	AlignBegin=7717|AlignEnd=8090|Gloss=[SAINT-JACQUES]
+10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
+11	[FAIRE]	[FAIRE]	VERB	_	_	0	root	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
+12	PNT[TOI]	PNT	PRON	_	_	11	subj	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
+13	[TRAJET]	[TRAJET]	NOUN	_	_	11	comp:obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
+14	[POUVOIR]	[POUVOIR]	VERB	_	_	11	conj:coord	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
+15	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	14	comp:obj	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]
+16	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	15	mod	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
 
 # sent_id = trajet-len-1-signerB_3
 # text = [HABITER] [OÙ] [HABITER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Tu habites où précisement ?
 # text_en = Where do you live exactly?
-1	[HABITER]	_	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]
-2	[OÙ]	_	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=13500|AlignEnd=13736|Gloss=[WHERE]
-3	[HABITER]	_	VERB	_	_	1	conj:redup	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]
-4	[PRÉCIS]	_	ADJ	_	_	1	mod	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
+1	[HABITER]	[HABITER]	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]
+2	[OÙ]	[OÙ]	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=13500|AlignEnd=13736|Gloss=[WHERE]
+3	[HABITER]	[HABITER]	VERB	_	_	1	conj:redup	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]
+4	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	1	mod	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
 
 # sent_id = trajet-len-1-signerB_4
 # text = [G-O-B-E-L-I-N-S] [hein]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = G-O-B-E-L-I-N-S ?
 # text_en = G-O-B-E-L-I-N-S ?
-1	[G-O-B-E-L-I-N-S]	_	_	_	_	_	_	_	AlignBegin=34071|AlignEnd=36260|Gloss=[G-O-B-E-L-I-N-S]
-2	[hein]	_	_	_	_	_	_	_	AlignBegin=36268|AlignEnd=36827
+1	[G-O-B-E-L-I-N-S]	[G-O-B-E-L-I-N-S]	_	_	_	_	_	_	AlignBegin=34071|AlignEnd=36260|Gloss=[G-O-B-E-L-I-N-S]
+2	[hein]	[hein]	_	_	_	_	_	_	AlignBegin=36268|AlignEnd=36827
 
 # sent_id = trajet-len-1-signerB_5
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Numéro combien ?
 # text = [NUMERO] [COMBIEN]
-1	[NUMERO]	_	_	_	_	_	_	_	AlignBegin=41000|AlignEnd=41394
-2	[COMBIEN]	_	_	_	_	_	_	_	AlignBegin=41417|AlignEnd=41945
+1	[NUMERO]	[NUMERO]	_	_	_	_	_	_	AlignBegin=41000|AlignEnd=41394
+2	[COMBIEN]	[COMBIEN]	_	_	_	_	_	_	AlignBegin=41417|AlignEnd=41945
 
 # sent_id = trajet-len-1-signerB_6
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = 27, d'accord
 # text = [VINGT-SEPT??] [OUI]
-1	[VINGT-SEPT??]	_	_	_	_	_	_	_	AlignBegin=42724|AlignEnd=43087
-2	[OUI]	_	_	_	_	_	_	_	AlignBegin=43110|AlignEnd=43520
+1	[VINGT-SEPT??]	[VINGT-SEPT??]	_	_	_	_	_	_	AlignBegin=42724|AlignEnd=43087
+2	[OUI]	[OUI]	_	_	_	_	_	_	AlignBegin=43110|AlignEnd=43520
 
 # sent_id = trajet-len-1-signerB_7
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Voilà, au total, tu mets combien de temps ?
-# text = [VOILA] [TOTAL] [COMBIEN??] [TEMPS??] [pnt]
-1	[VOILA]	_	_	_	_	_	_	_	AlignBegin=46087|AlignEnd=46543
-2	[TOTAL]	_	_	_	_	_	_	_	AlignBegin=46575|AlignEnd=47472
-3	[COMBIEN??]	_	_	_	_	_	_	_	AlignBegin=47480|AlignEnd=47724
-4	[TEMPS??]	_	_	_	_	_	_	_	AlignBegin=47732|AlignEnd=48071
-5	PNT	_	_	_	_	_	_	_	AlignBegin=48079|AlignEnd=48646|wordform=[pnt]
+# text = [VOILA] [TOTAL] [COMBIEN??] [TEMPS??] PNT[TOI]
+1	[VOILA]	[VOILA]	_	_	_	_	_	_	AlignBegin=46087|AlignEnd=46543
+2	[TOTAL]	[TOTAL]	_	_	_	_	_	_	AlignBegin=46575|AlignEnd=47472
+3	[COMBIEN??]	[COMBIEN??]	_	_	_	_	_	_	AlignBegin=47480|AlignEnd=47724
+4	[TEMPS??]	[TEMPS??]	_	_	_	_	_	_	AlignBegin=47732|AlignEnd=48071
+5	PNT[TOI]	PNT	_	_	_	_	_	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
 
