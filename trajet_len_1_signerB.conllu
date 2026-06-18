@@ -5,30 +5,30 @@
 # text_en = So we go back to the first theme.
 1	[alors]	[alors]	INTJ	_	_	2	discourse	_	AlignBegin=1160|AlignEnd=1453|Gloss=[so]
 2	[REVENIR-EN-ARRIÈRE]	[REVENIR-EN-ARRIÈRE]	VERB	_	_	0	root	_	AlignBegin=1467|AlignEnd=1873|Gloss=[GO-BACK]
-3	[PREMIER]	[PREMIER]	NUM	_	_	4	mod	_	AlignBegin=1877|AlignEnd=2203|Gloss=[FIRST]
+3	[PREMIER]	[PREMIER]	ADJ	_	_	4	mod	_	AlignBegin=1877|AlignEnd=2203|Gloss=[FIRST]
 4	[THÈME]	[THÈME]	NOUN	_	_	2	mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
 5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
 
 # sent_id = trajet-len-1-signerB_2
-# text = PNT[TOI] [MAISON] PNT[TOI] POSS-[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [SAINT-JACQUES] [COMMENT] [FAIRE] PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
+# text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [SAINT-JACQUES] [COMMENT] [FAIRE] PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = De ta maison, pour venir ici et arriver à Saint-Jacques, tu fais comment ? Tu peux m’expliquer ton trajet précisément ?
 # text_en = From home, to come here, at Saint-Jacques, how do you do? Can you explain me precisely your route?
-1	PNT[TOI]	PNT	PRON	_	_	_	_	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
-2	[MAISON]	[MAISON]	NOUN	_	_	_	_	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
-3	PNT[TOI]	PNT	PRON	_	_	_	_	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
-4	POSS-[TOI]	POSS	ADJ	_	_	_	_	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS-[YOU]|Tgt=Prs2
-5	[JUSQUE]	[JUSQUE]	ADP	_	_	_	_	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
-6	PNT[là]	PNT	PRON	_	_	_	_	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]
-7	[ARRIVER]	[ARRIVER]	VERB	_	_	_	_	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
-8	PNT[là]	PNT	PRON	_	_	_	_	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
-9	[SAINT-JACQUES]	[SAINT-JACQUES]	PROPN	_	_	_	_	_	AlignBegin=7717|AlignEnd=8090|Gloss=[SAINT-JACQUES]
+1	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
+2	[MAISON]	[MAISON]	NOUN	_	_	5	comp:obj	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
+3	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
+4	POSS[TOI]	POSS	ADJ	_	_	3	conj:reform	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS[YOU]|Tgt=Prs2
+5	[JUSQUE]	[JUSQUE]	ADP	_	_	7	comp:obj	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
+6	PNT[là]	PNT	PRON	_	_	5	comp:obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]
+7	[ARRIVER]	[ARRIVER]	VERB	_	_	10	comp:obj	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
+8	PNT[là]	PNT	PRON	_	_	7	comp:obj	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
+9	[SAINT-JACQUES]	[SAINT-JACQUES]	PROPN	_	_	8	conj:appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[SAINT-JACQUES]
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
 11	[FAIRE]	[FAIRE]	VERB	_	_	0	root	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
-12	PNT[TOI]	PNT	PRON	_	_	11	subj	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
-13	[TRAJET]	[TRAJET]	NOUN	_	_	11	comp:obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
-14	[POUVOIR]	[POUVOIR]	VERB	_	_	11	conj:coord	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
-15	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	14	comp:obj	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]
+12	PNT[TOI]	PNT	PRON	_	_	13	mod	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
+13	[TRAJET]	[TRAJET]	NOUN	_	_	15	comp:obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
+14	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
+15	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	14	comp:obj	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Src=Prs2|Tgt=Prs1
 16	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	15	mod	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
 
 # sent_id = trajet-len-1-signerB_3
@@ -46,30 +46,34 @@
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = G-O-B-E-L-I-N-S ?
 # text_en = G-O-B-E-L-I-N-S ?
-1	[G-O-B-E-L-I-N-S]	[G-O-B-E-L-I-N-S]	_	_	_	_	_	_	AlignBegin=34071|AlignEnd=36260|Gloss=[G-O-B-E-L-I-N-S]
-2	[hein]	[hein]	_	_	_	_	_	_	AlignBegin=36268|AlignEnd=36827
+1	[G-O-B-E-L-I-N-S]	[G-O-B-E-L-I-N-S]	PROPN	_	_	0	root	_	AlignBegin=34071|AlignEnd=36260|Gloss=[G-O-B-E-L-I-N-S]
+2	[hein]	[hein]	INTJ	_	_	1	discourse	_	AlignBegin=36268|AlignEnd=36827
 
 # sent_id = trajet-len-1-signerB_5
+# text = [NUMERO] [COMBIEN]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Numéro combien ?
-# text = [NUMERO] [COMBIEN]
-1	[NUMERO]	[NUMERO]	_	_	_	_	_	_	AlignBegin=41000|AlignEnd=41394
-2	[COMBIEN]	[COMBIEN]	_	_	_	_	_	_	AlignBegin=41417|AlignEnd=41945
+# text_en = Which number?
+1	[NUMERO]	[NUMERO]	NOUN	_	_	2	udep	_	AlignBegin=41000|AlignEnd=41394|Gloss=[NUMBER]
+2	[COMBIEN]	[COMBIEN]	PRON	_	PronType=Int	0	root	_	AlignBegin=41417|AlignEnd=41945|Gloss=[HOW-MUCH]
 
 # sent_id = trajet-len-1-signerB_6
+# text = [VINGT] [DEUX] [OUI]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = 27, d'accord
-# text = [VINGT-SEPT??] [OUI]
-1	[VINGT-SEPT??]	[VINGT-SEPT??]	_	_	_	_	_	_	AlignBegin=42724|AlignEnd=43087
-2	[OUI]	[OUI]	_	_	_	_	_	_	AlignBegin=43110|AlignEnd=43520
+# text_en = 27, okay
+1	[VINGT]	[VINGT]	NUM	_	_	0	root	_	AlignBegin=42724|AlignEnd=43087|Gloss=[TWENTY]
+2	[DEUX]	[SEPT]	NUM	_	_	1	flat:num	_	AlignBegin=42724|AlignEnd=43087|Gloss=[TWO]
+3	[OUI]	[OUI]	ADV	_	_	1	discourse	_	AlignBegin=43110|AlignEnd=43520|Gloss=[YES]
 
 # sent_id = trajet-len-1-signerB_7
+# text = [voilà] [TOTAL] [COMBIEN??] [TEMPS??] PNT[TOI]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Voilà, au total, tu mets combien de temps ?
-# text = [VOILA] [TOTAL] [COMBIEN??] [TEMPS??] PNT[TOI]
-1	[VOILA]	[VOILA]	_	_	_	_	_	_	AlignBegin=46087|AlignEnd=46543
-2	[TOTAL]	[TOTAL]	_	_	_	_	_	_	AlignBegin=46575|AlignEnd=47472
-3	[COMBIEN??]	[COMBIEN??]	_	_	_	_	_	_	AlignBegin=47480|AlignEnd=47724
-4	[TEMPS??]	[TEMPS??]	_	_	_	_	_	_	AlignBegin=47732|AlignEnd=48071
-5	PNT[TOI]	PNT	_	_	_	_	_	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
+# text_en = Ok, in total, how much time do you take?
+1	[voilà]	[voilà]	INTJ	_	_	3	discourse	_	AlignBegin=46087|AlignEnd=46543|Gloss=[that's-it]
+2	[TOTAL]	[TOTAL]	ADJ	_	_	3	mod	_	AlignBegin=46575|AlignEnd=47472|Gloss=[TOTAL]
+3	[COMBIEN??]	[COMBIEN??]	PRON	_	PronType=Int	0	root	_	AlignBegin=47480|AlignEnd=47724|Gloss=[HOW-MUCH]
+4	[TEMPS??]	[TEMPS??]	NOUN	_	_	3	udep	_	AlignBegin=47732|AlignEnd=48071|Gloss=[TIME]
+5	PNT[TOI]	PNT	PRON	_	_	3	subj	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
 

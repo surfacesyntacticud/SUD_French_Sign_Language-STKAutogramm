@@ -125,8 +125,8 @@
 2	[DATE]	[DATE]	ADP	_	_	1	conj:repair	_	AlignBegin=51407|AlignEnd=52000|Gloss=[DATE]
 3	[JOUR]	[JOUR]	NOUN	_	_	2	comp	_	AlignBegin=52000|AlignEnd=52744|Gloss=[DAY]
 4	[MACRON]	[MACRON]	PROPN	_	_	5	udep	_	AlignBegin=52750|AlignEnd=53052|Gloss=[MACRON]
-5	[ÉLÉCTION]	[ÉLÉCTION]	NOUN	_	_	3	mod	_	AlignBegin=53070|AlignEnd=54035|Gloss=[ELECT]
-6	[PRÉSIDENT]	[PRÉSIDENT]	NOUN	_	_	5	mod	_	AlignBegin=54047|AlignEnd=55221|Gloss=[PRESIDENT]
+5	[ÉLÉCTION]	[ÉLÉCTION]	NOUN	_	_	3	udep	_	AlignBegin=53070|AlignEnd=54035|Gloss=[ELECTION]
+6	[PRÉSIDENT]	[PRÉSIDENT]	NOUN	_	_	5	udep	_	AlignBegin=54047|AlignEnd=55221|Gloss=[PRESIDENT]
 
 # sent_id = souvenir_5_split2_split1
 # text = PI[CELUI-CI] [QUI]
