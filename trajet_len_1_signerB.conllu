@@ -9,36 +9,42 @@
 4	[THÈME]	[THÈME]	NOUN	_	_	2	mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
 5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
 
-# sent_id = trajet-len-1-signerB_2
-# text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [SAINT-JACQUES] [COMMENT] [FAIRE] PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
+# sent_id = trajet-len-1-signerB_2_split1
+# text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [SAINT-JACQUES] [COMMENT] [FAIRE]
 # source_file = ./Trajet_LEN_1.mp4
-# text_fr = De ta maison, pour venir ici et arriver à Saint-Jacques, tu fais comment ? Tu peux m’expliquer ton trajet précisément ?
-# text_en = From home, to come here, at Saint-Jacques, how do you do? Can you explain me precisely your route?
+# text_fr = De ta maison, pour venir ici et arriver à Saint-Jacques, tu fais comment ?
+# text_en = From home, to come here, at Saint-Jacques, how do you do?
 1	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
-2	[MAISON]	[MAISON]	NOUN	_	_	5	comp:obj	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
+2	[MAISON]	[MAISON]	NOUN	_	_	7	dislocated	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
 3	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
 4	POSS[TOI]	POSS	ADJ	_	_	3	conj:reform	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS[YOU]|Tgt=Prs2
 5	[JUSQUE]	[JUSQUE]	ADP	_	_	7	comp:obj	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
 6	PNT[là]	PNT	PRON	_	_	5	comp:obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]
-7	[ARRIVER]	[ARRIVER]	VERB	_	_	10	comp:obj	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
+7	[ARRIVER]	[ARRIVER]	VERB	_	_	0	root	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
 8	PNT[là]	PNT	PRON	_	_	7	comp:obj	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
 9	[SAINT-JACQUES]	[SAINT-JACQUES]	PROPN	_	_	8	conj:appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[SAINT-JACQUES]
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
-11	[FAIRE]	[FAIRE]	VERB	_	_	0	root	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
-12	PNT[TOI]	PNT	PRON	_	_	13	mod	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
-13	[TRAJET]	[TRAJET]	NOUN	_	_	15	comp:obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
-14	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
-15	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	14	comp:obj	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Src=Prs2|Tgt=Prs1
-16	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	15	mod	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
+11	[FAIRE]	[FAIRE]	VERB	_	_	7	conj:appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
+
+# sent_id = trajet-len-1-signerB_2_split2
+# text = PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Tu peux m’expliquer ton trajet précisément ?
+# text_en = Can you explain me precisely your route?
+1	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
+2	[TRAJET]	[TRAJET]	NOUN	_	_	4	comp:obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
+3	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
+4	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	3	comp:obj	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Src=Prs2|Tgt=Prs1
+5	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	4	mod	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
 
 # sent_id = trajet-len-1-signerB_3
 # text = [HABITER] [OÙ] [HABITER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Tu habites où précisement ?
 # text_en = Where do you live exactly?
-1	[HABITER]	[HABITER]	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]
+1	[HABITER]	[HABITER]	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]|ISRole=Foc
 2	[OÙ]	[OÙ]	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=13500|AlignEnd=13736|Gloss=[WHERE]
-3	[HABITER]	[HABITER]	VERB	_	_	1	conj:redup	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]
+3	[HABITER]	[HABITER]	VERB	_	_	1	conj:redup	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]|ISMarker[Foc]=Cxn-dbl
 4	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	1	mod	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
 
 # sent_id = trajet-len-1-signerB_4
