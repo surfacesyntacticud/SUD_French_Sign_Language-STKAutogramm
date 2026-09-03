@@ -94,7 +94,7 @@
 # text_en = It goes to grab the medecine chest, it drops it off and opens it.
 1	[prendre-VALISE]	[VALISE]	VERB	_	_	0	root	_	AlignBegin=54155|AlignEnd=54595|Gloss=[take-CHEST]|Loc=PSSXr|PT=oiseau|Subj=PT
 2	[apporter]	[apporter]	VERB	_	_	1	conj:chaining	_	AlignBegin=54595|AlignEnd=55875|Gloss=[bring]|Obj=Prf(DH)[VALISE]|PT=oiseau|Src=PSSXr|Subj=PT|Tgt=PSSN
-3	PNT[valise]	PNT	PRON	_	_	2	comp:obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=Prf[VALISE]|Gloss=PNT[chest]|ISMarker[Foc]=NMM|ISRole=?Foc|NMM=eyebrow-raise|PT=oiseau|Tgt=PSSN
+3	PNT[valise]	PNT	PRON	_	_	2	comp:obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=Prf[VALISE]|Gloss=PNT[chest]|NMM=eyebrow-raise|PT=oiseau|Tgt=PSSN
 4	[PHARMACIE]	[PHARMACIE]	NOUN	_	_	3	mod	_	AlignBegin=56115|AlignEnd=56795|DHHeld=Prf[VALISE]|Gloss=[PHARMACY]|NMM=eyebrow-raise|PT=oiseau
 5	[apporter]	[apporter]	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Obj=Prf[VALISE]|PT=oiseau|Src=PSSN|Subj=PT|Tgt=PSS3l
 6	[ouvrir]	[ouvrir]	VERB	_	_	5	conj:chaining	_	AlignBegin=57435|AlignEnd=59355|Gloss=[open]|Loc=PSS3l|Obj=Prf[VALISE]|PT=oiseau|Subj=PT
@@ -760,7 +760,7 @@
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = c'est une recette qui vient du Viêt-Nam.
 # text_en = it is a recipe from Viêt-Nam.
-1	[VENIR-DE]	[VENIR-DE]	VERB	_	_	0	root	_	AlignBegin=1108859|AlignEnd=1109259|Gloss=[COME-FROM]|ISMarker[Foc]=Cxn?|ISRole=Foc|NMM=rightward-tilt+eyebrow-raise|Tgt=PSS3l
+1	[VENIR-DE]	[VENIR-DE]	VERB	_	_	0	root	_	AlignBegin=1108859|AlignEnd=1109259|Gloss=[COME-FROM]|NMM=rightward-tilt+eyebrow-raise|Tgt=PSS3l
 2	[RECETTE]	[RECETTE]	NOUN	_	_	1	dislocated	_	AlignBegin=1109259|AlignEnd=1109579|Gloss=[RECIPE]|Loc=PSS3l
 3	[VIÊT-NAM]~	[VIÊT-NAM]	PRON	_	_	5	reparandum	_	AlignBegin=1109579|AlignEnd=1109659|Gloss=[VIÊT-NAM]~
 4	[MONTAGNE]	[MONTAGNE]	PROPN	_	_	1	comp:obj	_	AlignBegin=1109659|Gloss=[MOUNTAIN]
@@ -775,7 +775,7 @@
 1	[bon]	[bon]	INTJ	_	_	3	discourse	_	AlignBegin=1112109|AlignEnd=1112579|Gloss=[well]|NMM=eye-blink
 2	PNT[LISTE]	PNT	NOUN	_	_	3	dislocated	_	AlignBegin=1112579|AlignEnd=1113299|Gloss=PNT[LIST]|ISMarker[Top]=Dlxn?|ISRole=Top|NMM=eye-contact
 3	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1113299|AlignEnd=1113659|Gloss=[MUST]|NMM=forward-tilt
-4	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	3	comp:obl	_	AlignBegin=1113659|AlignEnd=1114219|Gloss=[MUSHROOM]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=forward-tilt+eye-blink
+4	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	3	comp:obl	_	AlignBegin=1113659|AlignEnd=1114219|Gloss=[MUSHROOM]|NMM=forward-tilt+eye-blink
 5	[N'IMPORTE]	[N'IMPORTE]	ADV	_	_	4	mod	_	AlignBegin=1114219|AlignEnd=1114574|Gloss=[WHICHEVER]|NMM=eyebrow-frown
 6	[PAREIL]	[PAREIL]	ADV	_	_	4	mod	_	AlignBegin=1114574|AlignEnd=1114779|Gloss=[SAME]
 7	[VOULOIR]	[VOULOIR]	VERB	_	_	6	comp	_	AlignBegin=1114779|AlignEnd=1115059|Gloss=[WANT]
@@ -909,8 +909,8 @@
 # text_fr = Il ne faut pas qu'ils soient mouillés, les laisser sécher.
 # text_en = They shouldn't be wet, we need to let them dry.
 1	[MOUILLER]	[MOUILLER]	VERB	_	_	0	root	_	AlignBegin=1142054|AlignEnd=1142374|Gloss=[WET]|NMM=leftward-tilt
-2	[NON]	[NON]	ADV	_	_	1	mod	_	AlignBegin=1142374|AlignEnd=1142859|Gloss=[NO]|ISMarker[Foc]=Cxn-corel
-3	[LAISSER]	[LAISSER]	VERB	_	_	1	conj:coord	_	AlignBegin=1142859|AlignEnd=1143214|Gloss=[LET]|ISRole=Foc
+2	[NON]	[NON]	ADV	_	_	1	mod	_	AlignBegin=1142374|AlignEnd=1142859|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel
+3	[LAISSER]	[LAISSER]	VERB	_	_	1	conj:coord	_	AlignBegin=1142859|AlignEnd=1143214|Gloss=[LET]|ISRole=Foc+CFoc
 4	[SÉCHER]	[SÉCHER]	VERB	_	_	3	comp:obj	_	AlignBegin=1143214|AlignEnd=1143659|Gloss=[DRY]|NMM=eyebrow-raise+head-nod
 5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:reform	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 6	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
@@ -1011,8 +1011,8 @@
 9	[EAU]	[EAU]	NOUN	_	_	11	comp:obj	_	AlignBegin=1173539|AlignEnd=1173739|Gloss=[WATER]
 10	[en-surface]	[en-surface]	ADJ	_	_	9	mod	_	AlignBegin=1173739|AlignEnd=1174179|Gloss=[on-surface]
 11	[ABSORBER-totalement]	[ABSORBER]	VERB	_	_	8	comp	_	AlignBegin=1174179|AlignEnd=1174899|Gloss=[ABSORB-completely]|NMM=eyebrow-raise|SST=totalement
-12	[NON]	[NON]	ADV	_	_	11	mod	_	AlignBegin=1174899|AlignEnd=1175424|Gloss=[NO]|ISMarker[Foc]=Cxn-corel|NMM=eyebrow-raise
-13	[ABSORBER-un-peu]~	[ABSORBER]	VERB	_	_	11	conj:corel	_	AlignBegin=1175424|AlignEnd=1175979|Gloss=[ABSORB-a-little]|ISRole=Foc|NMM=eyebrow-raise+head-nod
+12	[NON]	[NON]	ADV	_	_	11	mod	_	AlignBegin=1174899|AlignEnd=1175424|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NMM=eyebrow-raise
+13	[ABSORBER-un-peu]~	[ABSORBER]	VERB	_	_	11	conj:corel	_	AlignBegin=1175424|AlignEnd=1175979|Gloss=[ABSORB-a-little]|ISRole=CFoc|NMM=eyebrow-raise+head-nod
 
 # sent_id = crdo-fsl-cuc022_91
 # text = [COUPER] [prendre-POÊLE] [verser] [forme-arrondie/saladier] [verser-dans-saladier]

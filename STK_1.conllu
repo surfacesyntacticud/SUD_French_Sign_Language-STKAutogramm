@@ -9,7 +9,7 @@
 3	[ÉTÉ]	[ÉTÉ]	NOUN	_	_	2	udep	_	AlignBegin=3183|AlignEnd=4330|Gloss=[SUMMER]|NMM=eye-blink
 4	[euh]	[euh]	INTJ	_	_	1	discourse	_	AlignBegin=4343|AlignEnd=4992|Gloss=[uh]
 5	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=5011|AlignEnd=5706|Gloss=[LEAVE]|Src=Prs1
-6	[OÙ]	[OÙ]	PRON	_	PronType=Int	7	mark	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Gloss=[WHERE]|ISMarker[CFoc]=Cxn-fq+NMM|NMM=eyebrow-raise+forward-tilt
+6	[OÙ]	[OÙ]	PRON	_	PronType=Int	7	mark	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq+NMM|NMM=eyebrow-raise+forward-tilt
 7	[FRANCE]	[FRANCE]	PROPN	_	_	5	comp:obl	_	AlignBegin=6884|AlignEnd=7277|Gloss=[FRANCE]|ISRole=Foc
 8	[carte-france]	[carte-france]	PRON	_	_	7	conj:illustrate	_	AlignBegin=7296|AlignEnd=8476|Gloss=[map-france]
 9	[SUD]	[SUD]	NOUN	_	_	7	udep	_	AlignBegin=8490|AlignEnd=9205|Gloss=[SOUTH]|NDHHeld=[carte]|NMM=backward-tilt
@@ -220,9 +220,9 @@
 1	PNT[là]	PNT	PRON	_	_	3	subj	_	AlignBegin=97161|AlignEnd=97791|Gloss=PNT[here]|NMM=eyebrow-raise+eye-blink|Tgt=PSSN|TwoH=Yes
 2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	mark	_	AlignBegin=97791|AlignEnd=98926|Exp[lex]=Int|Focus=Yes|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=backward-tilt
 3	[MER]	[MER]	NOUN	_	_	0	root	_	AlignBegin=98926|AlignEnd=99826|Exp=Int|Gloss=[SEA]
-4	[NON]	[NON]	ADV	_	_	3	mod	_	AlignBegin=99826|AlignEnd=100096|Exp[lex]=Neg|Gloss=[NO]|ISMarker[Foc]=Cxn-corel|NDHHeld=mer|NMM=eyebrow-raise
+4	[NON]	[NON]	ADV	_	_	3	mod	_	AlignBegin=99826|AlignEnd=100096|Exp[lex]=Neg|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NDHHeld=mer|NMM=eyebrow-raise
 5	[à-l'avant]	[à-l'avant]	NOUN	_	_	6	mod	_	AlignBegin=100100|AlignEnd=100513|Gloss=[at-the-front]|Loc=PSSN
-6	PNT-SURFACE[derrière]	PNT-SURFACE	PRON	_	_	3	conj:coord	_	AlignBegin=100522|AlignEnd=101504|Gloss=PNT-SURFACE[behind]|ISRole=Foc|Loc=PSS1|NDHHeld=[à-l'avant]|NMM=eyebrow-frown+eye-blink
+6	PNT-SURFACE[derrière]	PNT-SURFACE	PRON	_	_	3	conj:coord	_	AlignBegin=100522|AlignEnd=101504|Gloss=PNT-SURFACE[behind]|ISRole=Foc+CFoc|Loc=PSS1|NDHHeld=[à-l'avant]|NMM=eyebrow-frown+eye-blink
 7	[FORÊT]	[FORÊT]	NOUN	_	_	6	mod	_	AlignBegin=101509|AlignEnd=103165|Gloss=[FOREST]|NMM=eyebrow-rf
 8	PNT[là]	PNT	PRON	_	_	6	conj:coord	_	AlignBegin=103174|AlignEnd=103439|Gloss=PNT[here]|NMM=eyebrow-raise|Tgt=PSS1
 9	[RIVIÈRE]	[RIVIÈRE]	NOUN	_	_	8	mod	_	AlignBegin=103448|AlignEnd=105461|Gloss=[RIVER]|Sass=petit+sinueux
@@ -279,35 +279,35 @@
 4	PNT[sujet]	PNT	PRON	_	_	3	comp:obj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT[topic]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=head-nod+eye-blink|Tgt=PSSN
 
 # sent_id = vacances-sud_20
-# text = [hep] PNT[MOI] [hep] PNT[pas-lieu2] PNT[lieu3] [TROISIÈME] PNT[lieu3] [ADORER2] PNT[lieu3] [QUOI] [MER] [MAIS] [PLAGE] [DIFFÉRENT]
+# text = [hep] PNT[MOI] [hep] PNT[lieu2]-[non] PNT[lieu3] [TROISIÈME] PNT[lieu3] [ADORER2]
 # source_file = ./recit-agnieska.mp4
-# text_fr = À mon tour, j’ai dit “Moi ce n’est ni le premier, ni le deuxième mais le troisième endroit que j’ai adoré. Le bord de mer mais pas la plage,
-# text_en = In turn, I said "For me, it's neither the first or the second but rather the third place that I loved. The seashore but not the beach,
+# text_fr = À mon tour, j’ai dit “Moi ce n’est ni le premier, ni le deuxième mais le troisième endroit que j’ai adoré.
+# text_en = In turn, I said "For me, it's neither the first or the second but rather the third place that I loved.
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=119352|AlignEnd=119626|Gloss=[hep]|NMM=eyebrow-raise|Trs=Left
 2	PNT[MOI]	PNT	PRON	_	Number=Sing	8	discourse:participant	_	AlignBegin=119630|AlignEnd=120600|Gloss=PNT[ME]|NMM=rightward-tilt+eyebrow-raise|Tgt=Prs1
 3	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=120604|AlignEnd=121200|Exp=Neg|Gloss=[hep]|NMM=eyebrow-rf
-4	PNT[pas-lieu2]	PNT	PRON	_	_	8	comp:obj	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Gloss=PNT[not-place2]|NMM=eye-blink|Src=PSS3l|Tgt=PSSN
+4	PNT[lieu2]-[non]	PNT	PRON	_	_	8	comp:obj	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Gloss=PNT[place2]-[no]|NMM=eye-blink|Src=PSS3l|Tgt=PSSN
 5	PNT[lieu3]	PNT	PRON	_	_	8	comp:obj	_	AlignBegin=122274|AlignEnd=122826|Gloss=PNT[place3]|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Src=PSSN|Tgt=PSS3r
 6	[TROISIÈME]	[TROISIÈME]	NUM	_	NumType=Ord	5	mod	_	AlignBegin=122826|AlignEnd=123287|Gloss=[THIRD]
 7	PNT[lieu3]	PNT	PRON	_	_	5	conj:reform	_	AlignBegin=123296|AlignEnd=123904|Gloss=PNT[place3]|NMM=head-nod+eye-blink|Tgt=PSS3r
 8	[ADORER2]	[ADORER2]	VERB	_	_	0	root	_	AlignBegin=123913|AlignEnd=124939|Gloss=[ADORE2]|Reported=Yes
-9	PNT[lieu3]	PNT	PRON	_	_	8	comp:obj	_	AlignBegin=124939|AlignEnd=125296|Exp=Int|Gloss=PNT[place3]|NDHHeld=Yes|NMM=forward-tilt+eyebrow-raise|Tgt=PSS3r
-10	[QUOI]	[QUOI]	PRON	_	PronType=Int	11	mark	_	AlignBegin=125300|AlignEnd=125913|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NDHHeld=Yes|NMM=eye-blink
-11	[MER]	[MER]	NOUN	_	_	9	mod	_	AlignBegin=125913|AlignEnd=127078|Gloss=[SEA]|ISRole=Foc
-12	[MAIS]	[MAIS]	CCONJ	_	_	13	cc	_	AlignBegin=127091|AlignEnd=127635|Gloss=[BUT]|NDHHeld=[MER]|NMM=eyebrow-raise
-13	[PLAGE]	[PLAGE]	NOUN	_	_	11	conj:coord	_	AlignBegin=127657|AlignEnd=128383|Gloss=[BEACH]
-14	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	13	mod	_	AlignBegin=128396|AlignEnd=128987|Gloss=[DIFFERENT]
 
 # sent_id = vacances-sud_21
-# text = [CALANQUE] [ROCHER] [rocher]
+# text = PNT[lieu3] [QUOI] [MER] [MAIS] [PLAGE] [DIFFÉRENT] [CALANQUE] [ROCHER] [rocher]
 # source_file = ./recit-agnieska.mp4
-# text_fr = les calanques avec les rochers tout autour.
-# text_en = the rocky inlet with the rocks around.
+# text_fr = Le bord de mer mais pas la plage, les calanques avec les rochers tout autour.
+# text_en = The seashore but not the beach, the rocky inlet with the rocks around.
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
-1	[CALANQUE]	[CALANQUE]	NOUN	_	_	0	root	_	AlignBegin=129013|AlignEnd=130809|Gloss=[ROCKY-INLET]|ISMarker[CFoc]=Cxn-corel? fusionner avec avant|ISRole=CFoc|NMM=eyebrow-rf|TransfertType=Situation
-2	[ROCHER]	[ROCHER]	NOUN	_	_	3	mod	_	AlignBegin=130817|AlignEnd=131152|Gloss=[ROCK]|NMM=eyebrow-rf
-3	[rocher]	[rocher]	PRON	_	_	1	conj:illustrate	_	AlignBegin=131170|AlignEnd=132813|Exp=Intensité|Gloss=[rock]|NMM=eyebrow-rf|TwoH=Yes
+1	PNT[lieu3]	PNT	PRON	_	_	0	root	_	AlignBegin=124939|AlignEnd=125296|Exp=Int|Gloss=PNT[place3]|NDHHeld=Yes|NMM=forward-tilt+eyebrow-raise|Tgt=PSS3r
+2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	mark	_	AlignBegin=125300|AlignEnd=125913|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NDHHeld=Yes|NMM=eye-blink
+3	[MER]	[MER]	NOUN	_	_	1	mod	_	AlignBegin=125913|AlignEnd=127078|Gloss=[SEA]|ISRole=Foc
+4	[MAIS]	[MAIS]	CCONJ	_	_	5	cc	_	AlignBegin=127091|AlignEnd=127635|Gloss=[BUT]|NDHHeld=[MER]|NMM=eyebrow-raise
+5	[PLAGE]	[PLAGE]	NOUN	_	_	3	conj:coord	_	AlignBegin=127657|AlignEnd=128383|Gloss=[BEACH]
+6	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	5	mod	_	AlignBegin=128396|AlignEnd=128987|Gloss=[DIFFERENT]
+7	[CALANQUE]	[CALANQUE]	NOUN	_	_	5	conj:corel	_	AlignBegin=129013|AlignEnd=130809|Gloss=[ROCKY-INLET]|ISMarker[CFoc]=Cxn-corel? fusionner avec avant|ISRole=CFoc|NMM=eyebrow-rf|TransfertType=Situation
+8	[ROCHER]	[ROCHER]	NOUN	_	_	9	mod	_	AlignBegin=130817|AlignEnd=131152|Gloss=[ROCK]|NMM=eyebrow-rf
+9	[rocher]	[rocher]	PRON	_	_	7	conj:illustrate	_	AlignBegin=131170|AlignEnd=132813|Exp=Intensité|Gloss=[rock]|NMM=eyebrow-rf|TwoH=Yes
 
 # sent_id = vacances-sud_22
 # text = [REGARDER]

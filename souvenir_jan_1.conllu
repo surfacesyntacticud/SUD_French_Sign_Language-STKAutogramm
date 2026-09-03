@@ -142,7 +142,7 @@
 # text_fr = J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
 # text_en = I was in Barcelona and we were waiting to know who got elected in France, it was funny.
 1	PNT[MOI]	PNT	PRON	_	_	2	subj	_	AlignBegin=57174|AlignEnd=57413|Gloss=PNT[ME]|Tgt=Prs1
-2	[BARCELONE]	[BARCELONE]	PROPN	_	_	5	dislocated	_	AlignBegin=57413|AlignEnd=57959|Gloss=[BARCELONA]|ISMarker[CTop]=Spatial|ISRole=CTop|Loc=PSS3l
+2	[BARCELONE]	[BARCELONE]	PROPN	_	_	5	mod	_	AlignBegin=57413|AlignEnd=57959|Gloss=[BARCELONA]|ISMarker[CTop]=Spatial|ISRole=CTop|Loc=PSS3l
 3	[FRANCE]	[FRANCE]	PROPN	_	_	5	mod	_	AlignBegin=57965|AlignEnd=58413|Gloss=[FRANCE]|Loc=PSSLr
 4	[QUI]	[QUI]	PRON	_	_	5	udep	_	AlignBegin=58419|AlignEnd=58721|Gloss=[WHO]|Loc=PSSLr
 5	[ÉLÉCTION]	[ÉLÉCTION]	VERB	_	_	0	root	_	AlignBegin=58727|AlignEnd=59424|Gloss=[ELECTED]

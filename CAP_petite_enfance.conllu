@@ -48,11 +48,11 @@
 15	[voilà]	[voilà]	_	_	_	1	discourse	_	AlignBegin=23442|AlignEnd=23996|Gloss=[that's-it]|NMM=head-nod
 16	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=24009|AlignEnd=24637|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__4
-# text = [ÉTAPES] [alors] position-neutre [alors] [COURS] [DEDANS] [PRÊT] [VIDÉO] [SIGNÉ] [L]-[S]-[F] position-neutre [PLUS] PNT[TOI] [COURS] [TROUVER] [LIEU] [OÙ] [INTERNET]
+# sent_id = cap_petite_enfance__4_split1
+# text = [ÉTAPES] [alors] position-neutre [alors] [COURS] [DEDANS] [PRÊT] [VIDÉO] [SIGNÉ] [L]-[S]-[F] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
-# text_fr = La démarche : il y a des vidéos toutes prêtes signées en LSF que tu trouveras sur internet.
-# text_en = The process: there are readymade videos signed in LSF that you will find on internet.
+# text_fr = La démarche : il y a des vidéos toutes prêtes signées en LSF
+# text_en = The process: there are readymade videos signed in LSF
 1	[ÉTAPES]	[ÉTAPES]	_	_	_	5	dislocated	_	AlignBegin=24965|AlignEnd=25960|Gloss=[STEPS]|ISMarker[Top]=Dlxn|ISRole=Top|NMM=leftward-tilt+eyebrow-raise
 2	[alors]	[alors]	_	_	_	1	discourse	_	AlignBegin=25969|AlignEnd=26248|Gloss=[so]|NMM=eyebrow-raise
 3	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=26261|AlignEnd=27345|Gloss=neutral-position
@@ -63,14 +63,20 @@
 8	[VIDÉO]	[VIDÉO]	_	_	_	6	comp	_	AlignBegin=29982|AlignEnd=30602|Gloss=[VIDEO]|NMM=eyebrow-frown
 9	[SIGNÉ]	[SIGNÉ]	_	_	_	8	mod	_	AlignBegin=30606|AlignEnd=31810|Gloss=[SIGNED]|NMM=eyebrow-frown
 10	[L]-[S]-[F]	FingerSpelling	_	_	_	9	mod	_	AlignBegin=31823|AlignEnd=32588|Gloss=[LSF]|NMM=leftward-tilt+eyebrow-frown+head-nod
-11	position-neutre	position-neutre	_	_	_	_	_	_	AlignBegin=32606|AlignEnd=33717|Gloss=neutral-position
-12	[PLUS]	[PLUS]	_	_	_	15	mod	_	AlignBegin=33721|AlignEnd=34292|Gloss=[PLUS]|NMM=eyebrow-raise
-13	PNT[TOI]	PNT	_	_	_	15	subj	_	AlignBegin=34301|AlignEnd=34619|Gloss=PNT[YOU]|NMM=eyebrow-frown
-14	[COURS]	[COURS]	_	_	_	15	comp:obj	_	AlignBegin=34619|AlignEnd=35212|Gloss=[CLASS]|ISMarker[Top]=Dlxn?|ISRole=Top|NMM=eyebrow-frown+eye-blink
-15	[TROUVER]	[TROUVER]	_	_	_	0	root	_	AlignBegin=35221|AlignEnd=35889|Gloss=[FIND]|NMM=eyebrow-frown
-16	[LIEU]	[LIEU]	_	_	_	15	comp:obl	_	AlignBegin=35903|AlignEnd=36447|Gloss=[PLACE]|Loc=PSSXr
-17	[OÙ]	[OÙ]	_	_	_	18	mark	_	AlignBegin=36460|AlignEnd=36633|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq|Loc=PSSXr
-18	[INTERNET]	[INTERNET]	_	_	_	16	mod	_	AlignBegin=36642|AlignEnd=37615|Gloss=[INTERNET]|ISRole=Foc|Loc=PSSXr|NMM=eyebrow-raise
+11	position-neutre	position-neutre	_	_	_	5	discourse	_	AlignBegin=32606|AlignEnd=33717|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__4_split2
+# text = [PLUS] PNT[TOI] [COURS] [TROUVER] [LIEU] [OÙ] [INTERNET]
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = que tu trouveras sur internet.
+# text_en = that you will find on internet.
+1	[PLUS]	[PLUS]	_	_	_	4	mod	_	AlignBegin=33721|AlignEnd=34292|Gloss=[PLUS]|NMM=eyebrow-raise
+2	PNT[TOI]	PNT	_	_	_	4	subj	_	AlignBegin=34301|AlignEnd=34619|Gloss=PNT[YOU]|NMM=eyebrow-frown
+3	[COURS]	[COURS]	_	_	_	4	comp:obj	_	AlignBegin=34619|AlignEnd=35212|Gloss=[CLASS]|ISMarker[Top]=Dlxn?|ISRole=Top|NMM=eyebrow-frown+eye-blink
+4	[TROUVER]	[TROUVER]	_	_	_	0	root	_	AlignBegin=35221|AlignEnd=35889|Gloss=[FIND]|NMM=eyebrow-frown
+5	[LIEU]	[LIEU]	_	_	_	4	comp:obl	_	AlignBegin=35903|AlignEnd=36447|Gloss=[PLACE]|Loc=PSSXr
+6	[OÙ]	[OÙ]	_	_	_	7	mark	_	AlignBegin=36460|AlignEnd=36633|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq|Loc=PSSXr
+7	[INTERNET]	[INTERNET]	_	_	_	5	mod	_	AlignBegin=36642|AlignEnd=37615|Gloss=[INTERNET]|ISRole=Foc|Loc=PSSXr|NMM=eyebrow-raise
 
 # sent_id = cap_petite_enfance__5
 # text = PNT[ça] [S'APPELER/NOM] [E]-[TIRET]-[L]-[E]-[A]-[R]-[N]-[I]-[N]-[G] [ICI] position-neutre

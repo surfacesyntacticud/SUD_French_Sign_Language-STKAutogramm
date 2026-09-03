@@ -1,43 +1,55 @@
 # sent_id = primaire_populaire_en_LSF__1
-# text = [BONJOUR] [ASSEMBLÉE] [ÊTRE] [C] SignedName[Charlotte] [AVEC] [INTERPRÈTE] SignedName[Pascal] [AUSSI] [CAMERA] [TECHNIQUE] [FILMER] [CONSTRUIRE] [QUOI] [VIDEO] [PRESENTER]VOUS [DEDANS] [PREMIER (PRIMAIRE)] [PRIMAIRE?] [POPULAIRE] [SIGNÉ] [DEDANS] position-neutre
+# text = [BONJOUR] [ASSEMBLÉE]
 # source_file = ./Primaire Populaire en LSF.mp4
-# text_fr = Bonjour à toutes et à tous, je suis Charlotte Marchandise, je suis avec Pascal di Piazza et Sylvain Liotté-Stasse à la technique et on est très heureux de vous présenter une vidéo pour présenter la primaire populaire en Langue des Signes Française.
-# text_en = Hello everyone, I am Charlotte Marchandise, I am with Pascal di Piazza et Sylvain Liotté-Stasse as a technician and we are very happy to present you a video to introduce the popular primary election in French Sign Language.
+# text_fr = Bonjour à toutes et à tous,
+# text_en = Hello everyone,
 1	[BONJOUR]	[BONJOUR]	NOUN	_	_	0	root	_	AlignBegin=7240|AlignEnd=7900|Gloss=[HELLO]|NMM=head-nod
 2	[ASSEMBLÉE]	[ASSEMBLÉE]	NOUN	_	_	1	vocative	_	AlignBegin=7920|AlignEnd=8620|Gloss=[ASSEMBLY]
-3	[ÊTRE]	[ÊTRE]	VERB	_	_	0	root	_	AlignBegin=8630|AlignEnd=9290|Gloss=[BE]
-4	[C]	[C]	X	_	_	5	reparandum	_	AlignBegin=9290|AlignEnd=9830|Gloss=[C]
-5	SignedName[Charlotte]	SignedName	PROPN	_	_	3	subj	_	AlignBegin=9830|AlignEnd=10480|Gloss=SignedName[Charlotte]|NMM=eyebrow-raise
-6	[AVEC]	[AVEC]	ADP	_	_	3	comp	_	AlignBegin=10480|AlignEnd=10880|Gloss=[WITH]|NMM=eyebrow-raise
-7	[INTERPRÈTE]	[INTERPRÈTE]	NOUN	_	_	6	comp	_	AlignBegin=10910|AlignEnd=11650|Gloss=[INTERPRET]|NMM=eyebrow-raise
-8	SignedName[Pascal]	SignedName	PROPN	_	_	7	conj:appos	_	AlignBegin=11660|AlignEnd=12110|Gloss=SignedName[Pascal]
-9	[AUSSI]	[AUSSI]	CCONJ	_	_	10	cc	_	AlignBegin=12130|AlignEnd=12420|Gloss=[ALSO]
-10	[CAMERA]	[CAMERA]	NOUN	_	_	6	conj:coord	_	AlignBegin=12420|AlignEnd=13570|Gloss=[CAMERA]|NMM=eyebroww-raise
-11	[TECHNIQUE]	[TECHNIQUE]	NOUN	_	_	10	mod	_	AlignBegin=13590|AlignEnd=14230|Gloss=[TECHNIQUE]
-12	[FILMER]	[FILMER]	VERB	_	_	0	root	_	AlignBegin=14260|AlignEnd=14980|Gloss=[FILM]
-13	[CONSTRUIRE]	[CONSTRUIRE]	VERB	_	_	12	compound:svc	_	AlignBegin=14990|AlignEnd=15440|Gloss=[BUILD]|NMM=eyebrow-raise
-14	[QUOI]	[QUOI]	PRON	_	_	15	mark	_	AlignBegin=15450|AlignEnd=15900|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=backward-tilt
-15	[VIDEO]	[VIDEO]	NOUN	_	_	13	comp:obj	_	AlignBegin=15906|AlignEnd=16444|Gloss=[WHAT]|ISRole=Foc
-16	[PRESENTER]VOUS	[PRESENTER]	VERB	_	_	15	mod	_	AlignBegin=16456|AlignEnd=17286|Gloss=[PRESENT]YOU|NMM=eyebrow-frown
-17	[DEDANS]	[DEDANS]	_	_	_	15	mod	_	AlignBegin=17289|AlignEnd=18000|Gloss=[INSIDE]|ISRole=Foc|NMM=eyebrow-frown
-18	[PREMIER (PRIMAIRE)]	[PREMIER (PRIMAIRE)]	_	_	_	19	mod	_	AlignBegin=18003|AlignEnd=18340|Gloss=[FIRST/PRIMARY]|NMM=backward-tilt+eyebrow-frown
-19	[PRIMAIRE?]	[PRIMAIRE?]	_	_	_	17	comp:obj	_	AlignBegin=18350|AlignEnd=18793|Gloss=[PRIMARY]
-20	[POPULAIRE]	[POPULAIRE]	_	_	_	19	mod	_	AlignBegin=18802|AlignEnd=19590|Gloss=[POPULAR]|NMM=eyebrow-raise
-21	[SIGNÉ]	[SIGNÉ]	_	_	_	19	mod	_	AlignBegin=19596|AlignEnd=20201|Gloss=[SIGNED]
-22	[DEDANS]	[DEDANS]	_	_	_	17	conj:redup	_	AlignBegin=20210|AlignEnd=20650|Gloss=[INSIDE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod
-23	position-neutre	position-neutre	_	_	_	12	discourse	_	AlignBegin=20660|AlignEnd=21416|Gloss=neutral-position
 
 # sent_id = primaire_populaire_en_LSF__2
-# text = [PRIMAIRE] [POPULAIRE] [INITIATIVE] [euh] [VENIR-DE] [GROUPE]plur [PERSONNE]Plur [THÈME] [MÉTÉO] [JEUNESSE] [CONTRE] [MÉPRIS] [RACISME] [CONTRE] [FEMME] [DISCRIMINATION] [CONTRE] [CONTRE-tout-ça] PNT[NOUS] [MOBILISER]
+# text = [ÊTRE] [C] SignedName[Charlotte] [AVEC] [INTERPRÈTE] SignedName[Pascal] [AUSSI] [CAMERA] [TECHNIQUE]
 # source_file = ./Primaire Populaire en LSF.mp4
-# text_fr = La primaire populaire c’est une initiative qui vient de groupes de militants pour le climat, pour la jeunesse, contre les discriminations, contre le sexisme, contre le racisme, et qui s’est mobilisée en disant :
-# text_en = The primary election is an initiative from a group of activits for climate, youth, against discriminations, against sexism, against racism and which raised saying:
+# text_fr = je suis Charlotte Marchandise, je suis avec Pascal di Piazza et Sylvain Liotté-Stasse à la technique
+# text_en = I am Charlotte Marchandise, I am with Pascal di Piazza et Sylvain Liotté-Stasse as a technician
+1	[ÊTRE]	[ÊTRE]	VERB	_	_	0	root	_	AlignBegin=8630|AlignEnd=9290|Gloss=[BE]
+2	[C]	[C]	X	_	_	3	reparandum	_	AlignBegin=9290|AlignEnd=9830|Gloss=[C]
+3	SignedName[Charlotte]	SignedName	PROPN	_	_	1	subj	_	AlignBegin=9830|AlignEnd=10480|Gloss=SignedName[Charlotte]|NMM=eyebrow-raise
+4	[AVEC]	[AVEC]	ADP	_	_	1	comp	_	AlignBegin=10480|AlignEnd=10880|Gloss=[WITH]|NMM=eyebrow-raise
+5	[INTERPRÈTE]	[INTERPRÈTE]	NOUN	_	_	4	comp	_	AlignBegin=10910|AlignEnd=11650|Gloss=[INTERPRET]|NMM=eyebrow-raise
+6	SignedName[Pascal]	SignedName	PROPN	_	_	5	conj:appos	_	AlignBegin=11660|AlignEnd=12110|Gloss=SignedName[Pascal]
+7	[AUSSI]	[AUSSI]	CCONJ	_	_	8	cc	_	AlignBegin=12130|AlignEnd=12420|Gloss=[ALSO]
+8	[CAMERA]	[CAMERA]	NOUN	_	_	4	conj:coord	_	AlignBegin=12420|AlignEnd=13570|Gloss=[CAMERA]|NMM=eyebroww-raise
+9	[TECHNIQUE]	[TECHNIQUE]	NOUN	_	_	8	mod	_	AlignBegin=13590|AlignEnd=14230|Gloss=[TECHNIQUE]
+
+# sent_id = primaire_populaire_en_LSF__3
+# text = [FILMER] [CONSTRUIRE] [QUOI] [VIDEO] [PRESENTER]VOUS [DEDANS] [PREMIER (PRIMAIRE)] [PRIMAIRE?] [POPULAIRE] [SIGNÉ] [DEDANS] position-neutre
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = et on est très heureux de vous présenter une vidéo pour présenter la primaire populaire en Langue des Signes Française.
+# text_en = and we are very happy to present you a video to introduce the popular primary election in French Sign Language.
+1	[FILMER]	[FILMER]	VERB	_	_	0	root	_	AlignBegin=14260|AlignEnd=14980|Gloss=[FILM]
+2	[CONSTRUIRE]	[CONSTRUIRE]	VERB	_	_	1	compound:svc	_	AlignBegin=14990|AlignEnd=15440|Gloss=[BUILD]|NMM=eyebrow-raise
+3	[QUOI]	[QUOI]	PRON	_	_	4	mark	_	AlignBegin=15450|AlignEnd=15900|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=backward-tilt
+4	[VIDEO]	[VIDEO]	NOUN	_	_	2	comp:obj	_	AlignBegin=15906|AlignEnd=16444|Gloss=[WHAT]|ISRole=Foc
+5	[PRESENTER]VOUS	[PRESENTER]	VERB	_	_	4	mod	_	AlignBegin=16456|AlignEnd=17286|Gloss=[PRESENT]YOU|NMM=eyebrow-frown
+6	[DEDANS]	[DEDANS]	_	_	_	4	mod	_	AlignBegin=17289|AlignEnd=18000|Gloss=[INSIDE]|ISRole=Foc|NMM=eyebrow-frown
+7	[PREMIER (PRIMAIRE)]	[PREMIER (PRIMAIRE)]	_	_	_	8	mod	_	AlignBegin=18003|AlignEnd=18340|Gloss=[FIRST/PRIMARY]|NMM=backward-tilt+eyebrow-frown
+8	[PRIMAIRE?]	[PRIMAIRE?]	_	_	_	6	comp:obj	_	AlignBegin=18350|AlignEnd=18793|Gloss=[PRIMARY]
+9	[POPULAIRE]	[POPULAIRE]	_	_	_	8	mod	_	AlignBegin=18802|AlignEnd=19590|Gloss=[POPULAR]|NMM=eyebrow-raise
+10	[SIGNÉ]	[SIGNÉ]	_	_	_	8	mod	_	AlignBegin=19596|AlignEnd=20201|Gloss=[SIGNED]
+11	[DEDANS]	[DEDANS]	_	_	_	6	conj:redup	_	AlignBegin=20210|AlignEnd=20650|Gloss=[INSIDE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod
+12	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=20660|AlignEnd=21416|Gloss=neutral-position
+
+# sent_id = primaire_populaire_en_LSF__4
+# text = [PRIMAIRE] [POPULAIRE] [INITIATIVE] [euh] [VENIR-DE] [GROUPE]Plur [PERSONNE]Plur [THÈME] [MÉTÉO] [JEUNESSE] [CONTRE] [MÉPRIS] [RACISME] [CONTRE] [FEMME] [DISCRIMINATION] [CONTRE] [CONTRE-tout-ça]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = La primaire populaire c’est une initiative qui vient de groupes de militants pour le climat, pour la jeunesse, contre les discriminations, contre le sexisme, contre le racisme
+# text_en = The primary election is an initiative from a group of activits for climate, youth, against discriminations, against sexism, against racism
 1	[PRIMAIRE]	[PRIMAIRE]	_	_	_	3	subj	_	AlignBegin=21422|AlignEnd=21997|Gloss=[PRIMARY]|ISMarker[Top]=Dlxn?|ISRole=Top|NMM=eyebrow-raise
 2	[POPULAIRE]	[POPULAIRE]	_	_	_	1	mod	_	AlignBegin=22012|AlignEnd=23472|Gloss=[POPULAR]|NMM=leftward-tilt+eyebrow-frown
 3	[INITIATIVE]	[INITIATIVE]	_	_	_	0	root	_	AlignBegin=23479|AlignEnd=24049|Gloss=[INITIATIVE]|NMM=eyebrow-frown
 4	[euh]	[euh]	_	_	_	3	discourse	_	AlignBegin=24067|AlignEnd=24552|Gloss=[hum]|NMM=backward-tilt
 5	[VENIR-DE]	[VENIR-DE]	_	_	_	3	mod	_	AlignBegin=24564|AlignEnd=25043|Gloss=[COME-FROM]|NMM=rightward-tilt
-6	[GROUPE]plur	[GROUPE]	_	_	_	5	comp:obj	_	AlignBegin=25043|AlignEnd=25883|Gloss=[GROUP]plur|NMM=leftward-tilt+eyebrow-frown
+6	[GROUPE]Plur	[GROUPE]	_	_	_	5	comp:obj	_	AlignBegin=25043|AlignEnd=25883|Gloss=[GROUP]Plur|NMM=leftward-tilt+eyebrow-frown
 7	[PERSONNE]Plur	[PERSONNE]	_	_	_	6	udep	_	AlignBegin=25896|AlignEnd=26730|Gloss=[PERSON]Plur|NMM=eyebrow-frown
 8	[THÈME]	[THÈME]	_	_	_	6	mod	_	AlignBegin=26742|AlignEnd=27147|Gloss=[THEME]|NMM=eyebrow-frown
 9	[MÉTÉO]	[MÉTÉO]	_	_	_	8	comp:obj	_	AlignBegin=27166|AlignEnd=27926|Gloss=[WEATHER]
@@ -50,16 +62,22 @@
 16	[DISCRIMINATION]	[DISCRIMINATION]	_	_	_	14	comp	_	AlignBegin=31933|AlignEnd=32853|Gloss=[DISCRIMINATION]
 17	[CONTRE]	[CONTRE]	_	_	_	14	conj:coord	_	AlignBegin=32865|AlignEnd=33196|Gloss=[AGAINST]|NMM=eyebrow-raise
 18	[CONTRE-tout-ça]	[CONTRE]	_	_	_	17	conj:coord	_	AlignBegin=33202|AlignEnd=33883|Gloss=[AGAINST-all-this]|NMM=eyebrow-raise
-19	PNT[NOUS]	PNT	_	_	_	20	subj	_	AlignBegin=33896|AlignEnd=34258|Gloss=PNT[WE]
-20	[MOBILISER]	[MOBILISER]	_	_	_	0	root	_	AlignBegin=34282|AlignEnd=35755|Gloss=[MOBILIZE]|NMM=eyebrow-frown
 
-# sent_id = primaire_populaire_en_LSF__3
-# text = [BESOIN] [QUOI] [POLITIQUE] [S'APPROPRIER] [AUSSI] [IL-FAUT] [JUSTICE] [SOCIAL] [ECOLOGIE] [AUSSI] [DÉMOCRATIE] [IMPORTANT] [DEUX] [MILLE] [DEUX] [DEUX] [GAGNER] [OBJECTIF] [QUOI] [PROJET] [FUTUR] [avoir-en-TÊTE] [PUBLIC] [PAUVRE] [DIX] [MILLION] [FRANCE] [LÀ-LÀ-LÀ-LÀ] position-neutre
+# sent_id = primaire_populaire_en_LSF__5
+# text = PNT[NOUS] [MOBILISER]
 # source_file = ./Primaire Populaire en LSF.mp4
-# text_fr = « on a besoin de s’approprier la politique, on a besoin que la justice sociale, que l’écologie, que la démocratie gagnent en 2022 pour nous donner un futur parce qu’il y a 10 millions de pauvres en France, parce que le climat s’emballe »
+# text_fr = et qui s’est mobilisée en disant :
+# text_en = and which raised saying:
+1	PNT[NOUS]	PNT	_	_	_	2	subj	_	AlignBegin=33896|AlignEnd=34258|Gloss=PNT[WE]
+2	[MOBILISER]	[MOBILISER]	_	_	_	0	root	_	AlignBegin=34282|AlignEnd=35755|Gloss=[MOBILIZE]|NMM=eyebrow-frown
+
+# sent_id = primaire_populaire_en_LSF__6
+# text = [BESOIN] [QUOI] [POLITIQUE] [S'APPROPRIER] [AUSSI] [IL-FAUT] [JUSTICE] [SOCIAL] [ECOLOGIE] [AUSSI] [DÉMOCRATIE] [IMPORTANT] [DEUX] [MILLE] [DEUX] [DEUX] [GAGNER]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = « on a besoin de s’approprier la politique, on a besoin que la justice sociale, que l’écologie, que la démocratie gagnent en 2022
 # text_en = "we need to take ownership of politics, we need social justice, ecology, democracy to win in 2022 to give us a future because 10 million people are poor in France, because the climat is spiralying out of control"
 1	[BESOIN]	[BESOIN]	_	_	_	0	root	_	AlignBegin=36773|AlignEnd=37264|Gloss=[NEED]
-2	[QUOI]	[QUOI]	_	_	_	4	mark	_	AlignBegin=37282|AlignEnd=37681|Gloss=[WHAT]|ISMarker[Foc]=Cnx-fq+NMM|NMM=eyebrow-raise
+2	[QUOI]	[QUOI]	_	_	_	4	mark	_	AlignBegin=37282|AlignEnd=37681|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cnx-fq|NMM=eyebrow-raise
 3	[POLITIQUE]	[POLITIQUE]	_	_	_	4	comp:obj	_	AlignBegin=37681|AlignEnd=38276|Gloss=[POLITIC]
 4	[S'APPROPRIER]	[S'APPROPRIER]	_	_	_	1	comp:obj	_	AlignBegin=38282|AlignEnd=39233|Gloss=[APPROPRIATE]|ISRole=Foc|NMM=backward-tilt
 5	[AUSSI]	[AUSSI]	_	_	_	6	cc	_	AlignBegin=39245|AlignEnd=39742|Gloss=[ALSO]
@@ -75,23 +93,29 @@
 15	[DEUX]	[DEUX]	_	_	_	14	flat@num	_	AlignBegin=44583|AlignEnd=44805|Gloss=[TWO]
 16	[DEUX]	[DEUX]	_	_	_	15	flat@num	_	AlignBegin=44808|AlignEnd=44994|Gloss=[TWO]
 17	[GAGNER]	[GAGNER]	_	_	_	12	comp:obj	_	AlignBegin=45000|AlignEnd=45551|Gloss=[WIN]
-18	[OBJECTIF]	[OBJECTIF]	_	_	_	0	root	_	AlignBegin=45557|AlignEnd=46122|NMM=eyebrow-raise
-19	[QUOI]	[QUOI]	_	_	_	20	mark	_	AlignBegin=46125|AlignEnd=46405|ISMarker[Foc]=Cxn-fq
-20	[PROJET]	[PROJET]	_	_	_	18	comp:obj	_	AlignBegin=46414|AlignEnd=47236|ISRole=Foc
-21	[FUTUR]	[FUTUR]	_	_	_	20	mod	_	AlignBegin=47242|AlignEnd=47598|NMM=eyebrow-raise
-22	[avoir-en-TÊTE]	[TÊTE]	_	_	_	18	conj:coord	_	AlignBegin=47598|AlignEnd=48050|NMM=eyebrow-raise
-23	[PUBLIC]	[PUBLIC]	_	_	_	22	comp:obj	_	AlignBegin=48058|AlignEnd=48997
-24	[PAUVRE]	[PAUVRE]	_	_	_	23	mod	_	AlignBegin=49012|AlignEnd=49659|NMM=backward-tilt
-25	[DIX]	[DIX]	_	_	_	23	mod	_	AlignBegin=49662|AlignEnd=49994|NMM=eyebrow-raise
-26	[MILLION]	[MILLION]	_	_	_	25	flat@num	_	AlignBegin=50000|AlignEnd=50810|Gloss=[MILLION]
-27	[FRANCE]	[FRANCE]	PROPN	_	_	28	comp:obj	_	AlignBegin=50822|AlignEnd=51277|Loc=cercle|NMM=eyebrow-raise
-28	[LÀ-LÀ-LÀ-LÀ]	[LÀ-LÀ-LÀ-LÀ]	ADP	_	_	23	mod	_	AlignBegin=51277|AlignEnd=52440|Tgt=cercle
-29	position-neutre	position-neutre	_	_	_	18	discourse	_	AlignBegin=52453|AlignEnd=53104|Gloss=neutral-position
 
-# sent_id = primaire_populaire_en_LSF__4
-# text = [PENSER] [peut-être] [PEUT-ÊTRE] [POLITIQUE] [GAUCHE] [AUSSI] [ECOLOGIE] [PENSER] [MILITANT] [PROGRAMME] [IL-Y-A] [AUSSI]~ [THÈME] [DÉFENDRE] [TÉMOIGNE/MONTRER?] [DIVERS]
+# sent_id = primaire_populaire_en_LSF__7
+# text = [OBJECTIF] [QUOI] [PROJET] [FUTUR] [avoir-en-TÊTE] [PUBLIC] [PAUVRE] [DIX] [MILLION] [FRANCE] [LÀ-LÀ-LÀ-LÀ] position-neutre
 # source_file = ./Primaire Populaire en LSF.mp4
-# text_fr = On pouvait à un moment donné, penser que les partis politiques, des gauches et de l’écologie en général, feraient ce travail-là. Ils ont des programmes qui défendent ces projets-là.
+# text_fr = pour nous donner un futur parce qu’il y a 10 millions de pauvres en France, parce que le climat s’emballe »
+# text_en = "we need to take ownership of politics, we need social justice, ecology, democracy to win in 2022 to give us a future because 10 million people are poor in France, because the climat is spiralying out of control"
+1	[OBJECTIF]	[OBJECTIF]	_	_	_	0	root	_	AlignBegin=45557|AlignEnd=46122|NMM=eyebrow-raise
+2	[QUOI]	[QUOI]	_	_	_	3	mark	_	AlignBegin=46125|AlignEnd=46405|ISMarker[Foc]=Cxn-fq
+3	[PROJET]	[PROJET]	_	_	_	1	comp:obj	_	AlignBegin=46414|AlignEnd=47236|ISRole=Foc
+4	[FUTUR]	[FUTUR]	_	_	_	3	mod	_	AlignBegin=47242|AlignEnd=47598|NMM=eyebrow-raise
+5	[avoir-en-TÊTE]	[TÊTE]	_	_	_	1	conj:coord	_	AlignBegin=47598|AlignEnd=48050|NMM=eyebrow-raise
+6	[PUBLIC]	[PUBLIC]	_	_	_	5	comp:obj	_	AlignBegin=48058|AlignEnd=48997
+7	[PAUVRE]	[PAUVRE]	_	_	_	6	mod	_	AlignBegin=49012|AlignEnd=49659|NMM=backward-tilt
+8	[DIX]	[DIX]	_	_	_	6	mod	_	AlignBegin=49662|AlignEnd=49994|NMM=eyebrow-raise
+9	[MILLION]	[MILLION]	_	_	_	8	flat@num	_	AlignBegin=50000|AlignEnd=50810|Gloss=[MILLION]
+10	[FRANCE]	[FRANCE]	PROPN	_	_	11	comp:obj	_	AlignBegin=50822|AlignEnd=51277|Loc=cercle|NMM=eyebrow-raise
+11	[LÀ-LÀ-LÀ-LÀ]	[LÀ-LÀ-LÀ-LÀ]	ADP	_	_	6	mod	_	AlignBegin=51277|AlignEnd=52440|Tgt=cercle
+12	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=52453|AlignEnd=53104|Gloss=neutral-position
+
+# sent_id = primaire_populaire_en_LSF__8
+# text = [PENSER] [peut-être] [PEUT-ÊTRE] [POLITIQUE] [GAUCHE] [AUSSI] [ECOLOGIE] [PENSER] [MILITANT]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = On pouvait à un moment donné, penser que les partis politiques, des gauches et de l’écologie en général, feraient ce travail-là.
 # text_en = We could, at some point, think that political parties, from the left and ecology in general, would do this work. They have programs that defend these projects.
 1	[PENSER]	[PENSER]	_	_	_	0	root	_	AlignBegin=53104|AlignEnd=53730|NMM=eyebrow-raise
 2	[peut-être]	[peut-être]	_	_	_	3	reparandum	_	AlignBegin=53736|AlignEnd=54231
@@ -102,15 +126,21 @@
 7	[ECOLOGIE]	[ECOLOGIE]	_	_	_	4	udep	_	AlignBegin=57117|AlignEnd=57765|NMM=eyebrow-frown
 8	[PENSER]	[PENSER]	_	_	_	1	conj:redup	_	AlignBegin=57769|AlignEnd=58153|NMM=eyebrow-raise
 9	[MILITANT]	[MILITANT]	_	_	_	_	_	_	AlignBegin=58153|AlignEnd=58948|NMM=leftward-tilt+eyebrow-frown
-10	[PROGRAMME]	[PROGRAMME]	_	_	_	11	dislocated	_	AlignBegin=58954|AlignEnd=59492|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-raise
-11	[IL-Y-A]	[IL-Y-A]	_	_	_	0	root	_	AlignBegin=59498|AlignEnd=59909
-12	[AUSSI]~	[AUSSI]	_	_	_	_	_	_	AlignBegin=59915|AlignEnd=60147
-13	[THÈME]	[THÈME]	_	_	_	11	comp:obj	_	AlignBegin=60150|AlignEnd=60577|NMM=eyebrow-frown
-14	[DÉFENDRE]	[DÉFENDRE]	_	_	_	13	comp	_	AlignBegin=60582|AlignEnd=61114|NMM=eyebrow-frown
-15	[TÉMOIGNE/MONTRER?]	[TÉMOIGNE]	_	_	_	14	conj:coord	_	AlignBegin=61114|AlignEnd=61526|NMM=eyebrow-frown
-16	[DIVERS]	[DIVERS]	_	_	_	15	mod	_	AlignBegin=61526|AlignEnd=62071|NMM=eyebrow-frown
 
-# sent_id = primaire_populaire_en_LSF__5
+# sent_id = primaire_populaire_en_LSF__9
+# text = [PROGRAMME] [IL-Y-A] [AUSSI]~ [THÈME] [DÉFENDRE] [TÉMOIGNE/MONTRER?] [DIVERS]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = Ils ont des programmes qui défendent ces projets-là.
+# text_en = We could, at some point, think that political parties, from the left and ecology in general, would do this work. They have programs that defend these projects.
+1	[PROGRAMME]	[PROGRAMME]	_	_	_	2	dislocated	_	AlignBegin=58954|AlignEnd=59492|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-raise
+2	[IL-Y-A]	[IL-Y-A]	_	_	_	0	root	_	AlignBegin=59498|AlignEnd=59909
+3	[AUSSI]~	[AUSSI]	_	_	_	_	_	_	AlignBegin=59915|AlignEnd=60147
+4	[THÈME]	[THÈME]	_	_	_	2	comp:obj	_	AlignBegin=60150|AlignEnd=60577|NMM=eyebrow-frown
+5	[DÉFENDRE]	[DÉFENDRE]	_	_	_	4	comp	_	AlignBegin=60582|AlignEnd=61114|NMM=eyebrow-frown
+6	[TÉMOIGNE/MONTRER?]	[TÉMOIGNE]	_	_	_	5	conj:coord	_	AlignBegin=61114|AlignEnd=61526|NMM=eyebrow-frown
+7	[DIVERS]	[DIVERS]	_	_	_	6	mod	_	AlignBegin=61526|AlignEnd=62071|NMM=eyebrow-frown
+
+# sent_id = primaire_populaire_en_LSF__10
 # text = [MAIS] [POLITIQUE]~? [MAINTENANT] [SITUATION] [AUJOURD’HUI/MAINTENANT?] [OBSERVE] [CANDIDATS] [SEPT] [OSER-INITIATIVE] [THÈME] [ELECTIONS] [PRÉSIDENT] [DEUX]-[MILLE] [DEUX] [DEUX] [THÈME] [OUVERTURE] [HUMANISTE] [DÉFENDRE] [PAUVRE] [DISCRIMINÉS] [ECOLOGIE] [THÈME] [MONDE] Prf[MONDE] [SAUVER]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = Pourtant, aujourd’hui, à l’heure où on est, on a 7 candidats et candidates déclarées pour les élections présidentielles de 2022, sur ce qu’on va dire l’arc humaniste, c’est-à-dire les gens qui vont défendre les plus pauvres, les plus vulnérables, et l’écologie pour sauver la planète.
@@ -142,7 +172,7 @@
 25	Prf[MONDE]	Prf[MONDE]	_	_	_	24	conj:illustrate	_	AlignBegin=79323|AlignEnd=79634
 26	[SAUVER]	[SAUVER]	_	_	_	23	comp	_	AlignBegin=79637|AlignEnd=80342
 
-# sent_id = primaire_populaire_en_LSF__6
+# sent_id = primaire_populaire_en_LSF__11
 # text = [SI] [CANDIDAT] [SEPT] [ça-veut-dire]? [GAGNER] [IMPOSSIBLE]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = Si il y a 7 candidats et candidates, personne ne gagne !
