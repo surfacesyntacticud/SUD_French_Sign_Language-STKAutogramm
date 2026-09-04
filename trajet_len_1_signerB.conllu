@@ -42,9 +42,9 @@
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Tu habites où précisement ?
 # text_en = Where do you live exactly?
-1	[HABITER]	[HABITER]	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]|ISRole=Foc
+1	[HABITER]	[HABITER]	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]|ISRole=Top
 2	[OÙ]	[OÙ]	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=13500|AlignEnd=13736|Gloss=[WHERE]
-3	[HABITER]	[HABITER]	VERB	_	_	1	conj:redup	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]|ISMarker[Foc]=Cxn-dbl
+3	[HABITER]	[HABITER]	VERB	_	_	1	conj:redup	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]|ISMarker[Top]=Cxn-dbl
 4	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	1	mod	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
 
 # sent_id = trajet-len-1-signerB_4

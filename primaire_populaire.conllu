@@ -77,7 +77,7 @@
 # text_fr = « on a besoin de s’approprier la politique, on a besoin que la justice sociale, que l’écologie, que la démocratie gagnent en 2022
 # text_en = "we need to take ownership of politics, we need social justice, ecology, democracy to win in 2022 to give us a future because 10 million people are poor in France, because the climat is spiralying out of control"
 1	[BESOIN]	[BESOIN]	_	_	_	0	root	_	AlignBegin=36773|AlignEnd=37264|Gloss=[NEED]
-2	[QUOI]	[QUOI]	_	_	_	4	mark	_	AlignBegin=37282|AlignEnd=37681|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cnx-fq|NMM=eyebrow-raise
+2	[QUOI]	[QUOI]	_	_	_	4	mark	_	AlignBegin=37282|AlignEnd=37681|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eyebrow-raise
 3	[POLITIQUE]	[POLITIQUE]	_	_	_	4	comp:obj	_	AlignBegin=37681|AlignEnd=38276|Gloss=[POLITIC]
 4	[S'APPROPRIER]	[S'APPROPRIER]	_	_	_	1	comp:obj	_	AlignBegin=38282|AlignEnd=39233|Gloss=[APPROPRIATE]|ISRole=Foc|NMM=backward-tilt
 5	[AUSSI]	[AUSSI]	_	_	_	6	cc	_	AlignBegin=39245|AlignEnd=39742|Gloss=[ALSO]

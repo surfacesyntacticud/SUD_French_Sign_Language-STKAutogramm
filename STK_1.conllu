@@ -305,7 +305,7 @@
 4	[MAIS]	[MAIS]	CCONJ	_	_	5	cc	_	AlignBegin=127091|AlignEnd=127635|Gloss=[BUT]|NDHHeld=[MER]|NMM=eyebrow-raise
 5	[PLAGE]	[PLAGE]	NOUN	_	_	3	conj:coord	_	AlignBegin=127657|AlignEnd=128383|Gloss=[BEACH]
 6	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	5	mod	_	AlignBegin=128396|AlignEnd=128987|Gloss=[DIFFERENT]
-7	[CALANQUE]	[CALANQUE]	NOUN	_	_	5	conj:corel	_	AlignBegin=129013|AlignEnd=130809|Gloss=[ROCKY-INLET]|ISMarker[CFoc]=Cxn-corel? fusionner avec avant|ISRole=CFoc|NMM=eyebrow-rf|TransfertType=Situation
+7	[CALANQUE]	[CALANQUE]	NOUN	_	_	5	conj:corel	_	AlignBegin=129013|AlignEnd=130809|Gloss=[ROCKY-INLET]|ISMarker[CFoc]=Cxn-corel|ISRole=CFoc|NMM=eyebrow-rf|TransfertType=Situation
 8	[ROCHER]	[ROCHER]	NOUN	_	_	9	mod	_	AlignBegin=130817|AlignEnd=131152|Gloss=[ROCK]|NMM=eyebrow-rf
 9	[rocher]	[rocher]	PRON	_	_	7	conj:illustrate	_	AlignBegin=131170|AlignEnd=132813|Exp=Intensité|Gloss=[rock]|NMM=eyebrow-rf|TwoH=Yes
 

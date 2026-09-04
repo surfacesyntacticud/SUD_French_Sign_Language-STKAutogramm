@@ -32,7 +32,7 @@
 # text_fr = L’objectif est de créer un diplôme de formation de la petite enfance pour les personnes entendantes mais aussi pour les sourds.
 # text_en = The goal is to create a training diploma for young infancy for hearing but also deaf people.
 1	[OBJECTIF]	[OBJECTIF]	_	_	_	0	root	_	AlignBegin=13858|AlignEnd=15058|Gloss=[GOAL]|NMM=eyebrow-frown
-2	[QUOI]	[QUOI]	_	_	_	3	mark	_	AlignBegin=15066|AlignEnd=15363|Gloss=[WHAT]|ISMarker[Foc]=Cxn-dbl|NMM=eyebrow-frown
+2	[QUOI]	[QUOI]	_	_	_	3	mark	_	AlignBegin=15066|AlignEnd=15363|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eyebrow-frown
 3	[CRÉER]	[CRÉER]	_	_	_	1	comp:obj	_	AlignBegin=15367|AlignEnd=16208|Gloss=[CREATE]|ISRole=Foc|Loc=PSS3r|NMM=eyebrow-frown
 4	[DIPLÔME]	[DIPLÔME]	_	_	_	3	comp:obj	_	AlignBegin=16217|AlignEnd=17013|Gloss=[DIPLOMA]|Loc=PSS3r|NMM=eyebrow-frown
 5	PNT[là]	PNT	_	_	_	4	mod	_	AlignBegin=17018|AlignEnd=17575|Gloss=PNT[here]|Loc=PSS3r|NMM=eyebrow-frown

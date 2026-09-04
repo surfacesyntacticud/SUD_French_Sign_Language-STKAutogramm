@@ -35,6 +35,7 @@
 # text = [LIGNE] [SEPT] [LIGNE] [TRAM] [MONTER-dans-véhicule]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = ligne 7 du tram. Je monte dedans
+# text_en = line 7 of the tram. I go sit on it
 1	[LIGNE]	[LIGNE]	NOUN	_	_	3	conj:redup	_	AlignBegin=19910|AlignEnd=20365|Gloss=[LINE]
 2	[SEPT]	[SEPT]	NUM	_	_	1	mod	_	AlignBegin=20377|AlignEnd=20615|Gloss=[SEVEN]
 3	[LIGNE]	[LIGNE]	NOUN	_	_	5	comp:obj	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
@@ -45,9 +46,10 @@
 # text = [ARRÊT] [TERMINUS] [FIN/TERMINUS]~ [MÉTRO] [CHANGER] [MÉTRO] [SEPT] [LIGNE] [VILLE]-[JUIF] [MÉTRO]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = je passe toutes les stations et jusqu’au bout, au terminus, je change pour le métro ligne 7 à Villejuif.
+# text_en = I pass by all the stations and until the end, the end stop, I change for the metro on line 7 in Villejuif.
 1	[ARRÊT]	[ARRÊT]	NOUN	_	Number=Plur	2	mod	_	AlignBegin=22291|AlignEnd=23545|Gloss=[STOP]
 2	[TERMINUS]	[TERMINUS]	NOUN	_	_	5	mod	_	AlignBegin=23553|AlignEnd=24119|Gloss=[TERMINUS]|NMM=eyebrow-raise
-3	[FIN/TERMINUS]~	[FIN]~	NOUN	_	_	2	conj:reform	_	AlignBegin=24134|AlignEnd=25110|Gloss=[END]~|NMM=eyebrow-raise
+3	[FIN/TERMINUS]~	[FIN]	NOUN	_	_	2	conj:reform	_	AlignBegin=24134|AlignEnd=25110|Gloss=[END]~|NMM=eyebrow-raise
 4	[MÉTRO]	[MÉTRO]	NOUN	_	_	5	comp:obj	_	AlignBegin=25118|AlignEnd=25559|Gloss=[METRO]
 5	[CHANGER]	[CHANGER]	VERB	_	_	0	root	_	AlignBegin=25575|AlignEnd=25969|Gloss=[CHANGE]
 6	[MÉTRO]	[MÉTRO]	NOUN	_	_	4	conj:redup	_	AlignBegin=25969|AlignEnd=26189|Gloss=[METRO]|ISMarker[Foc]=Cxn-dbl|ISRole=Foc
@@ -59,7 +61,8 @@
 # sent_id = trajet-len-1-signerA_3_split2_split2_split1
 # text = [MONTER-dans-véhicule] [JUSQUE] [DESCENDRE] [CHANGER] [G]-[O]-[B]-[L]-[E]~ [OUBLIER]
 # source_file = ./Trajet_LEN_1.mp4
-# text_fr = Je monte dans le métro, jusqu’à l’arrêt G-O-B-L-j’ai oublié,
+# text_fr = Je monte dans le métro, jusqu’à l’arrêt G-O-B-L- j’ai oublié,
+# text_en = I go sit in the metro, until the stop G-O-B-L- I forgot,
 1	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=28669|AlignEnd=29630|Gloss=[SIT-in-vehicule]|Sass=train
 2	[JUSQUE]	[JUSQUE]	ADV	_	_	1	mod	_	AlignBegin=29638|AlignEnd=29992|Gloss=[UNTIL]|NMM=eyebrow-raise
 3	[DESCENDRE]	[DESCENDRE]	VERB	_	_	2	comp	_	AlignBegin=30008|AlignEnd=30528|Gloss=[GET-OUT]
@@ -71,6 +74,7 @@
 # text = [CHANGER] [DESCENDRE]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = là je change. Donc je descends là.
+# text_en = there I change. So I go down here.
 1	[CHANGER]	[CHANGER]	VERB	_	_	2	mod	_	AlignBegin=32677|AlignEnd=33039|Gloss=[CHANGE]
 2	[DESCENDRE]	[DESCENDRE]	VERB	_	_	0	root	_	AlignBegin=33055|AlignEnd=34047|Gloss=[GET-OUT]|NMM=forward-tilt+eyebrow-raise
 
