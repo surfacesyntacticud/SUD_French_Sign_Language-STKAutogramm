@@ -36,7 +36,7 @@
 8	[PRIMAIRE?]	[PRIMAIRE?]	_	_	_	6	comp:obj	_	AlignBegin=18350|AlignEnd=18793|Gloss=[PRIMARY]
 9	[POPULAIRE]	[POPULAIRE]	_	_	_	8	mod	_	AlignBegin=18802|AlignEnd=19590|Gloss=[POPULAR]|NMM=eyebrow-raise
 10	[SIGNÉ]	[SIGNÉ]	_	_	_	8	mod	_	AlignBegin=19596|AlignEnd=20201|Gloss=[SIGNED]
-11	[DEDANS]	[DEDANS]	_	_	_	6	conj:redup	_	AlignBegin=20210|AlignEnd=20650|Gloss=[INSIDE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod
+11	[DEDANS]	[DEDANS]	_	_	_	6	conj:dbl	_	AlignBegin=20210|AlignEnd=20650|Gloss=[INSIDE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod
 12	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=20660|AlignEnd=21416|Gloss=neutral-position
 
 # sent_id = primaire_populaire_en_LSF__4
@@ -124,7 +124,7 @@
 5	[GAUCHE]	[GAUCHE]	_	_	_	4	mod	_	AlignBegin=55925|AlignEnd=56726|NMM=eyebrow-raise
 6	[AUSSI]	[AUSSI]	_	_	_	7	cc	_	AlignBegin=56730|AlignEnd=57117
 7	[ECOLOGIE]	[ECOLOGIE]	_	_	_	4	udep	_	AlignBegin=57117|AlignEnd=57765|NMM=eyebrow-frown
-8	[PENSER]	[PENSER]	_	_	_	1	conj:redup	_	AlignBegin=57769|AlignEnd=58153|NMM=eyebrow-raise
+8	[PENSER]	[PENSER]	_	_	_	1	conj:dbl	_	AlignBegin=57769|AlignEnd=58153|NMM=eyebrow-raise
 9	[MILITANT]	[MILITANT]	_	_	_	_	_	_	AlignBegin=58153|AlignEnd=58948|NMM=leftward-tilt+eyebrow-frown
 
 # sent_id = primaire_populaire_en_LSF__9

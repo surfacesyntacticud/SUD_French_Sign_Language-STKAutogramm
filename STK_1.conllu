@@ -117,7 +117,7 @@
 7	[ADORER]	[ADORER]	VERB	_	_	6	compound:svc	_	AlignBegin=52759|AlignEnd=53685|Gloss=[ADORE]
 8	PNT[lieu1]	PNT	PRON	_	_	7	comp:obj	_	AlignBegin=53694|AlignEnd=54269|Gloss=PNT[place1]|NMM=backward-tilt|Tgt=PSS3l|TwoH=Yes
 9	[PREMIER]	[PREMIER]	ADJ	_	_	8	mod	_	AlignBegin=54296|AlignEnd=54597|Gloss=[FIRST]|NDHHeld=PNT-PSS3l
-10	PNT[lieu1]	PNT	PRON	_	_	8	conj:redup	_	AlignBegin=54616|AlignEnd=55431|Gloss=PNT[place1]|NDHHeld=PNT-PSS3l|NMM=head-nod+eye-blink|Tgt=PSS3l|TwoH=Yes
+10	PNT[lieu1]	PNT	PRON	_	_	8	conj:dbl	_	AlignBegin=54616|AlignEnd=55431|Gloss=PNT[place1]|NDHHeld=PNT-PSS3l|NMM=head-nod+eye-blink|Tgt=PSS3l|TwoH=Yes
 11	[POURQUOI]	[POURQUOI]	PRON	_	PronType=Int	12	mark	_	AlignBegin=55769|AlignEnd=56648|Gloss=[WHY]|ISMarker[Foc]=Cxn-fq|NDHHeld=PNT-PSS3l
 12	PNT[lieu1]	PNT	PRON	_	_	7	mod	_	AlignBegin=56694|AlignEnd=57898|Gloss=PNT[place1]|ISRole=Foc|NDHHeld=PNT-PSS3l|NMM=eyebrow-rasie+eye-blink|Tgt=PSS3l|TwoH=Yes
 13	[LÀ]	[LÀ]	ADV	_	_	12	mod	_	AlignBegin=57931|AlignEnd=58190|Gloss=[THERE]|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise
@@ -189,7 +189,7 @@
 1	[écouter-en-regardant]	[écouter-en-regardant]	VERB	_	_	0	root	_	AlignBegin=88544|AlignEnd=89139|Gloss=[listen-looking]|Obj=Gaze|Subj=PT
 2	PNT[soeur]	PNT	PRON	_	Number=Sing	1	comp:obj	_	AlignBegin=89152|AlignEnd=89481|Gloss=PNT[sister]|Tgt=PSS3
 3	[SOEUR]	[SOEUR]	NOUN	_	_	2	conj:appos	_	AlignBegin=89506|AlignEnd=89937|Gloss=[SISTER]|ISMarker[Top]=NMM|ISRole=Top|NMM=eyebrow-raise
-4	PNT[soeur]	PNT	PRON	_	Number=Sing	2	conj:redup	_	AlignBegin=89967|AlignEnd=90191|Gloss=PNT[sister]|Tgt=PSS3
+4	PNT[soeur]	PNT	PRON	_	Number=Sing	2	conj:dbl	_	AlignBegin=89967|AlignEnd=90191|Gloss=PNT[sister]|Tgt=PSS3
 5	[c'est-ça]	[c'est-ça]	INTJ	_	_	1	discourse	_	AlignBegin=90198|AlignEnd=90641|Gloss=[that's-right]
 6	[porter-intérêt]	[porter-intérêt]	VERB	_	_	1	conj:reform	_	AlignBegin=90663|AlignEnd=91787|Gloss=[show-interest]
 
@@ -342,7 +342,7 @@
 3	[avancer]	[avancer]	VERB	_	_	1	conj:chaining	_	AlignBegin=141174|AlignEnd=142065|Exp=Douleur|Gloss=[go-forward]|NDHHeld=[bord]|Subj=Prf[PERSONNE]
 4	[marcher-difficilement]	[marcher-difficilement]	VERB	_	_	3	conj:chaining	_	AlignBegin=142078|AlignEnd=143261|Exp[lex]=Douleur|Gloss=[hardly-walk]|ISRole=Foc|NMM=eyebrow-rf|Subj=Prf[pieds]
 5	[rochers-dans-les-pieds]	[rochers-dans-les-pieds]	NOUN	_	_	4	conj:chaining	_	AlignBegin=143270|AlignEnd=144204|Exp=Douleur|Gloss=[rocks-in-feet]|Loc=NDH|NDHHeld=Prf[pied]|NMM=eyebrow-frown+eye-blink|Rep=3|Subj=Prf(DH)[rocher]
-6	[marcher-difficilement]	[marcher-difficilement]	VERB	_	_	4	conj:redup	_	AlignBegin=144217|AlignEnd=145080|Exp[lex]=Douleur|Gloss=[hardly-walk]|ISMarker[Foc]=Cxn-dbl|NMM=eyebrow-frown|Subj=Prf[pieds]
+6	[marcher-difficilement]	[marcher-difficilement]	VERB	_	_	4	conj:dbl	_	AlignBegin=144217|AlignEnd=145080|Exp[lex]=Douleur|Gloss=[hardly-walk]|ISMarker[Foc]=Cxn-dbl|NMM=eyebrow-frown|Subj=Prf[pieds]
 7	[NAGER]	[NAGER]	VERB	_	_	6	conj:chaining	_	AlignBegin=145080|AlignEnd=147069|Exp=Positif|Gloss=[SWIM]
 8	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	7	mod	_	AlignBegin=147069|AlignEnd=148069|Exp[lex]=Positif|Gloss=[PLEASANT]|NMM=eyebrow-raise
 

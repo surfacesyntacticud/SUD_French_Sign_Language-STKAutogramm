@@ -811,7 +811,7 @@
 2	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1119979|AlignEnd=1120139|Gloss=[MUST]
 3	[DEUX]-[CENT]	[DEUX]-[CENT]	NUM	_	_	4	mod	_	AlignBegin=1120139|AlignEnd=1120539|Gloss=[TWO]-[HUNDRED]
 4	[GRAMME]	[GRAMME]	NOUN	_	_	2	comp:obj	_	AlignBegin=1120539|AlignEnd=1120979|Gloss=[GRAM]
-5	[IL-FAUT]	[IL-FAUT]	VERB	_	_	2	conj:redup	_	AlignBegin=1120979|AlignEnd=1121219|Gloss=[MUST]|NMM=forward-tilt
+5	[IL-FAUT]	[IL-FAUT]	VERB	_	_	2	conj:dbl	_	AlignBegin=1120979|AlignEnd=1121219|Gloss=[MUST]|NMM=forward-tilt
 6	PNT[PREMIEREMENT]	PNT	ADV	_	_	2	mod	_	AlignBegin=1121219|AlignEnd=1121629|Gloss=PNT[FIRSTLY]|NDH=liste|NMM=eye-blink
 
 # sent_id = crdo-fsl-cuc022_74
@@ -861,7 +861,7 @@
 6	[FLEUR]	[FLEUR]	NOUN	_	_	5	comp	_	AlignBegin=1131139|AlignEnd=1131659|Gloss=[FLOWER]|NMM=eyebrow-frown
 7	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	6	mod	_	AlignBegin=1131659|AlignEnd=1132059|Gloss=[PI_TYPICAL]|ISRole=Foc|NMM=head-nod+eyebrow-raise
 8	[CHINE]	[CHINE]	PROPN	_	_	9	comp	_	AlignBegin=1132059|AlignEnd=1132539|Gloss=[CHINA]
-9	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	conj:redup	_	AlignBegin=1132539|AlignEnd=1132899|Gloss=[PI_TYPICAL]|ISMarker[Foc]=Cxn-dbl
+9	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	conj:dbl	_	AlignBegin=1132539|AlignEnd=1132899|Gloss=[PI_TYPICAL]|ISMarker[Foc]=Cxn-dbl
 
 # sent_id = crdo-fsl-cuc022_77
 # text = [FEUILLE] [NOM] [ÉPELER] [pas-savoir] [SAVOIR] [ODEUR] [c'est-tout]
@@ -966,7 +966,7 @@
 # text_en = Prepare the sauce:
 1	[PRÉPARER]	[PRÉPARER]	VERB	_	_	0	root	_	AlignBegin=1158139|AlignEnd=1158619|Gloss=[PREPARE]|ISRole=Foc
 2	[SAUCE]	[SAUCE]	NOUN	_	_	1	comp:obj	_	AlignBegin=1158619|AlignEnd=1159379|Gloss=[SAUCE]
-3	[PRÉPARER]	[PRÉPARER]	VERB	_	_	1	conj:redup	_	AlignBegin=1159379|AlignEnd=1160014|Gloss=[PREPARE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+3	[PRÉPARER]	[PRÉPARER]	VERB	_	_	1	conj:dbl	_	AlignBegin=1159379|AlignEnd=1160014|Gloss=[PREPARE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 
 # sent_id = crdo-fsl-cuc022_87
 # text = [petit-récipient] [S]-[O]-[J]-[A] [SAUCE] [visqueux]?? [verser-SAUCE] [TROIS] [verser]
@@ -1023,7 +1023,7 @@
 2	[prendre-POÊLE]	[POÊLE]	VERB	_	_	1	conj:coord	_	AlignBegin=1176779|AlignEnd=1177259|Gloss=[take-PAN]
 3	[verser]	[verser]	VERB	_	_	2	conj:coord	_	AlignBegin=1177259|AlignEnd=1177939|Gloss=[pour]|NMM=eyebrow-raise+head-nod
 4	[forme-arrondie/saladier]	[forme-arrondie/saladier]	NOUN	_	_	3	comp:obl	_	AlignBegin=1177939|AlignEnd=1178499|Gloss=[round-shape/bowl]|NMM=eye-blink
-5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:redup	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=saladier|NMM=head-nod+eye-blink
+5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=saladier|NMM=head-nod+eye-blink
 
 # sent_id = crdo-fsl-cuc022_92
 # text = [POIVRE] [ENCORE] [COUPER-en-morceaux] [répandre] [FEUILLE] [FLEUR] [répandre]
@@ -1036,7 +1036,7 @@
 4	[répandre]	[répandre]	VERB	_	_	3	conj:coord	_	AlignBegin=1180499|AlignEnd=1181259|Gloss=[spread]|ISRole=Foc|NMM=eye-blink
 5	[FEUILLE]	[FEUILLE]	NOUN	_	_	4	comp:obj	_	AlignBegin=1181259|AlignEnd=1181699|Gloss=[LEAF]|NMM=forward-tilt
 6	[FLEUR]	[FLEUR]	NOUN	_	_	5	mod	_	AlignBegin=1181699|AlignEnd=1182059|Gloss=[FLOWER]
-7	[répandre]	[répandre]	VERB	_	_	4	conj:redup	_	AlignBegin=1182059|AlignEnd=1182779|Gloss=[spread]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+7	[répandre]	[répandre]	VERB	_	_	4	conj:dbl	_	AlignBegin=1182059|AlignEnd=1182779|Gloss=[spread]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 
 # sent_id = crdo-fsl-cuc022_93
 # text = [poser-plat] [COMMENCER]

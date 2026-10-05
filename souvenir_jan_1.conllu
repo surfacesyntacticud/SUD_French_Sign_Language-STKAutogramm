@@ -76,7 +76,7 @@
 14	[QUATRE]	[QUATRE]	NUM	_	_	15	mod	_	AlignBegin=30651|AlignEnd=30872|Gloss=[FOUR]
 15	[ÉTAGE]	[ÉTAGE]	NOUN	_	_	16	mod	_	AlignBegin=30884|AlignEnd=31343|Gloss=[FLOOR]|NMM=eye-blink+head-nod
 16	[GROUPE]	[GROUPE]	NOUN	_	_	13	comp:redup	_	AlignBegin=31355|AlignEnd=31791|Gloss=[GROUP]|NMM=head-nod
-17	[PARTIR]	[PARTIR]	VERB	_	_	10	conj:redup	_	AlignBegin=31802|AlignEnd=32145|Gloss=[LEAVE]
+17	[PARTIR]	[PARTIR]	VERB	_	_	10	conj:dbl	_	AlignBegin=31802|AlignEnd=32145|Gloss=[LEAVE]
 18	[ESPAGNE]	[ESPAGNE]	PROPN	_	_	17	comp:obj	_	AlignBegin=32145|AlignEnd=32744|Gloss=[SPAIN]
 19	[BARCELONE]	[BARCELONE]	PROPN	_	_	18	conj:zoom	_	AlignBegin=32756|AlignEnd=33512|Gloss=[BARCELONA]|NMM=head-nod
 
@@ -90,7 +90,7 @@
 3	[FOIS]	[FOIS]	NOUN	_	_	1	mod	_	AlignBegin=34698|AlignEnd=34953|Gloss=[TIME]
 4	[GROUPE]	[GROUPE]	NOUN	_	_	1	subj	_	AlignBegin=34959|AlignEnd=35337|Gloss=[GROUP]
 5	[AMI]	[AMI]	NOUN	_	_	4	compound	_	AlignBegin=35337|AlignEnd=35843|Gloss=[FRIEND]
-6	[AVION]	[AVION]	NOUN	_	_	1	conj:redup	_	AlignBegin=35855|AlignEnd=36744|Gloss=[PLANE]|NMM=eye-blink+head-nod
+6	[AVION]	[AVION]	NOUN	_	_	1	conj:dbl	_	AlignBegin=35855|AlignEnd=36744|Gloss=[PLANE]|NMM=eye-blink+head-nod
 
 # sent_id = souvenir_4_split2_split1
 # text = [ATTERRIR] [BARCELONE] [PLEIN] [SOUVENIR] [RIGOLER] [TAQUINER] [MOQUER] [PÎQUER] [DISPUTER]
