@@ -78,7 +78,7 @@
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = En premier, il en faut 200 grammes.
 # text_en = Firslty, we need 200 grams of it.
-1	PNT[PREMIEREMENT]~	PNT	ADJ	_	_	2	mod@scrap	_	AlignBegin=1119624|AlignEnd=1119979|Gloss=PNT[FIRSTLY]~|NDH=liste|NMM=rightward-tilt+eyebrow-raise
+1	PNT[PREMIEREMENT]~	PNT	ADJ	_	_	2	mod	_	AlignBegin=1119624|AlignEnd=1119979|Gloss=PNT[FIRSTLY]~|NDH=liste|NMM=rightward-tilt+eyebrow-raise|Scrap=Yes
 2	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1119979|AlignEnd=1120139|Gloss=[MUST]
 3	[DEUX]-[CENT]	[DEUX]-[CENT]	NUM	_	_	4	mod	_	AlignBegin=1120139|AlignEnd=1120539|Gloss=[TWO]-[HUNDRED]
 4	[GRAMME]	[GRAMME]	NOUN	_	_	2	comp:obj	_	AlignBegin=1120539|AlignEnd=1120979|Gloss=[GRAM]

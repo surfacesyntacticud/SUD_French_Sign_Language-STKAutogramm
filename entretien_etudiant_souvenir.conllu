@@ -26,12 +26,12 @@
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = les élèves étaient amis, on avait des liens forts.
 # text_en = the student were friends, we had strong relations.
-1	[~]	[~]	X	_	_	4	unk@scrap	_	AlignBegin=8407|AlignEnd=8802|Gloss=[~]|NMM=eye-blink
-2	[GROUPE~]	[GROUPE~]	X	_	_	4	unk@scrap	_	AlignBegin=8808|AlignEnd=9355|Gloss=[GROUP~]|NMM=eye-blink
-3	[~]	[~]	X	_	_	4	unk@scrap	_	AlignBegin=9355|AlignEnd=9849|Gloss=[~]
+1	[~]	[~]	X	_	_	4	unk	_	AlignBegin=8407|AlignEnd=8802|Gloss=[~]|NMM=eye-blink|Scrap=Yes
+2	[GROUPE~]	[GROUPE~]	X	_	_	4	unk	_	AlignBegin=8808|AlignEnd=9355|Gloss=[GROUP~]|NMM=eye-blink|Scrap=Yes
+3	[~]	[~]	X	_	_	4	unk	_	AlignBegin=9355|AlignEnd=9849|Gloss=[~]|Scrap=Yes
 4	[ÉLÈVE]	[ÉLÈVE]	NOUN	_	_	5	subj	_	AlignBegin=9855|AlignEnd=10413|Gloss=[STUDENT]|NMM=eye-blink
 5	[AMI]	[AMI]	NOUN	_	_	0	root	_	AlignBegin=10413|AlignEnd=10808|Gloss=[FRIEND]|NMM=eye-blink
-6	[~]	[~]	X	_	_	7	unk@scrap	_	AlignBegin=10808|AlignEnd=11070|Gloss=[~]
+6	[~]	[~]	X	_	_	7	unk	_	AlignBegin=10808|AlignEnd=11070|Gloss=[~]|Scrap=Yes
 7	[LIEN]	[LIEN]	NOUN	_	_	5	conj:coord	_	AlignBegin=11081|AlignEnd=11744|Gloss=[LINK]|NMM=eyebrow-frown+forward-tilt
 8	[FORT]	[FORT]	ADV	_	_	7	mod	_	AlignBegin=11744|AlignEnd=12221|Gloss=[STRONG]|NMM=eye-blink
 

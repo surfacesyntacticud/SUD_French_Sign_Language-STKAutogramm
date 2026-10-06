@@ -49,7 +49,7 @@
 1	[OUI]	[OUI]	INTJ	_	_	4	discourse	_	AlignBegin=10995|AlignEnd=11392|Gloss=[YES]
 2	[PREMIER]	[PREMIER]	ADJ	_	ExtPos=CCONJ	4	mod	_	AlignBegin=11514|AlignEnd=12052|Gloss=[FIRST]|NMM=head-nod+eye-blink
 3	PNT[MOI]	PNT	PRON	_	_	4	subj	_	AlignBegin=12075|AlignEnd=12722|Gloss=PNT[ME]|Tgt=Prs1
-4	[MARCHER]	[MARCHER]	VERB	_	_	0	root@scrap	_	AlignBegin=12741|AlignEnd=13656|Gloss=[WALK]|NMM=head-nod
+4	[MARCHER]	[MARCHER]	VERB	_	_	0	root	_	AlignBegin=12741|AlignEnd=13656|Gloss=[WALK]|NMM=head-nod|Scrap=Yes
 
 # sent_id = trajet-len-1-signerB_3
 # text = [HABITER] [OÙ] [HABITER] [PRÉCIS]
@@ -70,7 +70,7 @@
 # speaker_id = A
 1	[QUATRE-VINGT-DIX]	[QUATRE-VINGT-DIX]	NUM	_	_	0	root	_	AlignBegin=14311|AlignEnd=14807|Gloss=[NINETY]
 2	[QUATRE]	[QUATRE]	NUM	_	_	1	flat:num	_	AlignBegin=14816|AlignEnd=15250|Gloss=[FOUR]
-3	[C]-[H]~	[C]-[H]~	PROPN	_	_	1	conj:zoom@scrap	_	AlignBegin=15259|AlignEnd=15774|Gloss=[C]-[H]~
+3	[C]-[H]~	[C]-[H]~	PROPN	_	_	1	conj:zoom	_	AlignBegin=15259|AlignEnd=15774|Gloss=[C]-[H]~|Scrap=Yes
 4	[NEUF]	[NEUF]	NUM	_	_	1	conj:reform	_	AlignBegin=15783|AlignEnd=16160|Gloss=[NINE]
 5	[QUATRE]	[QUATRE]	NUM	_	_	4	flat:num	_	AlignBegin=16160|AlignEnd=16481|Gloss=[FOUR]|NMM=head-nod+eye-blink
 
@@ -126,7 +126,7 @@
 2	[JUSQUE]	[JUSQUE]	ADV	_	_	1	mod	_	AlignBegin=29638|AlignEnd=29992|Gloss=[UNTIL]|NMM=eyebrow-raise
 3	[DESCENDRE]	[DESCENDRE]	VERB	_	_	2	comp	_	AlignBegin=30008|AlignEnd=30528|Gloss=[GET-OUT]
 4	[CHANGER]	[CHANGER]	VERB	_	_	3	conj:coord	_	AlignBegin=30543|AlignEnd=30835|Gloss=[CHANGE]
-5	[G]-[O]-[B]-[L]-[E]~	[G]-[O]-[B]-[L]-[E]~	PROPN	_	_	4	mod@scrap	_	AlignBegin=30843|AlignEnd=32268|Gloss=[G]-[O]-[B]-[L]-[E]~|NMM=eyebrow-frown
+5	[G]-[O]-[B]-[L]-[E]~	[G]-[O]-[B]-[L]-[E]~	PROPN	_	_	4	mod	_	AlignBegin=30843|AlignEnd=32268|Gloss=[G]-[O]-[B]-[L]-[E]~|NMM=eyebrow-frown|Scrap=Yes
 6	[OUBLIER]	[OUBLIER]	VERB	_	_	1	discourse	_	AlignBegin=32276|AlignEnd=32654|Gloss=[FORGOT]
 
 # sent_id = trajet-len-1-signerA_3_split2_split2_split2
