@@ -53,17 +53,17 @@
 8	[larges-possibilités]	[larges-possibilités]	NOUN	_	_	6	discourse	_	AlignBegin=1115059|AlignEnd=1115859|Gloss=[large-possibilities]
 
 # sent_id = crdo-fsl-cuc022_71_split2
-# text = [POUVOIR] [CHOISIR] [CHAMPIGNON] [forme-incurvée] [CHAMPIGNON] [forme-trompette] [forme-ronde] [ETC]
+# text = [POUVOIR] [CHOISIR] [CHAMPIGNON] SST[forme-incurvée] [CHAMPIGNON] SST[forme-trompette] SST[forme-ronde] [ETC]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = vous pouvez choisir des champignons de n'importe quel type, en trompette, en forme ronde, etc…
 # text_en = you can choose mushrooms of any kind, shaped like trumpet or round, etc...
 1	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=1115859|AlignEnd=1116059|Gloss=[CAN]
 2	[CHOISIR]	[CHOISIR]	VERB	_	_	1	comp	_	AlignBegin=1116059|AlignEnd=1116499|Gloss=[CHOOSE]|NMM=eye-blink
 3	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	2	comp:obl	_	AlignBegin=1116499|AlignEnd=1116779|Gloss=[MUSHROOM]|NMM=eyebrow-frown+eye-contact
-4	[forme-incurvée]	STT[forme-incurvée]	ADJ	_	_	3	mod	_	AlignBegin=1116779|AlignEnd=1117339|Gloss=[curved-shape]|NMM=eye-blink
+4	SST[forme-incurvée]	SST	ADJ	_	_	3	mod	_	AlignBegin=1116779|AlignEnd=1117339|Gloss=[curved-shape]|NMM=eye-blink
 5	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	3	conj:coord	_	AlignBegin=1117339|AlignEnd=1117619|Gloss=[MUSHROOM]
-6	[forme-trompette]	STT[forme-trompette]	ADJ	_	_	5	mod	_	AlignBegin=1117619|AlignEnd=1117974|Gloss=[trumpet-shape]|NMM=eye-blink
-7	[forme-ronde]	STT[forme-ronde]	ADJ	_	_	6	conj:coord	_	AlignBegin=1117974|AlignEnd=1118299|Gloss=[round-shape]
+6	SST[forme-trompette]	SST	ADJ	_	_	5	mod	_	AlignBegin=1117619|AlignEnd=1117974|Gloss=[trumpet-shape]|NMM=eye-blink
+7	SST[forme-ronde]	SST	ADJ	_	_	6	conj:coord	_	AlignBegin=1117974|AlignEnd=1118299|Gloss=[round-shape]
 8	[ETC]	[ETC]	INTJ	_	_	5	conj:coord	_	AlignBegin=1118299|AlignEnd=1118979|Gloss=[etc]|NMM=eye-blink
 
 # sent_id = crdo-fsl-cuc022_72
@@ -78,7 +78,7 @@
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = En premier, il en faut 200 grammes.
 # text_en = Firslty, we need 200 grams of it.
-1	PNT[PREMIEREMENT]~	PNT	ADJ	_	_	2	mod	_	AlignBegin=1119624|AlignEnd=1119979|Gloss=PNT[FIRSTLY]~|NDH=liste|NMM=rightward-tilt+eyebrow-raise|Scrap=Yes
+1	PNT[PREMIEREMENT]~	PNT	ADV	_	_	2	mod	_	AlignBegin=1119624|AlignEnd=1119979|Gloss=PNT[FIRSTLY]~|NDH=liste|NMM=rightward-tilt+eyebrow-raise|Scrap=Yes
 2	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1119979|AlignEnd=1120139|Gloss=[MUST]
 3	[DEUX]-[CENT]	[DEUX]-[CENT]	NUM	_	_	4	mod	_	AlignBegin=1120139|AlignEnd=1120539|Gloss=[TWO]-[HUNDRED]
 4	[GRAMME]	[GRAMME]	NOUN	_	_	2	comp:obj	_	AlignBegin=1120539|AlignEnd=1120979|Gloss=[GRAM]
@@ -90,7 +90,7 @@
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Deuxièmement, de la sauce soja , il en faut 3 cuillères à soupe.
 # text_en = Secondly, some soy sauce, we need 3 soup spoon.
-1	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	mod	_	AlignBegin=1121629|AlignEnd=1122534|Gloss=PNT[SECONDLY]|NDH=liste
+1	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	mod	_	AlignBegin=1121629|AlignEnd=1122534|Gloss=PNT[SECONDLY]|NDH=[LISTE]
 2	[SAUCE]	[SAUCE]	NOUN	_	_	8	comp:obj	_	AlignBegin=1122534|AlignEnd=1123059|Gloss=[SAUCE]|NMM=eye-contact
 3	[S]-[O]-[J]-[A]	FingerSpelling	NOUN	_	_	2	mod	_	AlignBegin=1123059|AlignEnd=1124219|Gloss=[SOY]
 4	[IL-FAUT]~	[IL-FAUT]	VERB	_	_	8	reparandum	_	AlignBegin=1124219|AlignEnd=1124339|Gloss=[MUST]~
@@ -98,14 +98,14 @@
 6	[TROIS]	[TROIS]	NUM	_	_	5	mod	_	AlignBegin=1124579|AlignEnd=1124779|Gloss=[THREE]|NMM=eye-blink
 7	[SOUPE]	[SOUPE]	NOUN	_	_	5	mod	_	AlignBegin=1124779|AlignEnd=1125179|Gloss=[SOUP]
 8	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1125179|AlignEnd=1125539|Gloss=[MUST]|NMM=forward-tilt+eye-blink
-9	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	mod	_	AlignBegin=1125539|AlignEnd=1125854|Gloss=PNT[SECONDLY]|NDH=liste
+9	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	mod	_	AlignBegin=1125539|AlignEnd=1125854|Gloss=PNT[SECONDLY]|NDH=[LISTE]
 
 # sent_id = crdo-fsl-cuc022_75
 # text = PNT[TROISIEMEMENT] [UN] [CUILLÈRE] [SUCRE] [un-peu]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Troisièmement, une cuillère de sucre.
 # text_en = Thirdly, one spoon of sugar.
-1	PNT[TROISIEMEMENT]	PNT	ADV	_	_	3	mod	_	AlignBegin=1125854|AlignEnd=1126259|Gloss=PNT[THIRDLY]|NDH=liste
+1	PNT[TROISIEMEMENT]	PNT	ADV	_	_	3	mod	_	AlignBegin=1125854|AlignEnd=1126259|Gloss=PNT[THIRDLY]|NDH=[LISTE]
 2	[UN]	[UN]	NUM	_	_	3	mod	_	AlignBegin=1126259|AlignEnd=1126419|Gloss=[ONE]|NMM=eye-contact
 3	[CUILLÈRE]	[CUILLÈRE]	NOUN	_	_	0	root	_	AlignBegin=1126419|AlignEnd=1126659|Gloss=[SPOON]
 4	[SUCRE]	[SUCRE]	NOUN	_	_	3	udep	_	AlignBegin=1126659|AlignEnd=1127379|Gloss=[SUGAR]
@@ -124,7 +124,7 @@
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Quatrièmement, du poivre. Cinquièmement, du sel, des feuilles qui ressemblent à des fleurs, typique de Chine.
 # text_en = Fourthly, pepper. Fifthly, salt, leaves that look like flowers, typical of China.
-1	PNT[CINQUIEMEMENT]	PNT	ADV	_	_	2	mod	_	AlignBegin=1129179|AlignEnd=1129419|Gloss=PNT[FIFTHLY]|NDH=liste
+1	PNT[CINQUIEMEMENT]	PNT	ADV	_	_	2	mod	_	AlignBegin=1129179|AlignEnd=1129419|Gloss=PNT[FIFTHLY]|NDH=[LISTE]
 2	[SEL]	[SEL]	NOUN	_	_	0	root	_	AlignBegin=1129419|AlignEnd=1130024|Gloss=[SALT]|NMM=leftward-tilt
 3	[FEUILLE]	[FEUILLE]	NOUN	_	_	2	conj:coord	_	AlignBegin=1130024|AlignEnd=1130579|Gloss=[LEAF]
 4	[PAREIL]~	[PAREIL]	ADJ	_	_	5	reparandum	_	AlignBegin=1130579|AlignEnd=1130819|Gloss=[SAME]~|NMM=eyebrow-frown
@@ -152,7 +152,7 @@
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Tout y est, voilà !
 # text_en = We have everything!
-1	PNT[toute-LISTE]	PNT	NOUN	_	_	0	root	_	AlignBegin=1135459|AlignEnd=1135939|Gloss=PNT[all-LIST]|NDH=liste|NMM=head-nod+eye-contact
+1	PNT[toute-LISTE]	PNT	NOUN	_	_	0	root	_	AlignBegin=1135459|AlignEnd=1135939|Gloss=PNT[all-LIST]|NDH=[LISTE]|NMM=head-nod+eye-contact
 2	[voilà]~	[voilà]	INTJ	_	_	1	discourse	_	AlignBegin=1135939|AlignEnd=1136139|Gloss=[that's-it]~
 
 # sent_id = crdo-fsl-cuc022_79_80
@@ -240,14 +240,14 @@
 3	[PRÉPARER]	[PRÉPARER]	VERB	_	_	1	conj:dbl	_	AlignBegin=1159379|AlignEnd=1160014|Gloss=[PREPARE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 
 # sent_id = crdo-fsl-cuc022_87
-# text = [petit-récipient] [S]-[O]-[J]-[A] [SAUCE] [visqueux]?? [verser-SAUCE] [TROIS] [verser]
+# text = [petit-récipient] [S]-[O]-[J]-[A] [SAUCE] [visqueux] [verser-SAUCE] [TROIS] [verser]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Dans un petit récipient, verser trois cuillères de sauce soja (un peu visqueux),
 # text_en = In a small recipient, pour three spoons of soy sauce (a little slimy),
 1	[petit-récipient]	[petit-récipient]	NOUN	_	_	5	mod	_	AlignBegin=1160014|AlignEnd=1160264|Gloss=[small-recipient]
 2	[S]-[O]-[J]-[A]	[SOJA]	NOUN	_	_	3	udep	_	AlignBegin=1160264|AlignEnd=1161934|Gloss=[SOY]
 3	[SAUCE]	[SAUCE]	NOUN	_	_	5	comp:obj	_	AlignBegin=1161934|AlignEnd=1162419|Gloss=[SAUCE]
-4	[visqueux]??	[visqueux]	ADJ	_	_	3	mod	_	AlignBegin=1162419|AlignEnd=1163139|Gloss=[slimy]
+4	[visqueux]	[visqueux]	ADJ	_	_	3	mod	_	AlignBegin=1162419|AlignEnd=1163139|Gloss=[slimy]
 5	[verser-SAUCE]	[SAUCE]	VERB	_	_	0	root	_	AlignBegin=1163139|AlignEnd=1163699|Gloss=[POUR]|NMM=eyebrow-raise+eye-blink
 6	[TROIS]	[TROIS]	NUM	_	_	3	mod	_	AlignBegin=1163699|AlignEnd=1163939|DHHeld=sauce|Gloss=[THREE]
 7	[verser]	[verser]	VERB	_	_	5	conj:illustrate	_	AlignBegin=1163939|AlignEnd=1164819|DHHeld=sauce|Gloss=[pour]|NMM=head-nod+eye-blink|Rep=2
@@ -294,7 +294,7 @@
 2	[prendre-POÊLE]	[POÊLE]	VERB	_	_	1	conj:coord	_	AlignBegin=1176779|AlignEnd=1177259|Gloss=[take-PAN]
 3	[verser]	[verser]	VERB	_	_	2	conj:coord	_	AlignBegin=1177259|AlignEnd=1177939|Gloss=[pour]|NMM=eyebrow-raise+head-nod
 4	[forme-arrondie/saladier]	[forme-arrondie/saladier]	NOUN	_	_	3	comp:obl	_	AlignBegin=1177939|AlignEnd=1178499|Gloss=[round-shape/bowl]|NMM=eye-blink
-5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=saladier|NMM=head-nod+eye-blink
+5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=[saladier]|NMM=head-nod+eye-blink
 
 # sent_id = crdo-fsl-cuc022_92
 # text = [POIVRE] [ENCORE] [COUPER-en-morceaux] [répandre] [FEUILLE] [FLEUR] [répandre]

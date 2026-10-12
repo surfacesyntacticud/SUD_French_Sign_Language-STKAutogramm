@@ -164,7 +164,7 @@
 # text_en = they were saying no not Macron, I prefer this one.
 1	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=62267|AlignEnd=62779|Gloss=[NO]|NMM=eyebrown-frown|Reported=Yes|TransfertType=Personne
 2	[MACRON]	[MACRON]	PROPN	_	_	1	mod	_	AlignBegin=62791|AlignEnd=63140|Gloss=[MACRON]|NMM=eyebrown-frown
-3	PNT[MOI]	PNT	VERB	_	_	4	subj	_	AlignBegin=63157|AlignEnd=63651|Gloss=PNT[ME]|Tgt=Prs1
+3	PNT[MOI]	PNT	PRON	_	_	4	subj	_	AlignBegin=63157|AlignEnd=63651|Gloss=PNT[ME]|Tgt=Prs1
 4	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	1	conj:coord	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]
 5	PNT[LUI]	PNT	PRON	_	_	4	comp:obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT[HIM]|Tgt=PSS3r
 
