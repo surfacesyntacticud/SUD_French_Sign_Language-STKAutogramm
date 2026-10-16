@@ -1,5 +1,5 @@
 # sent_id = vacances-sud_1
-# text = [PASSÉ-PROCHE] [VACANCES] [ÉTÉ] [euh] [PARTIR] [OÙ] [FRANCE] [carte-france] [SUD] [région-sud] mains-jointes
+# text = [PASSÉ-PROCHE] [VACANCES] [ÉTÉ] [euh] [PARTIR] [OÙ] [FRANCE] [carte-france] [SUD] [région-sud] position-neutre
 # source_file = ./recit-agnieska.mp4
 # text_fr = Les dernières vacances d’été, on est partis dans le sud de la France.
 # text_en = Last summer holidays, we went to the south of France.
@@ -14,7 +14,7 @@
 8	[carte-france]	[carte-france]	PRON	_	_	7	conj:illustrate	_	AlignBegin=7296|AlignEnd=8476|Gloss=[map-france]
 9	[SUD]	[SUD]	NOUN	_	_	7	udep	_	AlignBegin=8490|AlignEnd=9205|Gloss=[SOUTH]|NDHHeld=[carte]|NMM=backward-tilt
 10	[région-sud]	[région-sud]	PRON	_	_	9	conj:illustrate	_	AlignBegin=9235|AlignEnd=10548|Gloss=[south-region]|NDHHeld=[carte]
-11	mains-jointes	mains-jointes	PUNCT	_	_	5	punct	_	AlignBegin=10574|AlignEnd=11065|Gloss=clasped-hands
+11	position-neutre	position-neutre	PUNCT	_	_	5	punct	_	AlignBegin=10574|AlignEnd=11065|Gloss=neutral-position
 
 # sent_id = vacances-sud_2_split1
 # text = [FAMILLE] POSS[MOI] [MAMAN] [PAPA] [SOEUR] [TOUS]-[QUATRE] [VOITURE] [MONTER-dans-véhicule] [aller-en-VOITURE] [itinéraire-vers-sud] [PENDANT-HEURES]-[HUIT]
@@ -28,7 +28,7 @@
 4	[PAPA]	[PAPA]	NOUN	_	_	3	conj:coord	_	AlignBegin=13355|AlignEnd=13875|Gloss=[DAD]|NMM=eyebrow-raise
 5	[SOEUR]	[SOEUR]	NOUN	_	_	4	conj:coord	_	AlignBegin=13909|AlignEnd=14501|Gloss=[SISTER]|NMM=eyebrow-raise
 6	[TOUS]-[QUATRE]	[TOUS]-[QUATRE]	PRON	_	_	3	conj:appos	_	AlignBegin=14529|AlignEnd=16737|Gloss=[ALL]-[FOUR]|NMM=head-nod
-7	[VOITURE]	[VOITURE]	NOUN	_	_	8	comp:obj	_	AlignBegin=16816|AlignEnd=17737|Gloss=[CAR]|ISMarker[Top]=Dlxn|ISRole=Top
+7	[VOITURE]	[VOITURE]	NOUN	_	_	8	dislocated	_	AlignBegin=16816|AlignEnd=17737|Gloss=[CAR]|ISMarker[Top]=Dlxn|ISRole=Top
 8	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=17755|AlignEnd=18819|Gloss=[SIT-VEHICULE]|NMM=eyebrow-raise|Obj=ST|ST=voiture|STReal=Prf[ANIMÉ]+deux-avant+deux-arrière|Subj=Prf[ANIMÉ]x4
 9	[aller-en-VOITURE]	[VOITURE]	VERB	_	_	8	conj:chaining	_	AlignBegin=18843|AlignEnd=19856|Exp=Intensité|Gloss=[go-by-CAR]|NMM=eyebrow-raise
 10	[itinéraire-vers-sud]	[itinéraire]	ADV	_	_	9	conj:illustrate	_	AlignBegin=19894|AlignEnd=21963|Exp=Intensité|Gloss=[itinerary-south]|NMM=eyebrow-raise
@@ -67,7 +67,7 @@
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	PNT[changement-temporel?]	PNT	PRON	_	_	5	discourse	_	AlignBegin=31435|AlignEnd=31917|Gloss=PNT[time-change?]|NMM=eyebrow-raise|Tgt=PSSN
 2	[PASSÉ-PROCHE]	[PASSÉ-PROCHE]	ADV	_	_	5	mod	_	AlignBegin=31954|AlignEnd=32634|Gloss=[RECENT-PAST]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-raise
-3	[DIMANCHE]-[AVANT]	[DIMANCHE]-[AVANT]	ADV	_	_	2	conj:zoom	_	AlignBegin=32634|AlignEnd=33472|Gloss=[SUNDAY]-[BEFORE]|NMM=eye-blink
+3	[DIMANCHE]-[AVANT]	[DIMANCHE]-[AVANT]	NOUN	_	_	2	conj:zoom	_	AlignBegin=32634|AlignEnd=33472|Gloss=[SUNDAY]-[BEFORE]|NMM=eye-blink
 4	[FAMILLE]	[FAMILLE]	NOUN	_	_	5	subj	_	AlignBegin=33532|AlignEnd=34282|Gloss=[FAMILY]
 5	[RÉUNIR]	[RÉUNIR]	VERB	_	_	0	root	_	AlignBegin=34338|AlignEnd=35745|Gloss=[GATHER]|NMM=forward-tilt
 6	[MANGER]	[MANGER]	VERB	_	_	5	conj:coord	_	AlignBegin=35787|AlignEnd=37657|Exp=Intensité|Gloss=[EAT]
@@ -89,7 +89,7 @@
 7	PNT[étape1]	PNT	PRON	_	_	11	dislocated	_	AlignBegin=45046|AlignEnd=45339|Gloss=PNT[stop1]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-frown|Tgt=PSS3l
 8	PNT[étape2]	PNT	PRON	_	_	7	conj:coord	_	AlignBegin=45339|AlignEnd=45574|Gloss=PNT[stop2]|NDHHeld=PSS3l|NMM=eyebrow-frown|Tgt=PSSN
 9	PNT[étape3]	PNT	PRON	_	_	8	conj:coord	_	AlignBegin=45574|AlignEnd=45954|Gloss=PNT[stop3]|NDHHeld=PSS3l|NMM=eyebrow-frown|Tgt=PSS3r
-10	[QUOI]	[QUOI]	PRON	_	PronType=Int	12	conj	_	AlignBegin=45986|AlignEnd=46412|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-dbl+NMM|NMM=eyebrow-frown
+10	[QUOI]	[QUOI]	PRON	_	PronType=Int	12	conj:dbl	_	AlignBegin=45986|AlignEnd=46412|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-dbl+NMM|NMM=eyebrow-frown
 11	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	0	root	_	AlignBegin=46421|AlignEnd=46917|Gaze=Prs2|Gloss=[PREFER]|NMM=eyebrow-frown|Reported=Yes|Subj=Gaze
 12	[QUOI]	[QUOI]	PRON	_	PronType=Int	11	comp:obj	_	AlignBegin=46935|AlignEnd=47648|Exp[lex]=Int|Gloss=[WHAT]|ISRole=Foc|NMM=forward-tilt+eyebrow-frown+eye-blink
 
@@ -132,17 +132,17 @@
 22	[FOULE-qui-grouille]	[FOULE]	VERB	_	_	21	conj:illustrate	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[teem]|NMM=head-nod+eye-blink|ST=foule-qui-grouille
 
 # sent_id = vacances-sud_8
-# text = [euh] [FEUILLE~] [rangée-arbre] [FEUILLE] [arbres-de-chaque-côté] mains-jointes
+# text = [euh] [FEUILLE]~ [rangée-arbre] [FEUILLE] [arbres-de-chaque-côté] position-neutre
 # source_file = ./recit-agnieska.mp4
 # text_fr = Et les palmiers disposés ici et là,
 # text_en = And the palm trees here and there,
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[euh]	[euh]	INTJ	_	_	3	discourse	_	AlignBegin=66962|AlignEnd=67165
-2	[FEUILLE~]	[FEUILLE~]	NOUN	_	_	4	reparandum	_	AlignBegin=67228|AlignEnd=67452|Gloss=[LEAF~]|NMM=eyebrow-frown+eye-blink
+2	[FEUILLE]~	[FEUILLE]	NOUN	_	_	4	reparandum	_	AlignBegin=67228|AlignEnd=67452|Gloss=[LEAF]~|NMM=eyebrow-frown+eye-blink
 3	[rangée-arbre]	[rangée-arbre]	NOUN	_	_	0	root	_	AlignBegin=67452|AlignEnd=68367|Gloss=[row-tree]|ST=allée-d'arbres|TwoH=Yes
 4	[FEUILLE]	[FEUILLE]	NOUN	_	_	3	udep	_	AlignBegin=68392|AlignEnd=69582|Gloss=[LEAF]|Loc=haut-arbre|NMM=eyebrow-raise|Rep=3|SST=long+grand|ST=palmier
 5	[arbres-de-chaque-côté]	[arbres-de-chaque-côté]	NOUN	_	_	3	conj:illustrate	_	AlignBegin=69595|AlignEnd=71138|Gloss=[trees-on-both-sides]|NMM=eyebrow-raise|Rep=4|ST=deux-rangées-face|STReal=Prf[ARBRE]|TwoH=Yes
-6	mains-jointes	mains-jointes	PUNCT	_	_	3	punct	_	AlignBegin=71138|AlignEnd=71855|Gloss=clasped-hands|NMM=eye-blink
+6	position-neutre	position-neutre	PUNCT	_	_	3	punct	_	AlignBegin=71138|AlignEnd=71855|Gloss=neutral-position|NMM=eye-blink
 
 # sent_id = vacances-sud_9
 # text = [AUSSI] PNT[là] [MER] PNT-SURFACE[là] [PORT] [VOILE] [LUXE] [bateau] PNT[bateau] [IMPRESSIONNANT]
@@ -244,7 +244,7 @@
 # text_en = Swimming in the river, how nice
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	PNT[là]	PNT	PRON	_	_	2	mod	_	AlignBegin=108687|AlignEnd=109322|Gloss=PNT[here]|ISMarker[Top]=NMM|ISRole=Top|NMM=eyebrow-raise+eye-blink|Tgt=PSSN
-2	[NAGER]	[NAGER]	VERB	_	_	3	subj	_	AlignBegin=109352|AlignEnd=111017|Exp=Positif|Gloss=[SWIM]
+2	[NAGER]	[NAGER]	NOUN	_	_	3	subj	_	AlignBegin=109352|AlignEnd=111017|Exp=Positif|Gloss=[SWIM]
 3	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	0	root	_	AlignBegin=111017|AlignEnd=111722|Exp[lex]=Positif|Gloss=[PLEASANT]|NMM=eye-blink
 
 # sent_id = vacances-sud_17
@@ -257,7 +257,7 @@
 2	[FROID]	[FROID]	ADJ	_	_	1	mod	_	AlignBegin=111857|AlignEnd=113357|Gloss=[COLD]|NMM=forward-tilt
 
 # sent_id = vacances-sud_18
-# text = [CALME] [NATURE] PNT-SURFACE[là] mains-jointes
+# text = [CALME] [NATURE] PNT-SURFACE[là] position-neutre
 # source_file = ./recit-agnieska.mp4
 # text_fr = mais on profitait du calme, de la nature…”.
 # text_en = but we enjoyed the calm, the nature...".
@@ -265,7 +265,7 @@
 1	[CALME]	[CALME]	ADJ	_	_	2	mod	_	AlignBegin=113357|AlignEnd=114574|Gloss=[CALM]
 2	[NATURE]	[NATURE]	NOUN	_	_	0	root	_	AlignBegin=114578|AlignEnd=115078|Gloss=[NATURE]
 3	PNT-SURFACE[là]	PNT-SURFACE	PRON	_	_	2	conj:illustrate	_	AlignBegin=115083|AlignEnd=116074|Gloss=PNT-SURFACE[here]|NMM=head-nod+eye-blink|Tgt=PSSLr
-4	mains-jointes	mains-jointes	PUNCT	_	_	2	punct	_	AlignBegin=116074|AlignEnd=116726|Gloss=clapsed-hands
+4	position-neutre	position-neutre	PUNCT	_	_	2	punct	_	AlignBegin=116074|AlignEnd=116726|Gloss=neutral-position
 
 # sent_id = vacances-sud_19
 # text = [REGARDER] [écouter-en-regardant] [INTÉRESSANT] PNT[sujet]
@@ -276,7 +276,7 @@
 1	[REGARDER]	[REGARDER]	VERB	_	_	0	root	_	AlignBegin=116743|AlignEnd=117130|Gloss=[LOOK]|Tgt=PSS3
 2	[écouter-en-regardant]	[écouter-en-regardant]	VERB	_	_	1	conj:illustrate	_	AlignBegin=117139|AlignEnd=117970|Gloss=[listen-looking]
 3	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	2	parataxis	_	AlignBegin=117974|AlignEnd=118648|Gloss=[INTERESTING]|Reported=Yes
-4	PNT[sujet]	PNT	PRON	_	_	3	comp:obj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT[topic]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=head-nod+eye-blink|Tgt=PSSN
+4	PNT[sujet]	PNT	PRON	_	_	3	subj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT[topic]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=head-nod+eye-blink|Tgt=PSSN
 
 # sent_id = vacances-sud_20
 # text = [hep] PNT[MOI] [hep] PNT[lieu2]-[non] PNT[lieu3] [TROISIÈME] PNT[lieu3] [ADORER2]
@@ -347,12 +347,12 @@
 8	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	7	mod	_	AlignBegin=147069|AlignEnd=148069|Exp[lex]=Positif|Gloss=[PLEASANT]|NMM=eyebrow-raise
 
 # sent_id = vacances-sud_25
-# text = [PERSONNE] [VIDE] [CALME]
+# text = [PERSONNE]/Plur [DESERTIQUE] [CALME]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Et là il n’y avait vraiment pas un chat ! C’était paisible.”
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
-1	[PERSONNE]	[PERSONNE]	NOUN	_	Number=Plur	2	subj	_	AlignBegin=148297|AlignEnd=148897|Gloss=[PERSON]|NMM=eyebrow-raise|Rep=2|TwoH=Yes
-2	[VIDE]	[VIDE]	ADJ	_	_	0	root	_	AlignBegin=148924|AlignEnd=150207|Exp=Neg|Gloss=[EMPTY]|NMM=eyebrow-rf
+1	[PERSONNE]/Plur	[PERSONNE]	NOUN	_	Number=Plur	2	dislocated	_	AlignBegin=148297|AlignEnd=148897|Gloss=[PERSON]|NMM=eyebrow-raise|Rep=2|TwoH=Yes
+2	[DESERTIQUE]	[DESERTIQUE]	VERB	_	_	0	root	_	AlignBegin=148924|AlignEnd=150207|Exp=Neg|Gloss=[EMPTY]|NMM=eyebrow-rf
 3	[CALME]	[CALME]	ADJ	_	_	2	conj:chaining	_	AlignBegin=150228|AlignEnd=151862|Exp=Neg|Gloss=[CALM]|NMM=eyebrow-rf+eye-blink
 
 # sent_id = vacances-sud_26
@@ -367,7 +367,7 @@
 4	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	2	parataxis	_	AlignBegin=155062|AlignEnd=156979|Gloss=[DIFFERENT]|NMM=eye-blink|Rep=3
 
 # sent_id = vacances-sud_27
-# text = [hep] [MAMAN] [OUI] [DIFFÉRENT] [DONNER] [DÉCOUVERTE] [DIFFÉRENT] [RICHE] [INTÉRESSANT]
+# text = [hep] [MAMAN] [OUI] [DIFFÉRENT] ??[DONNER/CAUSER] [DÉCOUVERTE] [DIFFÉRENT] [RICHE] [INTÉRESSANT]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Maman a terminé en disant : “Avec ces endroits différents, les découvertes étaient variées et riches. C’était très intéressant,
 # text_en = Mom finished saying: "With the different places, the discoveries where diverse and riche. It was very interesting,
@@ -376,7 +376,7 @@
 2	[MAMAN]	[MAMAN]	NOUN	_	_	6	discourse:participant	_	AlignBegin=157550|AlignEnd=158014|Gloss=[MOM]
 3	[OUI]	[OUI]	ADV	_	_	6	discourse	_	AlignBegin=158028|AlignEnd=159214|Gloss=[YES]|NMM=eyebrow-raise
 4	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	6	mod	_	AlignBegin=159228|AlignEnd=160186|Gloss=[DIFFERENT]|Rep=2
-5	[DONNER]	[DONNER]	VERB	_	_	6	mod	_	AlignBegin=160207|AlignEnd=160862|Gloss=[GIVE]|NMM=eyebrow-raise
+5	??[DONNER/CAUSER]	[DONNER]	VERB	_	_	6	mod	_	AlignBegin=160207|AlignEnd=160862|Gloss=[GIVE]|NMM=eyebrow-raise
 6	[DÉCOUVERTE]	[DÉCOUVERTE]	NOUN	_	_	0	root	_	AlignBegin=160897|AlignEnd=161621|Gloss=[DISCOVERY]|NMM=forward-tilt+eyebrow-frown|Reported=Yes
 7	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	6	mod	_	AlignBegin=161641|AlignEnd=162690|Gloss=[DIFFERENT]
 8	[RICHE]	[RICHE]	ADJ	_	_	7	conj:coord	_	AlignBegin=162724|AlignEnd=164179|Gloss=[RICH]|NMM=eyebrow-rf
@@ -389,7 +389,7 @@
 # text_en = yes, it was very good holidays."
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[BEAU]	[BEAU]	ADJ	_	_	4	mod	_	AlignBegin=164986|AlignEnd=165579|Gloss=[BEAUTIFUL]|NMM=head-nod
-2	[JUSTE]	[JUSTE]	ADJ	_	_	4	mod	_	AlignBegin=165593|AlignEnd=166572|Gloss=[PRECISE]|NMM=rightward-tilt
+2	[JUSTE]	[JUSTE]	ADJ	_	_	4	mod	_	AlignBegin=165593|AlignEnd=166572|Gloss=[ACCURATE]|NMM=rightward-tilt
 3	[BEAU]	[BEAU]	ADJ	_	_	4	mod	_	AlignBegin=166572|AlignEnd=167034|Gloss=[BEAUTIFUL]|NMM=eyebrow-raise
 4	[VACANCES]	[VACANCES]	NOUN	_	_	0	root	_	AlignBegin=167069|AlignEnd=167572|Gloss=[HOLIDAYS]
 5	[OUI]	[OUI]	ADV	_	_	4	discourse	_	AlignBegin=167600|AlignEnd=168186|Gloss=[YES]|NMM=eye-blink|TwoH=Yes
