@@ -224,7 +224,7 @@
 # text_fr = Prendre les champignons et les mettre dans la poëlle et bien mélanger. Puis les laisser.
 # text_en = Take the mushrooms and put them in the pan et stir well. And leave them.
 1	[PRENDRE]	[PRENDRE]	VERB	_	_	0	root	_	AlignBegin=1155024|AlignEnd=1155454|Gloss=[TAKE]|Src=PSS3r
-2	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	1	comp:obj	_	AlignBegin=1155454|AlignEnd=1155739|Gloss= [MUSHROOM]
+2	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	1	comp:obj	_	AlignBegin=1155454|AlignEnd=1155739|Gloss=[MUSHROOM]
 3	[DÉPLACER]	[DÉPLACER]	VERB	_	_	1	conj:reform	_	AlignBegin=1155739|AlignEnd=1156339|Gloss=[MOVE]|Src=PSS3r|Tgt=PSS3l
 4	[METTRE-dans-poêle]	[METTRE]	VERB	_	_	3	conj:coord	_	AlignBegin=1156339|AlignEnd=1156739|Gloss=[PUT]|Tgt=PSS3l
 5	[MÉLANGER]	[MÉLANGER]	VERB	_	_	4	conj:coord	_	AlignBegin=1156739|AlignEnd=1157859|Gloss=[MIX]|NMM=eye-blink
