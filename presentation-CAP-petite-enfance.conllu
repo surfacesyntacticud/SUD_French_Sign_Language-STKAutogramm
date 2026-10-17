@@ -8,11 +8,11 @@
 3	[C]-[A]-[P]	FingerSpelling	NOUN	_	_	1	comp:obj	_	AlignBegin=3553|AlignEnd=4788|Gloss=[CAP]
 4	[PETIT]	[PETIT]	ADJ	_	_	5	mod	_	AlignBegin=4796|AlignEnd=5389|Gloss=[SMALL]
 5	[ENFANCE]	[ENFANCE]	NOUN	_	_	3	mod	_	AlignBegin=5394|AlignEnd=6323|Gloss=[INFANCY]
-6	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=6327|AlignEnd=6752|Gloss=neutral-position
+6	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=6327|AlignEnd=6752|Gloss=neutral-position
 7	[COURS]	[COURS]	NOUN	_	_	3	mod	_	AlignBegin=6765|AlignEnd=7257|Gloss=[CLASS]|NMM=eyebrow-frown
 8	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	mod	_	AlignBegin=7261|AlignEnd=7934|Gloss=[PI_TYPICAL]|NMM=eyebrow-frown
 9	[ORDINATEUR]	[ORDINATEUR]	NOUN	_	_	8	comp	_	AlignBegin=7942|AlignEnd=8951|Gloss=[COMPUTER]
-10	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=8951|AlignEnd=9593|Gloss=neutral-position
+10	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=8951|AlignEnd=9593|Gloss=neutral-position
 
 # sent_id = cap_petite_enfance__2
 # text = ? [PROJET] PNT[celui-ci] [ACTUELLEMENT] [EXPÉRIENCE] position-neutre
@@ -55,7 +55,7 @@
 # text_en = The process: there are readymade videos signed in LSF
 1	[ÉTAPES]	[ÉTAPES]	_	_	_	5	dislocated	_	AlignBegin=24965|AlignEnd=25960|Gloss=[STEPS]|ISMarker[Top]=Dlxn|ISRole=Top|NMM=leftward-tilt+eyebrow-raise
 2	[alors]	[alors]	_	_	_	1	discourse	_	AlignBegin=25969|AlignEnd=26248|Gloss=[so]|NMM=eyebrow-raise
-3	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=26261|AlignEnd=27345|Gloss=neutral-position
+3	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=26261|AlignEnd=27345|Gloss=neutral-position
 4	[alors]	[alors]	_	_	_	5	discourse	_	AlignBegin=27354|AlignEnd=27889|Gloss=[so]|NMM=eyebrow-frown
 5	[COURS]	[COURS]	_	_	_	0	root	_	AlignBegin=27898|AlignEnd=28456|Gloss=[CLASS]|NMM=eyebrow-frown
 6	[DEDANS]	[DEDANS]	_	_	_	5	mod	_	AlignBegin=28460|AlignEnd=29279|Gloss=[INSIDE]|NMM=eyebrow-frown

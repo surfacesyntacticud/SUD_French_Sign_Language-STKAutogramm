@@ -129,9 +129,9 @@
 3	[FEUILLE]	[FEUILLE]	NOUN	_	_	2	conj:coord	_	AlignBegin=1130024|AlignEnd=1130579|Gloss=[LEAF]
 4	[PAREIL]~	[PAREIL]	ADJ	_	_	5	reparandum	_	AlignBegin=1130579|AlignEnd=1130819|Gloss=[SAME]~|NMM=eyebrow-frown
 5	[PROCHE]	[PROCHE]	ADJ	_	_	3	mod	_	AlignBegin=1130819|AlignEnd=1131139|Gloss=[CLOSE]|NMM=eyebrow-frown
-6	[FLEUR]	[FLEUR]	NOUN	_	_	5	comp	_	AlignBegin=1131139|AlignEnd=1131659|Gloss=[FLOWER]|NMM=eyebrow-frown
+6	[FLEUR]	[FLEUR]	NOUN	_	_	5	comp:obj	_	AlignBegin=1131139|AlignEnd=1131659|Gloss=[FLOWER]|NMM=eyebrow-frown
 7	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	6	mod	_	AlignBegin=1131659|AlignEnd=1132059|Gloss=[PI_TYPICAL]|ISRole=Foc|NMM=head-nod+eyebrow-raise
-8	[CHINE]	[CHINE]	PROPN	_	_	9	comp	_	AlignBegin=1132059|AlignEnd=1132539|Gloss=[CHINA]
+8	[CHINE]	[CHINE]	PROPN	_	_	9	comp:obj	_	AlignBegin=1132059|AlignEnd=1132539|Gloss=[CHINA]
 9	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	conj:dbl	_	AlignBegin=1132539|AlignEnd=1132899|Gloss=[PI_TYPICAL]|ISMarker[Foc]=Cxn-dbl
 
 # sent_id = crdo-fsl-cuc022_77
@@ -161,7 +161,7 @@
 # text_fr = Comment on fait : D'abord, il faut laver les champignons, tout laver, les couper en morceaux, les mettre dans une passoire.
 # text_en = How do we proceed: First, you must wash the mushrooms, wash everything and cut them in pieces, put them in a strainer.
 1	[COMMENCER]	[COMMENCER]	VERB	_	_	0	root	_	AlignBegin=1136139|AlignEnd=1136579|Gloss=[START]
-2	[COMMENT]	[COMMENT]	PRON	_	_	3	mark	_	AlignBegin=1136579|AlignEnd=1136739|Gloss=[HOW]|ISMarker[Foc]=Cxn-fq|NMM=eye-blink
+2	[COMMENT]	[COMMENT]	PRON	_	_	3	mod	_	AlignBegin=1136579|AlignEnd=1136739|Gloss=[HOW]|ISMarker[Foc]=Cxn-fq|NMM=eye-blink
 3	[IL-FAUT]	[IL-FAUT]	VERB	_	_	1	comp:obj	_	AlignBegin=1136739|AlignEnd=1136899|Gloss=[MUST]|ISRole=Foc|NMM=forward-tilt
 4	[LAVER]	[LAVER]	VERB	_	_	3	comp:obj	_	AlignBegin=1136899|AlignEnd=1137299|Gloss=[WASH]
 5	[PREMIER]~	[PREMIER]	ADJ	_	_	3	mod	_	AlignBegin=1137299|AlignEnd=1137424|Gloss=[FIRST]~
@@ -184,7 +184,7 @@
 3	[LAISSER]	[LAISSER]	VERB	_	_	1	conj:coord	_	AlignBegin=1142859|AlignEnd=1143214|Gloss=[LET]|ISRole=Foc+CFoc
 4	[SÉCHER]	[SÉCHER]	VERB	_	_	3	comp:obj	_	AlignBegin=1143214|AlignEnd=1143659|Gloss=[DRY]|NMM=eyebrow-raise+head-nod
 5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:reform	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
-6	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
+6	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
 
 # sent_id = crdo-fsl-cuc022_82
 # text = [A]-[I]-[L] SST[gousse] [OUBLIER] [AJOUTER] [DEUX] [gousse] [gousse] [ÉCRASER] [METTRE] [POÊLE] [DEUX] [CUILLÈRE] [HUILE/SAUCE] [verser-HUILE]
@@ -278,7 +278,7 @@
 5	[CHAUFFER]	[CHAUFFER]	VERB	_	_	4	comp:obj	_	AlignBegin=1170499|AlignEnd=1170744|Gloss=[WARM]
 6	[MÉLANGER]	[MÉLANGER]	VERB	_	_	4	conj:coord	_	AlignBegin=1170744|AlignEnd=1171214|Gloss=[MIX]
 7	[LAISSER]	[LAISSER]	VERB	_	_	6	conj:coord	_	AlignBegin=1171214|AlignEnd=1171894|Gloss=[LET]
-8	[JUSQUE]	[JUSQUE]	ADP	_	_	7	comp	_	AlignBegin=1171894|AlignEnd=1173539|Gloss=[UNTIL]|NMM=forward-tilt+eyebrow-raise
+8	[JUSQUE]	[JUSQUE]	ADP	_	_	7	mod	_	AlignBegin=1171894|AlignEnd=1173539|Gloss=[UNTIL]|NMM=forward-tilt+eyebrow-raise
 9	[EAU]	[EAU]	NOUN	_	_	11	comp:obj	_	AlignBegin=1173539|AlignEnd=1173739|Gloss=[WATER]
 10	[en-surface]	[en-surface]	ADJ	_	_	9	mod	_	AlignBegin=1173739|AlignEnd=1174179|Gloss=[on-surface]
 11	[ABSORBER-totalement]	[ABSORBER]	VERB	_	_	12	subj	_	AlignBegin=1174179|AlignEnd=1174899|Gloss=[ABSORB-completely]|NMM=eyebrow-raise|SST=totalement

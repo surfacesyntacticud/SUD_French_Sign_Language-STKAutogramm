@@ -23,7 +23,7 @@
 5	[JUSQUE]	[JUSQUE]	ADP	_	_	7	comp:obj	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
 6	PNT[là]	PNT	PRON	_	_	5	comp:obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]
 7	[ARRIVER]	[ARRIVER]	VERB	_	_	0	root	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
-8	PNT[là]	PNT	PRON	_	_	7	comp:obj	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
+8	PNT[là]	PNT	PRON	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
 9	[[LIEU]]	[[LIEU]]	PROPN	_	_	8	conj:appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[[PLACE]]|toBlur=Yes
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
 11	[FAIRE]	[FAIRE]	VERB	_	_	7	conj:appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]

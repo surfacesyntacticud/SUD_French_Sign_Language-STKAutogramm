@@ -9,7 +9,7 @@
 3	[ÉTÉ]	[ÉTÉ]	NOUN	_	_	2	udep	_	AlignBegin=3183|AlignEnd=4330|Gloss=[SUMMER]|NMM=eye-blink
 4	[euh]	[euh]	INTJ	_	_	1	discourse	_	AlignBegin=4343|AlignEnd=4992|Gloss=[uh]
 5	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=5011|AlignEnd=5706|Gloss=[LEAVE]|Src=Prs1
-6	[OÙ]	[OÙ]	PRON	_	PronType=Int	7	mark	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq+NMM|NMM=eyebrow-raise+forward-tilt
+6	[OÙ]	[OÙ]	PRON	_	PronType=Int	7	mod	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq+NMM|NMM=eyebrow-raise+forward-tilt
 7	[FRANCE]	[FRANCE]	PROPN	_	_	5	comp:obl	_	AlignBegin=6884|AlignEnd=7277|Gloss=[FRANCE]|ISRole=Foc
 8	[carte-france]	[carte-france]	PRON	_	_	7	conj:illustrate	_	AlignBegin=7296|AlignEnd=8476|Gloss=[map-france]
 9	[SUD]	[SUD]	NOUN	_	_	7	udep	_	AlignBegin=8490|AlignEnd=9205|Gloss=[SOUTH]|NDHHeld=[carte]|NMM=backward-tilt
@@ -118,10 +118,10 @@
 8	PNT[lieu1]	PNT	PRON	_	_	7	comp:obj	_	AlignBegin=53694|AlignEnd=54269|Gloss=PNT[place1]|NMM=backward-tilt|Tgt=PSS3l|TwoH=Yes
 9	[PREMIER]	[PREMIER]	ADJ	_	_	8	mod	_	AlignBegin=54296|AlignEnd=54597|Gloss=[FIRST]|NDHHeld=PNT-PSS3l
 10	PNT[lieu1]	PNT	PRON	_	_	8	conj:dbl	_	AlignBegin=54616|AlignEnd=55431|Gloss=PNT[place1]|NDHHeld=PNT-PSS3l|NMM=head-nod+eye-blink|Tgt=PSS3l|TwoH=Yes
-11	[POURQUOI]	[POURQUOI]	PRON	_	PronType=Int	12	mark	_	AlignBegin=55769|AlignEnd=56648|Gloss=[WHY]|ISMarker[Foc]=Cxn-fq|NDHHeld=PNT-PSS3l
+11	[POURQUOI]	[POURQUOI]	PRON	_	PronType=Int	12	mod	_	AlignBegin=55769|AlignEnd=56648|Gloss=[WHY]|ISMarker[Foc]=Cxn-fq|NDHHeld=PNT-PSS3l
 12	PNT[lieu1]	PNT	PRON	_	_	7	mod	_	AlignBegin=56694|AlignEnd=57898|Gloss=PNT[place1]|ISRole=Foc|NDHHeld=PNT-PSS3l|NMM=eyebrow-rasie+eye-blink|Tgt=PSS3l|TwoH=Yes
 13	[LÀ]	[LÀ]	ADV	_	_	12	mod	_	AlignBegin=57931|AlignEnd=58190|Gloss=[THERE]|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise
-14	[QUOI]	[QUOI]	PRON	_	PronType=Int	15	mark	_	AlignBegin=58213|AlignEnd=58852|Focus=Yes|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eye-blink
+14	[QUOI]	[QUOI]	PRON	_	PronType=Int	15	mod	_	AlignBegin=58213|AlignEnd=58852|Focus=Yes|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eye-blink
 15	[MER]	[MER]	NOUN	_	_	12	mod	_	AlignBegin=58870|AlignEnd=59935|Gloss=[SEA]|ISRole=Foc|NMM=backward-tilt
 16	[PLAGE]	[PLAGE]	NOUN	_	_	15	conj:coord	_	AlignBegin=59977|AlignEnd=60991|Gloss=[BEACH]
 17	[SABLE]	[SABLE]	NOUN	_	_	16	conj:coord	_	AlignBegin=61023|AlignEnd=61912|Gloss=[SAND]
@@ -151,9 +151,9 @@
 # text_en = and also, close to the sea, the port with luxurious sailing boats
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[AUSSI]	[AUSSI]	CCONJ	_	_	5	cc	_	AlignBegin=71861|AlignEnd=72152|Gloss=[ALSO]
-2	PNT[là]	PNT	PRON	_	_	5	mod	_	AlignBegin=72190|AlignEnd=72722|Gloss=PNT[here]|Tgt=PSSLl
-3	[MER]	[MER]	NOUN	_	_	4	comp	_	AlignBegin=72772|AlignEnd=73810|Gloss=[SEA]|Loc=PSSLl|NMM=head-nod
-4	PNT-SURFACE[là]	PNT-SURFACE	PRON	_	_	2	conj:appos	_	AlignBegin=73823|AlignEnd=75342|Gloss=PNT-SURFACE[here]|NDHHeld=[mer]|NMM=mouth-frown|Tgt=Left-of-NDH
+2	PNT[là]	PNT	PRON	_	_	3	mod	_	AlignBegin=72190|AlignEnd=72722|Gloss=PNT[here]|Tgt=PSSLl
+3	[MER]	[MER]	NOUN	_	_	5	mod	_	AlignBegin=72772|AlignEnd=73810|Gloss=[SEA]|Loc=PSSLl|NMM=head-nod
+4	PNT-SURFACE[là]	PNT-SURFACE	PRON	_	_	5	mod	_	AlignBegin=73823|AlignEnd=75342|Gloss=PNT-SURFACE[here]|NDHHeld=[mer]|NMM=mouth-frown|Tgt=Left-of-NDH
 5	[PORT]	[PORT]	NOUN	_	_	0	root	_	AlignBegin=75354|AlignEnd=77127|Gloss=[PORT]|Loc=PSSLl|NMM=eyebrow-raise+eye-blink
 6	[VOILE]	[VOILE]	NOUN	_	Number=Plur	5	udep	_	AlignBegin=77152|AlignEnd=77987|Gloss=[SAIL]|Loc=PSSLl|NMM=eyebrow-frown
 7	[LUXE]	[LUXE]	NOUN	_	_	6	mod	_	AlignBegin=78076|AlignEnd=78975|Gloss=[LUXURY]|NMM=eyebrow-rf
@@ -218,7 +218,7 @@
 # text_en = inland, the forest with a small winding river
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	PNT[là]	PNT	PRON	_	_	3	subj	_	AlignBegin=97161|AlignEnd=97791|Gloss=PNT[here]|NMM=eyebrow-raise+eye-blink|Tgt=PSSN|TwoH=Yes
-2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	mark	_	AlignBegin=97791|AlignEnd=98926|Exp[lex]=Int|Focus=Yes|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=backward-tilt
+2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	mod	_	AlignBegin=97791|AlignEnd=98926|Exp[lex]=Int|Focus=Yes|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=backward-tilt
 3	[MER]	[MER]	NOUN	_	_	0	root	_	AlignBegin=98926|AlignEnd=99826|Exp=Int|Gloss=[SEA]
 4	[NON]	[NON]	ADV	_	_	3	mod	_	AlignBegin=99826|AlignEnd=100096|Exp[lex]=Neg|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NDHHeld=mer|NMM=eyebrow-raise
 5	[à-l'avant]	[à-l'avant]	NOUN	_	_	6	mod	_	AlignBegin=100100|AlignEnd=100513|Gloss=[at-the-front]|Loc=PSSN
@@ -287,7 +287,7 @@
 1	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=119352|AlignEnd=119626|Gloss=[hep]|NMM=eyebrow-raise|Trs=Left
 2	PNT[MOI]	PNT	PRON	_	Number=Sing	8	discourse:participant	_	AlignBegin=119630|AlignEnd=120600|Gloss=PNT[ME]|NMM=rightward-tilt+eyebrow-raise|Tgt=Prs1
 3	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=120604|AlignEnd=121200|Exp=Neg|Gloss=[hep]|NMM=eyebrow-rf
-4	PNT[lieu2]-[non]	PNT	PRON	_	_	8	comp:obj	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Gloss=PNT[place2]-[no]|NMM=eye-blink|Src=PSS3l|Tgt=PSSN
+4	PNT[lieu2]-[non]	PNT	PRON	_	_	5	conj:corel	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Gloss=PNT[place2]-[no]|NMM=eye-blink|Src=PSS3l|Tgt=PSSN
 5	PNT[lieu3]	PNT	PRON	_	_	8	comp:obj	_	AlignBegin=122274|AlignEnd=122826|Gloss=PNT[place3]|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Src=PSSN|Tgt=PSS3r
 6	[TROISIÈME]	[TROISIÈME]	NUM	_	NumType=Ord	5	mod	_	AlignBegin=122826|AlignEnd=123287|Gloss=[THIRD]
 7	PNT[lieu3]	PNT	PRON	_	_	5	conj:reform	_	AlignBegin=123296|AlignEnd=123904|Gloss=PNT[place3]|NMM=head-nod+eye-blink|Tgt=PSS3r
@@ -300,7 +300,7 @@
 # text_en = The seashore but not the beach, the rocky inlet with the rocks around.
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	PNT[lieu3]	PNT	PRON	_	_	0	root	_	AlignBegin=124939|AlignEnd=125296|Exp=Int|Gloss=PNT[place3]|NDHHeld=Yes|NMM=forward-tilt+eyebrow-raise|Tgt=PSS3r
-2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	mark	_	AlignBegin=125300|AlignEnd=125913|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NDHHeld=Yes|NMM=eye-blink
+2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	mod	_	AlignBegin=125300|AlignEnd=125913|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NDHHeld=Yes|NMM=eye-blink
 3	[MER]	[MER]	NOUN	_	_	1	mod	_	AlignBegin=125913|AlignEnd=127078|Gloss=[SEA]|ISRole=Foc
 4	[MAIS]	[MAIS]	CCONJ	_	_	5	cc	_	AlignBegin=127091|AlignEnd=127635|Gloss=[BUT]|NDHHeld=[MER]|NMM=eyebrow-raise
 5	[PLAGE]	[PLAGE]	NOUN	_	_	3	conj:coord	_	AlignBegin=127657|AlignEnd=128383|Gloss=[BEACH]
