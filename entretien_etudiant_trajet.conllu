@@ -16,14 +16,14 @@
 # text_fr = De ta maison, pour venir ici et arriver à [lieu], tu fais comment ?
 # text_en = From home, to come here, at [place], how do you do?
 # speaker_id = B
-1	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
+1	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	2	mod	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
 2	[MAISON]	[MAISON]	NOUN	_	_	7	dislocated	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
 3	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
 4	POSS[TOI]	POSS	ADJ	_	_	3	conj:reform	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS[YOU]|Tgt=Prs2
 5	[JUSQUE]	[JUSQUE]	ADP	_	_	7	comp:obj	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
-6	PNT[là]	PNT	PRON	_	_	5	comp:obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]
+6	PNT[là]	PNT	PRON	_	_	5	comp:obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]|Tgt=PSSN
 7	[ARRIVER]	[ARRIVER]	VERB	_	_	0	root	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
-8	PNT[là]	PNT	PRON	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
+8	PNT[là]	PNT	PRON	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]|Tgt=PSSN
 9	[[LIEU]]	[[LIEU]]	PROPN	_	_	8	conj:appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[[PLACE]]|toBlur=Yes
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
 11	[FAIRE]	[FAIRE]	VERB	_	_	7	conj:appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
@@ -34,7 +34,7 @@
 # text_fr = Tu peux m’expliquer ton trajet précisément ?
 # text_en = Can you explain me precisely your route?
 # speaker_id = B
-1	PNT[TOI]	PNT	PRON	_	_	2	mod	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
+1	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	2	mod	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
 2	[TRAJET]	[TRAJET]	NOUN	_	_	4	comp:obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
 3	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
 4	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	3	comp:obj	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Src=Prs2|Tgt=Prs1
@@ -47,8 +47,8 @@
 # text_en = Firstly, I walk...
 # speaker_id = A
 1	[OUI]	[OUI]	INTJ	_	_	4	discourse	_	AlignBegin=10995|AlignEnd=11392|Gloss=[YES]
-2	[PREMIER]	[PREMIER]	ADJ	_	ExtPos=CCONJ	4	mod	_	AlignBegin=11514|AlignEnd=12052|Gloss=[FIRST]|NMM=head-nod+eye-blink
-3	PNT[MOI]	PNT	PRON	_	_	4	subj	_	AlignBegin=12075|AlignEnd=12722|Gloss=PNT[ME]|Tgt=Prs1
+2	[PREMIER]	[PREMIER]	ADJ	_	_	4	mod	_	AlignBegin=11514|AlignEnd=12052|Gloss=[FIRST]|NMM=head-nod+eye-blink
+3	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	subj	_	AlignBegin=12075|AlignEnd=12722|Gloss=PNT[ME]|Tgt=Prs1
 4	[MARCHER]	[MARCHER]	VERB	_	_	0	root	_	AlignBegin=12741|AlignEnd=13656|Gloss=[WALK]|NMM=head-nod|Scrap=Yes
 
 # sent_id = trajet-len-1-signerB_3
@@ -58,7 +58,7 @@
 # text_en = Where do you live exactly?
 # speaker_id = B
 1	[HABITER]	[HABITER]	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]|ISRole=Top
-2	[OÙ]	[OÙ]	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=13500|AlignEnd=13736|Gloss=[WHERE]
+2	[OÙ]	[OÙ]	PRON	_	PronType=Int	1	comp:obl	_	AlignBegin=13500|AlignEnd=13736|Gloss=[WHERE]
 3	[HABITER]	[HABITER]	VERB	_	_	1	conj:dbl	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]|ISMarker[Top]=Cxn-dbl
 4	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	1	mod	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
 
@@ -80,7 +80,7 @@
 # text_fr = À côté, à 2 minutes de marche, il y a le tram,
 # text_en = Next by, in a 2 minute walk, there is the tram,
 # speaker_id = A
-1	PNT[MOI]	PNT	PRON	_	_	2	dislocated	_	AlignBegin=16486|AlignEnd=16871|Gloss=PNT[ME]|Tgt=Prs1
+1	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	2	dislocated	_	AlignBegin=16486|AlignEnd=16871|Gloss=PNT[ME]|Tgt=Prs1
 2	[PROCHE]	[PROCHE]	ADJ	_	_	6	mod	_	AlignBegin=16886|AlignEnd=17601|Gloss=[NEAR]|NMM=eyebrow-frown+eye-contact
 3	[DEUX]	[DEUX]	NUM	_	_	4	mod	_	AlignBegin=17607|AlignEnd=17829|Gloss=[TWO]|NMM=eyebrow-frown
 4	[MINUTE]	[MINUTE]	NOUN	_	_	5	mod	_	AlignBegin=17829|AlignEnd=18171|Gloss=[MINUTE]|NMM=eyebrow-frown+eye-blink
@@ -95,7 +95,7 @@
 # speaker_id = A
 1	[LIGNE]	[LIGNE]	NOUN	_	_	3	conj:dbl	_	AlignBegin=19910|AlignEnd=20365|Gloss=[LINE]
 2	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	1	mod	_	AlignBegin=20377|AlignEnd=20615|Gloss=[[NUMBER]]|toBlur=Yes
-3	[LIGNE]	[LIGNE]	NOUN	_	_	5	comp:obj	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
+3	[LIGNE]	[LIGNE]	NOUN	_	_	5	comp:obl	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
 4	[TRAM]	[TRAM]	NOUN	_	_	3	mod	_	AlignBegin=21123|AlignEnd=21660|Gloss=[TRAM]
 5	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-in-vehicule]|NMM=backward-tilt+eye-blink|Obj=ST|Sass=tram|ST=tram|STReal=Prf(DH)[ANIMÉ]+Prf(NDH)[tram]|Subj=Prf(DH)[ANIMÉ]
 
@@ -107,7 +107,7 @@
 # speaker_id = A
 1	[ARRÊT]	[ARRÊT]	NOUN	_	Number=Plur	2	mod	_	AlignBegin=22291|AlignEnd=23545|Gloss=[STOP]
 2	[TERMINUS]	[TERMINUS]	NOUN	_	_	5	mod	_	AlignBegin=23553|AlignEnd=24119|Gloss=[TERMINUS]|NMM=eyebrow-raise
-3	[FIN/TERMINUS]~	[FIN]	NOUN	_	_	2	conj:reform	_	AlignBegin=24134|AlignEnd=25110|Gloss=[END]~|NMM=eyebrow-raise
+3	[FIN/TERMINUS]~	[FIN]	NOUN	_	_	2	conj:reform	_	AlignBegin=24134|AlignEnd=25110|Gloss=[END]~|NMM=eyebrow-raise|Scrap=Yes
 4	[MÉTRO]	[MÉTRO]	NOUN	_	_	5	comp:obj	_	AlignBegin=25118|AlignEnd=25559|Gloss=[METRO]
 5	[CHANGER]	[CHANGER]	VERB	_	_	0	root	_	AlignBegin=25575|AlignEnd=25969|Gloss=[CHANGE]
 6	[MÉTRO]	[MÉTRO]	NOUN	_	_	4	conj:dbl	_	AlignBegin=25969|AlignEnd=26189|Gloss=[METRO]|ISMarker[Foc]=Cxn-dbl|ISRole=Foc
@@ -155,7 +155,7 @@
 # speaker_id = A
 1	[OUI]	[OUI]	INTJ	_	_	4	discourse	_	AlignBegin=35598|AlignEnd=36110|Gloss=[YES]
 2	??[À-CÔTÉ/PROCHE]	[À-CÔTÉ]	ADV	_	_	4	mod	_	AlignBegin=36157|AlignEnd=36717|Gloss=[NEXT-TO]
-3	PNT[là]	PNT	PRON	_	_	2	conj:appos	_	AlignBegin=36748|AlignEnd=36969|Gloss=PNT[here]
+3	PNT[là]	PNT	ADV	_	_	2	conj:appos	_	AlignBegin=36748|AlignEnd=36969|Gloss=PNT[here]|Tgt=PSSN
 4	[DESCENDRE]	[DESCENDRE]	VERB	_	_	0	root	_	AlignBegin=36984|AlignEnd=38000|Gloss=[GET-OUT]|NMM=forward-tilt+eyebrow-raise
 5	[BUS]	[BUS]	NOUN	_	_	4	conj:coord	_	AlignBegin=38425|AlignEnd=38976|Gloss=[BUS]|ISMarker[Foc]=Cxn-dbl|ISRole=Foc
 6	[NUMÉRO]	[NUMÉRO]	NOUN	_	_	5	mod	_	AlignBegin=39008|AlignEnd=39622|Gloss=[NUMBER]
@@ -213,7 +213,7 @@
 2	[TOTAL]	[TOTAL]	ADJ	_	_	3	mod	_	AlignBegin=46575|AlignEnd=47472|Gloss=[TOTAL]
 3	??[COMBIEN]	[COMBIEN]	PRON	_	PronType=Int	0	root	_	AlignBegin=47480|AlignEnd=47724|Gloss=??[HOW-MUCH]
 4	??[TEMPS]	[TEMPS]	NOUN	_	_	3	udep	_	AlignBegin=47732|AlignEnd=48071|Gloss=??[TIME]
-5	PNT[TOI]	PNT	PRON	_	_	3	subj	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
+5	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	3	subj	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
 
 # sent_id = trajet-len-1-signerA_7
 # text = [ENVIRON] [TRENTE] [MINUTE] [QUARANTE] [MINUTE] [ENVIRON]

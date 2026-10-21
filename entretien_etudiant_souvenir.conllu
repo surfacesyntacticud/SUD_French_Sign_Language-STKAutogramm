@@ -5,7 +5,7 @@
 # text_en = Well, in [number]-th grade, it was the year for which I have the best life memories.
 1	[euh]	[euh]	INTJ	_	_	6	discourse	_	AlignBegin=125|AlignEnd=948|Gloss=[hesitation]|NMM=eye-blink
 2	[PI_TEMPORALITE]	[PI_TEMPORALITE]	ADP	_	_	6	mod	_	AlignBegin=955|AlignEnd=1765|Gloss=[DATE]|ISMarker[Top]=NMM|ISRole=Top|NMM=eye-blink
-3	[[CHIFFRE]]	[[CHIFFRE]]	NOUN	_	NumType=Ord	4	mod	_	AlignBegin=1767|AlignEnd=2750|Gloss=[[NUMBER]]|NMM=eye-contact|toBlur=Yes
+3	[[CHIFFRE]]	[[CHIFFRE]]	NOUN	_	_	4	mod	_	AlignBegin=1767|AlignEnd=2750|Gloss=[[NUMBER]]|NMM=eye-contact|toBlur=Yes
 4	[ANNÉE]	[ANNÉE]	NOUN	_	_	2	comp:obj	_	AlignBegin=2756|AlignEnd=3715|Gloss=[DURING-YEAR]|NMM=eye-blink
 5	[MEILLEUR]	[MEILLEUR]	ADJ	_	_	6	mod	_	AlignBegin=3715|AlignEnd=4424|Gloss=[BEST]|NMM=eyebrow-frown
 6	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=4436|AlignEnd=4971|Gloss=[MEMORY]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=eyebrow-frown+foward-tilt+eye-blink
@@ -70,7 +70,7 @@
 8	[JUIN]	[JUIN]	NOUN	_	_	7	conj:coord	_	AlignBegin=27099|AlignEnd=27442|Gloss=[JUNE]
 9	[PÉRIODE]	[PÉRIODE]	NOUN	_	_	8	conj:coord	_	AlignBegin=27453|AlignEnd=28087|Gloss=[PERIOD]|NMM=eye-contact+head-shake
 10	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=28105|AlignEnd=28948|Gloss=[LEAVE]|ISMarker[Foc]=Cxn-dbl+NMM|ISRole=Foc|NMM=eyebrow-raise+eye-contact
-11	[GROUPE]~	[GROUPE]	NOUN	_	_	13	reparandum	_	AlignBegin=28959|AlignEnd=29285|Gloss=[GROUP]~
+11	[GROUPE]~	[GROUPE]	NOUN	_	_	13	reparandum	_	AlignBegin=28959|AlignEnd=29285|Gloss=[GROUP]~|Scrap=Yes
 12	[INTERNAT]	[INTERNAT]	NOUN	_	_	13	udep	_	AlignBegin=29285|AlignEnd=29581|Gloss=[BOARDING-SCHOOL]
 13	[GROUPE]	[GROUPE]	NOUN	_	_	10	subj	_	AlignBegin=29587|AlignEnd=30401|Gloss=[GROUP]|NMM=forward-tilt
 14	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	15	mod	_	AlignBegin=30651|AlignEnd=30872|Gloss=[[NUMBER]]|toBlur=Yes
@@ -133,18 +133,18 @@
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [alors on se disait] c’est qui ? c’est qui ?
 # text_en = [so we were wondering] who is it? who is it?
-1	[PI_CELUI-CI]	[PI_CELUI-CI]	PRON	_	_	2	subj	_	AlignBegin=55244|AlignEnd=55628|Gloss=[PI_THIS-ONE]|Tgt=PSSLr
-2	[QUI]	[QUI]	PRON	_	_	0	root	_	AlignBegin=55634|AlignEnd=57169|Gloss=[WHO]|Loc=PSSLr
+1	[PI_CELUI-CI]	[PI_CELUI-CI]	PRON	_	PronType=Dem	2	subj	_	AlignBegin=55244|AlignEnd=55628|Gloss=[PI_THIS-ONE]|Tgt=PSSLr
+2	[QUI]	[QUI]	PRON	_	PronType=Int	0	root	_	AlignBegin=55634|AlignEnd=57169|Gloss=[WHO]|Loc=PSSLr
 
 # sent_id = souvenir_5_split2_split2
 # text = PNT[MOI] [BARCELONE] [FRANCE] [QUI] [ÉLÉCTION] [OUI] [DRÔLE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
 # text_en = I was in Barcelona and we were waiting to know who got elected in France, it was funny.
-1	PNT[MOI]	PNT	PRON	_	_	2	subj	_	AlignBegin=57174|AlignEnd=57413|Gloss=PNT[ME]|Tgt=Prs1
+1	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	2	subj	_	AlignBegin=57174|AlignEnd=57413|Gloss=PNT[ME]|Tgt=Prs1
 2	[BARCELONE]	[BARCELONE]	PROPN	_	_	5	mod	_	AlignBegin=57413|AlignEnd=57959|Gloss=[BARCELONA]|ISMarker[CTop]=Spatial|ISRole=CTop|Loc=PSS3l
 3	[FRANCE]	[FRANCE]	PROPN	_	_	5	mod	_	AlignBegin=57965|AlignEnd=58413|Gloss=[FRANCE]|Loc=PSSLr
-4	[QUI]	[QUI]	PRON	_	_	5	udep	_	AlignBegin=58419|AlignEnd=58721|Gloss=[WHO]|Loc=PSSLr
+4	[QUI]	[QUI]	PRON	_	PronType=Int	5	udep	_	AlignBegin=58419|AlignEnd=58721|Gloss=[WHO]|Loc=PSSLr
 5	[ÉLÉCTION]	[ÉLÉCTION]	VERB	_	_	0	root	_	AlignBegin=58727|AlignEnd=59424|Gloss=[ELECTED]
 6	[OUI]	[OUI]	INTJ	_	_	5	discourse	_	AlignBegin=59430|AlignEnd=59919|Gloss=[YES]|NMM=forward-tilt
 7	[DRÔLE]	[DRÔLE]	ADJ	_	_	5	discourse	_	AlignBegin=59930|AlignEnd=60715|Gloss=[FUNNY]|NMM=eye-blink
@@ -164,16 +164,16 @@
 # text_en = they were saying no not Macron, I prefer this one.
 1	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=62267|AlignEnd=62779|Gloss=[NO]|NMM=eyebrown-frown|Reported=Yes|TransfertType=Personne
 2	SignedName[Macron]	SignedName	PROPN	_	_	1	mod	_	AlignBegin=62791|AlignEnd=63140|Gloss=SignedName[Macron]|NMM=eyebrown-frown
-3	PNT[MOI]	PNT	PRON	_	_	4	subj	_	AlignBegin=63157|AlignEnd=63651|Gloss=PNT[ME]|Tgt=Prs1
+3	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	subj	_	AlignBegin=63157|AlignEnd=63651|Gloss=PNT[ME]|Tgt=Prs1
 4	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	1	conj:coord	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]
-5	PNT[LUI]	PNT	PRON	_	_	4	comp:obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT[HIM]|Tgt=PSS3r
+5	PNT[LUI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	comp:obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT[HIM]|Tgt=PSS3r
 
 # sent_id = souvenir_6_split2
 # text = ~ [INTÉRESSANT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [on a vu ça]? , c’était intéressant.
 # text_en = [We saw this]? , it was interesting.
-1	~	~	X	_	_	2	unk	_	AlignBegin=63895|AlignEnd=64610|Gloss=~
+1	~	~	X	_	_	2	unk	_	AlignBegin=63895|AlignEnd=64610|Gloss=~|Scrap=Yes
 2	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	0	root	_	AlignBegin=64744|AlignEnd=65326|Gloss=[INTERESTING]|NMM=eye-blink
 
 # sent_id = souvenir_7_split1_split1
@@ -183,7 +183,7 @@
 # text_en = Then, we went back home, everyone cried, was sad. It caused us pain.
 1	[ENSUITE]	[ENSUITE]	ADV	_	_	2	mod	_	AlignBegin=65616|AlignEnd=66285|Gloss=[THEN]|NMM=forward-tilt
 2	[RENTRER]	[RENTRER]	NOUN	_	_	0	root	_	AlignBegin=66576|AlignEnd=67291|Gloss=[GO-BACK]|NMM=eyebrow-raise+eye-contact
-3	[TOUS]	[TOUS]	PRON	_	_	4	subj	_	AlignBegin=67297|AlignEnd=67721|Gloss=[ALL]|NMM=eye-blink
+3	[TOUS]	[TOUS]	PRON	_	PronType=Tot	4	subj	_	AlignBegin=67297|AlignEnd=67721|Gloss=[ALL]|NMM=eye-blink
 4	[PLEURER]	[PLEURER]	VERB	_	_	2	conj:coord	_	AlignBegin=67738|AlignEnd=68099|Gloss=[CRY]
 5	[TRISTE]	[TRISTE]	ADJ	_	_	4	conj:coord	_	AlignBegin=68116|AlignEnd=68767|Gloss=[SAD]|NMM=eyebrow-frown+eye-blink
 6	[PEINE]	[PEINE]	NOUN	_	_	5	conj:coord	_	AlignBegin=69616|AlignEnd=70105|Gloss=[SORROW]|NMM=eyebrow-frown
