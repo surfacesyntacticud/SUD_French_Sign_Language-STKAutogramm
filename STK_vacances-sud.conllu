@@ -132,7 +132,7 @@
 22	[FOULE-qui-grouille]	[FOULE]	VERB	_	_	21	conj:illustrate	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[teem]|NMM=head-nod+eye-blink|ST=foule-qui-grouille
 
 # sent_id = vacances-sud_8
-# text = [euh] [FEUILLE]~ [rangée-arbre] [FEUILLE] [arbres-de-chaque-côté] position-neutre
+# text = [euh] [FEUILLE]~ [rangée-arbre] [FEUILLE-longue-grande] [arbres-de-chaque-côté] position-neutre
 # source_file = ./recit-agnieska.mp4
 # text_fr = Et les palmiers disposés ici et là,
 # text_en = And the palm trees here and there,
@@ -140,7 +140,7 @@
 1	[euh]	[euh]	INTJ	_	_	3	discourse	_	AlignBegin=66962|AlignEnd=67165
 2	[FEUILLE]~	[FEUILLE]	NOUN	_	_	4	reparandum	_	AlignBegin=67228|AlignEnd=67452|Gloss=[LEAF]~|NMM=eyebrow-frown+eye-blink|Scrap=Yes
 3	[rangée-arbre]	[rangée-arbre]	NOUN	_	_	0	root	_	AlignBegin=67452|AlignEnd=68367|Gloss=[row-tree]|ST=allée-d'arbres|TwoH=Yes
-4	[FEUILLE]	[FEUILLE]	NOUN	_	_	3	udep	_	AlignBegin=68392|AlignEnd=69582|Gloss=[LEAF]|Loc=haut-arbre|NMM=eyebrow-raise|Rep=3|SST=long+grand|ST=palmier
+4	[FEUILLE-longue-grande]	[FEUILLE]	NOUN	_	_	3	udep	_	AlignBegin=68392|AlignEnd=69582|Gloss=[LEAF]|Loc=haut-arbre|NMM=eyebrow-raise|Rep=3|ST=palmier
 5	[arbres-de-chaque-côté]	[arbres-de-chaque-côté]	NOUN	_	_	3	conj:illustrate	_	AlignBegin=69595|AlignEnd=71138|Gloss=[trees-on-both-sides]|NMM=eyebrow-raise|Rep=4|ST=deux-rangées-face|STReal=PRF[ARBRE]|TwoH=Yes
 6	position-neutre	position-neutre	PUNCT	_	_	3	punct	_	AlignBegin=71138|AlignEnd=71855|Gloss=neutral-position|NMM=eye-blink
 
@@ -212,7 +212,7 @@
 11	[DEUXIÈME]	[DEUXIÈME]	ADJ	_	_	10	mod	_	AlignBegin=96765|AlignEnd=97154|Gloss=[SECOND]|NMM=eyebrow-raise
 
 # sent_id = vacances-sud_14
-# text = PNT[là] [QUOI] [MER] [NON] [à-l'avant] PNT-SURFACE[derrière] [FORÊT] PNT[là] [RIVIÈRE]
+# text = PNT[là] [QUOI] [MER] [NON] [à-l'avant] PNT-SURFACE[derrière] [FORÊT] PNT[là] [RIVIÈRE-petite-sinueuse]
 # source_file = ./recit-agnieska.mp4
 # text_fr = dans les terres, la forêt avec la petite rivière sinueuse
 # text_en = inland, the forest with a small winding river
@@ -225,7 +225,7 @@
 6	PNT-SURFACE[derrière]	PNT-SURFACE	ADV	_	_	3	conj:coord	_	AlignBegin=100522|AlignEnd=101504|Gloss=PNT-SURFACE[behind]|ISRole=Foc+CFoc|Loc=PSS1|NDHHeld=[à-l'avant]|NMM=eyebrow-frown+eye-blink
 7	[FORÊT]	[FORÊT]	NOUN	_	_	6	mod	_	AlignBegin=101509|AlignEnd=103165|Gloss=[FOREST]|NMM=eyebrow-rf
 8	PNT[là]	PNT	ADV	_	_	6	conj:coord	_	AlignBegin=103174|AlignEnd=103439|Gloss=PNT[here]|NMM=eyebrow-raise|Tgt=PSS1
-9	[RIVIÈRE]	[RIVIÈRE]	NOUN	_	_	8	mod	_	AlignBegin=103448|AlignEnd=105461|Gloss=[RIVER]|Sass=petit+sinueux
+9	[RIVIÈRE-petite-sinueuse]	[RIVIÈRE]	NOUN	_	_	8	mod	_	AlignBegin=103448|AlignEnd=105461|Gloss=[RIVER-small-winding]
 
 # sent_id = vacances-sud_15
 # text = [PERSONNE] [PEU] PRF[PERSONNE]

@@ -97,7 +97,7 @@
 2	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	1	mod	_	AlignBegin=20377|AlignEnd=20615|Gloss=[[NUMBER]]|toBlur=Yes
 3	[LIGNE]	[LIGNE]	NOUN	_	_	5	comp:obl	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
 4	[TRAM]	[TRAM]	NOUN	_	_	3	mod	_	AlignBegin=21123|AlignEnd=21660|Gloss=[TRAM]
-5	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-in-vehicule]|NMM=backward-tilt+eye-blink|Obj=ST|Sass=tram|ST=tram|STReal=Prf(DH)[ANIMÉ]+Prf(NDH)[tram]|Subj=Prf(DH)[ANIMÉ]
+5	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-in-vehicule]|NMM=backward-tilt+eye-blink|Obj=ST|ST=tram|STReal=PRF(DH)[ANIMÉ]+PRF(NDH)[tram]|Subj=PRF(DH)[ANIMÉ]
 
 # sent_id = trajet-len-1-signerA_3_split2_split1
 # text = [ARRÊT] [TERMINUS] [FIN/TERMINUS]~ [MÉTRO] [CHANGER] [MÉTRO] [[CHIFFRE]] [LIGNE] [[LIEU]] [MÉTRO]
@@ -122,7 +122,7 @@
 # text_fr = Je monte dans le métro, jusqu’à l’arrêt [lieu] j’ai oublié,
 # text_en = I go sit in the metro, until the stop [place] I forgot,
 # speaker_id = A
-1	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=28669|AlignEnd=29630|Gloss=[SIT-in-vehicule]|Sass=train
+1	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=28669|AlignEnd=29630|Gloss=[SIT-in-vehicule]|Obj=ST|ST=train|STReal=PRF(DH)[ANIMÉ]+PRF(NDH)[train]|Subj=PRF(DH)[ANIMÉ]
 2	[JUSQUE]	[JUSQUE]	ADV	_	_	1	mod	_	AlignBegin=29638|AlignEnd=29992|Gloss=[UNTIL]|NMM=eyebrow-raise
 3	[DESCENDRE]	[DESCENDRE]	VERB	_	_	2	comp	_	AlignBegin=30008|AlignEnd=30528|Gloss=[GET-OUT]
 4	[CHANGER]	[CHANGER]	VERB	_	_	3	conj:coord	_	AlignBegin=30543|AlignEnd=30835|Gloss=[CHANGE]
