@@ -82,7 +82,7 @@
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[MAMAN]	[MAMAN]	NOUN	_	_	11	discourse:participant	_	AlignBegin=40019|AlignEnd=40690|Gloss=[MOM]
 2	[hep]	[hep]	INTJ	_	_	11	discourse	_	AlignBegin=40718|AlignEnd=40940|Gloss=[hep]
-3	[appel]	[appel]	INTJ	_	Number=Plur	11	discourse	_	AlignBegin=41009|AlignEnd=42824|Gloss=[call]|Tgt=Prs2
+3	[appel]	[appel]	INTJ	_	_	11	discourse	_	AlignBegin=41009|AlignEnd=42824|Gloss=[call]|Tgt=Prs2
 4	PNT[VOUS]	PNT	PRON	_	Number=Plur|PronType=Prs	11	vocative	_	AlignBegin=42843|AlignEnd=43389|Gloss=PNT[YOU]|NMM=eyebrow-frown|Tgt=Prs2
 5	[ADORER]	[ADORER]	VERB	_	_	6	mod	_	AlignBegin=43407|AlignEnd=44222|Gloss=[ADORE]|NMM=eyebrow-frown
 6	[VACANCES]	[VACANCES]	NOUN	_	_	11	mod	_	AlignBegin=44241|AlignEnd=45019|Gloss=[HOLIDAYS]|NMM=eyebrow-frown
