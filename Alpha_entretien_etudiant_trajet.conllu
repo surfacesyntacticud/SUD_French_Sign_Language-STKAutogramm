@@ -20,8 +20,8 @@
 2	[MAISON]	[MAISON]	NOUN	_	_	7	dislocated	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
 3	PNT[TOI]	PNT	PRON	_	PronType=Prs	2	mod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
 4	POSS[TOI]	POSS	ADJ	_	_	3	conj:reform	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS[YOU]|Tgt=Prs2
-5	[JUSQUE]	[JUSQUE]	ADP	_	_	7	comp:obj	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
-6	PNT[là]	PNT	ADV	_	_	5	comp:obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]|Tgt=PSSN
+5	[JUSQUE]	[JUSQUE]	ADP	_	_	7	comp:obl	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
+6	PNT[là]	PNT	ADV	_	_	5	comp	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]|Tgt=PSSN
 7	[ARRIVER]	[ARRIVER]	VERB	_	_	0	root	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
 8	PNT[là]	PNT	ADV	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]|Tgt=PSSN
 9	[[LIEU]]	[[LIEU]]	PROPN	_	_	8	conj:appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[[PLACE]]|toBlur=Yes
