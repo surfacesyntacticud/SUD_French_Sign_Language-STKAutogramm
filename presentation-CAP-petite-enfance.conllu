@@ -1,4 +1,4 @@
-# sent_id = cap_petite_enfance__1
+# sent_id = presentation-CAP-petite-enfance__1
 # text = [BIENVENUE] POSS[TOI] [C]-[A]-[P] [PETIT] [ENFANCE] position-neutre [COURS] [PI_TYPIQUE] [ORDINATEUR] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Bienvenue dans ton CAP Petite enfance avec les cours par ordinateur.
@@ -14,7 +14,7 @@
 9	[ORDINATEUR]	[ORDINATEUR]	NOUN	_	_	8	comp	_	AlignBegin=7942|AlignEnd=8951|Gloss=[COMPUTER]
 10	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=8951|AlignEnd=9593|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__2
+# sent_id = presentation-CAP-petite-enfance__2
 # text = ? [PROJET] PNT[celui-ci] [ACTUELLEMENT] [EXPÉRIENCE] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Ce projet est encore expérimental.
@@ -26,7 +26,7 @@
 5	[EXPÉRIENCE]	[EXPÉRIENCE]	NOUN	_	_	0	root	_	AlignBegin=11372|AlignEnd=12748|Gloss=[EXPERIMENT]|NMM=rightward-tilt
 6	position-neutre	position-neutre	PUNCT	_	_	5	punct	_	AlignBegin=12752|AlignEnd=13850|Gloss=neutral-position|NMM=eye-blink
 
-# sent_id = cap_petite_enfance__3
+# sent_id = presentation-CAP-petite-enfance__3
 # text = [OBJECTIF] [QUOI] [CRÉER] [DIPLÔME] PNT[là] [FORMATION] [PI_TYPIQUE] [PETIT] [ENFANCE] [POUR] [PERSONNE] [ENTENDANT] [AUSSI] [SOURD] [voilà] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = L’objectif est de créer un diplôme de formation de la petite enfance pour les personnes entendantes mais aussi pour les sourds.
@@ -48,7 +48,7 @@
 15	[voilà]	[voilà]	_	_	_	1	discourse	_	AlignBegin=23442|AlignEnd=23996|Gloss=[that's-it]|NMM=head-nod
 16	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=24009|AlignEnd=24637|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__4_split1
+# sent_id = presentation-CAP-petite-enfance__4
 # text = [ÉTAPES] [alors] position-neutre [alors] [COURS] [DEDANS] [PRÊT] [VIDÉO] [SIGNÉ] [L]-[S]-[F] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = La démarche : il y a des vidéos toutes prêtes signées en LSF
@@ -65,7 +65,7 @@
 10	[L]-[S]-[F]	FingerSpelling	_	_	_	9	mod	_	AlignBegin=31823|AlignEnd=32588|Gloss=[LSF]|NMM=leftward-tilt+eyebrow-frown+head-nod
 11	position-neutre	position-neutre	_	_	_	5	discourse	_	AlignBegin=32606|AlignEnd=33717|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__4_split2
+# sent_id = presentation-CAP-petite-enfance__5
 # text = [PLUS] PNT[TOI] [COURS] [TROUVER] [LIEU] [OÙ] [INTERNET]
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = que tu trouveras sur internet.
@@ -78,7 +78,7 @@
 6	[OÙ]	[OÙ]	_	_	_	7	mark	_	AlignBegin=36460|AlignEnd=36633|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq|Loc=PSSXr
 7	[INTERNET]	[INTERNET]	_	_	_	5	mod	_	AlignBegin=36642|AlignEnd=37615|Gloss=[INTERNET]|ISRole=Foc|Loc=PSSXr|NMM=eyebrow-raise
 
-# sent_id = cap_petite_enfance__5
+# sent_id = presentation-CAP-petite-enfance__6
 # text = PNT[ça] [S'APPELER/NOM] [E]-[TIRET]-[L]-[E]-[A]-[R]-[N]-[I]-[N]-[G] [ICI] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Cela s’appelle e-learning.
@@ -89,7 +89,7 @@
 4	[ICI]	[ICI]	_	_	_	2	mod	_	AlignBegin=42957|AlignEnd=44246|Gloss=[HERE]|NMM=leftward-tilt+head-nod
 5	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=44250|AlignEnd=45226|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__6
+# sent_id = presentation-CAP-petite-enfance__7
 # text = [VRAIMENT] [MERCI] PNT[TOUS] [AIDE] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Merci beaucoup à tous pour votre aide.
@@ -100,7 +100,7 @@
 4	[AIDE]	[AIDE]	_	_	_	2	comp	_	AlignBegin=47849|AlignEnd=48825|Gloss=[HELP]|NMM=head-nod+eye-blink|Src=Prs2|Tgt=Prs1
 5	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=48830|AlignEnd=50052|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__7
+# sent_id = presentation-CAP-petite-enfance__8
 # text = [SI] PNT[TOI] [REMARQUE] [AVOIR] [DIFFICULTES/DIFFICILE?] [FLOU] [POUVOIR/POSSIBLE] [APPEL]NOUS [POUR] [ÉVOLUER] [AMÉLIORER] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Si vous remarquez des difficultés ou des problèmes, vous pouvez nous contacter pour faire évoluer et améliorer la plateforme.
@@ -118,7 +118,7 @@
 11	[AMÉLIORER]	[AMÉLIORER]	_	_	_	10	compound:svc	_	AlignBegin=56387|AlignEnd=57693|Gloss=[IMPROVE]
 12	position-neutre	position-neutre	_	_	_	7	discourse	_	AlignBegin=57708|AlignEnd=59142|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__8
+# sent_id = presentation-CAP-petite-enfance__9
 # text = [alors] [MERCI] [AUSSI] [AVOIR] [QUESTION] [POUVOIR/POSSIBLE] [RÉPONDRE] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Merci aussi pour vos questions, nous vous répondrons.
@@ -132,7 +132,7 @@
 7	[RÉPONDRE]	[RÉPONDRE]	_	_	_	6	conj:obj	_	AlignBegin=62703|AlignEnd=63783|Gloss=[ANSWER]|NMM=leftward-tilt|Rep=4
 8	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=63783|AlignEnd=64538|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__9
+# sent_id = presentation-CAP-petite-enfance__10
 # text = [voilà] [LAISSER] [AVANCER/ETAPES] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Voilà, on vous laisse commencer.
@@ -142,7 +142,7 @@
 3	[AVANCER/ETAPES]	[AVANCER]	_	_	_	2	comp:obj	_	AlignBegin=65731|AlignEnd=66976|Gloss=[GO-FORWARD]|NMM=rightward-tilt
 4	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=66986|AlignEnd=67835|Gloss=neutral-position
 
-# sent_id = cap_petite_enfance__10
+# sent_id = presentation-CAP-petite-enfance__11
 # text = [AU-REVOIR] [BON] [COURAGE] position-neutre
 # source_file = ./CAP Petite Enfance.mp4
 # text_fr = Au revoir et bon courage !

@@ -1,4 +1,4 @@
-# sent_id = primaire_populaire_en_LSF__1
+# sent_id = presentation-primaire-populaire__1
 # text = [BONJOUR] [ASSEMBLÉE]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = Bonjour à toutes et à tous,
@@ -6,7 +6,7 @@
 1	[BONJOUR]	[BONJOUR]	NOUN	_	_	0	root	_	AlignBegin=7240|AlignEnd=7900|Gloss=[HELLO]|NMM=head-nod
 2	[ASSEMBLÉE]	[ASSEMBLÉE]	NOUN	_	_	1	vocative	_	AlignBegin=7920|AlignEnd=8620|Gloss=[ASSEMBLY]
 
-# sent_id = primaire_populaire_en_LSF__2
+# sent_id = presentation-primaire-populaire__2
 # text = [ÊTRE] [C] SignedName[Charlotte] [AVEC] [INTERPRÈTE] SignedName[Pascal] [AUSSI] [CAMERA] [TECHNIQUE]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = je suis Charlotte Marchandise, je suis avec Pascal di Piazza et Sylvain Liotté-Stasse à la technique
@@ -21,7 +21,7 @@
 8	[CAMERA]	[CAMERA]	NOUN	_	_	4	conj:coord	_	AlignBegin=12420|AlignEnd=13570|Gloss=[CAMERA]|NMM=eyebroww-raise
 9	[TECHNIQUE]	[TECHNIQUE]	NOUN	_	_	8	mod	_	AlignBegin=13590|AlignEnd=14230|Gloss=[TECHNIQUE]
 
-# sent_id = primaire_populaire_en_LSF__3
+# sent_id = presentation-primaire-populaire__3
 # text = [FILMER] [CONSTRUIRE] [QUOI] [VIDEO] [PRESENTER]VOUS [DEDANS] [PREMIER (PRIMAIRE)] [PRIMAIRE?] [POPULAIRE] [SIGNÉ] [DEDANS] position-neutre
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = et on est très heureux de vous présenter une vidéo pour présenter la primaire populaire en Langue des Signes Française.
@@ -39,7 +39,7 @@
 11	[DEDANS]	[DEDANS]	_	_	_	6	conj:dbl	_	AlignBegin=20210|AlignEnd=20650|Gloss=[INSIDE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod
 12	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=20660|AlignEnd=21416|Gloss=neutral-position
 
-# sent_id = primaire_populaire_en_LSF__4
+# sent_id = presentation-primaire-populaire__4
 # text = [PRIMAIRE] [POPULAIRE] [INITIATIVE] [euh] [VENIR-DE] [GROUPE]Plur [PERSONNE]Plur [THÈME] [MÉTÉO] [JEUNESSE] [CONTRE] [MÉPRIS] [RACISME] [CONTRE] [FEMME] [DISCRIMINATION] [CONTRE] [CONTRE-tout-ça]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = La primaire populaire c’est une initiative qui vient de groupes de militants pour le climat, pour la jeunesse, contre les discriminations, contre le sexisme, contre le racisme
@@ -63,7 +63,7 @@
 17	[CONTRE]	[CONTRE]	_	_	_	14	conj:coord	_	AlignBegin=32865|AlignEnd=33196|Gloss=[AGAINST]|NMM=eyebrow-raise
 18	[CONTRE-tout-ça]	[CONTRE]	_	_	_	17	conj:coord	_	AlignBegin=33202|AlignEnd=33883|Gloss=[AGAINST-all-this]|NMM=eyebrow-raise
 
-# sent_id = primaire_populaire_en_LSF__5
+# sent_id = presentation-primaire-populaire__5
 # text = PNT[NOUS] [MOBILISER]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = et qui s’est mobilisée en disant :
@@ -71,7 +71,7 @@
 1	PNT[NOUS]	PNT	_	_	_	2	subj	_	AlignBegin=33896|AlignEnd=34258|Gloss=PNT[WE]
 2	[MOBILISER]	[MOBILISER]	_	_	_	0	root	_	AlignBegin=34282|AlignEnd=35755|Gloss=[MOBILIZE]|NMM=eyebrow-frown
 
-# sent_id = primaire_populaire_en_LSF__6
+# sent_id = presentation-primaire-populaire__6
 # text = [BESOIN] [QUOI] [POLITIQUE] [S'APPROPRIER] [AUSSI] [IL-FAUT] [JUSTICE] [SOCIAL] [ECOLOGIE] [AUSSI] [DÉMOCRATIE] [IMPORTANT] [DEUX] [MILLE] [DEUX] [DEUX] [GAGNER]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = « on a besoin de s’approprier la politique, on a besoin que la justice sociale, que l’écologie, que la démocratie gagnent en 2022
@@ -94,7 +94,7 @@
 16	[DEUX]	[DEUX]	_	_	_	15	flat@num	_	AlignBegin=44808|AlignEnd=44994|Gloss=[TWO]
 17	[GAGNER]	[GAGNER]	_	_	_	12	comp:obj	_	AlignBegin=45000|AlignEnd=45551|Gloss=[WIN]
 
-# sent_id = primaire_populaire_en_LSF__7
+# sent_id = presentation-primaire-populaire__7
 # text = [OBJECTIF] [QUOI] [PROJET] [FUTUR] [avoir-en-TÊTE] [PUBLIC] [PAUVRE] [DIX] [MILLION] [FRANCE] [LÀ-LÀ-LÀ-LÀ] position-neutre
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = pour nous donner un futur parce qu’il y a 10 millions de pauvres en France, parce que le climat s’emballe »
@@ -112,7 +112,7 @@
 11	[LÀ-LÀ-LÀ-LÀ]	[LÀ-LÀ-LÀ-LÀ]	ADP	_	_	6	mod	_	AlignBegin=51277|AlignEnd=52440|Tgt=cercle
 12	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=52453|AlignEnd=53104|Gloss=neutral-position
 
-# sent_id = primaire_populaire_en_LSF__8
+# sent_id = presentation-primaire-populaire__8
 # text = [PENSER] [peut-être] [PEUT-ÊTRE] [POLITIQUE] [GAUCHE] [AUSSI] [ECOLOGIE] [PENSER] [MILITANT]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = On pouvait à un moment donné, penser que les partis politiques, des gauches et de l’écologie en général, feraient ce travail-là.
@@ -127,7 +127,7 @@
 8	[PENSER]	[PENSER]	_	_	_	1	conj:dbl	_	AlignBegin=57769|AlignEnd=58153|NMM=eyebrow-raise
 9	[MILITANT]	[MILITANT]	_	_	_	_	_	_	AlignBegin=58153|AlignEnd=58948|NMM=leftward-tilt+eyebrow-frown
 
-# sent_id = primaire_populaire_en_LSF__9
+# sent_id = presentation-primaire-populaire__9
 # text = [PROGRAMME] [IL-Y-A] [AUSSI]~ [THÈME] [DÉFENDRE] [TÉMOIGNE/MONTRER?] [DIVERS]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = Ils ont des programmes qui défendent ces projets-là.
@@ -140,7 +140,7 @@
 6	[TÉMOIGNE/MONTRER?]	[TÉMOIGNE]	_	_	_	5	conj:coord	_	AlignBegin=61114|AlignEnd=61526|NMM=eyebrow-frown
 7	[DIVERS]	[DIVERS]	_	_	_	6	mod	_	AlignBegin=61526|AlignEnd=62071|NMM=eyebrow-frown
 
-# sent_id = primaire_populaire_en_LSF__10
+# sent_id = presentation-primaire-populaire__10
 # text = [MAIS] [POLITIQUE]~? [MAINTENANT] [SITUATION] [AUJOURD’HUI/MAINTENANT?] [OBSERVE] [CANDIDATS] [SEPT] [OSER-INITIATIVE] [THÈME] [ELECTIONS] [PRÉSIDENT] [DEUX]-[MILLE] [DEUX] [DEUX] [THÈME] [OUVERTURE] [HUMANISTE] [DÉFENDRE] [PAUVRE] [DISCRIMINÉS] [ECOLOGIE] [THÈME] [MONDE] Prf[MONDE] [SAUVER]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = Pourtant, aujourd’hui, à l’heure où on est, on a 7 candidats et candidates déclarées pour les élections présidentielles de 2022, sur ce qu’on va dire l’arc humaniste, c’est-à-dire les gens qui vont défendre les plus pauvres, les plus vulnérables, et l’écologie pour sauver la planète.
@@ -172,7 +172,7 @@
 25	Prf[MONDE]	Prf[MONDE]	_	_	_	24	conj:illustrate	_	AlignBegin=79323|AlignEnd=79634
 26	[SAUVER]	[SAUVER]	_	_	_	23	comp	_	AlignBegin=79637|AlignEnd=80342
 
-# sent_id = primaire_populaire_en_LSF__11
+# sent_id = presentation-primaire-populaire__11
 # text = [SI] [CANDIDAT] [SEPT] [ça-veut-dire]? [GAGNER] [IMPOSSIBLE]
 # source_file = ./Primaire Populaire en LSF.mp4
 # text_fr = Si il y a 7 candidats et candidates, personne ne gagne !
